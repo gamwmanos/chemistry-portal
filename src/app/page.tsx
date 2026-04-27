@@ -24,7 +24,7 @@ export default function Home() {
       {/* ══════════════════════════════════════════════════
           SCROLL-VIDEO ZONE  (400vh – atom is the STAR)
       ══════════════════════════════════════════════════ */}
-      <div ref={heroRef} className="relative bg-[#05050C] text-white" style={{ height: "400vh" }}>
+      <div ref={heroRef} className="relative bg-[#05050C] text-white" style={{ height: "300vh" }}>
 
         {/* The atom canvas (sticky, full-opacity, cover-fit) */}
         <ScrollVideo />

@@ -106,7 +106,7 @@ export default function ScrollVideo() {
     <section
       ref={containerRef}
       className="absolute top-0 left-0 w-full"
-      style={{ height: "400vh" }}
+      style={{ height: "300vh" }}
     >
       <div className="sticky top-0 left-0 w-full h-screen overflow-hidden">
         {/* ── HERO ATOM CANVAS – full brightness, no dimming ── */}
