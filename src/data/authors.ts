@@ -88,7 +88,7 @@ export const authorsData: Author[] = [
         url: "#"
       }
     ],
-    image: "/images/syggrafeis.jpg"
+    image: "/filenia.jpg"
   },
   {
     id: "athanasios-papadopoulos",
@@ -138,7 +138,7 @@ export const authorsData: Author[] = [
     publications: [
       "Άνω των 50 εργασιών σε έγκριτα επιστημονικά περιοδικά."
     ],
-    image: "/images/syggrafeis.jpg"
+    image: "/nasos.jpg"
   },
   {
     id: "eleni-paloumpa",
@@ -190,7 +190,7 @@ export const authorsData: Author[] = [
       "Πανελλήνιες δράσεις της ΠΑΝΕΚΦΕ ... σε δράση! (Παρουσίαση)",
       "Μια Σταγόνα, Χίλιες Δεξιότητες: Η STEAM Διάσταση του Νερού στο Νηπιαγωγείο (Παρουσίαση)"
     ],
-    image: "/images/syggrafeis.jpg"
+    image: "/eleni.jpeg"
   },
   {
     id: "antonis-chronakis",
@@ -263,6 +263,6 @@ export const authorsData: Author[] = [
         url: "#"
       }
     ],
-    image: "/images/syggrafeis.jpg"
+    image: "/xronakhs.jpg"
   }
 ];

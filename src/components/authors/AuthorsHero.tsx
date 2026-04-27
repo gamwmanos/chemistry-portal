@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react';
+import Image from 'next/image';
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
 import { Author } from '@/data/authors';
 import { ArrowDown, ArrowRight } from 'lucide-react';
@@ -27,18 +28,52 @@ export default function AuthorsHero({ authors, onSelectAuthor, onScrollDown }: A
       ref={containerRef}
       className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-slate-50"
     >
-      {/* Parallax Background using syggrafeis.jpg */}
+      {/* Dynamic Animated Background - Abstract Molecular Fields */}
       <motion.div 
         style={{ y: backgroundY, opacity }}
-        className="absolute inset-0 z-0 pointer-events-none"
+        className="absolute inset-0 z-0 pointer-events-none overflow-hidden bg-slate-50"
       >
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 mix-blend-luminosity filter blur-sm scale-110"
-          style={{ backgroundImage: "url('/images/syggrafeis.jpg')" }}
+        {/* Orb 1 - Deep Blue */}
+        <motion.div 
+          animate={{ 
+            x: [0, 100, 0], 
+            y: [0, -50, 0],
+            scale: [1, 1.1, 1] 
+          }}
+          transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-blue-600/30 rounded-full blur-[100px]"
         />
-        {/* Gradient Overlay for professional look */}
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-50/40 via-slate-50/80 to-slate-50" />
-        <div className="absolute inset-0 bg-gradient-to-tr from-blue-100/50 to-transparent" />
+        
+        {/* Orb 2 - Cyan/Light Blue */}
+        <motion.div 
+          animate={{ 
+            x: [0, -80, 0], 
+            y: [0, 100, 0],
+            scale: [1, 1.2, 1] 
+          }}
+          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          className="absolute top-[20%] right-[-10%] w-[45vw] h-[45vw] bg-cyan-500/30 rounded-full blur-[100px]"
+        />
+
+        {/* Orb 3 - Violet/Indigo */}
+        <motion.div 
+          animate={{ 
+            x: [0, 50, 0], 
+            y: [0, -80, 0],
+            scale: [1, 1.1, 1] 
+          }}
+          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+          className="absolute bottom-[-20%] left-[20%] w-[60vw] h-[60vw] bg-indigo-600/30 rounded-full blur-[120px]"
+        />
+
+        {/* CSS Dot pattern overlay for a subtle technical/scientific feel */}
+        <div 
+          className="absolute inset-0 opacity-[0.05] mix-blend-multiply" 
+          style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '32px 32px' }} 
+        />
+        
+        {/* Gradient overlay just at the very bottom to blend smoothly into the next section */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-slate-950/20" />
       </motion.div>
 
       {/* Main Content */}
@@ -148,10 +183,20 @@ function AuthorSelectCard({ author, index, onClick }: { author: Author, index: n
           <ArrowRight className="w-5 h-5 text-blue-500" />
         </div>
         
-        <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-50 to-white flex items-center justify-center mb-6 shadow-inner border border-blue-100">
-          <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-cyan-500">
-            {initials}
-          </span>
+        <div className="relative w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-50 to-white flex items-center justify-center mb-6 shadow-inner border border-blue-100 overflow-hidden shrink-0">
+          {author.image ? (
+            <Image 
+              src={author.image} 
+              alt={author.name}
+              fill
+              sizes="80px"
+              className="object-cover"
+            />
+          ) : (
+            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-cyan-500">
+              {initials}
+            </span>
+          )}
         </div>
         
         <h3 className="text-lg font-bold text-slate-800 mb-2 line-clamp-1">{author.name}</h3>

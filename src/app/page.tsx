@@ -7,7 +7,6 @@ import { FlaskConical, Sparkles, ArrowRight, Users, ChevronDown, BookOpen } from
 import ScrollVideo from "@/components/domain/ScrollVideo";
 import BooksSection from "@/components/domain/BooksSection";
 import FeaturesSection from "@/components/domain/FeaturesSection";
-import FooterSection from "@/components/domain/FooterSection";
 import TeachersSection from "@/components/domain/TeachersSection";
 
 export default function Home() {
@@ -143,7 +142,6 @@ export default function Home() {
         <TeachersSection />
 
         {/* CTA + Footer */}
-        <FooterSection />
       </div>
     </div>
   );

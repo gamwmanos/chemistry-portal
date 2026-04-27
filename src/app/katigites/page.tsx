@@ -5,7 +5,6 @@ import MethodologyTimeline from "@/components/katigites/MethodologyTimeline";
 import DigitalShowcase from "@/components/katigites/DigitalShowcase";
 import AlykeiouSection from "@/components/katigites/AlykeiouSection";
 import BgymnasiouSection from "@/components/katigites/BgymnasiouSection";
-import FooterSection from "@/components/domain/FooterSection";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
 
@@ -57,8 +56,6 @@ export default function KatigitesPage() {
           </div>
         </div>
       </section>
-
-      <FooterSection />
     </main>
   );
 }

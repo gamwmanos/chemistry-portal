@@ -31,7 +31,7 @@ export default function AuthorsClientPage({ authors }: AuthorsClientPageProps) {
   }, [selectedAuthorId]);
 
   return (
-    <div className="bg-blue-500 min-h-screen text-white">
+    <div className="bg-gradient-to-b from-slate-950 via-blue-950 to-blue-600 min-h-screen text-white">
       <AnimatePresence mode="wait">
         {!selectedAuthorId ? (
           // === MODE 1: ALL AUTHORS SCROLL VIEW ===
@@ -50,7 +50,7 @@ export default function AuthorsClientPage({ authors }: AuthorsClientPageProps) {
             />
 
             {/* List of all authors below the hero */}
-            <div className="w-full bg-blue-500 relative z-20">
+            <div className="w-full relative z-20">
               {authors.map((author, idx) => (
                 <AuthorProfile 
                   key={author.id} 
@@ -62,7 +62,7 @@ export default function AuthorsClientPage({ authors }: AuthorsClientPageProps) {
             </div>
             
             {/* Footer space */}
-            <div className="h-32 bg-blue-500" />
+            <div className="h-32" />
           </motion.div>
         ) : (
           // === MODE 2: FOCUSED AUTHOR VIEW ===
@@ -71,7 +71,7 @@ export default function AuthorsClientPage({ authors }: AuthorsClientPageProps) {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, transition: { duration: 0.4 } }}
-            className="w-full min-h-screen bg-blue-500 relative"
+            className="w-full min-h-screen relative"
           >
             {/* Find the selected author */}
             {authors.find(a => a.id === selectedAuthorId) && (

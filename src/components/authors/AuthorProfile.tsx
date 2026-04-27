@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react';
+import Image from 'next/image';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { Author } from '@/data/authors';
 import { ChevronLeft, GraduationCap, Briefcase, Award, BookOpen, PlayCircle, ExternalLink, ArrowRight } from 'lucide-react';
@@ -66,12 +67,23 @@ export default function AuthorProfile({ author, onBack, isFocusedMode }: AuthorP
           <div className="relative group shrink-0">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-cyan-400 rounded-2xl blur-xl opacity-40 group-hover:opacity-70 transition-opacity duration-500" />
             <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-2xl bg-white border border-blue-100 overflow-hidden flex items-center justify-center shadow-xl backdrop-blur-xl">
-              {/* Monogram fallback since we don't have individual images */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white" />
-              <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.03] mix-blend-overlay" />
-              <span className="relative text-5xl md:text-6xl font-black bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-cyan-500 tracking-tighter">
-                {initials}
-              </span>
+              {author.image ? (
+                <Image
+                  src={author.image}
+                  alt={author.name}
+                  fill
+                  sizes="(max-width: 768px) 128px, 160px"
+                  className="object-cover z-10"
+                />
+              ) : (
+                <>
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white" />
+                  <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.03] mix-blend-overlay" />
+                  <span className="relative text-5xl md:text-6xl font-black bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-cyan-500 tracking-tighter">
+                    {initials}
+                  </span>
+                </>
+              )}
             </div>
           </div>
 

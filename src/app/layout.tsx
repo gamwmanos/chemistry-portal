@@ -3,6 +3,7 @@ import { Inter, Montserrat, Lora, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/domain/Navbar";
 import CookieBanner from "@/components/domain/CookieBanner";
+import ClientFooter from "@/components/domain/ClientFooter";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -48,7 +49,10 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-background-darker text-white">
         <Navbar />
-        {children}
+        <main className="flex-1">
+          {children}
+        </main>
+        <ClientFooter />
         <CookieBanner />
       </body>
     </html>
