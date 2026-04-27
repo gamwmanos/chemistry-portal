@@ -118,8 +118,8 @@ export default function FooterSection() {
                   { label: "Η Συγγραφική Ομάδα", href: "/authors" },
                   { label: "Τα Βιβλία Μας", href: "/#books" },
                   { label: "Επικοινωνία", href: "/contact" },
-                  { label: "Όροι Χρήσης", href: "/#" },
-                  { label: "Πολιτική Απορρήτου", href: "/#" }
+                  { label: "Όροι Χρήσης", href: "/terms" },
+                  { label: "Πολιτική Απορρήτου", href: "/privacy" }
                 ].map((item) => (
                   <li key={item.label}>
                     <Link href={item.href} className="text-white/70 hover:text-white transition-colors font-inter text-sm drop-shadow-sm">
