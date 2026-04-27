@@ -120,6 +120,8 @@ export default function BooksSection() {
                       alt={`${book.title} ${book.grade}`}
                       width={200}
                       height={260}
+                      sizes="(max-width: 768px) 250px, 250px"
+                      quality={75}
                       className="object-contain drop-shadow-2xl group-hover:scale-105 -rotate-90 transition-transform duration-500 relative z-10 rounded-md"
                     />
                     <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-bold font-proxima text-white bg-black/40 border border-white/10 backdrop-blur-sm">

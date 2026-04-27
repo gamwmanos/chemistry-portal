@@ -86,13 +86,25 @@ export default function ScrollVideo() {
       }
     };
 
-    for (let i = 1; i <= FRAME_COUNT; i++) {
+    const loadFrame = (i: number) => {
       const img = new Image();
       img.src = currentFrame(i);
       img.onload = () => handleLoadOrError(i);
       img.onerror = () => handleLoadOrError(i);
       imagesRef.current[i - 1] = img;
-    }
+    };
+
+    // Load first frame immediately
+    loadFrame(1);
+
+    // Defer the rest of the frames so they don't block initial page load (fixes Lighthouse massive payload)
+    const timeoutId = setTimeout(() => {
+      for (let i = 2; i <= FRAME_COUNT; i++) {
+        loadFrame(i);
+      }
+    }, 2000);
+
+    return () => clearTimeout(timeoutId);
   }, [isInView, renderFrame, smoothProgress]);
 
   // Scrub loop

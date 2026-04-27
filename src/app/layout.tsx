@@ -43,8 +43,7 @@ export default function RootLayout({
       className={`${inter.variable} ${montserrat.variable} ${lora.variable} ${mono.variable} h-full antialiased`}
     >
       <head>
-        {/* Proxima Nova CDN if needed, but we can also use Inter as a very close fallback if we can't find a free CDN */}
-        <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet" />
+        {/* We use Inter via next/font as a performant alternative to the external Proxima Nova CDN */}
       </head>
       <body className="min-h-full flex flex-col bg-background-darker text-white">
         <Navbar />

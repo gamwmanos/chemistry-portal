@@ -50,6 +50,8 @@ export default function AlykeiouSection() {
                 src="/alyk.jpg" 
                 alt="Χημεία Α' Λυκείου" 
                 fill 
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                quality={75}
                 className="object-contain p-8 drop-shadow-2xl bg-gradient-to-br from-brand-blue-900/40 to-[#1e293b] -rotate-90 scale-[1.3]"
               />
               {/* Decorative elements */}
