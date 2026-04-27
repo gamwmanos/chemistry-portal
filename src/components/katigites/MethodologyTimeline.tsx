@@ -2,48 +2,56 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { BookOpen, FlaskConical, Search, ShieldCheck, Zap } from "lucide-react";
+import { BookOpen, FlaskConical, Search, ShieldCheck, Zap, MonitorPlay } from "lucide-react";
 
 const timelineSteps = [
   {
     id: 1,
-    title: "1. Ελκυστικό Εισαγωγικό Σενάριο",
-    description: "Η γνώση ξεκινά με αφορμή την καθημερινότητα. Κάθε ενότητα ξεκινά με έναυσμα που κεντρίζει την περιέργεια, μετατρέποντας τη θεωρία σε πραγματικό ερώτημα προς επίλυση.",
-    icon: <Search className="w-6 h-6 text-brand-blue-light" />,
-    color: "from-brand-blue-dark to-brand-blue-light",
-    align: "left"
-  },
-  {
-    id: 2,
-    title: "2. Πειραματική Διερεύνηση (Microscale)",
-    description: "Οι μαθητές αναλαμβάνουν δράση. Μέσω πειραμάτων μικροκλίμακας (ασφάλεια & οικονομία) ή βιντεοσκοπημένων πειραμάτων, παρατηρούν, υποθέτουν και εξάγουν συμπεράσματα.",
-    icon: <FlaskConical className="w-6 h-6 text-emerald-400" />,
-    color: "from-emerald-600 to-emerald-400",
-    align: "right"
-  },
-  {
-    id: 3,
-    title: "3. Σαφής Ανάπτυξη Θεωρίας",
-    description: "Μετά το βίωμα, ακολουθεί η επιστημονική εξήγηση. Η θεωρία αναπτύσσεται με σαφήνεια, λυμένα παραδείγματα και εποπτικά μέσα (διαδραστικούς χάρτες, 3D απεικονίσεις).",
+    title: "1. Συστηματική επεξεργασία θεωρίας",
+    description: "Η θεωρία αναπτύσσεται με σαφήνεια, πλήρως προσαρμοσμένη στις μαθησιακές δυνατότητες των μαθητών, για ένα ολοκληρωμένο διδακτικό πακέτο χωρίς υπερβολές.",
     icon: <BookOpen className="w-6 h-6 text-brand-purple-light" />,
     color: "from-brand-purple-dark to-brand-purple-light",
     align: "left"
   },
   {
-    id: 4,
-    title: "4. Σύνδεση με Περιβάλλον & Κοινωνία",
-    description: "Εφαρμογή της γνώσης στην Πράσινη Χημεία, την κυκλική οικονομία και τα περιβαλλοντικά ζητήματα, χτίζοντας συνείδηση υπεύθυνου πολίτη.",
+    id: 2,
+    title: "2. Μεθοδολογία και λυμένα παραδείγματα",
+    description: "Αναλυτική βήμα-βήμα καθοδήγηση μέσα από προσεκτικά επιλεγμένα παραδείγματα και εφαρμογές, ώστε η θεωρία να μετατρέπεται άμεσα και μεθοδικά σε πράξη.",
+    icon: <Search className="w-6 h-6 text-brand-blue-light" />,
+    color: "from-brand-blue-dark to-brand-blue-light",
+    align: "right"
+  },
+  {
+    id: 3,
+    title: "3. Μεγάλος αριθμός ερωτήσεων & ασκήσεων",
+    description: "Πλούσιο υλικό για εξάσκηση με κλιμακούμενη δυσκολία, που διασφαλίζει την πλήρη κατανόηση, εμβάθυνση και εμπέδωση της ύλης από κάθε μαθητή.",
     icon: <ShieldCheck className="w-6 h-6 text-yellow-400" />,
     color: "from-yellow-600 to-yellow-400",
+    align: "left"
+  },
+  {
+    id: 4,
+    title: "4. Φύλλα αξιολόγησης με απαντήσεις",
+    description: "Έτοιμα προς χρήση εργαλεία για τη διαμορφωτική και τελική αξιολόγηση των μαθητών, συνοδευόμενα από αναλυτικές λύσεις για άμεση ανατροφοδότηση.",
+    icon: <Zap className="w-6 h-6 text-pink-400" />,
+    color: "from-pink-600 to-pink-400",
     align: "right"
   },
   {
     id: 5,
-    title: "5. Αξιολόγηση & Ανατροφοδότηση",
-    description: "Κουίζ, σταυρόλεξα, και e-βάζο προβλημάτων προσφέρουν άμεση διαμορφωτική και τελική αξιολόγηση, κλείνοντας τον μαθησιακό κύκλο.",
-    icon: <Zap className="w-6 h-6 text-pink-400" />,
-    color: "from-pink-600 to-pink-400",
+    title: "5. Πειραματικές δραστηριότητες",
+    description: "Ενσωμάτωση εναλλακτικών μεθόδων, όπως πειράματα μικροκλίμακας (microscale) για ασφάλεια στο εργαστήριο, καθώς και έτοιμα βιντεοσκοπημένα πειράματα.",
+    icon: <FlaskConical className="w-6 h-6 text-emerald-400" />,
+    color: "from-emerald-600 to-emerald-400",
     align: "left"
+  },
+  {
+    id: 6,
+    title: "6. Διαδραστικά ψηφιακά αντικείμενα",
+    description: "Κουίζ, 3D απεικονίσεις και διαδραστικοί χάρτες προσφέρουν μια σύγχρονη ψηφιακή μαθησιακή εμπειρία που συμπληρώνει άριστα το έντυπο υλικό.",
+    icon: <MonitorPlay className="w-6 h-6 text-cyan-400" />,
+    color: "from-cyan-600 to-cyan-400",
+    align: "right"
   }
 ];
 
