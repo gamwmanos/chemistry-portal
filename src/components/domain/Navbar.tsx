@@ -61,6 +61,7 @@ export default function Navbar() {
           { label: "Τα Βιβλία", href: "/#books" },
           { label: "Συγγραφείς", href: "/authors" },
           { label: "Για Καθηγητές", href: "/katigites" },
+          { label: "Επικοινωνία", href: "/contact" },
         ].map((item, i) => (
           <motion.div
             key={item.label}

@@ -41,7 +41,7 @@ export default function FooterSection() {
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </div>
               </Link>
-              <Link href="#" className="group">
+              <Link href="/contact" className="group">
                 <div className="flex items-center gap-3 px-10 py-5 rounded-full border border-white/40 text-white bg-black/20 font-bold text-lg hover:bg-black/40 hover:border-white/60 backdrop-blur-md transition-all duration-300 font-inter">
                   <span>Επικοινωνία</span>
                 </div>
@@ -106,7 +106,7 @@ export default function FooterSection() {
                 {[
                   { label: "Η Συγγραφική Ομάδα", href: "/authors" },
                   { label: "Τα Βιβλία Μας", href: "#books" },
-                  { label: "Επικοινωνία", href: "#" },
+                  { label: "Επικοινωνία", href: "/contact" },
                   { label: "Όροι Χρήσης", href: "#" },
                   { label: "Πολιτική Απορρήτου", href: "#" }
                 ].map((item) => (
