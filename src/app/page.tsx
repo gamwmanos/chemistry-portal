@@ -8,6 +8,7 @@ import ScrollVideo from "@/components/domain/ScrollVideo";
 import BooksSection from "@/components/domain/BooksSection";
 import FeaturesSection from "@/components/domain/FeaturesSection";
 import FooterSection from "@/components/domain/FooterSection";
+import TeachersSection from "@/components/domain/TeachersSection";
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -187,6 +188,9 @@ export default function Home() {
 
         {/* Interactive Features */}
         <FeaturesSection />
+
+        {/* Teachers Appendage */}
+        <TeachersSection />
 
         {/* CTA + Footer */}
         <FooterSection />
