@@ -54,7 +54,7 @@ export default function Home() {
                 { label: "Αρχική", href: "#" },
                 { label: "Τα Βιβλία", href: "#books" },
                 { label: "Συγγραφείς", href: "/authors" },
-                { label: "Επικοινωνία", href: "#" },
+                { label: "Για Καθηγητές", href: "/katigites" },
               ].map((item, i) => (
                 <motion.a
                   key={item.label}
