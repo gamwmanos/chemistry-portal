@@ -7,22 +7,35 @@ import { FlaskConical, BookOpen } from "lucide-react";
 
 export default function Navbar() {
   const { scrollY } = useScroll();
-  const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
-    if (latest > 50) {
-      setScrolled(true);
+    const previous = scrollY.getPrevious() ?? 0;
+    
+    // Always show at the very top of the page
+    if (latest < 100) {
+      setHidden(false);
+      return;
+    }
+
+    // Hide when scrolling down, show when scrolling up
+    if (latest > previous) {
+      setHidden(true);
     } else {
-      setScrolled(false);
+      setHidden(false);
     }
   });
 
   return (
     <motion.header
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-[100] px-6 py-4 md:px-12 md:py-5 flex items-center justify-between transition-all duration-300 bg-transparent pointer-events-none [&>*]:pointer-events-auto"
+      variants={{
+        visible: { y: 0 },
+        hidden: { y: "-100%" },
+      }}
+      initial="visible"
+      animate={hidden ? "hidden" : "visible"}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+      className="fixed top-0 left-0 right-0 z-[100] px-6 py-4 md:px-12 md:py-5 flex items-center justify-between bg-transparent pointer-events-none [&>*]:pointer-events-auto"
     >
       <Link href="/">
         <motion.div
