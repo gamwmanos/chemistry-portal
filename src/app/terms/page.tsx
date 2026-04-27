@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-background-alt relative pb-24">
+    <div className="min-h-screen bg-[#05050C] relative pb-24">
       {/* Background Decor */}
-      <div className="absolute top-0 left-0 w-full h-[500px] bg-gradient-to-b from-[#05050C] via-brand-purple-light/5 to-transparent pointer-events-none" />
+      <div className="absolute top-0 left-0 w-full h-[500px] bg-gradient-to-b from-[#05050C] via-brand-purple-light/10 to-transparent pointer-events-none" />
       <div className="absolute top-60 right-1/4 w-[500px] h-[500px] bg-brand-blue-light/10 blur-[150px] rounded-full pointer-events-none" />
       
       <div className="max-w-4xl mx-auto px-6 pt-32 md:pt-40 relative z-10">
