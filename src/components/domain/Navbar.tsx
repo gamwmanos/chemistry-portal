@@ -1,17 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { FlaskConical, BookOpen } from "lucide-react";
 
 export default function Navbar() {
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [hasScrolled, setHasScrolled] = useState(false);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious() ?? 0;
     
+    if (latest > 20) {
+      setHasScrolled(true);
+    } else {
+      setHasScrolled(false);
+    }
+
     // Always show at the very top of the page
     if (latest < 100) {
       setHidden(false);
@@ -26,6 +36,12 @@ export default function Navbar() {
     }
   });
 
+  // Decide background based on route and scroll
+  const navBackground = 
+    isHome && !hasScrolled 
+      ? "bg-transparent" 
+      : "bg-[#05050C]/90 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20";
+
   return (
     <motion.header
       variants={{
@@ -35,7 +51,7 @@ export default function Navbar() {
       initial="visible"
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.3, ease: "easeInOut" }}
-      className="fixed top-0 left-0 right-0 z-[100] px-6 py-4 md:px-12 md:py-5 flex items-center justify-between bg-transparent pointer-events-none [&>*]:pointer-events-auto"
+      className={`fixed top-0 left-0 right-0 z-[100] px-6 py-4 md:px-12 md:py-5 flex items-center justify-between pointer-events-none [&>*]:pointer-events-auto transition-colors duration-300 ${navBackground}`}
     >
       <Link href="/">
         <motion.div
