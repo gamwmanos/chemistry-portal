@@ -10,17 +10,10 @@ export default function Navbar() {
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
   const pathname = usePathname();
-  const isHome = pathname === "/";
-  const [hasScrolled, setHasScrolled] = useState(false);
+  const isContactPage = pathname === "/contact";
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious() ?? 0;
-    
-    if (latest > 20) {
-      setHasScrolled(true);
-    } else {
-      setHasScrolled(false);
-    }
 
     // Always show at the very top of the page
     if (latest < 100) {
@@ -36,11 +29,10 @@ export default function Navbar() {
     }
   });
 
-  // Decide background based on route and scroll
-  const navBackground = 
-    isHome && !hasScrolled 
-      ? "bg-transparent" 
-      : "bg-[#05050C]/90 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20";
+  // Keep it transparent everywhere exactly like before, EXCEPT on the contact page
+  const navBackground = isContactPage 
+    ? "bg-[#05050C]/90 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20" 
+    : "bg-transparent";
 
   return (
     <motion.header
