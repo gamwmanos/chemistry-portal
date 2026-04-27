@@ -30,6 +30,9 @@ export default function ClientFooter() {
   } else if (pathname === "/authors") {
     // The authors page ends with a blue-600 background
     bgClass = "bg-blue-600 text-white";
+  } else if (pathname === "/contact") {
+    // The user requested a slightly lighter color for the contact page
+    bgClass = "bg-slate-800 text-white";
   }
 
   return (
