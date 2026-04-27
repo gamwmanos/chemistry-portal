@@ -93,7 +93,7 @@ export default function Navbar() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        <Link href="/#books">
+        <Link href="/#books" aria-label="Βιβλία">
           <div className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white/15 transition-all backdrop-blur-sm font-inter">
             <BookOpen className="w-4 h-4" />
             Βιβλία

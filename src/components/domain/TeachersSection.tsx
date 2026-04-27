@@ -52,7 +52,7 @@ export default function TeachersSection() {
                     <item.icon className="w-6 h-6 text-brand-blue-light" />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold font-proxima mb-1 text-lg drop-shadow-sm">{item.title}</h4>
+                    <h3 className="text-white font-bold font-proxima mb-1 text-lg drop-shadow-sm">{item.title}</h3>
                     <p className="text-white/70 text-sm font-inter leading-relaxed">{item.desc}</p>
                   </div>
                 </div>

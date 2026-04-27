@@ -88,7 +88,7 @@ export default function FooterSection() {
 
             {/* Links */}
             <div>
-              <h4 className="font-bold text-white mb-6 font-proxima uppercase tracking-wider text-sm drop-shadow-sm">Περιεχόμενο</h4>
+              <h3 className="font-bold text-white mb-6 font-proxima uppercase tracking-wider text-sm drop-shadow-sm">Περιεχόμενο</h3>
               <ul className="space-y-3">
                 {["Α' Λυκείου", "Β' Γυμνασίου", "Γ' Γυμνασίου", "Διαδραστικά", "Πειράματα"].map((item) => (
                   <li key={item}>
@@ -101,7 +101,7 @@ export default function FooterSection() {
             </div>
 
             <div>
-              <h4 className="font-bold text-white mb-6 font-proxima uppercase tracking-wider text-sm drop-shadow-sm">Πληροφορίες</h4>
+              <h3 className="font-bold text-white mb-6 font-proxima uppercase tracking-wider text-sm drop-shadow-sm">Πληροφορίες</h3>
               <ul className="space-y-3">
                 {[
                   { label: "Η Συγγραφική Ομάδα", href: "/authors" },
