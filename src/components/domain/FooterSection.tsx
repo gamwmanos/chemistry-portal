@@ -5,9 +5,9 @@ import { Mail, ArrowRight, FlaskConical, Share2, MessageCircle, Video } from "lu
 
 export default function FooterSection() {
   return (
-    <>
+    <div className="bg-[#05050C] text-white">
       {/* CTA Banner */}
-      <section className="relative py-32 px-6 overflow-hidden bg-transparent">
+      <section className="relative py-32 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-purple-light/10 via-transparent to-brand-blue-light/10 pointer-events-none" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-brand-purple-light/10 blur-[120px] rounded-full pointer-events-none" />
 
@@ -143,6 +143,6 @@ export default function FooterSection() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
