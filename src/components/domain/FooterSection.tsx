@@ -18,10 +18,12 @@ export default function FooterSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 bg-white/10 text-white text-sm font-semibold mb-8 font-proxima tracking-wider uppercase backdrop-blur-sm">
-              <Mail className="w-4 h-4" />
-              Επικοινωνια
-            </div>
+            <Link href="/contact">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 bg-white/10 text-white text-sm font-semibold mb-8 font-proxima tracking-wider uppercase backdrop-blur-sm hover:bg-white/20 hover:border-white/40 transition-all cursor-pointer">
+                <Mail className="w-4 h-4" />
+                Επικοινωνια
+              </div>
+            </Link>
 
             <h2 className="text-5xl md:text-7xl font-bold font-montserrat mb-8 tracking-tight">
               <span className="text-white">Ανακαλύψτε το </span>
@@ -35,7 +37,7 @@ export default function FooterSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Link href="#books" className="group">
+              <Link href="/#books" className="group">
                 <div className="flex items-center gap-3 px-10 py-5 rounded-full bg-white text-brand-blue-dark font-bold text-lg hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] hover:-translate-y-1 transition-all duration-300 font-inter">
                   <span>Τα βιβλία μας</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -71,17 +73,20 @@ export default function FooterSection() {
               </p>
               <div className="flex gap-4 mt-6">
                 {[
-                  { icon: MessageCircle, label: "Instagram" },
-                  { icon: Share2, label: "Facebook" },
-                  { icon: Video, label: "YouTube" },
-                ].map(({ icon: Icon, label }) => (
-                  <button
+                  { icon: MessageCircle, label: "Instagram", href: "https://instagram.com" },
+                  { icon: Share2, label: "Facebook", href: "https://facebook.com" },
+                  { icon: Video, label: "YouTube", href: "https://youtube.com" },
+                ].map(({ icon: Icon, label, href }) => (
+                  <Link
                     key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={label}
                     className="w-10 h-10 rounded-full border border-white/20 bg-black/20 flex items-center justify-center text-white/80 hover:text-white hover:border-white hover:bg-white/10 transition-all cursor-pointer shadow-sm backdrop-blur-md"
                   >
                     <Icon className="w-4 h-4" />
-                  </button>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -90,10 +95,16 @@ export default function FooterSection() {
             <div>
               <h3 className="font-bold text-white mb-6 font-proxima uppercase tracking-wider text-sm drop-shadow-sm">Περιεχόμενο</h3>
               <ul className="space-y-3">
-                {["Α' Λυκείου", "Β' Γυμνασίου", "Γ' Γυμνασίου", "Διαδραστικά", "Πειράματα"].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="text-white/70 hover:text-white transition-colors font-inter text-sm drop-shadow-sm">
-                      {item}
+                {[
+                  { label: "Α' Λυκείου", href: "/a-lykeiou" },
+                  { label: "Β' Γυμνασίου", href: "/b-gymnasiou" },
+                  { label: "Γ' Γυμνασίου", href: "/g-gymnasiou" },
+                  { label: "Διαδραστικά", href: "/#" },
+                  { label: "Πειράματα", href: "/#" }
+                ].map((item) => (
+                  <li key={item.label}>
+                    <Link href={item.href} className="text-white/70 hover:text-white transition-colors font-inter text-sm drop-shadow-sm">
+                      {item.label}
                     </Link>
                   </li>
                 ))}
@@ -105,10 +116,10 @@ export default function FooterSection() {
               <ul className="space-y-3">
                 {[
                   { label: "Η Συγγραφική Ομάδα", href: "/authors" },
-                  { label: "Τα Βιβλία Μας", href: "#books" },
+                  { label: "Τα Βιβλία Μας", href: "/#books" },
                   { label: "Επικοινωνία", href: "/contact" },
-                  { label: "Όροι Χρήσης", href: "#" },
-                  { label: "Πολιτική Απορρήτου", href: "#" }
+                  { label: "Όροι Χρήσης", href: "/#" },
+                  { label: "Πολιτική Απορρήτου", href: "/#" }
                 ].map((item) => (
                   <li key={item.label}>
                     <Link href={item.href} className="text-white/70 hover:text-white transition-colors font-inter text-sm drop-shadow-sm">

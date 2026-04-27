@@ -39,17 +39,19 @@ export default function Home() {
             style={{ opacity: heroOpacity, y: heroY }}
             className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-10"
           >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 bg-black/30 backdrop-blur-md mb-8 shadow-[0_0_30px_rgba(124,58,237,0.2)]"
-            >
-              <Sparkles className="w-4 h-4 text-brand-purple-light" />
-              <span className="text-xs font-semibold tracking-widest uppercase text-white/90 font-proxima">
-                Συγγραφικη Ομαδα
-              </span>
-            </motion.div>
+            <Link href="/authors" className="pointer-events-auto">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 bg-black/30 backdrop-blur-md mb-8 shadow-[0_0_30px_rgba(124,58,237,0.2)] hover:bg-black/40 hover:border-white/30 transition-all cursor-pointer"
+              >
+                <Sparkles className="w-4 h-4 text-brand-purple-light" />
+                <span className="text-xs font-semibold tracking-widest uppercase text-white/90 font-proxima">
+                  Συγγραφικη Ομαδα
+                </span>
+              </motion.div>
+            </Link>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}

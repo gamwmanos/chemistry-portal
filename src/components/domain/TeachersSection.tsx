@@ -29,10 +29,12 @@ export default function TeachersSection() {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-start"
           >
-            <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/20 bg-white/10 text-white text-sm font-semibold mb-8 font-proxima tracking-wider uppercase backdrop-blur-md shadow-sm">
-              <GraduationCap className="w-4 h-4 text-brand-blue-light" />
-              Ειδικα για Καθηγητες
-            </div>
+            <Link href="/katigites">
+              <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/20 bg-white/10 text-white text-sm font-semibold mb-8 font-proxima tracking-wider uppercase backdrop-blur-md shadow-sm hover:bg-white/20 hover:border-white/40 transition-all cursor-pointer">
+                <GraduationCap className="w-4 h-4 text-brand-blue-light" />
+                Ειδικα για Καθηγητες
+              </div>
+            </Link>
             
             <h2 className="text-5xl md:text-6xl font-bold font-montserrat mb-6 tracking-tight text-white leading-tight">
               Είστε <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-purple-light to-brand-blue-light drop-shadow-md">Καθηγητής;</span>
