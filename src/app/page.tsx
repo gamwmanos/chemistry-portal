@@ -32,59 +32,7 @@ export default function Home() {
         {/* Content pinned to the top viewport during scroll */}
         <div className="sticky top-0 h-screen pointer-events-none">
 
-          {/* Nav */}
-          <header className="absolute top-0 left-0 right-0 px-6 py-6 md:px-12 md:py-8 flex items-center justify-between pointer-events-auto z-20">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="flex items-center gap-3"
-            >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-purple-light to-brand-blue-light p-[1px]">
-                <div className="w-full h-full bg-[#05050C]/80 rounded-xl flex items-center justify-center backdrop-blur-sm">
-                  <FlaskConical className="w-5 h-5 text-brand-blue-light" />
-                </div>
-              </div>
-              <span className="font-bold text-xl tracking-wider uppercase drop-shadow-[0_2px_12px_rgba(124,58,237,0.7)] font-proxima text-white">
-                ΕΚΔΟΣΕΙΣ ΠΕΔΙΟ
-              </span>
-            </motion.div>
-
-            <nav className="hidden md:flex gap-8 pointer-events-auto">
-              {[
-                { label: "Αρχική", href: "#" },
-                { label: "Τα Βιβλία", href: "#books" },
-                { label: "Συγγραφείς", href: "/authors" },
-                { label: "Για Καθηγητές", href: "/katigites" },
-              ].map((item, i) => (
-                <motion.a
-                  key={item.label}
-                  href={item.href}
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.1 * i }}
-                  className="text-sm font-medium text-white/80 hover:text-white transition-colors relative group font-inter"
-                >
-                  {item.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-brand-blue-light transition-all duration-300 group-hover:w-full" />
-                </motion.a>
-              ))}
-            </nav>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="pointer-events-auto"
-            >
-              <Link href="#books">
-                <div className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white/15 transition-all backdrop-blur-sm font-inter">
-                  <BookOpen className="w-4 h-4" />
-                  Βιβλία
-                </div>
-              </Link>
-            </motion.div>
-          </header>
+          {/* Nav has been moved to layout.tsx (Navbar component) for global sticky visibility */}
 
           {/* Hero Copy – centred, floats over the atom */}
           <motion.div

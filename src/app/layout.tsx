@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat, Lora, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/domain/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -46,6 +47,7 @@ export default function RootLayout({
         <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet" />
       </head>
       <body className="min-h-full flex flex-col bg-background-darker text-white">
+        <Navbar />
         {children}
       </body>
     </html>
