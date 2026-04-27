@@ -144,7 +144,7 @@ export default function DigitalShowcase() {
             </div>
             <div className="w-full h-1 bg-white/10 rounded-full mt-3 overflow-hidden">
               <motion.div 
-                initial={{ w: "0%" }}
+                initial={{ width: "0%" }}
                 whileInView={{ width: "90%" }}
                 transition={{ duration: 1.5, delay: 0.5 }}
                 className="h-full bg-gradient-to-r from-emerald-400 to-cyan-400" 
