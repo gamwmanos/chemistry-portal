@@ -94,17 +94,34 @@ export default function ScrollVideo() {
       imagesRef.current[i - 1] = img;
     };
 
-    // Load first frame immediately
-    loadFrame(1);
+    // Load first few frames immediately so scrolling starts smoothly
+    for (let i = 1; i <= 5; i++) {
+      loadFrame(i);
+    }
 
-    // Defer the rest of the frames so they don't block initial page load (fixes Lighthouse massive payload)
-    const timeoutId = setTimeout(() => {
-      for (let i = 2; i <= FRAME_COUNT; i++) {
-        loadFrame(i);
+    let startedLoadingRest = false;
+    const loadRest = () => {
+      if (startedLoadingRest) return;
+      startedLoadingRest = true;
+      for (let i = 6; i <= FRAME_COUNT; i++) {
+        // slight stagger to prevent blocking main thread entirely
+        setTimeout(() => loadFrame(i), (i - 6) * 10);
       }
-    }, 2000);
+      window.removeEventListener('scroll', loadRest);
+      window.removeEventListener('mousemove', loadRest);
+      window.removeEventListener('touchstart', loadRest);
+    };
 
-    return () => clearTimeout(timeoutId);
+    // Defer the rest of the frames until actual user interaction (fixes Lighthouse massive payload)
+    window.addEventListener('scroll', loadRest, { passive: true });
+    window.addEventListener('mousemove', loadRest, { passive: true });
+    window.addEventListener('touchstart', loadRest, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', loadRest);
+      window.removeEventListener('mousemove', loadRest);
+      window.removeEventListener('touchstart', loadRest);
+    };
   }, [isInView, renderFrame, smoothProgress]);
 
   // Scrub loop
