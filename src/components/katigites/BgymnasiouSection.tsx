@@ -34,7 +34,7 @@ export default function BgymnasiouSection() {
   ];
 
   return (
-    <section className="py-32 relative z-10 overflow-hidden bg-[#05050C]">
+    <section className="py-32 relative z-10 overflow-hidden bg-slate-900">
       {/* Background Ornaments */}
       <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-brand-purple/10 to-transparent pointer-events-none" />
       
@@ -85,12 +85,12 @@ export default function BgymnasiouSection() {
             className="w-full lg:w-5/12 relative"
           >
             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(139,92,246,0.2)]">
-              <div className="absolute inset-0 bg-gradient-to-t from-[#05050C] via-transparent to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1e293b] via-transparent to-transparent z-10" />
               <Image 
-                src="/book-b-lykeiou.png" // Replace with actual B Gymnasiou image if available, using this as placeholder
+                src="/bgymn.jpg" 
                 alt="Χημεία Β' Γυμνασίου" 
                 fill 
-                className="object-contain p-8 drop-shadow-2xl bg-gradient-to-bl from-brand-purple-900/40 to-[#05050C]"
+                className="object-contain p-8 drop-shadow-2xl bg-gradient-to-bl from-brand-purple-900/40 to-[#1e293b] -rotate-90 scale-[1.3]"
               />
               {/* Decorative elements */}
               <div className="absolute top-4 right-4 z-20 px-4 py-2 bg-brand-purple/80 backdrop-blur-md rounded-full border border-white/20">

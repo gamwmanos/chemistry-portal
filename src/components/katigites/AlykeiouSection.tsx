@@ -29,7 +29,7 @@ export default function AlykeiouSection() {
   ];
 
   return (
-    <section className="py-32 relative z-10 overflow-hidden bg-[#0A0A1A]">
+    <section className="py-32 relative z-10 overflow-hidden bg-[#0f172a]">
       {/* Background Ornaments */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-brand-blue/10 to-transparent pointer-events-none" />
       
@@ -45,12 +45,12 @@ export default function AlykeiouSection() {
             className="w-full lg:w-5/12 relative"
           >
             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(37,99,235,0.2)]">
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A1A] via-transparent to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1e293b] via-transparent to-transparent z-10" />
               <Image 
-                src="/book-a-lykeiou.png" 
+                src="/alyk.jpg" 
                 alt="Χημεία Α' Λυκείου" 
                 fill 
-                className="object-contain p-8 drop-shadow-2xl bg-gradient-to-br from-brand-blue-900/40 to-[#0A0A1A]"
+                className="object-contain p-8 drop-shadow-2xl bg-gradient-to-br from-brand-blue-900/40 to-[#1e293b] -rotate-90 scale-[1.3]"
               />
               {/* Decorative elements */}
               <div className="absolute top-4 left-4 z-20 px-4 py-2 bg-brand-blue/80 backdrop-blur-md rounded-full border border-white/20">

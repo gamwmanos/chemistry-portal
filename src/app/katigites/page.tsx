@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import KatigitesHero from "@/components/katigites/KatigitesHero";
 import GeneralBenefits from "@/components/katigites/GeneralBenefits";
+import MethodologyTimeline from "@/components/katigites/MethodologyTimeline";
+import DigitalShowcase from "@/components/katigites/DigitalShowcase";
 import AlykeiouSection from "@/components/katigites/AlykeiouSection";
 import BgymnasiouSection from "@/components/katigites/BgymnasiouSection";
 import FooterSection from "@/components/domain/FooterSection";
@@ -14,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function KatigitesPage() {
   return (
-    <main className="min-h-screen bg-background-darker text-white font-sans selection:bg-brand-purple/30">
+    <main className="min-h-screen bg-slate-900 text-white font-sans selection:bg-brand-purple/30">
       
       {/* Simple Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 p-6 flex items-center justify-between pointer-events-none">
@@ -28,7 +30,9 @@ export default function KatigitesPage() {
       </nav>
 
       <KatigitesHero />
+      <MethodologyTimeline />
       <GeneralBenefits />
+      <DigitalShowcase />
       <AlykeiouSection />
       <BgymnasiouSection />
       
