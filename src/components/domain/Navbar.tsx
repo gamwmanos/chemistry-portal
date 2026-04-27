@@ -22,11 +22,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-[100] px-6 py-4 md:px-12 md:py-5 flex items-center justify-between transition-all duration-300 ${
-        scrolled
-          ? "bg-[#05050C]/80 backdrop-blur-md shadow-lg border-b border-white/10"
-          : "bg-transparent"
-      }`}
+      className="fixed top-0 left-0 right-0 z-[100] px-6 py-4 md:px-12 md:py-5 flex items-center justify-between transition-all duration-300 bg-transparent pointer-events-none [&>*]:pointer-events-auto"
     >
       <Link href="/">
         <motion.div
