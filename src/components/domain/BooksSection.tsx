@@ -10,13 +10,14 @@ const books = [
     grade: "Α' Λυκείου",
     title: "Χημεία",
     subtitle: "Βασικές Αρχές & Δομή Ύλης",
-    description: "Από τη δομή του ατόμου ως τη στοιχειομετρία. Η θεωρία αποκτά νόημα με εκατοντάδες διαδραστικές ασκήσεις και οπτικοποιήσεις.",
+    description: "Από τη δομή του ατόμου ως τη στοιχειομετρία. Η θεωρία αποκτά νόημα με εκατοντάδες διαδραστικές ερωτήσεις και ασκήσεις και οπτικοποιήσεις.",
     image: "/alyk.jpg",
     color: "from-violet-600 via-purple-500 to-indigo-600",
     glow: "rgba(124,58,237,0.4)",
-    badge: "160+ Ασκήσεις",
+    badge: "160+ Ερωτήσεις και Ασκήσεις",
     chapters: 6,
     exercises: 160,
+    digitalObjects: 172,
     features: ["Διαδραστικά μόρια 3D", "Βίντεο πειραμάτων", "Οπτικοποίηση Εννοιών"],
     href: "/a-lykeiou",
   },
@@ -29,10 +30,11 @@ const books = [
     image: "/bgymn.jpg",
     color: "from-cyan-500 via-blue-500 to-indigo-600",
     glow: "rgba(59,130,246,0.4)",
-    badge: "200+ Ασκήσεις",
+    badge: "200+ Ερωτήσεις και Ασκήσεις",
     chapters: 5,
     exercises: 200,
-    features: ["Απλά πειράματα", "Καθημερινή χημεία", "Εισαγωγικές Ασκήσεις"],
+    digitalObjects: 140,
+    features: ["Απλά πειράματα", "Καθημερινή χημεία", "Εισαγωγικές Ερωτήσεις και Ασκήσεις"],
     href: "/b-gymnasiou",
   },
   {
@@ -44,10 +46,11 @@ const books = [
     image: "/ggymn.jpg",
     color: "from-emerald-500 via-teal-500 to-cyan-600",
     glow: "rgba(16,185,129,0.4)",
-    badge: "300+ Ασκήσεις",
+    badge: "300+ Ερωτήσεις και Ασκήσεις",
     chapters: 6,
     exercises: 300,
-    features: ["Εικονικό εργαστήριο", "Ασκήσεις κατανόησης", "Δομημένη μεθοδολογία"],
+    digitalObjects: 140,
+    features: ["Εικονικό εργαστήριο", "Ερωτήσεις και Ασκήσεις κατανόησης", "Δομημένη μεθοδολογία"],
     href: "/g-gymnasiou",
   },
 ];
@@ -77,7 +80,7 @@ export default function BooksSection() {
             <span className="text-gradient">Μια Φιλοσοφία.</span>
           </h2>
           <p className="text-white/70 text-xl max-w-2xl mx-auto font-inter leading-relaxed">
-            Η συγγραφική ομάδα δημιούργησε ένα ολοκληρωμένο εκπαιδευτικό σύστημα, σχεδιασμένο για καθηγητές και μαθητές.
+            Η συγγραφική ομάδα δημιούργησε ένα ολοκληρωμένο εκπαιδευτικό πακέτο, σχεδιασμένο για καθηγητές και μαθητές.
           </p>
         </motion.div>
 
@@ -153,14 +156,18 @@ export default function BooksSection() {
                     </ul>
 
                     {/* Stats row */}
-                    <div className="flex gap-4 mb-8">
-                      <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-4 text-center">
-                        <div className="text-2xl font-bold text-white font-proxima">{book.chapters}</div>
-                        <div className="text-xs text-white/40 uppercase tracking-wider font-inter mt-1">Κεφάλαια</div>
+                    <div className="flex gap-2 mb-8">
+                      <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-3 text-center flex flex-col justify-center">
+                        <div className="text-xl md:text-2xl font-bold text-white font-proxima">{book.chapters}</div>
+                        <div className="text-[9px] md:text-[10px] leading-tight text-white/40 uppercase tracking-wider font-inter mt-1">Κεφάλαια</div>
                       </div>
-                      <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-4 text-center">
-                        <div className="text-2xl font-bold font-proxima bg-gradient-to-r from-brand-purple-light to-brand-blue-light bg-clip-text text-transparent">{book.exercises}+</div>
-                        <div className="text-xs text-white/40 uppercase tracking-wider font-inter mt-1">Ασκήσεις</div>
+                      <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-3 text-center flex flex-col justify-center">
+                        <div className="text-xl md:text-2xl font-bold font-proxima bg-gradient-to-r from-brand-purple-light to-brand-blue-light bg-clip-text text-transparent">{book.exercises}+</div>
+                        <div className="text-[9px] md:text-[10px] leading-tight text-white/40 uppercase tracking-wider font-inter mt-1">Ερωτήσεις &<br/>Ασκήσεις</div>
+                      </div>
+                      <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-3 text-center flex flex-col justify-center">
+                        <div className="text-xl md:text-2xl font-bold font-proxima bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">{book.digitalObjects}+</div>
+                        <div className="text-[9px] md:text-[10px] leading-tight text-white/40 uppercase tracking-wider font-inter mt-1">Ψηφιακά Μαθησιακά Αντικείμενα</div>
                       </div>
                     </div>
 

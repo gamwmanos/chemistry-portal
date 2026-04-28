@@ -27,7 +27,7 @@ export default function ChapterContent({ chapterId }: Props) {
 
   const tabs = [
     { id: "theory", label: "Θεωρία", icon: BookOpen },
-    { id: "exercises", label: "Ασκήσεις", icon: Brain },
+    { id: "exercises", label: "Ερωτήσεις και Ασκήσεις", icon: Brain },
     { id: "experiments", label: "Πειράματα", icon: FlaskConical },
   ] as const;
 
@@ -187,9 +187,9 @@ export default function ChapterContent({ chapterId }: Props) {
                    ) : (
                      <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
                        <Brain className="w-16 h-16 text-white/30 mb-4" />
-                       <h3 className="text-xl font-bold mb-2 font-proxima text-white">Δεν υπάρχουν ασκήσεις</h3>
+                       <h3 className="text-xl font-bold mb-2 font-proxima text-white">Δεν υπάρχουν ερωτήσεις και ασκήσεις</h3>
                        <p className="text-purple-200 text-center max-w-md font-inter">
-                         Οι ασκήσεις για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμες.
+                         Οι ερωτήσεις και ασκήσεις για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμες.
                        </p>
                      </div>
                    )}

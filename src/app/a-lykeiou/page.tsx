@@ -50,7 +50,7 @@ export default function GradeAHub() {
               transition={{ delay: 0.2 }}
               className="text-lg text-white/70 max-w-2xl font-inter"
             >
-              Εισαγωγή στον συναρπαστικό κόσμο της Χημείας. Επιλέξτε κεφάλαιο για να ξεκινήσετε τη μελέτη σας, να λύσετε ασκήσεις και να δείτε πειράματα.
+              Εισαγωγή στον συναρπαστικό κόσμο της Χημείας. Επιλέξτε κεφάλαιο για να ξεκινήσετε τη μελέτη σας, να λύσετε ερωτήσεις και ασκήσεις και να δείτε πειράματα.
             </motion.p>
           </div>
           
@@ -68,7 +68,7 @@ export default function GradeAHub() {
               <span className="text-3xl font-bold text-violet-300 font-proxima">
                 {chapters.reduce((sum, ch) => sum + ch.exercises, 0)}+
               </span>
-              <span className="text-xs text-purple-200 uppercase tracking-wider mt-1 font-inter">Ασκήσεις</span>
+              <span className="text-xs text-purple-200 uppercase tracking-wider mt-1 font-inter">Ερωτήσεις και Ασκήσεις</span>
             </div>
           </motion.div>
         </header>
@@ -109,7 +109,7 @@ export default function GradeAHub() {
                           </div>
                           <div className="flex items-center gap-1.5 text-xs text-purple-200 font-inter font-medium">
                             <Sparkles className="w-4 h-4" />
-                            <span>{chapter.exercises} Ασκήσεις</span>
+                            <span>{chapter.exercises} Ερωτήσεις και Ασκήσεις</span>
                           </div>
                         </div>
                         <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white group-hover:bg-violet-500 group-hover:text-white transition-all shadow-sm">

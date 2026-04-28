@@ -5,6 +5,7 @@ import MethodologyTimeline from "@/components/katigites/MethodologyTimeline";
 import DigitalShowcase from "@/components/katigites/DigitalShowcase";
 import AlykeiouSection from "@/components/katigites/AlykeiouSection";
 import BgymnasiouSection from "@/components/katigites/BgymnasiouSection";
+import GgymnasiouSection from "@/components/katigites/GgymnasiouSection";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
 
@@ -34,6 +35,7 @@ export default function KatigitesPage() {
       <DigitalShowcase />
       <AlykeiouSection />
       <BgymnasiouSection />
+      <GgymnasiouSection />
       
       {/* Conclusion / Final CTA */}
       <section className="py-24 relative overflow-hidden bg-gradient-to-b from-[#05050C] to-brand-blue-dark/20 text-center">

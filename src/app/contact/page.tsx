@@ -38,7 +38,7 @@ interface FormErrors {
 
 // --- CONSTANTS & MOCK DATA ---
 const INQUIRY_TYPES = [
-  { id: "question", label: "Ερώτηση", icon: HelpCircle, desc: "Απορίες για την ύλη ή τις ασκήσεις" },
+  { id: "question", label: "Ερώτηση", icon: HelpCircle, desc: "Απορίες για την ύλη ή τις ερωτήσεις και ασκήσεις" },
   { id: "comment", label: "Σχόλιο", icon: MessageSquare, desc: "Γενικά σχόλια και εντυπώσεις" },
   { id: "support", label: "Υποστήριξη", icon: Info, desc: "Τεχνική υποστήριξη για την πλατφόρμα" },
   { id: "business", label: "Συνεργασία", icon: Globe, desc: "Προτάσεις για εκπαιδευτικούς" },

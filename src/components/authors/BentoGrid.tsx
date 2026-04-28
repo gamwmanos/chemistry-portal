@@ -104,7 +104,7 @@ export default function BentoGrid({ author }: BentoGridProps) {
           <div className="p-2 bg-amber-50 rounded-xl group-hover:bg-amber-100 transition-colors duration-300">
             <Award className="w-6 h-6 text-amber-600" />
           </div>
-          Διακρίσεις & Επίτευγμα
+          Διακρίσεις & Επιτεύγματα
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {author.achievements.map((ach, idx) => (
