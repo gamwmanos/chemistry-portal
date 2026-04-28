@@ -63,7 +63,6 @@ export default function AuthorsHero({ authors, onSelectAuthor }: AuthorsHeroProp
             onMouseLeave={() => setHoveredAuthor(null)}
             className="fill-transparent stroke-transparent cursor-pointer outline-none"
             style={{ strokeWidth: '0.3', strokeLinejoin: 'round' }}
-            title=""
           />
           
           {/* 2. Παπαδόπουλος Αθανάσιος */}
@@ -74,7 +73,6 @@ export default function AuthorsHero({ authors, onSelectAuthor }: AuthorsHeroProp
             onMouseLeave={() => setHoveredAuthor(null)}
             className="fill-transparent stroke-transparent cursor-pointer outline-none"
             style={{ strokeWidth: '0.3', strokeLinejoin: 'round' }}
-            title=""
           />
           
           {/* 3. Eleni Paloumpa */}
@@ -85,7 +83,6 @@ export default function AuthorsHero({ authors, onSelectAuthor }: AuthorsHeroProp
             onMouseLeave={() => setHoveredAuthor(null)}
             className="fill-transparent stroke-transparent cursor-pointer outline-none"
             style={{ strokeWidth: '0.3', strokeLinejoin: 'round' }}
-            title=""
           />
           
           {/* 4. Αντώνης Χρονάκης */}
@@ -96,7 +93,6 @@ export default function AuthorsHero({ authors, onSelectAuthor }: AuthorsHeroProp
             onMouseLeave={() => setHoveredAuthor(null)}
             className="fill-transparent stroke-transparent cursor-pointer outline-none"
             style={{ strokeWidth: '0.3', strokeLinejoin: 'round' }}
-            title=""
           />
         </svg>
 

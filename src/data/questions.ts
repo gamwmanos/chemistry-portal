@@ -2608,7 +2608,7 @@ export const chapter5MCQ: MCQ[] = [
 
 
 
-﻿export const chapter6Questions: Question[] = [
+export const chapter6Questions: Question[] = [
   // --- ΜΕΡΟΣ 1 ---
   {
     "q": "α. Τι είναι ο αριθμός Avogadro;",
