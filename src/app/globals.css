@@ -43,6 +43,28 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter), Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  cursor: default;
+}
+
+/* 
+   Prevent the I-beam (text) cursor on general text elements 
+   to make the site feel like a premium application.
+*/
+h1, h2, h3, h4, h5, h6, p, span, div, li {
+  cursor: inherit; /* Inherit from parent (default or pointer) */
+}
+
+/* Global cursor overrides */
+* {
+  cursor: default;
+}
+
+a, button, [role="button"], .cursor-pointer, a * {
+  cursor: pointer !important;
+}
+
+input, textarea, [contenteditable="true"] {
+  cursor: text !important;
 }
 
 /* Glassmorphism for Light Theme */

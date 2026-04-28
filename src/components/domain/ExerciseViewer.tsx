@@ -72,9 +72,10 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                     </span>
                   </div>
 
-                  <h3 className="text-xl md:text-2xl font-bold mb-6 leading-relaxed text-white">
-                    {mcq.q}
-                  </h3>
+                  <h3 
+                    className="text-xl md:text-2xl font-bold mb-6 leading-relaxed text-white"
+                    dangerouslySetInnerHTML={{ __html: mcq.q }}
+                  />
 
                   <div className="space-y-4">
                     {mcq.options.map((option, optIndex) => {
@@ -96,7 +97,7 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                           disabled={selectedOption !== undefined}
                           className={`w-full text-left p-4 rounded-2xl border transition-all duration-300 flex items-center justify-between ${buttonClass}`}
                         >
-                          <span>{option.text}</span>
+                          <span dangerouslySetInnerHTML={{ __html: option.text }} />
                           {showStatus && isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-400" />}
                           {showStatus && isSelected && !isCorrect && <XCircle className="w-5 h-5 text-rose-400" />}
                         </button>
@@ -151,9 +152,10 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                     </span>
                   </div>
 
-                  <h3 className="text-lg md:text-xl font-bold mb-6 leading-relaxed whitespace-pre-wrap text-white">
-                    {openQ.q}
-                  </h3>
+                  <h3 
+                    className="text-lg md:text-xl font-bold mb-6 leading-relaxed whitespace-pre-wrap text-white"
+                    dangerouslySetInnerHTML={{ __html: openQ.q }}
+                  />
 
                   {!showAnswer ? (
                     <button

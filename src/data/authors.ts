@@ -137,7 +137,7 @@ export const authorsData: Author[] = [
   },
   {
     id: "eleni-paloumpa",
-    name: "Eleni Paloumpa",
+    name: "Παλούμπα Ελένη",
     role: "Υπεύθυνη Ε.Κ.Φ.Ε. Λακωνίας",
     subtitle: "Χημικός, Εκπαιδευτικός",
     shortBio: "Χημικός, Υπεύθυνη του Εργαστηριακού Κέντρου Φυσικών Επιστημών Λακωνίας, με πλούσια δράση στην εκπαίδευση STEM/STEAM.",

@@ -15,7 +15,7 @@ const books = [
     color: "from-violet-600 via-purple-500 to-indigo-600",
     glow: "rgba(124,58,237,0.4)",
     badge: "160+ Ασκήσεις",
-    chapters: 4,
+    chapters: 6,
     exercises: 160,
     features: ["Διαδραστικά μόρια 3D", "Βίντεο πειραμάτων", "Οπτικοποίηση Εννοιών"],
     href: "/a-lykeiou",
