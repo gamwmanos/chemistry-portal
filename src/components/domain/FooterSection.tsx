@@ -138,7 +138,7 @@ export default function FooterSection() {
             <p className="text-white/50 text-xs font-inter text-center md:text-right">
               Σχεδιασμένο για καθηγητές &amp; μαθητές<br className="md:hidden" />
               <span className="hidden md:inline"> | </span>
-              Φτιαγμένο από τον <strong>EMMANOUHL CHRONAKIS</strong>
+              designed by <strong>EMMANOUHL CHRONAKIS</strong>
             </p>
           </div>
         </div>
