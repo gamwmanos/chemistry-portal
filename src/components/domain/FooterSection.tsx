@@ -99,8 +99,8 @@ export default function FooterSection() {
                   { label: "Α' Λυκείου", href: "/a-lykeiou" },
                   { label: "Β' Γυμνασίου", href: "/b-gymnasiou" },
                   { label: "Γ' Γυμνασίου", href: "/g-gymnasiou" },
-                  { label: "Διαδραστικά", href: "/#" },
-                  { label: "Πειράματα", href: "/#" }
+                  { label: "Διαδραστικά", href: "/a-lykeiou" },
+                  { label: "Πειράματα", href: "/a-lykeiou" }
                 ].map((item) => (
                   <li key={item.label}>
                     <Link href={item.href} className="text-white/70 hover:text-white transition-colors font-inter text-sm drop-shadow-sm">
