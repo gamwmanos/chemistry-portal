@@ -167,10 +167,15 @@ export default function ScrollVideo() {
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-background-darker">
             <div className="flex flex-col items-center gap-4">
               <div className="w-12 h-12 border-4 border-brand-purple-light/30 border-t-brand-purple-light rounded-full animate-spin" />
-              <span className="text-white/40 text-sm font-inter tracking-widest uppercase">Φόρτωση...</span>
+              <span className="text-white/70 text-sm font-inter tracking-widest uppercase font-semibold">Φόρτωση...</span>
             </div>
           </div>
         )}
+
+        {/* Hidden Next.js Image to force preload of the first frame for LCP optimization */}
+        <div style={{ display: 'none' }}>
+          <img src="/atomo.jpg" alt="LCP Preload" fetchPriority="high" width="1" height="1" />
+        </div>
       </div>
     </section>
   );

@@ -2,12 +2,14 @@
 
 import { useRef } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FlaskConical, Sparkles, ArrowRight, Users, ChevronDown, BookOpen } from "lucide-react";
 import ScrollVideo from "@/components/domain/ScrollVideo";
-import BooksSection from "@/components/domain/BooksSection";
-import FeaturesSection from "@/components/domain/FeaturesSection";
-import TeachersSection from "@/components/domain/TeachersSection";
+
+const BooksSection = dynamic(() => import("@/components/domain/BooksSection"), { ssr: true });
+const FeaturesSection = dynamic(() => import("@/components/domain/FeaturesSection"), { ssr: true });
+const TeachersSection = dynamic(() => import("@/components/domain/TeachersSection"), { ssr: true });
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -112,12 +114,12 @@ export default function Home() {
               transition={{ delay: 1.5, duration: 1 }}
               className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none"
             >
-              <span className="text-xs text-white/40 uppercase tracking-widest font-inter">Κύλησε</span>
+              <span className="text-xs text-white/70 uppercase tracking-widest font-inter font-semibold">Κύλησε</span>
               <motion.div
                 animate={{ y: [0, 8, 0] }}
                 transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
               >
-                <ChevronDown className="w-5 h-5 text-white/30" />
+                <ChevronDown className="w-5 h-5 text-white/70" />
               </motion.div>
             </motion.div>
           </motion.div>
