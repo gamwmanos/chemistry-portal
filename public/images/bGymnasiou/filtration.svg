@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="100%" height="100%">
+  <!-- Flask -->
+  <path d="M 70 200 L 50 260 A 20 20 0 0 0 70 290 L 130 290 A 20 20 0 0 0 150 260 L 130 200 L 130 160 L 70 160 Z" fill="none" stroke="#333" stroke-width="4"/>
+  <path d="M 50 260 A 20 20 0 0 0 70 290 L 130 290 A 20 20 0 0 0 150 260 L 130 220 L 70 220 Z" fill="#b3e5fc" opacity="0.6"/>
+  <!-- Funnel -->
+  <path d="M 40 80 L 160 80 L 110 160 L 110 230 L 90 230 L 90 160 Z" fill="none" stroke="#555" stroke-width="4"/>
+  <!-- Filter Paper -->
+  <path d="M 45 80 L 155 80 L 100 155 Z" fill="#eee" stroke="#888" stroke-width="2"/>
+  <!-- Mixture pouring -->
+  <path d="M 160 30 L 110 70 L 90 70 L 100 130 Z" fill="#8d6e63" opacity="0.8"/>
+  <path d="M 190 20 L 150 60 A 10 10 0 0 0 140 40 L 180 0 Z" fill="none" stroke="#333" stroke-width="3"/>
+  <line x1="160" y1="30" x2="110" y2="70" stroke="#8d6e63" stroke-width="8"/>
+  <!-- Drops -->
+  <circle cx="100" cy="240" r="3" fill="#b3e5fc"/>
+  <circle cx="100" cy="255" r="3" fill="#b3e5fc"/>
+</svg>

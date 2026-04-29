@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%" style="background-color: white;">
+  <!-- Nucleus -->
+  <circle cx="150" cy="150" r="15" fill="#f44336" />
+  <text x="150" y="155" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Z</text>
+  
+  <!-- Shell 1: K -->
+  <circle cx="150" cy="150" r="40" fill="none" stroke="#1e88e5" stroke-width="2" />
+  <text x="120" y="115" font-family="Arial" font-size="14" font-weight="bold" fill="#1e88e5" text-anchor="middle">K</text>
+  <!-- Shell 2: L -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#43a047" stroke-width="2" />
+  <text x="120" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#43a047" text-anchor="middle">L</text>
+  <!-- Shell 3: M -->
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#fdd835" stroke-width="2" />
+  <text x="120" y="35" font-family="Arial" font-size="14" font-weight="bold" fill="#fdd835" text-anchor="middle">M</text>
+  
+  <!-- Blank boxes to fill -->
+  <rect x="135" y="95" width="30" height="20" fill="white" stroke="#333" stroke-width="1.5" rx="3"/>
+  <rect x="135" y="55" width="30" height="20" fill="white" stroke="#333" stroke-width="1.5" rx="3"/>
+  <rect x="135" y="15" width="30" height="20" fill="white" stroke="#333" stroke-width="1.5" rx="3"/>
+</svg>
