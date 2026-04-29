@@ -68,57 +68,93 @@ export const aLykeiouChapters: Chapter[] = [
 export const bGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-1",
-    number: "1",
+    number: "1.1",
     title: "Εισαγωγή στη Χημεία",
     description: "Τι είναι η χημεία, γιατί τη μελετάμε και η σημασία της στην καθημερινή ζωή.",
-    topics: 3,
-    exercises: 11,
+    topics: 2,
+    exercises: 14,
     color: "from-cyan-600 to-cyan-400"
   },
   {
     id: "chapter-2",
-    number: "2",
-    title: "Καταστάσεις Ύλης & Μείγματα",
-    description: "Φυσικές καταστάσεις της ύλης, διαχωρισμός μειγμάτων, διαλύματα και περιεκτικότητα.",
-    topics: 6,
-    exercises: 55,
+    number: "1.2",
+    title: "Η Χημεία στο Εργαστήριο",
+    description: "Βασικός εργαστηριακός εξοπλισμός και κανόνες ασφαλείας.",
+    topics: 1,
+    exercises: 0,
     color: "from-blue-600 to-blue-400"
   },
   {
     id: "chapter-3",
-    number: "3",
-    title: "Άτομα και Μόρια",
-    description: "Η δομή της ύλης, άτομα, μόρια και οι ιδιότητές τους στον μικρόκοσμο.",
-    topics: 4,
-    exercises: 19,
+    number: "1.3",
+    title: "Τα σωματίδια της ύλης",
+    description: "Οι απόψεις των αρχαίων Ελλήνων και η ατομική θεωρία.",
+    topics: 2,
+    exercises: 1,
     color: "from-sky-600 to-sky-400"
   },
   {
     id: "chapter-4",
-    number: "4",
-    title: "Στοιχεία και Ενώσεις",
-    description: "Χημικά στοιχεία, χημικές ενώσεις, συμβολισμοί και ταξινόμηση της ύλης.",
-    topics: 5,
-    exercises: 25,
+    number: "1.4",
+    title: "Η δομή του ατόμου",
+    description: "Πρωτόνια, νετρόνια, ηλεκτρόνια και η δομή του ατόμου.",
+    topics: 2,
+    exercises: 6,
     color: "from-teal-600 to-teal-400"
   },
   {
     id: "chapter-5",
-    number: "5",
-    title: "Ατομικό Πρότυπο & Δομή",
-    description: "Πρωτόνια, νετρόνια, ηλεκτρόνια και η δομή του ατόμου.",
-    topics: 4,
-    exercises: 26,
+    number: "2.1",
+    title: "Το νερό στη ζωή μας",
+    description: "Η κατανομή του νερού, πόσιμο νερό και οι ιδιότητές του.",
+    topics: 2,
+    exercises: 14,
     color: "from-emerald-600 to-emerald-400"
   },
   {
     id: "chapter-6",
-    number: "6",
+    number: "2.2",
+    title: "Μίγματα",
+    description: "Ομογενή και ετερογενή μίγματα.",
+    topics: 2,
+    exercises: 14,
+    color: "from-cyan-500 to-blue-500"
+  },
+  {
+    id: "chapter-7",
+    number: "2.3",
+    title: "Διαλύματα",
+    description: "Περιεκτικότητες διαλυμάτων, %w/w, %w/v, %v/v.",
+    topics: 3,
+    exercises: 12,
+    color: "from-indigo-600 to-indigo-400"
+  },
+  {
+    id: "chapter-8",
+    number: "2.4",
+    title: "Διαχωρισμός μιγμάτων",
+    description: "Μέθοδοι διαχωρισμού (διήθηση, απόσταξη, χρωματογραφία κ.ά.).",
+    topics: 2,
+    exercises: 8,
+    color: "from-violet-600 to-violet-400"
+  },
+  {
+    id: "chapter-9",
+    number: "3.1",
+    title: "Χημικά Στοιχεία & Χημικοί Τύποι",
+    description: "Καθαρές ουσίες, στοιχεία, ενώσεις και μοριακοί τύποι.",
+    topics: 3,
+    exercises: 16,
+    color: "from-purple-600 to-purple-400"
+  },
+  {
+    id: "chapter-10",
+    number: "4.1",
     title: "Χημικές Αντιδράσεις",
     description: "Χημικές εξισώσεις, αρχή διατήρησης της μάζας, εξώθερμες/ενδόθερμες αντιδράσεις και περιβάλλον.",
     topics: 5,
     exercises: 24,
-    color: "from-cyan-500 to-blue-500"
+    color: "from-pink-600 to-pink-400"
   }
 ];
 

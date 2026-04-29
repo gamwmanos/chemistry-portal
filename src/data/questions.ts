@@ -1,4 +1,5 @@
 export interface Question {
+  chapterId?: string;
   q: string;
   a: string;
 }
@@ -9,6 +10,7 @@ export interface MCQOption {
 }
 
 export interface MCQ {
+  chapterId?: string;
   q: string;
   options: MCQOption[];
   explanation: string;

@@ -26,24 +26,8 @@ export default function ChapterContent({ chapterId }: Props) {
 
   const chapterData = gGymnasiouChapters.find(ch => ch.id === chapterId);
   
-  // Note: we will need to update chapterIndices when real content arrives
-  const chapterIndices = [
-    { id: "chapter-1", open: [[52, 70], [76, 77]], mcq: [[20, 33]] },
-    { id: "chapter-2", open: [[14, 25], [70, 76]], mcq: [[9, 13]] },
-    { id: "chapter-3", open: [[25, 52]], mcq: [[13, 20]] },
-    // Include Review in Chapter 1 or keep unmapped for now? I will map it to a new chapter 0.
-    { id: "chapter-0", open: [[0, 14]], mcq: [[0, 9]] },
-    // Include Energy in Chapter 6
-    { id: "chapter-6", open: [[77, 79]], mcq: [[33, 34]] }
-  ];
-  
-  const currentIndices = chapterIndices.find(c => c.id === chapterId);
-  const currentOpenQs = currentIndices 
-    ? currentIndices.open.flatMap(([start, end]) => gGymnasiouQuestions.slice(start, end))
-    : [];
-  const currentMCQs = currentIndices 
-    ? currentIndices.mcq.flatMap(([start, end]) => gGymnasiouMCQ.slice(start, end))
-    : [];
+  const currentOpenQs = gGymnasiouQuestions.filter(q => q.chapterId === chapterId);
+  const currentMCQs = gGymnasiouMCQ.filter(q => q.chapterId === chapterId);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-800 to-teal-900 text-white font-sans flex flex-col relative overflow-hidden">

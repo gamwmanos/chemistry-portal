@@ -26,18 +26,8 @@ export default function ChapterContent({ chapterId }: Props) {
 
   const chapterData = bGymnasiouChapters.find(ch => ch.id === chapterId);
   
-  const chapterIndices = [
-    { id: "chapter-1", open: [0, 6], mcq: [0, 5] },
-    { id: "chapter-2", open: [6, 34], mcq: [5, 32] },
-    { id: "chapter-3", open: [34, 38], mcq: [32, 47] },
-    { id: "chapter-4", open: [38, 55], mcq: [47, 54] },
-    { id: "chapter-5", open: [55, 67], mcq: [54, 68] },
-    { id: "chapter-6", open: [67, 78], mcq: [68, 81] },
-  ];
-  
-  const currentIndices = chapterIndices.find(c => c.id === chapterId)!;
-  const currentOpenQs = bGymnasiouQuestions.slice(currentIndices.open[0], currentIndices.open[1]);
-  const currentMCQs = bGymnasiouMCQ.slice(currentIndices.mcq[0], currentIndices.mcq[1]);
+  const currentOpenQs = bGymnasiouQuestions.filter(q => q.chapterId === chapterId);
+  const currentMCQs = bGymnasiouMCQ.filter(q => q.chapterId === chapterId);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-cyan-800 to-blue-900 text-white font-sans flex flex-col relative overflow-hidden">
