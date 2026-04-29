@@ -16,6 +16,8 @@ import {
   Globe, Clock, Microscope, Beaker, FileText, X
 } from "lucide-react";
 
+import { sendEmailAction } from "../actions/sendEmail";
+
 // --- TYPES ---
 type InquiryType = "question" | "comment" | "support" | "business";
 
@@ -197,25 +199,32 @@ export default function ContactPage() {
     if (!validate()) return;
 
     setIsSubmitting(true);
-    // Simulate API call delay
-    await new Promise(resolve => setTimeout(resolve, 2500));
+    
+    // Call the Server Action
+    const result = await sendEmailAction(formData);
     
     setIsSubmitting(false);
-    setIsSuccess(true);
-    
-    // Reset after success
-    setTimeout(() => {
-      setIsSuccess(false);
-      setFormData({
-        firstName: "",
-        lastName: "",
-        email: "",
-        subject: "",
-        inquiryType: "question",
-        message: ""
-      });
-      setFiles([]);
-    }, 6000);
+
+    if (result.success) {
+      setIsSuccess(true);
+      
+      // Reset after success
+      setTimeout(() => {
+        setIsSuccess(false);
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          subject: "",
+          inquiryType: "question",
+          message: ""
+        });
+        setFiles([]);
+      }, 6000);
+    } else {
+      alert("Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος. Παρακαλώ δοκιμάστε ξανά.");
+      console.error(result.error);
+    }
   };
 
   // Filter FAQs based on selected inquiry type

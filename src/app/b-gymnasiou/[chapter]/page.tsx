@@ -5,7 +5,9 @@ type Props = {
   params: Promise<{ chapter: string }>;
 };
 
-const validChapters = ["chapter-1", "chapter-2", "chapter-3", "chapter-4", "chapter-5", "chapter-6"];
+import { bGymnasiouChapters } from "@/data/curriculum";
+
+const validChapters = bGymnasiouChapters.map(c => c.id);
 
 export default async function ChapterPage({ params }: Props) {
   const { chapter } = await params;

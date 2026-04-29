@@ -15,7 +15,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Βασικές Έννοιες",
     description: "Η επιστημονική αξία της Χημείας, ύλη, μίγματα, χημικές αντιδράσεις και επιστημονική μέθοδος.",
     topics: 5,
-    exercises: 64,
+    exercises: 21,
     color: "from-purple-600 to-purple-400"
   },
   {
@@ -24,7 +24,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Δομή Ατόμου - Περιοδικός Πίνακας",
     description: "Υποατομικά σωματίδια, ισότοπα, πρότυπο Bohr, ηλεκτρονιακή δομή και σύγχρονος περιοδικός πίνακας.",
     topics: 6,
-    exercises: 7,
+    exercises: 50,
     color: "from-blue-600 to-blue-400"
   },
   {
@@ -33,7 +33,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Χημικοί Δεσμοί",
     description: "Ιοντικός δεσμός, ομοιοπολικός δεσμός, διαμοριακές δυνάμεις και γεωμετρία μορίων.",
     topics: 4,
-    exercises: 27,
+    exercises: 2,
     color: "from-indigo-600 to-indigo-400"
   },
   {
@@ -42,7 +42,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Στοιχειομετρία",
     description: "Μοριακό βάρος, mole, γραμμομοριακός όγκος, καταστατική εξίσωση αερίων και χημικές εξισώσεις.",
     topics: 8,
-    exercises: 45,
+    exercises: 22,
     color: "from-violet-600 to-violet-400"
   },
   {
@@ -68,93 +68,84 @@ export const aLykeiouChapters: Chapter[] = [
 export const bGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-1",
-    number: "1.1",
+    number: "1",
     title: "Εισαγωγή στη Χημεία",
-    description: "Τι είναι η χημεία, γιατί τη μελετάμε και η σημασία της στην καθημερινή ζωή.",
-    topics: 2,
-    exercises: 64,
+    description: "Τι είναι η χημεία, γιατί τη μελετάμε, εργαστηριακός εξοπλισμός και η σημασία της χημείας στη ζωή.",
+    topics: 7,
+    exercises: 11,
     color: "from-cyan-600 to-cyan-400"
   },
   {
     id: "chapter-2",
-    number: "1.2",
+    number: "2",
     title: "Η Χημεία στο Εργαστήριο",
-    description: "Βασικός εργαστηριακός εξοπλισμός και κανόνες ασφαλείας.",
-    topics: 1,
-    exercises: 7,
-    color: "from-blue-600 to-blue-400"
-  },
-  {
-    id: "chapter-3",
-    number: "1.3",
-    title: "Τα σωματίδια της ύλης",
-    description: "Οι απόψεις των αρχαίων Ελλήνων και η ατομική θεωρία.",
+    description: "Εργαστηριακός εξοπλισμός και βασικές τεχνικές.",
     topics: 2,
-    exercises: 27,
-    color: "from-sky-600 to-sky-400"
-  },
-  {
-    id: "chapter-4",
-    number: "1.4",
-    title: "Η δομή του ατόμου",
-    description: "Πρωτόνια, νετρόνια, ηλεκτρόνια και η δομή του ατόμου.",
-    topics: 2,
-    exercises: 45,
-    color: "from-teal-600 to-teal-400"
-  },
-  {
-    id: "chapter-5",
-    number: "2.1",
-    title: "Το νερό στη ζωή μας",
-    description: "Η κατανομή του νερού, πόσιμο νερό και οι ιδιότητές του.",
-    topics: 2,
-    exercises: 36,
+    exercises: 0,
     color: "from-emerald-600 to-emerald-400"
   },
   {
-    id: "chapter-6",
-    number: "2.2",
-    title: "Μίγματα",
-    description: "Ομογενή και ετερογενή μίγματα.",
-    topics: 2,
-    exercises: 3,
-    color: "from-cyan-500 to-blue-500"
-  },
-  {
-    id: "chapter-7",
-    number: "2.3",
-    title: "Διαλύματα",
-    description: "Περιεκτικότητες διαλυμάτων, %w/w, %w/v, %v/v.",
+    id: "chapter-3",
+    number: "3",
+    title: "Το νερό, Μίγματα και Διαλύματα",
+    description: "Το νερό στη ζωή μας, ομογενή και ετερογενή μίγματα, διαλύματα και διαχωρισμός μιγμάτων.",
     topics: 3,
-    exercises: 12,
-    color: "from-indigo-600 to-indigo-400"
-  },
-  {
-    id: "chapter-8",
-    number: "2.4",
-    title: "Διαχωρισμός μιγμάτων",
-    description: "Μέθοδοι διαχωρισμού (διήθηση, απόσταξη, χρωματογραφία κ.ά.).",
-    topics: 2,
-    exercises: 8,
-    color: "from-violet-600 to-violet-400"
-  },
-  {
-    id: "chapter-9",
-    number: "3.1",
-    title: "Χημικά Στοιχεία & Χημικοί Τύποι",
-    description: "Καθαρές ουσίες, στοιχεία, ενώσεις και μοριακοί τύποι.",
-    topics: 3,
-    exercises: 16,
+    exercises: 56,
     color: "from-purple-600 to-purple-400"
   },
   {
-    id: "chapter-10",
-    number: "4.1",
-    title: "Χημικές Αντιδράσεις",
-    description: "Χημικές εξισώσεις, αρχή διατήρησης της μάζας, εξώθερμες/ενδόθερμες αντιδράσεις και περιβάλλον.",
+    id: "chapter-4",
+    number: "4",
+    title: "Από τη μυθολογία στη Χημεία",
+    description: "Η γέννηση της Χημείας, οι αρχαίοι Έλληνες φιλόσοφοι και η εξέλιξη της επιστήμης.",
     topics: 5,
-    exercises: 24,
+    exercises: 43,
     color: "from-pink-600 to-pink-400"
+  },
+  {
+    id: "chapter-5",
+    number: "5",
+    title: "Από την ατομική θεωρία του Δημόκριτου στα μόρια",
+    description: "Δομικά υλικά, άτομα, μόρια και οι θεωρίες του Δημόκριτου και του Dalton.",
+    topics: 5,
+    exercises: 6,
+    color: "from-blue-600 to-indigo-600"
+  },
+  {
+    id: "chapter-6",
+    number: "6",
+    title: "Η Γλώσσα της Χημείας",
+    description: "Σύμβολα, χημικοί και μοριακοί τύποι στοιχείων και ενώσεων.",
+    topics: 6,
+    exercises: 6,
+    color: "from-blue-600 to-indigo-600"
+  },
+  {
+    id: "chapter-7",
+    number: "7",
+    title: "Η Δομή του Ατόμου - Ιόντα",
+    description: "Η ιστορική πορεία των αντιλήψεων για τη δομή του ατόμου, πρωτόνια, ηλεκτρόνια, ατομικός/μαζικός αριθμός, ιόντα.",
+    topics: 4,
+    exercises: 26,
+    color: "from-blue-600 to-indigo-600"
+  },
+  {
+    id: "chapter-8",
+    number: "8",
+    title: "Χημικές Αντιδράσεις",
+    description: "Χημικές εξισώσεις, αρχή διατήρησης της μάζας, εξώθερμες και ενδόθερμες αντιδράσεις.",
+    topics: 3,
+    exercises: 10,
+    color: "from-purple-600 to-fuchsia-600"
+  },
+  {
+    id: "chapter-9",
+    number: "9",
+    title: "Χημεία και Περιβάλλον",
+    description: "Χημική σύνθεση, χημική ανάλυση και η συμβολή τους στην αντιμετώπιση σύγχρονων περιβαλλοντικών θεμάτων.",
+    topics: 3,
+    exercises: 4,
+    color: "from-green-600 to-emerald-600"
   }
 ];
 

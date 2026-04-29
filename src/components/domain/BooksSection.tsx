@@ -31,7 +31,7 @@ const books = [
     color: "from-cyan-500 via-blue-500 to-indigo-600",
     glow: "rgba(59,130,246,0.4)",
     badge: "200+ Ερωτήσεις και Ασκήσεις",
-    chapters: 5,
+    chapters: 4,
     exercises: 200,
     digitalObjects: 140,
     features: ["Απλά πειράματα", "Καθημερινή χημεία", "Εισαγωγικές Ερωτήσεις και Ασκήσεις"],
