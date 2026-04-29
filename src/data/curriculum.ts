@@ -129,7 +129,7 @@ export const gGymnasiouChapters: Chapter[] = [
     title: "Επαναληπτικό Κεφάλαιο",
     description: "Δομή ατόμου και Χημικές Αντιδράσεις.",
     topics: 3,
-    exercises: 23,
+    exercises: 25,
     color: "from-slate-600 to-slate-400"
   },
   {
