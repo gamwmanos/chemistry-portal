@@ -164,7 +164,7 @@ export const gGymnasiouChapters: Chapter[] = [
     number: "2",
     title: "Η ΔΟΜΗ ΤΟΥ ΑΤΟΜΟΥ – ΙΟΝΤΙΚΟΣ ΔΕΣΜΟΣ",
     description: "Ατομικό πρότυπο Bohr, ιόντα και ιοντικές ενώσεις.",
-    topics: 2,
+    topics: 4,
     exercises: 7,
     color: "from-indigo-600 to-indigo-400"
   },
@@ -173,7 +173,7 @@ export const gGymnasiouChapters: Chapter[] = [
     number: "3",
     title: "ΠΕΡΙΟΔΙΚΟΣ ΠΙΝΑΚΑΣ",
     description: "Περιοδικός πίνακας, μέταλλα και αμέταλλα.",
-    topics: 4,
+    topics: 3,
     exercises: 27,
     color: "from-teal-600 to-teal-400"
   },
@@ -182,7 +182,7 @@ export const gGymnasiouChapters: Chapter[] = [
     number: "4",
     title: "ΕΝΩΣΕΙΣ ΤΟΥ ΑΝΘΡΑΚΑ – ΟΡΓΑΝΙΚΗ ΧΗΜΕΙΑ",
     description: "Οργανική χημεία, υδρογονάνθρακες, καύσιμα και πολυμερή.",
-    topics: 5,
+    topics: 4,
     exercises: 45,
     color: "from-green-600 to-green-400"
   },
@@ -191,7 +191,7 @@ export const gGymnasiouChapters: Chapter[] = [
     number: "5",
     title: "ΣΤΟΙΧΕΙΑ ΚΑΙ ΧΗΜΙΚΕΣ ΕΝΩΣΕΙΣ ΜΕ ΙΔΙΑΙΤΕΡΟ ΕΝΔΙΑΦΕΡΟΝ",
     description: "Γνωριμία με τα οξέα, τις βάσεις, τα άλατα και την κλίμακα pH.",
-    topics: 5,
+    topics: 7,
     exercises: 36,
     color: "from-emerald-600 to-emerald-400"
   },
@@ -200,7 +200,7 @@ export const gGymnasiouChapters: Chapter[] = [
     number: "6",
     title: "Η ΧΗΜΕΙΑ ΣΗΜΕΡΑ",
     description: "Μορφές ενέργειας, υλικά και περιβάλλον.",
-    topics: 2,
+    topics: 3,
     exercises: 3,
     color: "from-cyan-600 to-cyan-400"
   }

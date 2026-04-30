@@ -29,6 +29,52 @@ export default function ChapterContent({ chapterId }: Props) {
   const currentOpenQs = gGymnasiouQuestions.filter(q => q.chapterId === chapterId);
   const currentMCQs = gGymnasiouMCQ.filter(q => q.chapterId === chapterId);
 
+  let theoryPdfs: { title: string; url: string }[] = [];
+  
+  if (chapterId === "chapter-1") {
+    theoryPdfs = [
+      { title: "Θεωρία 1.1", url: "https://drive.google.com/file/d/1Zlj7DrzX2ThBZ1FIGVpF3wMkX9C_rSqB/preview" },
+      { title: "Θεωρία 1.2", url: "https://drive.google.com/file/d/1lSVf94JQHmxY4I33It5i33aOZIaqt8up/preview" },
+      { title: "Θεωρία 1.3", url: "https://drive.google.com/file/d/1azZwYcciytMZUVKNu4e73f4usIF1ncVB/preview" }
+    ];
+  } else if (chapterId === "chapter-2") {
+    theoryPdfs = [
+      { title: "Θεωρία 2.1", url: "https://drive.google.com/file/d/12wWCOzU61xmfMya-IfzGoAJnSbvRVXA9/preview" },
+      { title: "Θεωρία 2.2", url: "https://drive.google.com/file/d/1ahOSVproyPRqvfUh_MFmoTt_iTUUU734/preview" },
+      { title: "Θεωρία 2.3", url: "https://drive.google.com/file/d/1VUs4UJCUdTKXCuAueVsxnj8aYYlC105V/preview" },
+      { title: "Θεωρία 2.4", url: "https://drive.google.com/file/d/1tnStI_8hF3N_snPfbKlgYajr957hN-G3/preview" }
+    ];
+  } else if (chapterId === "chapter-3") {
+    theoryPdfs = [
+      { title: "Θεωρία 3.1", url: "https://drive.google.com/file/d/1B2CR9fX9D0TVR8qld5gKsGxpRmFz4eKR/preview" },
+      { title: "Θεωρία 3.2", url: "https://drive.google.com/file/d/18WCNhiT2K2aHNdu49mD2UopXJ9NebQKz/preview" },
+      { title: "Θεωρία 3.3", url: "https://drive.google.com/file/d/1NiqMezHdPZAnQL03mIoH9H1UfwcSbSsb/preview" }
+    ];
+  } else if (chapterId === "chapter-4") {
+    theoryPdfs = [
+      { title: "Θεωρία 4.1", url: "https://drive.google.com/file/d/10f3LFpexx083KBH6UR-lw4n2lli_pLK9/preview" },
+      { title: "Θεωρία 4.2", url: "https://drive.google.com/file/d/1Na8NPAYrBphMbYqKgmAtlA_rysGccdLL/preview" },
+      { title: "Θεωρία 4.3", url: "https://drive.google.com/file/d/1syOMCbTQA-zv52V_330rS61uhSSuTOhi/preview" },
+      { title: "Θεωρία 4.4", url: "https://drive.google.com/file/d/1GBdAh5Fm-zJlvSE0mKRxqgWeEQDSb1Qg/preview" }
+    ];
+  } else if (chapterId === "chapter-5") {
+    theoryPdfs = [
+      { title: "Θεωρία 5.1", url: "https://drive.google.com/file/d/15YkCBZK0ZNNvbfnIhoCYJ3KYL4eWrPlo/preview" },
+      { title: "Θεωρία 5.2", url: "https://drive.google.com/file/d/1KkT48mRXgXXUvu6TrqyybAS3s10pho48/preview" },
+      { title: "Θεωρία 5.3", url: "https://drive.google.com/file/d/1-DkOjKotLHyfUHQad9_i_bHHuXaeT3ZJ/preview" },
+      { title: "Θεωρία 5.4", url: "https://drive.google.com/file/d/1lvBmlh6mpPBOUPKeJN3a53ngfmNAc_ak/preview" },
+      { title: "Θεωρία 5.5", url: "https://drive.google.com/file/d/1JAdjTXyPyeg5CBB8CQjQ8vcXEACRlhiJ/preview" },
+      { title: "Θεωρία 5.6", url: "https://drive.google.com/file/d/1nPlz2xHuJhDbHTlwENiHxDSAp9IcpFhd/preview" },
+      { title: "Θεωρία 5.7", url: "https://drive.google.com/file/d/1EyRGO_abTF61iorMDBHWAbxXBzYIXHoU/preview" }
+    ];
+  } else if (chapterId === "chapter-6") {
+    theoryPdfs = [
+      { title: "Θεωρία 6.1", url: "https://drive.google.com/file/d/1xGkmon3f2xu5cnbc8rU7T0H9pWCgfFUW/preview" },
+      { title: "Θεωρία 6.2", url: "https://drive.google.com/file/d/1uLE37r6qorOCDx2YxVtRwdm8KVgPzWIF/preview" },
+      { title: "Θεωρία 6.3", url: "https://drive.google.com/file/d/15GMCmLK2D22uaw-2AgMwUuZEQdkd626l/preview" }
+    ];
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-800 to-teal-900 text-white font-sans flex flex-col relative overflow-hidden">
       {/* Decorative background blurs */}
@@ -93,13 +139,31 @@ export default function ChapterContent({ chapterId }: Props) {
             >
               {activeTab === "theory" && (
                 <div className="w-full flex flex-col gap-8">
-                  <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
-                    <BookOpen className="w-16 h-16 text-white/30 mb-4" />
-                    <h3 className="text-xl font-bold mb-2 font-proxima text-white">Θεωρία Κεφαλαίου</h3>
-                    <p className="text-emerald-200 text-center max-w-md font-inter">
-                      Το θεωρητικό υλικό για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμο.
-                    </p>
-                  </div>
+                   {theoryPdfs.length > 0 ? (
+                     theoryPdfs.map((pdf) => (
+                       <div key={pdf.url} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden">
+                         <h3 className="text-xl font-bold mb-4 font-proxima text-white flex items-center gap-2">
+                           <BookOpen className="w-5 h-5 text-emerald-300" />
+                           {pdf.title}
+                         </h3>
+                         <div className="relative w-full rounded-2xl overflow-hidden bg-black/20 border border-white/10" style={{ aspectRatio: '16/9' }}>
+                           <iframe 
+                             src={pdf.url} 
+                             className="absolute inset-0 w-full h-full border-0" 
+                             allow="autoplay"
+                           />
+                         </div>
+                       </div>
+                     ))
+                   ) : (
+                     <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
+                       <BookOpen className="w-16 h-16 text-white/30 mb-4" />
+                       <h3 className="text-xl font-bold mb-2 font-proxima text-white">Θεωρία Κεφαλαίου</h3>
+                       <p className="text-emerald-200 text-center max-w-md font-inter">
+                         Το θεωρητικό υλικό για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμο.
+                       </p>
+                     </div>
+                   )}
                 </div>
               )}
 
