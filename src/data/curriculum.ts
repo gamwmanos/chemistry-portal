@@ -69,61 +69,61 @@ export const bGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-1",
     number: "1",
-    title: "Εισαγωγή στη Χημεία",
+    title: "Ο ΚΟΣΜΟΣ ΤΗΣ ΧΗΜΕΙΑΣ",
     description: "Τι είναι η χημεία, γιατί τη μελετάμε, εργαστηριακός εξοπλισμός και η σημασία της χημείας στη ζωή.",
-    topics: 7,
+    topics: 2,
     exercises: 11,
     color: "from-cyan-600 to-cyan-400"
   },
   {
     id: "chapter-2",
     number: "2",
-    title: "Η Χημεία στο Εργαστήριο",
+    title: "ΤΟ ΕΡΓΑΣΤΗΡΙΟ ΧΗΜΕΙΑΣ",
     description: "Εργαστηριακός εξοπλισμός και βασικές τεχνικές.",
-    topics: 2,
+    topics: 3,
     exercises: 0,
     color: "from-emerald-600 to-emerald-400"
   },
   {
     id: "chapter-3",
     number: "3",
-    title: "Το νερό, Μίγματα και Διαλύματα",
+    title: "ΤΟ ΝΕΡΟ ΩΣ ΔΙΑΛΥΤΗΣ",
     description: "Το νερό στη ζωή μας, ομογενή και ετερογενή μίγματα, διαλύματα και διαχωρισμός μιγμάτων.",
-    topics: 3,
+    topics: 5,
     exercises: 56,
     color: "from-purple-600 to-purple-400"
   },
   {
     id: "chapter-4",
     number: "4",
-    title: "Από τη μυθολογία στη Χημεία",
+    title: "ΑΠΟ ΤΙΣ ΕΝΩΣΕΙΣ ΣΤΑ ΧΗΜΙΚΑ ΣΤΟΙΧΕΙΑ",
     description: "Η γέννηση της Χημείας, οι αρχαίοι Έλληνες φιλόσοφοι και η εξέλιξη της επιστήμης.",
-    topics: 5,
+    topics: 2,
     exercises: 43,
     color: "from-pink-600 to-pink-400"
   },
   {
     id: "chapter-5",
     number: "5",
-    title: "Από την ατομική θεωρία του Δημόκριτου στα μόρια",
+    title: "ΑΠΟ ΤΑ ΧΗΜΙΚΑ ΣΤΟΙΧΕΙΑ ΣΤΑ ΑΤΟΜΑ",
     description: "Δομικά υλικά, άτομα, μόρια και οι θεωρίες του Δημόκριτου και του Dalton.",
-    topics: 5,
+    topics: 2,
     exercises: 6,
     color: "from-blue-600 to-indigo-600"
   },
   {
     id: "chapter-6",
     number: "6",
-    title: "Η Γλώσσα της Χημείας",
+    title: "Η ΓΛΩΣΣΑ ΤΗΣ ΧΗΜΕΙΑΣ",
     description: "Σύμβολα, χημικοί και μοριακοί τύποι στοιχείων και ενώσεων.",
-    topics: 6,
+    topics: 1,
     exercises: 6,
     color: "from-blue-600 to-indigo-600"
   },
   {
     id: "chapter-7",
     number: "7",
-    title: "Η Δομή του Ατόμου - Ιόντα",
+    title: "ΑΠΟ ΤΑ ΑΤΟΜΑ ΣΤΑ ΥΠΟΑΤΟΜΙΚΑ ΣΩΜΑΤΙΔΙΑ",
     description: "Η ιστορική πορεία των αντιλήψεων για τη δομή του ατόμου, πρωτόνια, ηλεκτρόνια, ατομικός/μαζικός αριθμός, ιόντα.",
     topics: 4,
     exercises: 26,
@@ -132,7 +132,7 @@ export const bGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-8",
     number: "8",
-    title: "Χημικές Αντιδράσεις",
+    title: "Η ΧΗΜΙΚΗ ΑΝΤΙΔΡΑΣΗ",
     description: "Χημικές εξισώσεις, αρχή διατήρησης της μάζας, εξώθερμες και ενδόθερμες αντιδράσεις.",
     topics: 3,
     exercises: 10,
@@ -141,7 +141,7 @@ export const bGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-9",
     number: "9",
-    title: "Χημεία και Περιβάλλον",
+    title: "ΧΗΜΕΙΑ ΚΑΙ ΣΥΓΧΡΟΝΑ ΘΕΜΑΤΑ",
     description: "Χημική σύνθεση, χημική ανάλυση και η συμβολή τους στην αντιμετώπιση σύγχρονων περιβαλλοντικών θεμάτων.",
     topics: 3,
     exercises: 4,
@@ -153,7 +153,7 @@ export const gGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-1",
     number: "1",
-    title: "Χημικές Αντιδράσεις",
+    title: "Η ΧΗΜΙΚΗ ΑΝΤΙΔΡΑΣΗ – ΧΗΜΙΚΕΣ ΕΞΙΣΩΣΕΙΣ",
     description: "Αντιδρώντα, προϊόντα, εξώθερμες/ενδόθερμες και νόμος Lavoisier.",
     topics: 3,
     exercises: 64,
@@ -162,7 +162,7 @@ export const gGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-2",
     number: "2",
-    title: "Δομή Ατόμου & Ιόντα",
+    title: "Η ΔΟΜΗ ΤΟΥ ΑΤΟΜΟΥ – ΙΟΝΤΙΚΟΣ ΔΕΣΜΟΣ",
     description: "Ατομικό πρότυπο Bohr, ιόντα και ιοντικές ενώσεις.",
     topics: 2,
     exercises: 7,
@@ -171,7 +171,7 @@ export const gGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-3",
     number: "3",
-    title: "Ταξινόμηση Στοιχείων",
+    title: "ΠΕΡΙΟΔΙΚΟΣ ΠΙΝΑΚΑΣ",
     description: "Περιοδικός πίνακας, μέταλλα και αμέταλλα.",
     topics: 4,
     exercises: 27,
@@ -180,7 +180,7 @@ export const gGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-4",
     number: "4",
-    title: "Η Χημεία του Άνθρακα",
+    title: "ΕΝΩΣΕΙΣ ΤΟΥ ΑΝΘΡΑΚΑ – ΟΡΓΑΝΙΚΗ ΧΗΜΕΙΑ",
     description: "Οργανική χημεία, υδρογονάνθρακες, καύσιμα και πολυμερή.",
     topics: 5,
     exercises: 45,
@@ -189,7 +189,7 @@ export const gGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-5",
     number: "5",
-    title: "Οξέα - Βάσεις - Άλατα",
+    title: "ΣΤΟΙΧΕΙΑ ΚΑΙ ΧΗΜΙΚΕΣ ΕΝΩΣΕΙΣ ΜΕ ΙΔΙΑΙΤΕΡΟ ΕΝΔΙΑΦΕΡΟΝ",
     description: "Γνωριμία με τα οξέα, τις βάσεις, τα άλατα και την κλίμακα pH.",
     topics: 5,
     exercises: 36,
@@ -198,7 +198,7 @@ export const gGymnasiouChapters: Chapter[] = [
   {
     id: "chapter-6",
     number: "6",
-    title: "Ενέργεια και Ζωή",
+    title: "Η ΧΗΜΕΙΑ ΣΗΜΕΡΑ",
     description: "Μορφές ενέργειας, υλικά και περιβάλλον.",
     topics: 2,
     exercises: 3,
