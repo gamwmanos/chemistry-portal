@@ -52,6 +52,24 @@ export default function GradeAHub() {
             >
               Εισαγωγή στον συναρπαστικό κόσμο της Χημείας. Επιλέξτε κεφάλαιο για να ξεκινήσετε τη μελέτη σας, να λύσετε ερωτήσεις και ασκήσεις και να δείτε πειράματα.
             </motion.p>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="mt-8"
+            >
+              <a 
+                href="https://ebooksdl.cti.gr/handle/20.500.14040/467"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-medium hover:from-violet-400 hover:to-fuchsia-400 transition-all shadow-lg shadow-violet-500/25 hover:shadow-violet-400/40 hover:-translate-y-0.5"
+              >
+                <BookOpen className="w-5 h-5" />
+                <span>Διαδραστικό Βιβλίο (Ψηφιακή Βιβλιοθήκη)</span>
+                <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+              </a>
+            </motion.div>
           </div>
           
           <motion.div 

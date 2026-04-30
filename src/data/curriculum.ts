@@ -99,7 +99,7 @@ export const bGymnasiouChapters: Chapter[] = [
     title: "ΑΠΟ ΤΙΣ ΕΝΩΣΕΙΣ ΣΤΑ ΧΗΜΙΚΑ ΣΤΟΙΧΕΙΑ",
     description: "Η γέννηση της Χημείας, οι αρχαίοι Έλληνες φιλόσοφοι και η εξέλιξη της επιστήμης.",
     topics: 2,
-    exercises: 43,
+    exercises: 58,
     color: "from-pink-600 to-pink-400"
   },
   {

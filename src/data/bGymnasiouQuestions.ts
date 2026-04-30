@@ -172,32 +172,32 @@ export const bGymnasiouQuestions: Question[] = [
     "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>Ο Δημόκριτος πίστευε ότι τα υλικά σώματα αποτελούνται από άτομα τα οποία είναι άφθαρτα, άτμητα και αναλλοίωτα. Ο συνδυασμός τους σχηματίζει τα ουράνια σώματα. Η θεωρία του δεν έγινε αποδεκτή από τους συγχρόνους του [cite: 429-434].</li>\n      <li class='mb-2'>Ο Αριστοτέλης πίστευε ότι τα υλικά σώματα προέρχονται από τον συνδυασμό 4 στοιχείων τα οποία είναι αέρας, φωτιά, γη, νερό και του αιθέρα [cite: 435-439]. Η θεωρία του έγινε αποδεκτή, επηρέασε τους αλχημιστές (στην προσπάθειά τους για τη φιλοσοφική λίθο και το ελιξίριο της ζωής) και καταρρίφθηκε αργότερα [cite: 437-440].</li>\n      <li class='mb-2'>Ο Lavoisier απέδειξε ότι το νερό σχηματίζεται από H<sub>2</sub> και O<sub>2</sub>, δηλαδή είναι χημική ένωση[cite: 438].</li>\n    </ul></span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "α. Πότε ένα υλικό σώμα χαρακτηρίζεται καθαρή ουσία; β. Πότε μία χημική ουσία χαρακτηρίζεται χημικό στοιχείο; (Δώστε 2 παραδείγματα) γ. Πότε μία χημική ουσία χαρακτηρίζεται χημική ένωση; (Δώστε 2 παραδείγματα).",
     "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>α. Καθαρές ουσίες ονομάζονται οι ουσίες που έχουν απόλυτα καθορισμένη σύσταση[cite: 451].</li>\n      <li class='mb-2'>β. Χημικό στοιχείο είναι μία ουσία που δεν μπορεί να διασπαστεί σε άλλες απλούστερες[cite: 452]. Χαρακτηριστικά παραδείγματα είναι το υδρογόνο και το οξυγόνο[cite: 453].</li>\n      <li class='mb-2'>γ. Χημική ένωση είναι μία ουσία που μπορεί να διασπαστεί σε άλλες απλούστερες, έχει σταθερή σύσταση και έχει καθορισμένες φυσικές σταθερές [cite: 454-460]. Χαρακτηριστικά παραδείγματα είναι το νερό και η ζάχαρη[cite: 460].</li>\n    </ul></span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "α. Πώς κατέληξε ο Lavoisier στο συμπέρασμα ότι το νερό είναι μία χημική ένωση; β. Ποιες πειραματικές μεθόδους χρησιμοποιούμε για να διαπιστώσουμε τα στοιχεία του νερού; γ. Αν παράγονται 2 L αερίου Α και 4 L αερίου Β, ποιο είναι το καθένα; δ. Αν παράγονται 4 g οξυγόνου, πόσα g υδρογόνου παράγονται και πόσα g νερού διασπάστηκαν;",
     "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>α. Ο Lavoisier παρασκεύασε νερό από υδρογόνο και οξυγόνο, δηλαδή από απλούστερες χημικές ουσίες[cite: 468].</li>\n      <li class='mb-2'>β. Για το οξυγόνο βάζουμε μια μισοσβησμένη παρασχίδα στον σωλήνα και παρατηρούμε ότι αναφλέγεται[cite: 468]. Για το υδρογόνο πλησιάζουμε αναμμένη παρασχίδα στις φυσαλίδες και ακούμε χαρακτηριστικό κρότο (καίγεται με έντονη φλόγα)[cite: 468].</li>\n      <li class='mb-2'>γ. Ο όγκος του υδρογόνου είναι διπλάσιος από τον όγκο του οξυγόνου. Επομένως το αέριο Α (2 L) είναι το οξυγόνο και το Β (4 L) το υδρογόνο[cite: 468].</li>\n      <li class='mb-2'>δ. Η μάζα του οξυγόνου είναι οκταπλάσια του υδρογόνου. Άρα για 4 g οξυγόνου παράγονται 0,5 g υδρογόνου. Συνολικά διασπάστηκαν 4,5 g νερού[cite: 468].</li>\n    </ul></span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Η κρυσταλλική ζάχαρη είναι μία χημική ένωση με σημείο τήξης περίπου 170°C. Πώς θα βρείτε αν ένα δείγμα είναι νοθευμένο; Αν αρχίζει να λιώνει στους 160°C και η θερμοκρασία αυξάνεται σταδιακά, έχει προσμείξεις;",
     "a": "<span class='text-purple-300 font-bold'>Θα μπορούσαμε να θερμάνουμε το δείγμα ζάχαρης. Αν το σημείο τήξης του δείγματος είναι διαφορετικό από 170°C (όπως στην περίπτωση που λιώνει στους 160°C), τότε έχει προσμείξεις και είναι νοθευμένο [cite: 483-488].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τα κενά: α. Τα μείγματα σε αντίθεση με τις χημικές ουσίες δεν έχουν ... β. Κατά τη διάρκεια του βρασμού του απιοντισμένου νερού η θερμοκρασία ... γιατί το νερό είναι ...",
     "a": "<span class='text-purple-300 font-bold'>α. καθορισμένες φυσικές σταθερές[cite: 490]. <br>β. διατηρείται σταθερή, γιατί το νερό είναι καθαρή ουσία[cite: 491].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Ο Ίον έχει μάζα 75 kg και το 66% της μάζας του είναι νερό (δηλαδή 49,5 kg νερό). Με δεδομένο ότι η αναλογία μαζών υδρογόνου - οξυγόνου στο νερό είναι σταθερή και ίση με 1/8, υπολογίστε τις μάζες τους.",
     "a": "<span class='text-purple-300 font-bold'>Η μάζα του υδρογόνου στο νερό στο σώμα του Ίονα είναι 5,5 kg και η μάζα του οξυγόνου είναι 44 kg [cite: 492-501].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Δίνεται διάγραμμα θέρμανσης υγρών Α και Β. Τη χρονική στιγμή t1 αρχίζει να βράζει το Α και τη χρονική στιγμή t2 το Β. Στο διάγραμμα, το σώμα Β διατηρεί σταθερή θερμοκρασία μετά την t2, ενώ το Α όχι. Είναι κάποιο από τα δύο χημική ουσία;",
     "a": "<span class='text-purple-300 font-bold'>Καθαρή ουσία είναι μόνο το σώμα Β, καθώς μετά τη χρονική στιγμή t2 (όπου αρχίζει ο βρασμός του) παρατηρούμε ότι η θερμοκρασία παραμένει σταθερή [cite: 504-516].</span>"
   },
@@ -222,37 +222,37 @@ export const bGymnasiouQuestions: Question[] = [
     "a": "<span class='text-purple-300 font-bold'>α. Το προσομοίωμα αναπαριστά μόριο χημικής ένωσης καθώς αποτελείται από άτομα διαφορετικών στοιχείων[cite: 566]. <br>β. Το μόριο της ακετόνης αποτελείται από 3 άτομα άνθρακα, 6 άτομα υδρογόνου και 1 άτομο οξυγόνου[cite: 567].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "α. Πώς συμβολίζονται τα άτομα των χημικών στοιχείων; β. Πώς συμβολίζονται τα μόρια των χημικών στοιχείων;",
     "a": "<span class='text-purple-300 font-bold'>α. Συμβολίζονται με ένα κεφαλαίο γράμμα που σε μερικές περιπτώσεις συνοδεύεται από ένα πεζό (αρχικά του ονόματός τους)[cite: 574]. <br>β. Από το σύμβολο του ατόμου με έναν αριθμό ως δείκτη δεξιά ο οποίος δηλώνει τον αριθμό των ατόμων (Π.χ. H<sub>2</sub>) [cite: 575-576].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Πώς συμβολίζονται τα μόρια των χημικών ενώσεων; Να γράψετε ένα παράδειγμα.",
     "a": "<span class='text-purple-300 font-bold'>Με τα σύμβολα των ατόμων που το καθένα έχει έναν αριθμό ως δείκτη δεξιά, που δηλώνει τον αριθμό των ατόμων που μετέχουν στο μόριο της χημικής ένωσης. Π.χ. H<sub>2</sub>O [cite: 578-579].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τα κενά: α. Ο μοριακός τύπος του νιτρικού οξέος: HNO<sub>3</sub> μας πληροφορεί ότι... β. Ο μοριακός τύπος της αιθανόλης: C<sub>2</sub>H<sub>6</sub>O μας πληροφορεί ότι...",
     "a": "<span class='text-purple-300 font-bold'>α. Το μόριο αποτελείται από 1 άτομο αζώτου, 1 άτομο υδρογόνου και 3 άτομα οξυγόνου [cite: 581-582]. <br>β. Το μόριο αποτελείται από 1 άτομο οξυγόνου, 2 άτομα άνθρακα και 6 άτομα υδρογόνου[cite: 583].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Να γράψετε τον μοριακό τύπο για το Υδρόθειο (2 άτομα υδρογόνου, 1 άτομο θείου) και το Πεντοξείδιο του αζώτου (5 άτομα οξυγόνου, 2 άτομα αζώτου).",
     "a": "<span class='text-purple-300 font-bold'>Υδρόθειο: H<sub>2</sub>S[cite: 585]. Πεντοξείδιο του αζώτου: N<sub>2</sub>O<sub>5</sub>[cite: 586].</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τον πίνακα με τα σύμβολα των στοιχείων (υδρογόνο, οξυγόνο, άζωτο, άνθρακας, χαλκός, σίδηρος, θείο, φωσφόρος, χλώριο, βρώμιο, ιώδιο, μαγνήσιο, κάλιο, νάτριο, υδράργυρος, αργίλιο, ασβέστιο, πυρίτιο).",
     "a": "\n    <span class='text-purple-300 font-bold'>Ο συμπληρωμένος πίνακας είναι[cite: 610]:</span>\n    <div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n      <thead class='bg-white/10'>\n        <tr class='border-b border-white/20'>\n          <th class='py-3 px-4 font-semibold'>Στοιχείο</th>\n          <th class='py-3 px-4 font-semibold'>Σύμβολο</th>\n          <th class='py-3 px-4 font-semibold'>Στοιχείο</th>\n          <th class='py-3 px-4 font-semibold'>Σύμβολο</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-white/10\">\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>υδρογόνο</td><td class='py-3 px-4 text-emerald-400'>H</td><td class='py-3 px-4'>κάλιο</td><td class='py-3 px-4 text-emerald-400'>K</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>οξυγόνο</td><td class='py-3 px-4 text-emerald-400'>O</td><td class='py-3 px-4'>νάτριο</td><td class='py-3 px-4 text-emerald-400'>Na</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>άζωτο</td><td class='py-3 px-4 text-emerald-400'>N</td><td class='py-3 px-4'>υδράργυρος</td><td class='py-3 px-4 text-emerald-400'>Hg</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>άνθρακας</td><td class='py-3 px-4 text-emerald-400'>C</td><td class='py-3 px-4'>αργίλιο</td><td class='py-3 px-4 text-emerald-400'>Al</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>χαλκός</td><td class='py-3 px-4 text-emerald-400'>Cu</td><td class='py-3 px-4'>ασβέστιο</td><td class='py-3 px-4 text-emerald-400'>Ca</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>σίδηρος</td><td class='py-3 px-4 text-emerald-400'>Fe</td><td class='py-3 px-4'>πυρίτιο</td><td class='py-3 px-4 text-emerald-400'>Si</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>θείο</td><td class='py-3 px-4 text-emerald-400'>S</td><td class='py-3 px-4'>χλώριο</td><td class='py-3 px-4 text-emerald-400'>Cl</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>φωσφόρος</td><td class='py-3 px-4 text-emerald-400'>P</td><td class='py-3 px-4'>βρώμιο</td><td class='py-3 px-4 text-emerald-400'>Br</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>ιώδιο</td><td class='py-3 px-4 text-emerald-400'>I</td><td class='py-3 px-4'>μαγνήσιο</td><td class='py-3 px-4 text-emerald-400'>Mg</td></tr>\n      </tbody>\n    </table></div>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τον πίνακα δίνοντας το όνομα και τον χαρακτηρισμό (χημική ένωση ή διατομικό/τριατομικό/κτλ στοιχείο) για τους τύπους: H<sub>2</sub>O, HCl, CO, N<sub>2</sub>, CO<sub>2</sub>, NH<sub>3</sub>, S<sub>6</sub>, P<sub>4</sub>, O<sub>3</sub>, Cl<sub>2</sub>.",
     "a": "\n    <span class='text-purple-300 font-bold'>Ο συμπληρωμένος πίνακας είναι[cite: 634]:</span>\n    <div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n      <thead class='bg-white/10'>\n        <tr class='border-b border-white/20'>\n          <th class='py-3 px-4 font-semibold'>Χημικός τύπος</th>\n          <th class='py-3 px-4 font-semibold'>Όνομα</th>\n          <th class='py-3 px-4 font-semibold'>Χαρακτηρισμός</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-white/10\">\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>H<sub>2</sub>O</td><td class='py-3 px-4'>Νερό</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>HCl</td><td class='py-3 px-4'>Υδροχλώριο</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO</td><td class='py-3 px-4'>Μονοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>N<sub>2</sub></td><td class='py-3 px-4'>Άζωτο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO<sub>2</sub></td><td class='py-3 px-4'>Διοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>NH<sub>3</sub></td><td class='py-3 px-4'>Αμμωνία</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>S<sub>6</sub></td><td class='py-3 px-4'>Θείο</td><td class='py-3 px-4 text-blue-400'>εξατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>P<sub>4</sub></td><td class='py-3 px-4'>Φωσφόρος</td><td class='py-3 px-4 text-blue-400'>τετρατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>O<sub>3</sub></td><td class='py-3 px-4'>Όζον</td><td class='py-3 px-4 text-blue-400'>τριατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>Cl<sub>2</sub></td><td class='py-3 px-4'>Χλώριο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n      </tbody>\n    </table></div>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "9. Να συμπληρώσετε τα ονόματα των χημικών στοιχείων και των χημικών ενώσεων των οποίων δίνονται οι χημικοί τύποι και να τα χαρακτηρίσετε στην τελευταία στήλη ως μονοατομικό (διατομικό...) στοιχείο ή χημική ένωση.\n<div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n  <thead class='bg-white/10'>\n    <tr class='border-b border-white/20'>\n      <th class='py-3 px-4 font-semibold'>Χημικός τύπος</th>\n      <th class='py-3 px-4 font-semibold'>Όνομα</th>\n      <th class='py-3 px-4 font-semibold'>Χαρακτηρισμός</th>\n    </tr>\n  </thead>\n  <tbody class=\"divide-y divide-white/10\">\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>H<sub>2</sub>O</td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>HCl</td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO</td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>N<sub>2</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO<sub>2</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>NH<sub>3</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>S<sub>6</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>P<sub>4</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>O<sub>3</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>Cl<sub>2</sub></td><td class='py-3 px-4'></td><td class='py-3 px-4'></td></tr>\n  </tbody>\n</table></div>",
     "a": "<span class='text-purple-300 font-bold'>\n<div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n  <thead class='bg-white/10'>\n    <tr class='border-b border-white/20'>\n      <th class='py-3 px-4 font-semibold'>Χημικός τύπος</th>\n      <th class='py-3 px-4 font-semibold'>Όνομα</th>\n      <th class='py-3 px-4 font-semibold'>Χαρακτηρισμός</th>\n    </tr>\n  </thead>\n  <tbody class=\"divide-y divide-white/10\">\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>H<sub>2</sub>O</td><td class='py-3 px-4'>Νερό</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>HCl</td><td class='py-3 px-4'>Υδροχλώριο</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO</td><td class='py-3 px-4'>Μονοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>N<sub>2</sub></td><td class='py-3 px-4'>Άζωτο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO<sub>2</sub></td><td class='py-3 px-4'>Διοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>NH<sub>3</sub></td><td class='py-3 px-4'>Αμμωνία</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>S<sub>6</sub></td><td class='py-3 px-4'>Θείο</td><td class='py-3 px-4 text-blue-400'>εξατομικό στοιχείο</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>P<sub>4</sub></td><td class='py-3 px-4'>Φωσφόρος</td><td class='py-3 px-4 text-blue-400'>τετρατομικό στοιχείο</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>O<sub>3</sub></td><td class='py-3 px-4'>Όζον</td><td class='py-3 px-4 text-blue-400'>τριατομικό στοιχείο</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>Cl<sub>2</sub></td><td class='py-3 px-4'>Χλώριο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n  </tbody>\n</table></div>\n</span>"
   },
@@ -1218,7 +1218,7 @@ export const bGymnasiouMCQ: MCQ[] = [
     "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: Β. Το στοιχείο 15Ρ έχει ηλεκτρονιακή δομή: K(2)-L(8)-M(5). Για να αποκτήσει σταθερή δομή προσλαμβάνει τρία ηλεκτρόνια και συμπληρώνει έτσι την εξωτερική του στιβάδα με 8 ηλεκτρόνια και μετατρέπεται σε ανιόν με φορτίο -3.</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "2.1. Από τις ακόλουθες προτάσεις δεν είναι σωστή για τον Π.Π. του Mendeleev.",
     "options": [
       {
@@ -1241,7 +1241,7 @@ export const bGymnasiouMCQ: MCQ[] = [
     "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: Γ</span>"
   },
   {
-    "chapterId": "chapter-10",
+    "chapterId": "chapter-4",
     "q": "2.2. Στον Π.Π. του Mendeleev:",
     "options": [
       {

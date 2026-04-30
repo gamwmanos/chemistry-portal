@@ -52,6 +52,24 @@ export default function GradeBHub() {
             >
               Ανακαλύψτε τις βασικές αρχές της Χημείας. Επιλέξτε κεφάλαιο για να λύσετε ερωτήσεις ανάπτυξης, ασκήσεις πολλαπλής επιλογής και να εξασκηθείτε.
             </motion.p>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="mt-8"
+            >
+              <a 
+                href="https://ebooksdl.cti.gr/handle/20.500.14040/438"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-medium hover:from-cyan-400 hover:to-blue-400 transition-all shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/40 hover:-translate-y-0.5"
+              >
+                <BookOpen className="w-5 h-5" />
+                <span>Διαδραστικό Βιβλίο (Ψηφιακή Βιβλιοθήκη)</span>
+                <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+              </a>
+            </motion.div>
           </div>
           
           <motion.div 

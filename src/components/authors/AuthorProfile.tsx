@@ -66,14 +66,14 @@ export default function AuthorProfile({ author, onBack, isFocusedMode }: AuthorP
           {/* Avatar Area with Glow */}
           <div className="relative group shrink-0">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-cyan-400 rounded-2xl blur-xl opacity-40 group-hover:opacity-70 transition-opacity duration-500" />
-            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-2xl bg-white border border-blue-100 overflow-hidden flex items-center justify-center shadow-xl backdrop-blur-xl">
+            <div className="relative w-44 h-44 md:w-56 md:h-56 rounded-2xl bg-white border border-blue-100 overflow-hidden flex items-center justify-center shadow-xl backdrop-blur-xl">
               {author.image ? (
                 <Image
                   src={author.image}
                   alt={author.name}
                   fill
-                  sizes="(max-width: 768px) 128px, 160px"
-                  className="object-cover z-10"
+                  sizes="(max-width: 768px) 176px, 224px"
+                  className={`object-cover z-10 ${author.id === 'eleni-paloumpa' ? 'object-top' : ''}`}
                 />
               ) : (
                 <>
