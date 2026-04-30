@@ -153,8 +153,8 @@ export default function ChapterContent({ chapterId }: Props) {
               {activeTab === "theory" && (
                 <div className="w-full flex flex-col gap-8">
                    {theoryPdfs.length > 0 ? (
-                     theoryPdfs.map((pdf, idx) => (
-                       <div key={idx} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden">
+                     theoryPdfs.map((pdf) => (
+                       <div key={pdf.url} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden">
                          <h3 className="text-xl font-bold mb-4 font-proxima text-white flex items-center gap-2">
                            <BookOpen className="w-5 h-5 text-violet-300" />
                            {pdf.title}
