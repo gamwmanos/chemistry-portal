@@ -248,7 +248,7 @@ export default function ContactPage() {
           setFiles([]);
         }, 6000);
       } else {
-        alert("Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος. Παρακαλώ δοκιμάστε ξανά.");
+        alert(`Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος: ${result.error}`);
         console.error(result.error);
       }
     } catch (error: any) {
