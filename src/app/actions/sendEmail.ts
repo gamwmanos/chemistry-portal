@@ -2,8 +2,6 @@
 
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function sendEmailAction(data: {
   firstName: string;
   lastName: string;
@@ -14,6 +12,7 @@ export async function sendEmailAction(data: {
   attachments?: { filename: string; content: string }[];
 }) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { firstName, lastName, email, subject, inquiryType, message, attachments } = data;
 
     // Σημείωση: Επειδή προς το παρόν δεν έχεις κάνει Verify κάποιο domain (π.χ. chemistryportal.gr),
@@ -39,12 +38,12 @@ export async function sendEmailAction(data: {
 
     if (error) {
       console.error("Resend Error:", error);
-      return { success: false, error: error.message };
+      return { success: false, error: String(error.message || "Unknown Resend error") };
     }
 
-    return { success: true, data: emailData };
+    return { success: true, id: emailData ? emailData.id : null };
   } catch (error: any) {
     console.error("Server Action Error:", error);
-    return { success: false, error: error.message };
+    return { success: false, error: String(error?.message || "Internal server error") };
   }
 }
