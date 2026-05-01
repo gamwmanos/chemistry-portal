@@ -63,11 +63,11 @@ export default function GradeGHub() {
                 href="https://ebooksdl.cti.gr/handle/20.500.14040/439"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-medium hover:from-emerald-400 hover:to-teal-400 transition-all shadow-lg shadow-emerald-500/25 hover:shadow-emerald-400/40 hover:-translate-y-0.5"
+                className="group inline-flex items-center gap-4 md:gap-5 px-8 py-4 md:px-10 md:py-5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-medium hover:from-emerald-400 hover:to-teal-400 transition-all shadow-xl shadow-emerald-500/25 hover:shadow-emerald-400/40 hover:-translate-y-1"
               >
-                <BookOpen className="w-5 h-5" />
-                <span>Διαδραστικό Βιβλίο (Ψηφιακή Βιβλιοθήκη)</span>
-                <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                <img src="/images/melispi-logo-transparent.png" alt="Μελίσπη" className="h-12 md:h-14 w-auto object-contain drop-shadow-md" />
+                <span className="text-lg md:text-xl font-bold tracking-wide font-montserrat whitespace-nowrap">Δες το διδακτικό πακέτο</span>
+                <ArrowRight className="w-5 h-5 md:w-6 md:h-6 ml-2 opacity-70 group-hover:opacity-100 group-hover:translate-x-2 transition-all" />
               </a>
             </motion.div>
           </div>
