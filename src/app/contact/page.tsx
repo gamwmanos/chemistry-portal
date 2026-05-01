@@ -119,6 +119,7 @@ export default function ContactPage() {
   // For file upload mockup
   const [files, setFiles] = useState<File[]>([]);
   const [isDragging, setIsDragging] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Scroll animations
   const { scrollYProgress } = useScroll();
@@ -154,8 +155,15 @@ export default function ContactPage() {
     e.preventDefault();
     setIsDragging(false);
     if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
-      const droppedFiles = Array.from(e.dataTransfer.files).slice(0, 3); // Max 3 files
-      setFiles(prev => [...prev, ...droppedFiles]);
+      const droppedFiles = Array.from(e.dataTransfer.files).slice(0, 3 - files.length); // Max 3 files total
+      setFiles(prev => [...prev, ...droppedFiles].slice(0, 3));
+    }
+  };
+
+  const handleFileInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files.length > 0) {
+      const selectedFiles = Array.from(e.target.files).slice(0, 3 - files.length); // Max 3 files total
+      setFiles(prev => [...prev, ...selectedFiles].slice(0, 3));
     }
   };
 
@@ -200,30 +208,53 @@ export default function ContactPage() {
 
     setIsSubmitting(true);
     
-    // Call the Server Action
-    const result = await sendEmailAction(formData);
-    
-    setIsSubmitting(false);
-
-    if (result.success) {
-      setIsSuccess(true);
+    try {
+      // Process attachments
+      const processedAttachments = await Promise.all(
+        files.map(async (file) => {
+          return new Promise<{filename: string, content: string}>((resolve, reject) => {
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = () => {
+              const base64 = (reader.result as string).split(',')[1];
+              resolve({ filename: file.name, content: base64 });
+            };
+            reader.onerror = error => reject(error);
+          });
+        })
+      );
+      // Call the Server Action
+      const result = await sendEmailAction({
+        ...formData,
+        attachments: processedAttachments.length > 0 ? processedAttachments : undefined
+      });
       
-      // Reset after success
-      setTimeout(() => {
-        setIsSuccess(false);
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          subject: "",
-          inquiryType: "question",
-          message: ""
-        });
-        setFiles([]);
-      }, 6000);
-    } else {
-      alert("Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος. Παρακαλώ δοκιμάστε ξανά.");
-      console.error(result.error);
+      setIsSubmitting(false);
+
+      if (result.success) {
+        setIsSuccess(true);
+        
+        // Reset after success
+        setTimeout(() => {
+          setIsSuccess(false);
+          setFormData({
+            firstName: "",
+            lastName: "",
+            email: "",
+            subject: "",
+            inquiryType: "question",
+            message: ""
+          });
+          setFiles([]);
+        }, 6000);
+      } else {
+        alert("Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος. Παρακαλώ δοκιμάστε ξανά.");
+        console.error(result.error);
+      }
+    } catch (error) {
+      setIsSubmitting(false);
+      alert("Παρουσιάστηκε σφάλμα κατά την επεξεργασία των αρχείων ή την επικοινωνία με τον server.");
+      console.error("Frontend Catch Error:", error);
     }
   };
 
@@ -608,8 +639,16 @@ export default function ContactPage() {
                       <UploadCloud className={`w-6 h-6 ${isDragging ? "text-brand-purple" : "text-slate-400"}`} />
                     </div>
                     <p className="text-sm text-slate-600 mb-1 text-center font-medium">
-                      Σύρετε αρχεία εδώ ή <button type="button" className="text-brand-blue hover:underline">επιλέξτε αρχεία</button>
+                      Σύρετε αρχεία εδώ ή <button type="button" onClick={() => fileInputRef.current?.click()} className="text-brand-blue hover:underline">επιλέξτε αρχεία</button>
                     </p>
+                    <input 
+                      type="file" 
+                      multiple 
+                      ref={fileInputRef}
+                      onChange={handleFileInput}
+                      className="hidden" 
+                      accept=".png,.jpg,.jpeg,.pdf"
+                    />
                     <p className="text-xs text-slate-400 text-center">
                       PNG, JPG, PDF έως 10MB (Max 3)
                     </p>

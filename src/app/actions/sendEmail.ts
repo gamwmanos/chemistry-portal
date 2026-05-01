@@ -11,8 +11,11 @@ export async function sendEmailAction(data: {
   subject: string;
   inquiryType: string;
   message: string;
+  attachments?: { filename: string; content: string }[];
 }) {
   try {
+    const { firstName, lastName, email, subject, inquiryType, message, attachments } = data;
+
     // Σημείωση: Επειδή προς το παρόν δεν έχεις κάνει Verify κάποιο domain (π.χ. chemistryportal.gr),
     // το Resend απαιτεί το 'from' να είναι 'onboarding@resend.dev' 
     // και το 'to' να είναι ΑΥΣΤΗΡΑ το email με το οποίο έκανες εγγραφή στο Resend.
@@ -21,16 +24,17 @@ export async function sendEmailAction(data: {
     const { data: emailData, error } = await resend.emails.send({
       from: "onboarding@resend.dev",
       to: "chronakesm@gmail.com", // <-- ΒΑΛΕ ΕΔΩ ΤΟ EMAIL ΕΓΓΡΑΦΗΣ ΣΟΥ
-      subject: `Νέο Μήνυμα: ${data.subject} (${data.inquiryType})`,
+      subject: `Νέο Μήνυμα: ${subject} (${inquiryType})`,
       html: `
         <h2>Νέο μήνυμα από την φόρμα επικοινωνίας</h2>
-        <p><strong>Όνομα:</strong> ${data.firstName} ${data.lastName}</p>
-        <p><strong>Email αποστολέα:</strong> ${data.email}</p>
-        <p><strong>Κατηγορία:</strong> ${data.inquiryType}</p>
+        <p><strong>Όνομα:</strong> ${firstName} ${lastName}</p>
+        <p><strong>Email αποστολέα:</strong> ${email}</p>
+        <p><strong>Κατηγορία:</strong> ${inquiryType}</p>
         <hr />
         <p><strong>Μήνυμα:</strong></p>
-        <p>${data.message.replace(/\n/g, '<br/>')}</p>
+        <p>${message.replace(/\n/g, '<br/>')}</p>
       `,
+      attachments: attachments && attachments.length > 0 ? attachments : undefined,
     });
 
     if (error) {
