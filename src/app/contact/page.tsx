@@ -251,9 +251,9 @@ export default function ContactPage() {
         alert("Παρουσιάστηκε σφάλμα κατά την αποστολή του μηνύματος. Παρακαλώ δοκιμάστε ξανά.");
         console.error(result.error);
       }
-    } catch (error) {
+    } catch (error: any) {
       setIsSubmitting(false);
-      alert("Παρουσιάστηκε σφάλμα κατά την επεξεργασία των αρχείων ή την επικοινωνία με τον server.");
+      alert(`Σφάλμα: ${error.message || error}`);
       console.error("Frontend Catch Error:", error);
     }
   };
