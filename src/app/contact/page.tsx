@@ -126,6 +126,11 @@ export default function ContactPage() {
   const yParallax = useTransform(scrollYProgress, [0, 1], [0, -150]);
   const opacityFade = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
 
+  // Force scroll to top on mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Handle Form Inputs
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;

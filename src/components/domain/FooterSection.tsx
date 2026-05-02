@@ -44,8 +44,8 @@ export default function FooterSection() {
                 </div>
               </Link>
               <Link href="/contact" className="group">
-                <div className="flex items-center gap-3 px-10 py-5 rounded-full border border-white/40 text-white bg-black/20 font-bold text-lg hover:bg-black/40 hover:border-white/60 backdrop-blur-md transition-all duration-300 font-inter">
-                  <span>Επικοινωνία</span>
+                <div className="flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-brand-purple to-brand-blue text-white font-bold text-lg hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] hover:-translate-y-1 transition-all duration-300 font-inter">
+                  <span>Επικοινωνήστε μαζί μας</span>
                 </div>
               </Link>
             </div>

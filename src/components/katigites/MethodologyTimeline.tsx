@@ -65,7 +65,7 @@ export default function MethodologyTimeline() {
   const lineHeight = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <section ref={containerRef} className="py-20 bg-[#0f172a] relative overflow-hidden">
+    <section ref={containerRef} id="methodology" className="py-20 bg-[#0f172a] relative overflow-hidden">
       {/* Background Ornaments */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl opacity-20 pointer-events-none">
         <div className="absolute top-1/4 left-0 w-96 h-96 bg-brand-blue/30 rounded-full blur-[120px]" />

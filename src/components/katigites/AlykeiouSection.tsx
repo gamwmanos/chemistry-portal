@@ -29,7 +29,7 @@ export default function AlykeiouSection() {
   ];
 
   return (
-    <section className="py-32 relative z-10 overflow-hidden bg-[#0f172a]">
+    <section id="materials" className="py-32 relative z-10 overflow-hidden bg-[#0f172a]">
       {/* Background Ornaments */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-brand-blue/10 to-transparent pointer-events-none" />
       

@@ -96,12 +96,18 @@ export default function KatigitesHero() {
           transition={{ duration: 1, delay: 0.6, type: "spring" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-6"
         >
-          <button className="group px-8 py-5 rounded-full bg-white text-[#0a0f1d] font-bold text-lg hover:scale-105 transition-all duration-300 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] flex items-center gap-3">
+          <button 
+            onClick={() => document.getElementById("benefits")?.scrollIntoView({ behavior: "smooth" })}
+            className="group px-8 py-5 rounded-full bg-white text-[#0a0f1d] font-bold text-lg hover:scale-105 transition-all duration-300 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] flex items-center gap-3"
+          >
             <BookOpen className="w-5 h-5 group-hover:rotate-12 transition-transform" />
             Ανακαλύψτε τα Πλεονεκτήματα
           </button>
           
-          <button className="group px-8 py-5 rounded-full bg-white/5 border border-white/20 text-white font-bold text-lg hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-md flex items-center gap-3">
+          <button 
+            onClick={() => document.getElementById("methodology")?.scrollIntoView({ behavior: "smooth" })}
+            className="group px-8 py-5 rounded-full bg-white/5 border border-white/20 text-white font-bold text-lg hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-md flex items-center gap-3"
+          >
             <FlaskConical className="w-5 h-5 text-brand-blue-light group-hover:-rotate-12 transition-transform" />
             Μεθοδολογία
           </button>

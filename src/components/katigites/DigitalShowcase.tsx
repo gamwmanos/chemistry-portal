@@ -58,7 +58,10 @@ export default function DigitalShowcase() {
             </p>
 
             <div className="flex gap-4">
-              <button className="px-8 py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(34,211,238,0.4)] hover:shadow-[0_0_40px_rgba(34,211,238,0.6)]">
+              <button 
+                onClick={() => document.getElementById("materials")?.scrollIntoView({ behavior: "smooth" })}
+                className="px-8 py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(34,211,238,0.4)] hover:shadow-[0_0_40px_rgba(34,211,238,0.6)]"
+              >
                 Δείτε Δείγμα Υλικού
               </button>
             </div>

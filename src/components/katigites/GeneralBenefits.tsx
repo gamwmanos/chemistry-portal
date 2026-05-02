@@ -38,7 +38,7 @@ const features = [
 
 export default function GeneralBenefits() {
   return (
-    <section className="py-32 bg-[#0f172a] relative z-10">
+    <section id="benefits" className="py-32 bg-[#0f172a] relative z-10">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.h2 

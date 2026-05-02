@@ -48,9 +48,6 @@ export default function KatigitesPage() {
               Υποστηρίζουν την ενεργητική μάθηση, αξιοποιούν την τεχνολογία, διευκολύνουν τον εκπαιδευτικό στην πράξη και ενισχύουν ουσιαστικά τη μαθησιακή εμπειρία.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6">
-              <button className="px-8 py-4 rounded-full bg-gradient-to-r from-brand-purple to-brand-blue text-white font-bold text-lg hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] hover:scale-105 transition-all duration-300">
-                Επικοινωνήστε μαζί μας
-              </button>
               <Link href="/authors" className="px-8 py-4 rounded-full bg-white/5 border border-white/20 text-white font-bold text-lg hover:bg-white/10 transition-all duration-300 backdrop-blur-sm">
                 Γνωρίστε τους Συγγραφείς
               </Link>
