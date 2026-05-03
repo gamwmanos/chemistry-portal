@@ -10,7 +10,7 @@ import {
   useInView
 } from "framer-motion";
 import { 
-  Mail, Phone, MapPin, Send, CheckCircle, AlertCircle, 
+  Mail, Send, CheckCircle, AlertCircle, 
   MessageSquare, HelpCircle, Paperclip, UploadCloud, 
   Sparkles, ChevronDown, User, AtSign, Tag, Info, ArrowRight,
   Globe, Clock, Microscope, Beaker, FileText, X
@@ -78,24 +78,6 @@ const CONTACT_DETAILS = [
     color: "text-brand-blue",
     bgColor: "bg-brand-blue/10",
     delay: 0.1
-  },
-  {
-    icon: Phone,
-    title: "Τηλέφωνο",
-    value: "+30 210 123 4567",
-    subtitle: "Δευ-Παρ, 09:00 - 17:00",
-    color: "text-brand-purple",
-    bgColor: "bg-brand-purple/10",
-    delay: 0.2
-  },
-  {
-    icon: MapPin,
-    title: "Διεύθυνση",
-    value: "Ακαδημίας 15, Αθήνα",
-    subtitle: "Κεντρικά Γραφεία",
-    color: "text-rose-500",
-    bgColor: "bg-rose-500/10",
-    delay: 0.3
   }
 ];
 
