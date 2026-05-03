@@ -109,13 +109,18 @@ export default function Home() {
               transition={{ duration: 1, delay: 0.5 }}
               className="flex flex-col sm:flex-row items-center gap-5 pointer-events-auto"
             >
-              <Link href="#books" className="group">
+              <button
+                onClick={() => {
+                  document.getElementById('books')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }}
+                className="group bg-transparent border-none p-0 cursor-pointer"
+              >
                 <div className="flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-brand-purple-light to-brand-blue-light text-white font-bold text-lg hover:shadow-[0_0_60px_rgba(124,58,237,0.6)] hover:scale-105 transition-all duration-300 font-inter">
                   <BookOpen className="w-5 h-5" />
                   <span>Γνωρίστε τα Βιβλία</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </div>
-              </Link>
+              </button>
               <Link href="/authors" className="group pointer-events-auto">
                 <div className="flex items-center gap-3 px-10 py-5 rounded-full bg-black/40 border border-white/25 text-white font-bold text-lg hover:bg-black/60 hover:border-white/50 transition-all duration-300 font-inter backdrop-blur-md">
                   <Users className="w-5 h-5 text-brand-blue-light" />
