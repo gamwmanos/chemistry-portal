@@ -172,10 +172,7 @@ export default function ScrollVideo() {
           </div>
         )}
 
-        {/* Hidden Next.js Image to force preload of the first frame for LCP optimization */}
-        <div style={{ display: 'none' }}>
-          <img src="/atomo.jpg" alt="LCP Preload" fetchPriority="high" width="1" height="1" />
-        </div>
+
       </div>
     </section>
   );

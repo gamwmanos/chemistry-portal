@@ -79,6 +79,8 @@ export default function Home() {
                   width={1536}
                   height={1024}
                   priority
+                  fetchPriority="high"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 700px, 850px"
                   className="relative w-full max-w-full md:max-w-[700px] lg:max-w-[850px] h-auto object-contain group-hover:scale-[1.02] transition-all duration-500"
                   style={{ 
                     // No color filter so we keep the exact original Navy Blue & Teal colors.

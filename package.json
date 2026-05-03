@@ -30,7 +30,11 @@
     "typescript": "^5"
   },
   "browserslist": [
-    "defaults and fully supports es6-module",
-    "not dead"
+    "chrome >= 90",
+    "firefox >= 90",
+    "safari >= 15",
+    "edge >= 90",
+    "not dead",
+    "not ie 11"
   ]
 }
