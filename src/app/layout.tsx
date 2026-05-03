@@ -32,6 +32,11 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Χημεία στην τάξη | ΕΚΔΟΣΕΙΣ ΠΕΔΙΟ",
   description: "Η κορυφαία εκπαιδευτική πλατφόρμα για την Χημεία στο Γυμνάσιο και Λύκειο.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

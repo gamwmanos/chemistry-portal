@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <rect width="32" height="32" rx="8" fill="url(#g)"/>
+  <!-- Flask body -->
+  <path d="M11 6h10v1H11zM10 7h12v1H10z" fill="white" opacity="0.9"/>
+  <!-- Flask neck -->
+  <rect x="13" y="6" width="6" height="7" rx="1" fill="white" opacity="0.95"/>
+  <!-- Flask body (erlenmeyer shape) -->
+  <path d="M12 13 L7 24 Q6.5 26 8 26 L24 26 Q25.5 26 25 24 L20 13 Z" fill="white" opacity="0.95"/>
+  <!-- Liquid inside flask -->
+  <path d="M11 20 L8.5 25.5 Q8 26 8.8 26 L23.2 26 Q24 26 23.5 25.5 L21 20 Z" fill="url(#g)" opacity="0.7"/>
+  <!-- Bubbles -->
+  <circle cx="14" cy="22" r="1.2" fill="white" opacity="0.8"/>
+  <circle cx="18" cy="23.5" r="0.8" fill="white" opacity="0.6"/>
+  <circle cx="16" cy="21" r="0.6" fill="white" opacity="0.5"/>
+</svg>
