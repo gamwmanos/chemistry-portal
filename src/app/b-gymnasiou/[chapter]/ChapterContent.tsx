@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowLeft, BookOpen, Brain, FlaskConical, PlayCircle } from "lucide-react";
+import { ArrowLeft, BookOpen, Brain, FlaskConical, PlayCircle, ArrowRight } from "lucide-react";
 
 import { bGymnasiouQuestions, bGymnasiouMCQ } from "@/data/bGymnasiouQuestions";
 import { bGymnasiouChapters } from "@/data/curriculum";
@@ -82,6 +83,130 @@ export default function ChapterContent({ chapterId }: Props) {
       { title: "Θεωρία 9.1", url: "https://drive.google.com/file/d/1F23MrfnOwyvo1lp2SuD5Pyjtrh1THaYK/preview" },
       { title: "Θεωρία 9.2", url: "https://drive.google.com/file/d/1Dx6gklIUmxlfmmfYGq7mVI8XRx56CRrq/preview" },
       { title: "Θεωρία 9.3", url: "https://drive.google.com/file/d/1ndAoWEpTBUFTv1UJQx25_sJ-Jv6l5Sbo/preview" }
+    ];
+  }
+
+  let experiments: { unit: string; title: string; url: string; image: string }[] = [];
+
+  if (chapterId === "chapter-2") {
+    experiments = [
+      { 
+        unit: "2.2",
+        title: "ΜΕΤΡΗΣΗ ΟΓΚΟΥ ΣΤΕΡΕΟΥ", 
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11646",
+        image: "/images/bGymnasiou/exp-2-2.png"
+      }
+    ];
+  } else if (chapterId === "chapter-3") {
+    experiments = [
+      {
+        unit: "3.2",
+        title: "ΑΝΙΧΝΕΥΣΗ ΝΕΡΟΥ ΣΕ ΥΛΙΚΑ ΚΑΘΗΜΕΡΙΝΗΣ ΧΡΗΣΗΣ",
+        url: "https://ebooksdl.cti.gr/handle/20.500.14040/11521",
+        image: "/images/bGymnasiou/exp-3-2.png"
+      },
+      {
+        unit: "3.3",
+        title: "ΔΙΑΛΥΤΟΤΗΤΑ ΟΥΣΙΩΝ ΣΕ ΝΕΡΟ ΚΑΙ ΑΙΘΑΝΟΛΗ",
+        url: "https://ebooksdl.cti.gr/handle/20.500.14040/11632",
+        image: "/images/bGymnasiou/exp-3-3.png"
+      },
+      {
+        unit: "3.4",
+        title: "ΔΙΑΧΩΡΙΣΜΟΣ ΜΙΓΜΑΤΩΝ ΜΕ ΑΠΟΧΥΣΗ",
+        url: "https://ebooksdl.cti.gr/handle/20.500.14040/11633",
+        image: "/images/bGymnasiou/exp-3-4.png"
+      },
+      {
+        unit: "3.4",
+        title: "ΔΙΑΧΩΡΙΣΜΟΣ ΜΙΓΜΑΤΟΣ ΜΕ ΔΙΗΘΗΣΗ",
+        url: "https://ebooksdl.cti.gr/handle/20.500.14040/11631",
+        image: "/images/bGymnasiou/exp-3-4 (2).png"
+      },
+      {
+        unit: "3.4",
+        title: "ΜΕΘΟΔΟΣ ΔΙΑΧΩΡΙΣΜΟΥ ΜΙΓΜΑΤΟΣ ΜΕ ΕΞΑΤΜΙΣΗ ΚΑΙ ΒΡΑΣΜΟ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11634",
+        image: "/images/bGymnasiou/exp-3-4(3).png"
+      },
+      {
+        unit: "3.4",
+        title: "ΜΑΓΝΗΤΙΚΟΣ ΔΙΑΧΩΡΙΣΜΟΣ ΜΙΓΜΑΤΩΝ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11628",
+        image: "/images/bGymnasiou/exp-3-4(4).png"
+      },
+      {
+        unit: "3.4",
+        title: "ΔΙΑΧΩΡΙΣΜΟΣ ΜΙΓΜΑΤΟΣ ΜΕ ΦΥΓΟΚΕΝΤΡΙΣΗ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11637",
+        image: "/images/bGymnasiou/exp-3-4(5).png"
+      },
+      {
+        unit: "3.4",
+        title: "ΔΙΑΧΩΡΙΣΜΟΣ ΧΡΩΣΤΙΚΩΝ ΜΕ ΧΡΩΜΑΤΟΓΡΑΦΙΑ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11630",
+        image: "/images/bGymnasiou/exp-3-4(6).png"
+      },
+      {
+        unit: "3.4",
+        title: "ΔΙΑΧΩΡΙΣΜΟΣ ΜΙΓΜΑΤΟΣ ΜΕ ΑΠΟΣΤΑΞΗ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11636",
+        image: "/images/bGymnasiou/exp-3-4(7).png"
+      },
+      {
+        unit: "3.5",
+        title: "ΠΑΡΑΣΚΕΥΗ ΔΙΑΛΥΜΑΤΟΣ ΓΝΩΣΤΗΣ ΠΕΡΙΕΚΤΙΚΟΤΗΤΑΣ % ΜΑΖΑ ΠΡΟΣ ΜΑΖΑ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11638",
+        image: "/images/bGymnasiou/exp-3-5.png"
+      },
+      {
+        unit: "3.5",
+        title: "ΠΑΡΑΣΚΕΥΗ ΔΙΑΛΥΜΑΤΟΣ ΓΝΩΣΤΗΣ ΠΕΡΙΕΚΤΙΚΟΤΗΤΑΣ % ΜΑΖΑ ΠΡΟΣ ΟΓΚΟ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11629",
+        image: "/images/bGymnasiou/exp-3-5(2).png"
+      },
+      {
+        unit: "3.5",
+        title: "ΠΑΡΑΣΚΕΥΗ ΔΙΑΛΥΜΑΤΟΣ ΓΝΩΣΤΗΣ ΠΕΡΙΕΚΤΙΚΟΤΗΤΑΣ % ΟΓΚΟ ΠΡΟΣ ΟΓΚΟ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11635",
+        image: "/images/bGymnasiou/exp-3-5(3).png"
+      },
+      {
+        unit: "3.5",
+        title: "ΑΛΚΟΟΛΙΚΟΙ ΒΑΘΜΟΙ",
+        url: "https://ebooksdl.cti.gr/handle/20.500.14040/11648",
+        image: "/images/bGymnasiou/exp-3-5(4).png"
+      }
+    ];
+  } else if (chapterId === "chapter-4") {
+    experiments = [
+      {
+        unit: "4.2",
+        title: "ΚΑΥΣΗ ΜΑΓΝΗΣΙΟΥ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11639",
+        image: "/images/bGymnasiou/exp-4-2.png"
+      }
+    ];
+  } else if (chapterId === "chapter-8") {
+    experiments = [
+      {
+        unit: "8.1",
+        title: "Καύση βουτανίου και παραφίνης – Ανίχνευση Καυσαερίων",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11642",
+        image: "/images/bGymnasiou/exp-8-1.png"
+      },
+      {
+        unit: "8.3",
+        title: "ΕΞΩΘΕΡΜΕΣ ΑΝΤΙΔΡΑΣΕΙΣ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11640",
+        image: "/images/bGymnasiou/exp-8-3.png"
+      },
+      {
+        unit: "8.3",
+        title: "ΕΝΔΟΘΕΡΜΕΣ ΑΝΤΙΔΡΑΣΕΙΣ",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11641",
+        image: "/images/bGymnasiou/exp-8-3(2).png"
+      }
     ];
   }
 
@@ -194,12 +319,47 @@ export default function ChapterContent({ chapterId }: Props) {
               )}
 
               {activeTab === "experiments" && (
-                <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
-                  <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
-                  <h3 className="text-xl font-bold mb-2 font-proxima text-white">Εικονικά Πειράματα</h3>
-                  <p className="text-cyan-200 text-center max-w-md font-inter">
-                    Βίντεο και προσομοιώσεις πειραμάτων για την καλύτερη κατανόηση των φαινομένων.
-                  </p>
+                <div className="w-full flex flex-col gap-8">
+                  {experiments.length > 0 ? (
+                    experiments.map((exp, index) => (
+                      <div key={index} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden">
+                        <h3 className="text-xl font-bold mb-4 font-proxima text-white flex items-center gap-2">
+                          <FlaskConical className="w-5 h-5 text-orange-400" />
+                          Ενότητα {exp.unit}: {exp.title}
+                        </h3>
+                        <a 
+                          href={exp.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="relative w-full rounded-2xl overflow-hidden shadow-lg group block min-h-[160px] md:min-h-[220px] flex items-center justify-center bg-black/20 border border-white/10"
+                        >
+                          <Image 
+                            src={exp.image}
+                            alt={exp.title}
+                            fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          />
+                          
+                          {/* Hover overlay with button */}
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center z-20">
+                            <div className="opacity-0 group-hover:opacity-100 bg-orange-500 text-white font-bold py-3 px-6 rounded-full shadow-2xl flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                              <PlayCircle className="w-6 h-6" />
+                              Εκκίνηση Πειράματος
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
+                      <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
+                      <h3 className="text-xl font-bold mb-2 font-proxima text-white">Εικονικά Πειράματα</h3>
+                      <p className="text-cyan-200 text-center max-w-md font-inter">
+                        Βίντεο και προσομοιώσεις πειραμάτων για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμα.
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </motion.div>
