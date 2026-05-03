@@ -2,17 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, BookOpen, Brain, FlaskConical, PlayCircle } from "lucide-react";
 
 import { 
-  chapter1Questions, chapter1MCQ, 
-  chapter2Questions, chapter2MCQ,
-  chapter3Questions, chapter3MCQ,
-  chapter4Questions, chapter4MCQ,
-  chapter5Questions, chapter5MCQ,
-  chapter6Questions, chapter6MCQ
-} from "@/data/questions";
+  ch1Questions, ch1MCQ, 
+  ch2Questions, ch2MCQ,
+  ch3Questions, ch3MCQ,
+  ch4Questions, ch4MCQ,
+  ch5Questions, ch5MCQ,
+  ch6Questions, ch6MCQ
+} from "@/data/aLykeiouQuestions";
 import { aLykeiouChapters } from "@/data/curriculum";
 import ExerciseViewer from "@/components/domain/ExerciseViewer";
 
@@ -31,7 +32,6 @@ export default function ChapterContent({ chapterId }: Props) {
     { id: "experiments", label: "Πειράματα", icon: FlaskConical },
   ] as const;
 
-  // Select data based on chapterId
   const chapterData = aLykeiouChapters.find(ch => ch.id === chapterId);
   
   let mcqs: any[] = [];
@@ -39,54 +39,97 @@ export default function ChapterContent({ chapterId }: Props) {
   let theoryPdfs: { title: string; url: string }[] = [];
   
   if (chapterId === "chapter-1") {
-    mcqs = chapter1MCQ;
-    openQs = chapter1Questions;
+    mcqs = ch1MCQ;
+    openQs = ch1Questions;
     theoryPdfs = [
-      { title: "Θεωρία 1.1", url: "https://drive.google.com/file/d/1dQ4gMKlX9o1bj5B65brYy2a8dXOj43Ov/preview" },
-      { title: "Θεωρία 1.2", url: "https://drive.google.com/file/d/1OW6gU8K3uw4l9-rSx4toWJQCnDCrrE22/preview" }
+      { title: "Θεωρία 1.1", url: "https://drive.google.com/file/d/1S0h2d2XNZGQ9VVd0vaVSiQBw5ZaB4rwa/preview" },
+      { title: "Θεωρία 1.2", url: "https://drive.google.com/file/d/1xE7dyEbvf7ejI-QBrmKVOf2gLYc3apfK/preview" },
     ];
   } else if (chapterId === "chapter-2") {
-    mcqs = chapter2MCQ;
-    openQs = chapter2Questions;
+    mcqs = ch2MCQ;
+    openQs = ch2Questions;
     theoryPdfs = [
-      { title: "Θεωρία 2.1", url: "https://drive.google.com/file/d/1iK3HS8lFDWhrJSIxqcqdhfVFTJRPIv0l/preview" },
-      { title: "Θεωρία 2.2", url: "https://drive.google.com/file/d/17KihzCUYkpCbdV5um_EGs7ayAwYeWLVn/preview" }
+      { title: "Θεωρία 2.1", url: "https://drive.google.com/file/d/1f49FT6miCUcMsxmJ7_Hby6R9QWRVcOXp/preview" },
+      { title: "Θεωρία 2.2", url: "https://drive.google.com/file/d/1cjjxLFbFifFLbmzwDowej4s0q9daZtUD/preview" },
     ];
   } else if (chapterId === "chapter-3") {
-    mcqs = chapter3MCQ;
-    openQs = chapter3Questions;
+    mcqs = ch3MCQ;
+    openQs = ch3Questions;
     theoryPdfs = [
-      { title: "Θεωρία 3.1", url: "https://drive.google.com/file/d/1-poHZXg8qJ4yO_qsiDgUSpXlEji4Lpkg/preview" },
-      { title: "Θεωρία 3.2", url: "https://drive.google.com/file/d/1j1gsq3xJTF6zeAH_QyFa7YPaUBx-mb02/preview" }
+      { title: "Θεωρία 3.1", url: "https://drive.google.com/file/d/1t6_JcqF14okemcK14qlt_W2tAdjXWBnT/preview" },
+      { title: "Θεωρία 3.2", url: "https://drive.google.com/file/d/1rPdVtgfCsgh7wesfaiR-bXgOIPDrxs63/preview" },
     ];
   } else if (chapterId === "chapter-4") {
-    mcqs = chapter4MCQ;
-    openQs = chapter4Questions;
+    mcqs = ch4MCQ;
+    openQs = ch4Questions;
     theoryPdfs = [
-      { title: "Θεωρία 4.1", url: "https://drive.google.com/file/d/1ya-uczqLzUhrpbOrDVeVM5LDEsmwVAHs/preview" },
-      { title: "Θεωρία 4.2", url: "https://drive.google.com/file/d/1HeHgYhbCZZ2Jr03VuX9XS1ZjYTPhDVvF/preview" },
-      { title: "Θεωρία 4.3", url: "https://drive.google.com/file/d/1cn5s70X-CiWKA2uIlUlqPOUfT6Q5i5zG/preview" },
-      { title: "Θεωρία 4.4", url: "https://drive.google.com/file/d/1NKx-U2W8HZ9dbRnRkAyH0DHtzesTWMv-/preview" }
+      { title: "Θεωρία 4.1", url: "https://drive.google.com/file/d/15NtYuOkYEQSNcjLMSCwI5sqmw4MQzfxg/preview" },
+      { title: "Θεωρία 4.2", url: "https://drive.google.com/file/d/1uIpb1KEStZ3B7J6fMiu7dKqpae7kzz6-/preview" },
+      { title: "Θεωρία 4.3", url: "https://drive.google.com/file/d/1TWIey5GtR7pqySsmuXzcCbR-5T_aGsud/preview" },
     ];
   } else if (chapterId === "chapter-5") {
-    mcqs = chapter5MCQ;
-    openQs = chapter5Questions;
+    mcqs = ch5MCQ;
+    openQs = ch5Questions;
     theoryPdfs = [
-      { title: "Θεωρία 5.1", url: "https://drive.google.com/file/d/1IBYzK8SvUK21g6Mc5TcpsqpZuOYaBEQt/preview" },
-      { title: "Θεωρία 5.2", url: "https://drive.google.com/file/d/15KCts-p42-4u_Ao9PEEPg5fFKW9qwP2W/preview" },
-      { title: "Θεωρία 5.3", url: "https://drive.google.com/file/d/1fqeOKskL7pjbEGNoE6kk7L43bXLmESpK/preview" },
-      { title: "Θεωρία 5.4", url: "https://drive.google.com/file/d/1Y5H8ylmxCajifUfDbu-UZGleDGLVnR69/preview" },
-      { title: "Θεωρία 5.5", url: "https://drive.google.com/file/d/1HR7zPTkvrBMWNBbI-iUvSk7ytUyBpw_x/preview" }
+      { title: "Θεωρία 5.1", url: "https://drive.google.com/file/d/1x5OlOWAXn9bw-aY_cDRNXZT2Y9yK5hvY/preview" },
+      { title: "Θεωρία 5.2", url: "https://drive.google.com/file/d/1teQEyrUX92VAq5oBtfB5RHNDX3ZHDcyP/preview" },
+      { title: "Θεωρία 5.3", url: "https://drive.google.com/file/d/1zTJ9Ggv9XNPWoOrI61YnVwmsVCQbmz7Q/preview" },
+      { title: "Θεωρία 5.4", url: "https://drive.google.com/file/d/19QKUt5GDJARlBnvVhAYmcP0tnq4zYCm2/preview" },
+      { title: "Θεωρία 5.5", url: "https://drive.google.com/file/d/1eqg0aMd8zUCqtZWmAmIsqp_0iPLotz96/preview" },
     ];
   } else if (chapterId === "chapter-6") {
-    mcqs = chapter6MCQ;
-    openQs = chapter6Questions;
+    mcqs = ch6MCQ;
+    openQs = ch6Questions;
     theoryPdfs = [
-      { title: "Θεωρία 6.1", url: "https://drive.google.com/file/d/1dYuld8bM4qmpp8OxEmDgLEyYBNZyic0t/preview" },
-      { title: "Θεωρία 6.2", url: "https://drive.google.com/file/d/1o6IuGmaEaG0pFoA85RlxxhoaXznr2E0l/preview" },
-      { title: "Θεωρία 6.3", url: "https://drive.google.com/file/d/1XmFHFH50ZtEeYg9p2AtE8naHfv2e3SUN/preview" }
+      { title: "Θεωρία 6.1", url: "https://drive.google.com/file/d/1nEF5ciheZ3iTk1QMvhRsLXRjZAuPWRQZ/preview" },
+      { title: "Θεωρία 6.2", url: "https://drive.google.com/file/d/1SvfK3i2I6bMUB4TvDwm7ukITYqsFVog0/preview" },
+      { title: "Θεωρία 6.3", url: "https://drive.google.com/file/d/1QdLTuEhIvJ8wbZJrk3IlvBcqysGAAjaK/preview" },
     ];
   }
+
+  // ─── ΠΕΙΡΑΜΑΤΑ ────────────────────────────────────────────────────────────────
+  let experiments: { unit: string; title: string; url: string; image: string }[] = [];
+
+  if (chapterId === "chapter-2") {
+    experiments = [
+      { unit: "2.2", title: "ΙΔΙΟΤΗΤΕΣ ΑΛΚΑΛΙΩΝ – ΑΝΤΙΔΡΑΣΉ ΤΟΥΣ ΜΕ ΝΕΡΟ", url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14371", image: "/images/aLykeiou/exp-2-2.jpg" },
+    ];
+  } else if (chapterId === "chapter-3") {
+    experiments = [
+      { unit: "3.2",   title: "ΔΙΑΜΟΡΙΑΚΕΣ ΔΥΝΑΜΕΙΣ",                                          url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21705", image: "/images/aLykeiou/exp-3-2.jpg" },
+      { unit: "3.2",   title: "ΕΠΙΔΡΑΣΗ ΗΛΕΚΤΡΙΚΟΥ ΠΕΔΙΟΥ ΣΕ ΠΟΛΙΚΑ ΚΑΙ ΜΗ ΠΟΛΙΚΑ ΜΟΡΙΑ",     url: "https://ebooksdl.cti.gr/view?item=20.500.14040/22730", image: "/images/aLykeiou/exp-3-2-2.jpg" },
+      { unit: "3.2.3", title: "ΤΑ ΟΜΟΙΑ ΔΙΑΛΥΟΥΝ ΤΑ ΟΜΟΙΑ",                                    url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21808", image: "/images/aLykeiou/exp-3-2-3.jpg" },
+    ];
+  } else if (chapterId === "chapter-5") {
+    experiments = [
+      // 5.1
+      { unit: "5.1",   title: "ΤΕΛΕΙΑ ΚΑΙ ΑΤΕΛΗΣ ΚΑΥΣΗ ΒΟΥΤΑΝΙΟΥ ΚΑΙ ΠΑΡΑΦΙΝΗΣ – ΑΝΙΧΝΕΥΣΗ ΑΙΘΑΛΗΣ ΚΑΙ CO₂", url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14394", image: "/images/aLykeiou/exp-5-1.jpg" },
+      { unit: "5.1",   title: "Η ΥΠΕΡΛΑΜΠΡΗ ΚΑΥΣΗ ΤΟΥ ΜΑΓΝΗΣΙΟΥ (Mg)",                         url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14183",  image: "/images/aLykeiou/exp-5-1(2).jpg" },
+      { unit: "5.1",   title: "ΑΝΤΙΔΡΑΣΗ FeCl₃ ΜΕ NaOH – ΚΑΤΑΒΥΘΙΣΗ ΙΖΗΜΑΤΟΣ",                url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21056",  image: "/images/aLykeiou/exp-5-1(3).jpg" },
+      { unit: "5.1",   title: "ΑΝΤΙΔΡΑΣΗ ΕΞΟΥΔΕΤΕΡΩΣΗΣ",                                        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21348",  image: "/images/aLykeiou/exp-5-1(4).jpg" },
+      { unit: "5.1",   title: "ΑΝΤΙΔΡΑΣΕΙΣ ΑΠΛΗΣ ΑΝΤΙΚΑΤΑΣΤΑΣΗΣ – ΔΡΑΣΤΙΚΟΤΗΤΑ ΜΕΤΑΛΛΩΝ",      url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21037",  image: "/images/aLykeiou/exp-5-1(5).jpg" },
+      // 5.2
+      { unit: "5.2",   title: "ΑΓΩΓΙΜΟΤΗΤΑ ΔΙΑΛΥΜΑΤΩΝ",                                         url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21233",  image: "/images/aLykeiou/exp-5-2.jpg" },
+      { unit: "5.2",   title: "ΗΛΕΚΤΡΙΚΗ ΑΓΩΓΙΜΟΤΗΤΑ ΔΙΑΛΥΜΑΤΩΝ (ΜΕ ΠΟΛΥΜΕΤΡΟ)",               url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21055",  image: "/images/aLykeiou/exp-5-2(2).jpg" },
+      // 5.3.1
+      { unit: "5.3.1", title: "ΜΕΤΑΘΕΤΙΚΕΣ ΑΝΤΙΔΡΑΣΕΙΣ – 1ο ΜΕΡΟΣ",                            url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21599",  image: "/images/aLykeiou/exp-5-3-1.jpg" },
+      { unit: "5.3.1", title: "ΜΕΤΑΘΕΤΙΚΕΣ ΑΝΤΙΔΡΑΣΕΙΣ – 2ο ΜΕΡΟΣ",                            url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21620",  image: "/images/aLykeiou/exp-5-3-1(2).jpg" },
+      { unit: "5.3.1", title: "ΜΕΤΑΘΕΤΙΚΕΣ ΑΝΤΙΔΡΑΣΕΙΣ – 3ο ΜΕΡΟΣ",                            url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21036",  image: "/images/aLykeiou/exp-5-3-1(3).jpg" },
+      { unit: "5.3.1", title: "ΕΛΕΓΧΟΣ ΠΟΙΟΤΗΤΑΣ ΥΔΑΤΩΝ ΤΗΣ ΛΙΜΝΗΣ «ΝΕΡΟΜΑΝΑ»",               url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21038",  image: "/images/aLykeiou/exp-5-3-1(4).jpg" },
+      // 5.3.2
+      { unit: "5.3.2", title: "ΑΝΤΙΔΡΑΣΗ ΕΞΟΥΔΕΤΕΡΩΣΗΣ",                                        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21348",  image: "/images/aLykeiou/exp-5-3-2.jpg" },
+      // 5.4
+      { unit: "5.4",   title: "ΑΝΤΙΔΡΑΣΕΙΣ ΑΠΛΗΣ ΑΝΤΙΚΑΤΑΣΤΑΣΗΣ – ΔΡΑΣΤΙΚΟΤΗΤΑ ΜΕΤΑΛΛΩΝ",      url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21037",  image: "/images/aLykeiou/exp-5-4.jpg" },
+      { unit: "5.4",   title: "ΑΝΤΙΔΡΑΣΗ Fe ΜΕ ΔΙΑΛΥΜΑ CuSO₄",                                 url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14187",  image: "/images/aLykeiou/exp-5-4(2).jpg" },
+      { unit: "5.4",   title: "ΕΝΤΥΠΩΣΙΑΚΑ ΠΕΙΡΑΜΑΤΑ ΧΗΜΕΙΑΣ",                                  url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21059",  image: "/images/aLykeiou/exp-5-4(3).jpg" },
+    ];
+  } else if (chapterId === "chapter-6") {
+    experiments = [
+      { unit: "6.2", title: "ΣΤΟΙΧΕΙΟΜΕΤΡΙΚΟΙ ΥΠΟΛΟΓΙΣΜΟΙ",                                     url: "https://ebooksdl.cti.gr/view?item=20.500.14040/22724",  image: "/images/aLykeiou/exp-6-2.jpg" },
+      { unit: "6.3", title: "ΠΑΡΑΣΚΕΥΗ ΔΙΑΛΥΜΑΤΟΣ ΟΡΙΣΜΕΝΗΣ ΣΥΓΚΕΝΤΡΩΣΗΣ – ΑΡΑΙΩΣΗ ΔΙΑΛΥΜΑΤΟΣ", url: "https://ebooksdl.cti.gr/view?item=20.500.14040/22723", image: "/images/aLykeiou/exp-6-3.jpg" },
+    ];
+  }
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-800 to-indigo-900 text-white font-sans flex flex-col relative overflow-hidden">
@@ -95,7 +138,7 @@ export default function ChapterContent({ chapterId }: Props) {
         <div className="absolute top-[10%] left-[20%] w-[30%] h-[30%] bg-violet-400/20 blur-[120px] rounded-full"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-8 md:py-12">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-8 md:py-12 w-full">
         {/* Navigation Breadcrumb */}
         <div className="flex items-center gap-4 mb-8">
           <Link 
@@ -150,6 +193,7 @@ export default function ChapterContent({ chapterId }: Props) {
               transition={{ duration: 0.3 }}
               className="h-full w-full"
             >
+              {/* ── ΘΕΩΡΙΑ ── */}
               {activeTab === "theory" && (
                 <div className="w-full flex flex-col gap-8">
                    {theoryPdfs.length > 0 ? (
@@ -180,6 +224,7 @@ export default function ChapterContent({ chapterId }: Props) {
                 </div>
               )}
 
+              {/* ── ΑΣΚΗΣΕΙΣ ── */}
               {activeTab === "exercises" && (
                 <div className="w-full">
                    {mcqs.length > 0 || openQs.length > 0 ? (
@@ -196,13 +241,48 @@ export default function ChapterContent({ chapterId }: Props) {
                 </div>
               )}
 
+              {/* ── ΠΕΙΡΑΜΑΤΑ ── */}
               {activeTab === "experiments" && (
-                <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
-                   <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
-                   <h3 className="text-xl font-bold mb-2 font-proxima text-white">Διαδραστικά Βίντεο Πειραμάτων</h3>
-                   <p className="text-purple-200 text-center max-w-md font-inter">
-                     Βίντεο και προσομοιώσεις πειραμάτων για την καλύτερη κατανόηση των φαινομένων.
-                   </p>
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {experiments.length > 0 ? (
+                    experiments.map((exp, index) => (
+                      <div key={index} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden hover:bg-white/10 transition-colors">
+                        <h3 className="text-lg font-bold mb-4 font-proxima text-white flex items-start gap-2 h-14" title={`Ενότητα ${exp.unit}: ${exp.title}`}>
+                          <FlaskConical className="w-5 h-5 text-violet-400 shrink-0 mt-0.5" />
+                          <span className="line-clamp-2">Ενότητα {exp.unit}: {exp.title}</span>
+                        </h3>
+                        <a 
+                          href={exp.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-lg group block flex items-center justify-center bg-black/20 border border-white/10 mt-auto"
+                        >
+                          <Image 
+                            src={exp.image}
+                            alt={exp.title}
+                            fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            className="object-contain transition-transform duration-500 group-hover:scale-105"
+                          />
+                          {/* Hover overlay */}
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center z-20">
+                            <div className="opacity-0 group-hover:opacity-100 bg-violet-500 text-white font-bold py-2 px-4 text-sm md:text-base rounded-full shadow-2xl flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                              <PlayCircle className="w-5 h-5" />
+                              Εκκίνηση
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="col-span-full bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
+                      <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
+                      <h3 className="text-xl font-bold mb-2 font-proxima text-white">Διαδραστικά Βίντεο Πειραμάτων</h3>
+                      <p className="text-purple-200 text-center max-w-md font-inter">
+                        Βίντεο και προσομοιώσεις πειραμάτων για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμα.
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </motion.div>

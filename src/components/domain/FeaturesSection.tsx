@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Brain, Microscope, BookOpenCheck, Layers, PenTool, LayoutTemplate } from "lucide-react";
+import { Brain, Microscope, Layers, PenTool, LayoutTemplate, Sparkles } from "lucide-react";
 
 const features = [
   {
@@ -30,14 +30,14 @@ const features = [
   {
     icon: LayoutTemplate,
     title: "Ολοκληρωμένα Διαγωνίσματα",
-    description: "Στοχευμένα θέματα προσομοίωσης και διαγωνίσματα αυτοαξιολόγησης σε πρότυπα Πανελληνίων Εξετάσεων.",
+    description: "Στοχευμένα θέματα προσομοίωσης και διαγωνίσματα αυτοαξιολόγησης για αξιόπιστη μέτρηση της προόδου.",
     color: "text-pink-400",
   },
   {
-    icon: BookOpenCheck,
-    title: "Πρότυπα Πανελληνίων",
-    description: "Αρχείο θεμάτων με ειδική μεθοδολογική προσέγγιση για την άρτια προετοιμασία των μαθητών.",
-    color: "text-indigo-400",
+    icon: Sparkles,
+    title: "Προσαρμοσμένη Μάθηση",
+    description: "Περιεχόμενο σχεδιασμένο για διαφορετικά επίπεδα μαθητών, από τη βασική κατανόηση έως την άριστη απόδοση.",
+    color: "text-cyan-400",
   },
 ];
 

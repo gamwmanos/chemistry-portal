@@ -19,15 +19,15 @@ export default function TeachersSection() {
       <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue-light/20 blur-[150px] rounded-full pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
           
-          {/* Content Left */}
+          {/* Content */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col items-start"
+            className="flex flex-col items-center"
           >
             <Link href="/katigites">
               <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/20 bg-white/10 text-white text-sm font-semibold mb-8 font-proxima tracking-wider uppercase backdrop-blur-md shadow-sm hover:bg-white/20 hover:border-white/40 transition-all cursor-pointer">
@@ -40,27 +40,38 @@ export default function TeachersSection() {
               Είστε <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-purple-light to-brand-blue-light drop-shadow-md">Καθηγητής;</span>
             </h2>
             
-            <p className="text-white/90 text-lg md:text-xl mb-12 font-inter leading-relaxed max-w-xl font-medium drop-shadow-md">
+            <p className="text-white/90 text-lg md:text-xl mb-12 font-inter leading-relaxed max-w-2xl font-medium drop-shadow-md">
               Γνωρίζουμε τις απαιτήσεις της σύγχρονης εκπαίδευσης. Τα βιβλία μας σχεδιάστηκαν με γνώμονα να διευκολύνουν το έργο σας, προσφέροντας ένα άρτιο και αξιόπιστο εργαλείο.
             </p>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12 w-full max-w-xl">
+
+            {/* Feature cards - 3 items */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-10 w-full max-w-3xl">
               {[
-                { icon: Layers, title: "Οργανωμένη Ύλη", desc: "Κλιμακούμενη δυσκολία" },
-                { icon: BookOpen, title: "Αναλυτικές Λύσεις", desc: "Βήμα-βήμα καθοδήγηση" },
+                { icon: Layers, title: "Οργανωμένη Ύλη", desc: "Κλιμακούμενη δυσκολία", gradient: "from-violet-500/20 to-purple-500/10", border: "border-violet-400/20", iconColor: "text-violet-400" },
+                { icon: BookOpen, title: "Αναλυτικές Λύσεις", desc: "Βήμα-βήμα καθοδήγηση", gradient: "from-blue-500/20 to-cyan-500/10", border: "border-blue-400/20", iconColor: "text-blue-400" },
+                { icon: GraduationCap, title: "Υποστήριξη Καθηγητή", desc: "Έτοιμο διδακτικό υλικό", gradient: "from-emerald-500/20 to-teal-500/10", border: "border-emerald-400/20", iconColor: "text-emerald-400" },
               ].map((item, i) => (
-                <div key={i} className="flex gap-4 items-start">
-                  <div className="w-12 h-12 rounded-2xl bg-black/40 border border-white/20 flex items-center justify-center shrink-0 shadow-inner backdrop-blur-sm">
-                    <item.icon className="w-6 h-6 text-brand-blue-light" />
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.12 }}
+                  className={`flex flex-col items-center gap-3 p-6 rounded-2xl bg-gradient-to-br ${item.gradient} border ${item.border} backdrop-blur-sm hover:scale-105 transition-transform duration-300`}
+                >
+                  <div className="w-14 h-14 rounded-xl bg-black/40 border border-white/10 flex items-center justify-center shadow-inner">
+                    <item.icon className={`w-7 h-7 ${item.iconColor}`} />
                   </div>
                   <div>
-                    <h3 className="text-white font-bold font-proxima mb-1 text-lg drop-shadow-sm">{item.title}</h3>
-                    <p className="text-white/70 text-sm font-inter leading-relaxed">{item.desc}</p>
+                    <h3 className="text-white font-bold font-proxima mb-1 text-base drop-shadow-sm">{item.title}</h3>
+                    <p className="text-white/60 text-xs font-inter leading-relaxed">{item.desc}</p>
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
 
+
+            
             <Link href="/katigites">
               <motion.div 
                 whileHover={{ scale: 1.05 }}
@@ -72,39 +83,6 @@ export default function TeachersSection() {
               </motion.div>
             </Link>
           </motion.div>
-
-          {/* Visual Right */}
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 1, delay: 0.2 }}
-            className="relative w-full aspect-square md:aspect-[4/3] flex items-center justify-center"
-          >
-            {/* Main glass card */}
-            <div className="relative w-full h-full rounded-[3rem] border border-white/20 bg-black/30 backdrop-blur-xl p-10 overflow-hidden flex flex-col justify-between shadow-[0_20px_50px_rgba(0,0,0,0.5)] group hover:border-white/40 transition-all duration-500">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-brand-purple-light/20 rounded-full blur-[80px] group-hover:bg-brand-purple-light/30 transition-all duration-700" />
-              <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-blue-light/20 rounded-full blur-[80px] group-hover:bg-brand-blue-light/30 transition-all duration-700" />
-              
-              <div className="relative z-10 flex justify-between items-start">
-                <div className="w-20 h-20 rounded-3xl bg-black/40 border border-white/20 flex items-center justify-center backdrop-blur-md shadow-inner">
-                  <GraduationCap className="w-10 h-10 text-white" />
-                </div>
-                <div className="px-5 py-2.5 rounded-full bg-brand-purple-light/20 border border-brand-purple-light/40 backdrop-blur-md">
-                  <span className="text-white font-mono text-sm font-bold tracking-widest uppercase drop-shadow-md">Premium</span>
-                </div>
-              </div>
-
-              <div className="relative z-10 mt-auto">
-                <div className="w-full h-[1px] bg-gradient-to-r from-white/30 via-white/10 to-transparent mb-8" />
-                <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 font-montserrat drop-shadow-md">Αποκλειστικό Υλικό</h3>
-                <p className="text-white/80 font-inter text-lg leading-relaxed drop-shadow-sm">
-                  Αποκτήστε πρόσβαση σε εξειδικευμένα σχέδια μαθήματος, τράπεζα θεμάτων και διαδραστικές παρουσιάσεις, αποκλειστικά για τους συνεργάτες μας.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-          
         </div>
       </div>
     </section>

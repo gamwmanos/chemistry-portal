@@ -32,8 +32,7 @@ export default function FooterSection() {
             </h2>
 
             <p className="text-white/80 text-xl mb-12 leading-relaxed font-inter max-w-2xl mx-auto drop-shadow-md">
-              Επικοινωνήστε μαζί μας για παραγγελίες, δείγματα καθηγητών,
-              ή οποιαδήποτε πληροφορία σχετικά με τα βιβλία μας.
+              Να επικοινωνήσετε μαζί μας για οποιαδήποτε πληροφορία σχετικά με τα βιβλία μας.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
