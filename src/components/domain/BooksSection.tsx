@@ -14,9 +14,9 @@ const books = [
     image: "/alyk.jpg",
     color: "from-violet-600 via-purple-500 to-indigo-600",
     glow: "rgba(124,58,237,0.4)",
-    badge: "160+ Ερωτήσεις και Ασκήσεις",
+    badge: "134 Ερωτήσεις και Ασκήσεις",
     chapters: 6,
-    exercises: 160,
+    exercises: 134,
     digitalObjects: 172,
     features: ["Διαδραστικά μόρια 3D", "Βίντεο πειραμάτων", "Οπτικοποίηση Εννοιών"],
     href: "/a-lykeiou",
@@ -30,7 +30,7 @@ const books = [
     image: "/bgymn.jpg",
     color: "from-cyan-500 via-blue-500 to-indigo-600",
     glow: "rgba(59,130,246,0.4)",
-    badge: "200+ Ερωτήσεις και Ασκήσεις",
+    badge: "177 Ερωτήσεις και Ασκήσεις",
     chapters: 9,
     exercises: 177,
     digitalObjects: 140,
@@ -46,9 +46,9 @@ const books = [
     image: "/ggymn.jpg",
     color: "from-emerald-500 via-teal-500 to-cyan-600",
     glow: "rgba(16,185,129,0.4)",
-    badge: "300+ Ερωτήσεις και Ασκήσεις",
+    badge: "182 Ερωτήσεις και Ασκήσεις",
     chapters: 6,
-    exercises: 300,
+    exercises: 182,
     digitalObjects: 140,
     features: ["Εικονικό εργαστήριο", "Ερωτήσεις και Ασκήσεις κατανόησης", "Δομημένη μεθοδολογία"],
     href: "/g-gymnasiou",
@@ -162,7 +162,7 @@ export default function BooksSection() {
                         <div className="text-[9px] md:text-[10px] leading-tight text-white/40 uppercase tracking-wider font-inter mt-1">Κεφάλαια</div>
                       </div>
                       <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-3 text-center flex flex-col justify-center">
-                        <div className="text-xl md:text-2xl font-bold font-proxima bg-gradient-to-r from-brand-purple-light to-brand-blue-light bg-clip-text text-transparent">{book.exercises}+</div>
+                        <div className="text-xl md:text-2xl font-bold font-proxima bg-gradient-to-r from-brand-purple-light to-brand-blue-light bg-clip-text text-transparent">{book.exercises}</div>
                         <div className="text-[9px] md:text-[10px] leading-tight text-white/40 uppercase tracking-wider font-inter mt-1">Ερωτήσεις &<br/>Ασκήσεις</div>
                       </div>
                       <div className="flex-1 rounded-2xl bg-white/5 border border-white/10 p-3 text-center flex flex-col justify-center">
