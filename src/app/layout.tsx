@@ -30,8 +30,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Βιβλία Χημείας Γυμνασίου - Λυκείου | ΕΚΔΟΣΕΙΣ ΠΕΔΙΟ",
-  description: "Η κορυφαία εκπαιδευτική πλατφόρμα για την Χημεία στο Λύκειο.",
+  title: "Χημεία στην τάξη | ΕΚΔΟΣΕΙΣ ΠΕΔΙΟ",
+  description: "Η κορυφαία εκπαιδευτική πλατφόρμα για την Χημεία στο Γυμνάσιο και Λύκειο.",
 };
 
 export default function RootLayout({

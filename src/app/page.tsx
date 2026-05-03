@@ -63,17 +63,28 @@ export default function Home() {
               ΕΚΔΟΣΕΙΣ ΠΕΔΙΟ
             </motion.p>
 
-            <motion.h1
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter mb-6 max-w-6xl font-montserrat"
-              style={{ textShadow: "0 0 80px rgba(124,58,237,0.3)" }}
+              className="flex flex-col items-center justify-center mb-8 max-w-5xl w-full"
             >
-              <span className="text-white">Βιβλία Χημείας</span>
-              <br />
-              <span className="text-gradient">Γυμνασίου - Λυκείου</span>
-            </motion.h1>
+              <div className="relative group px-4">
+                {/* We use a subtle white blur behind it to ensure the dark letters contrast against the dark background */}
+                <div className="absolute -inset-2 md:-inset-4 bg-white/30 rounded-[4rem] blur-3xl opacity-60 group-hover:opacity-100 transition duration-500"></div>
+                <img 
+                  src="/ximeiastintaxi.png" 
+                  alt="Χημεία στην τάξη" 
+                  className="relative w-full max-w-full md:max-w-[700px] lg:max-w-[850px] h-auto object-contain group-hover:scale-[1.02] transition-all duration-500"
+                  style={{ 
+                    // No color filter so we keep the exact original Navy Blue & Teal colors.
+                    // We add a strong white drop-shadow so the dark text stands out from the dark space background.
+                    filter: "drop-shadow(0 0 10px rgba(255,255,255,0.8)) drop-shadow(0 0 30px rgba(255,255,255,0.4))" 
+                  }}
+                />
+              </div>
+              <h1 className="sr-only">Χημεία στην τάξη</h1>
+            </motion.div>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}

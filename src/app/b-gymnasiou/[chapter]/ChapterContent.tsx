@@ -319,33 +319,33 @@ export default function ChapterContent({ chapterId }: Props) {
               )}
 
               {activeTab === "experiments" && (
-                <div className="w-full flex flex-col gap-8">
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {experiments.length > 0 ? (
                     experiments.map((exp, index) => (
-                      <div key={index} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden">
-                        <h3 className="text-xl font-bold mb-4 font-proxima text-white flex items-center gap-2">
-                          <FlaskConical className="w-5 h-5 text-orange-400" />
-                          Ενότητα {exp.unit}: {exp.title}
+                      <div key={index} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden hover:bg-white/10 transition-colors">
+                        <h3 className="text-lg font-bold mb-4 font-proxima text-white flex items-start gap-2 h-14" title={`Ενότητα ${exp.unit}: ${exp.title}`}>
+                          <FlaskConical className="w-5 h-5 text-orange-400 shrink-0 mt-0.5" />
+                          <span className="line-clamp-2">Ενότητα {exp.unit}: {exp.title}</span>
                         </h3>
                         <a 
                           href={exp.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="relative w-full rounded-2xl overflow-hidden shadow-lg group block min-h-[160px] md:min-h-[220px] flex items-center justify-center bg-black/20 border border-white/10"
+                          className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-lg group block flex items-center justify-center bg-black/20 border border-white/10 mt-auto"
                         >
                           <Image 
                             src={exp.image}
                             alt={exp.title}
                             fill
-                            sizes="(max-width: 768px) 100vw, 50vw"
-                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            className="object-contain transition-transform duration-500 group-hover:scale-105"
                           />
                           
                           {/* Hover overlay with button */}
-                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center z-20">
-                            <div className="opacity-0 group-hover:opacity-100 bg-orange-500 text-white font-bold py-3 px-6 rounded-full shadow-2xl flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
-                              <PlayCircle className="w-6 h-6" />
-                              Εκκίνηση Πειράματος
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center z-20">
+                            <div className="opacity-0 group-hover:opacity-100 bg-orange-500 text-white font-bold py-2 px-4 text-sm md:text-base rounded-full shadow-2xl flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                              <PlayCircle className="w-5 h-5" />
+                              Εκκίνηση
                             </div>
                           </div>
                         </a>
