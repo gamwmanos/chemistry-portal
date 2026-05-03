@@ -4,7 +4,8 @@ import { useRef } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { FlaskConical, Sparkles, ArrowRight, Users, ChevronDown, BookOpen } from "lucide-react";
+import Image from "next/image";
+import { Sparkles, ArrowRight, Users, ChevronDown, BookOpen } from "lucide-react";
 import ScrollVideo from "@/components/domain/ScrollVideo";
 
 const BooksSection = dynamic(() => import("@/components/domain/BooksSection"), { ssr: true });
@@ -72,9 +73,12 @@ export default function Home() {
               <div className="relative group px-4">
                 {/* We use a subtle white blur behind it to ensure the dark letters contrast against the dark background */}
                 <div className="absolute -inset-2 md:-inset-4 bg-white/30 rounded-[4rem] blur-3xl opacity-60 group-hover:opacity-100 transition duration-500"></div>
-                <img 
+                <Image 
                   src="/ximeiastintaxi.png" 
                   alt="Χημεία στην τάξη" 
+                  width={1536}
+                  height={1024}
+                  priority
                   className="relative w-full max-w-full md:max-w-[700px] lg:max-w-[850px] h-auto object-contain group-hover:scale-[1.02] transition-all duration-500"
                   style={{ 
                     // No color filter so we keep the exact original Navy Blue & Teal colors.

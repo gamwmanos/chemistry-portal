@@ -30,10 +30,7 @@
     "typescript": "^5"
   },
   "browserslist": [
-    "defaults",
-    "not IE 11",
-    "not IE_Mob 11",
-    "not dead",
-    "> 0.2%"
+    "defaults and fully supports es6-module",
+    "not dead"
   ]
 }

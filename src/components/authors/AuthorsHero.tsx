@@ -35,12 +35,12 @@ export default function AuthorsHero({ authors, onSelectAuthor }: AuthorsHeroProp
   return (
     <div className="relative w-full min-h-screen bg-slate-950 flex flex-col items-center justify-center overflow-hidden">
       <div className="relative w-full">
-        {/* Η κεντρική φωτογραφία των συγγραφέων */}
         <Image 
           src="/oloi.jpg" 
           alt="Οι Συγγραφείς" 
           width={1920} 
           height={1080} 
+          sizes="100vw"
           className="w-full h-auto block"
           priority
         />
