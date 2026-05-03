@@ -75,7 +75,7 @@ export default function FooterSection() {
                 {[
                   { icon: MessageCircle, label: "Instagram", href: "https://instagram.com" },
                   { icon: Share2, label: "Facebook", href: "https://facebook.com" },
-                  { icon: Video, label: "YouTube", href: "https://youtube.com" },
+                  { icon: Video, label: "YouTube", href: "https://www.youtube.com/@CHEMISTRY-LAB/videos" },
                 ].map(({ icon: Icon, label, href }) => (
                   <Link
                     key={label}

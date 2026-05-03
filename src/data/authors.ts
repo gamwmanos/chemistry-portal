@@ -265,7 +265,7 @@ export const authorsData: Author[] = [
       {
         type: 'youtube',
         title: "Κανάλι με 100+ βιντεοσκοπημένα πειράματα Χημείας",
-        url: "#"
+        url: "https://www.youtube.com/@CHEMISTRY-LAB/videos"
       }
     ],
     image: "/xronakhs.jpg"
