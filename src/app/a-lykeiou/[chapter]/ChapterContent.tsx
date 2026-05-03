@@ -199,7 +199,7 @@ export default function ChapterContent({ chapterId }: Props) {
               {activeTab === "experiments" && (
                 <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
                    <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
-                   <h3 className="text-xl font-bold mb-2 font-proxima text-white">Εικονικά Πειράματα</h3>
+                   <h3 className="text-xl font-bold mb-2 font-proxima text-white">Διαδραστικά Βίντεο Πειραμάτων</h3>
                    <p className="text-purple-200 text-center max-w-md font-inter">
                      Βίντεο και προσομοιώσεις πειραμάτων για την καλύτερη κατανόηση των φαινομένων.
                    </p>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, BookOpen, Brain, FlaskConical, PlayCircle } from "lucide-react";
 
@@ -72,6 +73,112 @@ export default function ChapterContent({ chapterId }: Props) {
       { title: "Θεωρία 6.1", url: "https://drive.google.com/file/d/1xGkmon3f2xu5cnbc8rU7T0H9pWCgfFUW/preview" },
       { title: "Θεωρία 6.2", url: "https://drive.google.com/file/d/1uLE37r6qorOCDx2YxVtRwdm8KVgPzWIF/preview" },
       { title: "Θεωρία 6.3", url: "https://drive.google.com/file/d/15GMCmLK2D22uaw-2AgMwUuZEQdkd626l/preview" }
+    ];
+  }
+
+  let experiments: { unit: string; title: string; url: string; image: string }[] = [];
+
+  if (chapterId === "chapter-1") {
+    experiments = [
+      {
+        unit: "1.1",
+        title: "Διάσπαση H2O2 με καταλύτη πυρολουσίτη και ανίχνευση οξυγόνου",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14177",
+        image: "/images/gGymnasiou/exp-1-1.jpg"
+      },
+      {
+        unit: "1.1",
+        title: "Η υπέρλαμπρη καύση του μαγνησίου (Mg)",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14183",
+        image: "/images/gGymnasiou/exp-1-1(2).jpg"
+      },
+      {
+        unit: "1.1",
+        title: "Αντίδραση Fe με διάλυμα CuSO4",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14187",
+        image: "/images/gGymnasiou/exp-1-1(3).jpg"
+      }
+    ];
+  } else if (chapterId === "chapter-2") {
+    experiments = [
+      {
+        unit: "2.3",
+        title: "Το μυστήριο του νομισματοκοπείου",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21806",
+        image: "/images/gGymnasiou/exp-2-3.jpg"
+      }
+    ];
+  } else if (chapterId === "chapter-4") {
+    experiments = [
+      {
+        unit: "4.1",
+        title: "Ανίχνευση άνθρακα σε οργανικές ενώσεις – Απανθράκωση ζάχαρης",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14184",
+        image: "/images/gGymnasiou/exp-4-1.jpg"
+      },
+      {
+        unit: "4.2",
+        title: "Τέλεια και ατελής καύση βουτανίου & παραφίνης – Ανίχνευση αιθάλης & CO2",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14394",
+        image: "/images/gGymnasiou/exp-4-2.jpg"
+      },
+      {
+        unit: "4.3",
+        title: "Παρασκευή πλαστικού από άμυλο (Βιοπλαστικό)",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14191",
+        image: "/images/gGymnasiou/exp-4-3.jpg"
+      },
+      {
+        unit: "4.4",
+        title: "Διαλυτότητα ουσιών σε νερό και αιθανόλη",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/11632",
+        image: "/images/gGymnasiou/exp-4-4.jpg"
+      }
+    ];
+  } else if (chapterId === "chapter-5") {
+    experiments = [
+      {
+        unit: "5.3",
+        title: "Δείκτης κόκκινο λάχανο – Χρωματική κλίμακα pH",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14273",
+        image: "/images/gGymnasiou/exp-5-3.jpg"
+      },
+      {
+        unit: "5.3",
+        title: "Μέτρηση pH με πεχάμετρο, πεχαμετρικό χαρτί και δείκτη",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14194",
+        image: "/images/gGymnasiou/exp-5-3(2).jpg"
+      },
+      {
+        unit: "5.4",
+        title: "Εξουδετέρωση, Δείκτες και Παρασκευή Άλατος NaCl",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14375",
+        image: "/images/gGymnasiou/exp-5-4.jpg"
+      },
+      {
+        unit: "5.4",
+        title: "Εξουδετέρωση – Σχηματισμός και παραλαβή άλατος Ca3(PO4)2",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14295",
+        image: "/images/gGymnasiou/exp-5-4(2).jpg"
+      },
+      {
+        unit: "5.6",
+        title: "Αντιδράσεις απλής αντικατάστασης – Δραστικότητα μετάλλων",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/21037",
+        image: "/images/gGymnasiou/exp-5-6.jpg"
+      },
+      {
+        unit: "5.6",
+        title: "Πυροχημική ανίχνευση ιόντων μετάλλων σε άλατά τους",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14170",
+        image: "/images/gGymnasiou/exp-5-6(2).jpg"
+      },
+      {
+        unit: "5.7",
+        title: "Ανίχνευση ιόντων Cl-, Br- & I- με υδατικό διάλυμα AgNO3",
+        url: "https://ebooksdl.cti.gr/view?item=20.500.14040/14370",
+        image: "/images/gGymnasiou/exp-5-7.jpg"
+      }
     ];
   }
 
@@ -184,12 +291,47 @@ export default function ChapterContent({ chapterId }: Props) {
               )}
 
               {activeTab === "experiments" && (
-                <div className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
-                  <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
-                  <h3 className="text-xl font-bold mb-2 font-proxima text-white">Εικονικά Πειράματα</h3>
-                  <p className="text-emerald-200 text-center max-w-md font-inter">
-                    Βίντεο και προσομοιώσεις πειραμάτων για την καλύτερη κατανόηση των φαινομένων.
-                  </p>
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {experiments.length > 0 ? (
+                    experiments.map((exp, index) => (
+                      <div key={index} className="bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-6 flex flex-col overflow-hidden hover:bg-white/10 transition-colors">
+                        <h3 className="text-lg font-bold mb-4 font-proxima text-white flex items-start gap-2 h-14" title={`Ενότητα ${exp.unit}: ${exp.title}`}>
+                          <FlaskConical className="w-5 h-5 text-orange-400 shrink-0 mt-0.5" />
+                          <span className="line-clamp-2">Ενότητα {exp.unit}: {exp.title}</span>
+                        </h3>
+                        <a 
+                          href={exp.url}
+                          target={exp.url !== "#" ? "_blank" : undefined}
+                          rel={exp.url !== "#" ? "noopener noreferrer" : undefined}
+                          className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-lg group block flex items-center justify-center bg-black/20 border border-white/10 mt-auto"
+                        >
+                          <Image 
+                            src={exp.image}
+                            alt={exp.title}
+                            fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            className="object-contain transition-transform duration-500 group-hover:scale-105"
+                          />
+                          
+                          {/* Hover overlay with button */}
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center z-20">
+                            <div className="opacity-0 group-hover:opacity-100 bg-orange-500 text-white font-bold py-2 px-4 text-sm md:text-base rounded-full shadow-2xl flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                              <PlayCircle className="w-5 h-5" />
+                              Εκκίνηση
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="col-span-full bg-white/5 backdrop-blur-md border border-white/20 shadow-sm rounded-3xl p-8 min-h-[50vh] flex flex-col items-center justify-center border-dashed border-2">
+                      <PlayCircle className="w-16 h-16 text-white/30 mb-4" />
+                      <h3 className="text-xl font-bold mb-2 font-proxima text-white">Διαδραστικά Βίντεο Πειραμάτων</h3>
+                      <p className="text-emerald-200 text-center max-w-md font-inter">
+                        Βίντεο και προσομοιώσεις πειραμάτων για αυτό το κεφάλαιο δεν είναι ακόμα διαθέσιμα.
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </motion.div>

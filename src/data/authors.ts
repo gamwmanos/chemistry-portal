@@ -195,7 +195,7 @@ export const authorsData: Author[] = [
     publications: [
       "Ανάπτυξη πρωτότυπου εκπαιδευτικού υλικού"
     ],
-    image: "/eleni.jpg"
+    image: "/eleni2.jpg"
   },
   {
     id: "antonis-chronakis",
