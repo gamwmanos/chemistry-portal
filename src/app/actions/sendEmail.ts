@@ -21,7 +21,7 @@ export async function sendEmailAction(data: {
     // Άλλαξε το "TO_DIKO_SOU_EMAIL@gmail.com" με το πραγματικό σου email.
 
     const { data: emailData, error } = await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: "info@ximeiastintaxi.gr",
       to: "ximeiastintaxi@gmail.com", // <-- Το νέο email που θα δέχεται τα μηνύματα της φόρμας
       subject: `Νέο Μήνυμα: ${subject} (${inquiryType})`,
       html: `
