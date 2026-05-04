@@ -12,6 +12,34 @@ const BooksSection = dynamic(() => import("@/components/domain/BooksSection"), {
 const FeaturesSection = dynamic(() => import("@/components/domain/FeaturesSection"), { ssr: true });
 const TeachersSection = dynamic(() => import("@/components/domain/TeachersSection"), { ssr: true });
 
+const smoothScrollTo = (targetId: string, duration: number) => {
+  const targetElement = document.getElementById(targetId);
+  if (!targetElement) return;
+
+  const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+  const startPosition = window.scrollY;
+  const distance = targetPosition - startPosition;
+  let startTime: number | null = null;
+
+  const animation = (currentTime: number) => {
+    if (startTime === null) startTime = currentTime;
+    const timeElapsed = currentTime - startTime;
+    const run = ease(timeElapsed, startPosition, distance, duration);
+    window.scrollTo(0, run);
+    if (timeElapsed < duration) requestAnimationFrame(animation);
+  };
+
+  // Easing function (easeInOutCubic)
+  const ease = (t: number, b: number, c: number, d: number) => {
+    t /= d / 2;
+    if (t < 1) return (c / 2) * t * t * t + b;
+    t -= 2;
+    return (c / 2) * (t * t * t + 2) + b;
+  };
+
+  requestAnimationFrame(animation);
+};
+
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll();
@@ -110,9 +138,7 @@ export default function Home() {
               className="flex flex-col sm:flex-row items-center gap-5 pointer-events-auto"
             >
               <button
-                onClick={() => {
-                  document.getElementById('books')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }}
+                onClick={() => smoothScrollTo('books', 1500)}
                 className="group bg-transparent border-none p-0 cursor-pointer"
               >
                 <div className="flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-brand-purple-light to-brand-blue-light text-white font-bold text-lg hover:shadow-[0_0_60px_rgba(124,58,237,0.6)] hover:scale-105 transition-all duration-300 font-inter">

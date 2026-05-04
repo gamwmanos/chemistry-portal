@@ -15,7 +15,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Η ΧΗΜΕΙΑ ΣΤΗΝ ΚΑΘΗΜΕΡΙΝΗ ΖΩΗ ΚΑΙ ΣΤΗΝ ΚΟΙΝΩΝΙΑ",
     description: "Η επιστημονική αξία της Χημείας, οι εφαρμογές της στη ζωή μας, η βιώσιμη ανάπτυξη και η ασφάλεια στο εργαστήριο.",
     topics: 0,
-    exercises: 0,
+    exercises: 16,
     color: "from-purple-600 to-purple-400"
   },
   {
@@ -24,7 +24,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Η ΔΟΜΗ ΤΟΥ ΑΤΟΜΟΥ – Ο ΠΕΡΙΟΔΙΚΟΣ ΠΙΝΑΚΑΣ",
     description: "Υποατομικά σωματίδια, ατομικός και μαζικός αριθμός, ισότοπα, ηλεκτρονική δομή, ιόντα και σύγχρονος περιοδικός πίνακας.",
     topics: 0,
-    exercises: 0,
+    exercises: 17,
     color: "from-blue-600 to-blue-400"
   },
   {
@@ -33,7 +33,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Ο ΧΗΜΙΚΟΣ ΔΕΣΜΟΣ",
     description: "Ιοντικός και ομοιοπολικός δεσμός, σχηματισμός ιόντων, ηλεκτραρνητικότητα, πολικότητα και ιδιότητες ιοντικών και ομοιοπολικών ενώσεων.",
     topics: 0,
-    exercises: 0,
+    exercises: 55,
     color: "from-indigo-600 to-indigo-400"
   },
   {
@@ -42,7 +42,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Η ΓΛΩΣΣΑ ΤΗΣ ΑΝΟΡΓΑΝΗΣ ΧΗΜΕΙΑΣ",
     description: "Ονοματολογία ανόργανων ενώσεων, οξέα, βάσεις, άλατα, οξείδια και οι χημικές τους ονομασίες σύμφωνα με τη διεθνή ονοματολογία.",
     topics: 0,
-    exercises: 0,
+    exercises: 25,
     color: "from-violet-600 to-violet-400"
   },
   {
@@ -51,7 +51,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "ΕΙΣΑΓΩΓΗ ΣΤΙΣ ΧΗΜΙΚΕΣ ΑΝΤΙΔΡΑΣΕΙΣ",
     description: "Χημικές εξισώσεις, τύποι αντιδράσεων, νόμος διατήρησης μάζας, εξώθερμες και ενδόθερμες αντιδράσεις.",
     topics: 0,
-    exercises: 0,
+    exercises: 59,
     color: "from-fuchsia-600 to-fuchsia-400"
   },
   {

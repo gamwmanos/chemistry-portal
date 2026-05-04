@@ -115,7 +115,7 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                         <div className="flex gap-3">
                           <HelpCircle className="w-6 h-6 text-violet-400 flex-shrink-0" />
                           <div 
-                            className="text-purple-100 text-sm leading-relaxed"
+                            className="text-purple-100 text-sm leading-relaxed whitespace-pre-wrap"
                             dangerouslySetInnerHTML={{ __html: mcq.explanation }}
                           />
                         </div>
@@ -171,7 +171,7 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                       className="p-6 rounded-2xl bg-white/5 border border-white/10 prose prose-invert max-w-none"
                     >
                       <div 
-                        className="text-purple-100 text-sm leading-relaxed"
+                        className="text-purple-100 text-sm leading-relaxed whitespace-pre-wrap"
                         dangerouslySetInnerHTML={{ __html: openQ.a }}
                       />
                     </motion.div>
