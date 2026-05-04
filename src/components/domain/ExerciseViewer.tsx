@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, XCircle, HelpCircle } from "lucide-react";
 import type { Question, MCQ } from "@/data/questions";
+import LatexText from "./LatexText";
 
 type Props = {
   mcqs: MCQ[];
@@ -72,9 +73,9 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                     </span>
                   </div>
 
-                  <h3 
-                    className="text-xl md:text-2xl font-bold mb-6 leading-relaxed text-white"
-                    dangerouslySetInnerHTML={{ __html: mcq.q }}
+                  <LatexText 
+                    className="text-xl md:text-2xl font-bold mb-6 leading-relaxed text-white block"
+                    text={mcq.q}
                   />
 
                   <div className="space-y-4">
@@ -97,7 +98,7 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                           disabled={selectedOption !== undefined}
                           className={`w-full text-left p-4 rounded-2xl border transition-all duration-300 flex items-center justify-between ${buttonClass}`}
                         >
-                          <span dangerouslySetInnerHTML={{ __html: option.text }} />
+                          <LatexText text={option.text} />
                           {showStatus && isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-400" />}
                           {showStatus && isSelected && !isCorrect && <XCircle className="w-5 h-5 text-rose-400" />}
                         </button>
@@ -114,9 +115,9 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                       >
                         <div className="flex gap-3">
                           <HelpCircle className="w-6 h-6 text-violet-400 flex-shrink-0" />
-                          <div 
-                            className="text-purple-100 text-sm leading-relaxed whitespace-pre-wrap"
-                            dangerouslySetInnerHTML={{ __html: mcq.explanation }}
+                          <LatexText 
+                            className="text-purple-100 text-sm leading-relaxed whitespace-pre-wrap block"
+                            text={mcq.explanation}
                           />
                         </div>
                       </motion.div>
@@ -152,9 +153,9 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                     </span>
                   </div>
 
-                  <h3 
-                    className="text-lg md:text-xl font-bold mb-6 leading-relaxed whitespace-pre-wrap text-white"
-                    dangerouslySetInnerHTML={{ __html: openQ.q }}
+                  <LatexText 
+                    className="text-lg md:text-xl font-bold mb-6 leading-relaxed whitespace-pre-wrap text-white block"
+                    text={openQ.q}
                   />
 
                   {!showAnswer ? (
@@ -170,9 +171,9 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                       animate={{ opacity: 1, y: 0 }}
                       className="p-6 rounded-2xl bg-white/5 border border-white/10 prose prose-invert max-w-none"
                     >
-                      <div 
-                        className="text-purple-100 text-sm leading-relaxed whitespace-pre-wrap"
-                        dangerouslySetInnerHTML={{ __html: openQ.a }}
+                      <LatexText 
+                        className="text-purple-100 text-sm leading-relaxed whitespace-pre-wrap block"
+                        text={openQ.a}
                       />
                     </motion.div>
                   )}

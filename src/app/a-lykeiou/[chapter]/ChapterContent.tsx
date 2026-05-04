@@ -65,7 +65,8 @@ export default function ChapterContent({ chapterId }: Props) {
     theoryPdfs = [
       { title: "Θεωρία 4.1", url: "https://drive.google.com/file/d/15NtYuOkYEQSNcjLMSCwI5sqmw4MQzfxg/preview" },
       { title: "Θεωρία 4.2", url: "https://drive.google.com/file/d/1uIpb1KEStZ3B7J6fMiu7dKqpae7kzz6-/preview" },
-      { title: "Θεωρία 4.3", url: "https://drive.google.com/file/d/1TWIey5GtR7pqySsmuXzcCbR-5T_aGsud/preview" },
+      { title: "Θεωρία 4.3", url: "https://drive.google.com/file/d/1F6j_SfL_N20kjWugBorKdeh98VE4DFIF/preview" },
+      { title: "Θεωρία 4.4", url: "https://drive.google.com/file/d/1N4iGBxw2qly_KPMtNv3rCtvk7xQ4o29N/preview" },
     ];
   } else if (chapterId === "chapter-5") {
     mcqs = ch5MCQ;
