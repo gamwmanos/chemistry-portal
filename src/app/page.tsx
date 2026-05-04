@@ -29,12 +29,9 @@ const smoothScrollTo = (targetId: string, duration: number) => {
     if (timeElapsed < duration) requestAnimationFrame(animation);
   };
 
-  // Easing function (easeInOutCubic)
+  // Easing function (easeInOutSine - starts immediately, very smooth)
   const ease = (t: number, b: number, c: number, d: number) => {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t * t + b;
-    t -= 2;
-    return (c / 2) * (t * t * t + 2) + b;
+    return (-c / 2) * (Math.cos((Math.PI * t) / d) - 1) + b;
   };
 
   requestAnimationFrame(animation);
@@ -138,7 +135,7 @@ export default function Home() {
               className="flex flex-col sm:flex-row items-center gap-5 pointer-events-auto"
             >
               <button
-                onClick={() => smoothScrollTo('books', 1500)}
+                onClick={() => smoothScrollTo('books', 1200)}
                 className="group bg-transparent border-none p-0 cursor-pointer"
               >
                 <div className="flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-brand-purple-light to-brand-blue-light text-white font-bold text-lg hover:shadow-[0_0_60px_rgba(124,58,237,0.6)] hover:scale-105 transition-all duration-300 font-inter">
