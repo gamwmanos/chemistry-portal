@@ -23,6 +23,7 @@ export async function sendEmailAction(data: {
     const { data: emailData, error } = await resend.emails.send({
       from: "info@ximeiastintaxi.gr",
       to: "ximeiastintaxi@gmail.com", // <-- Το νέο email που θα δέχεται τα μηνύματα της φόρμας
+      reply_to: email, // <-- ΑΥΤΟ λύνει το πρόβλημα της απάντησης!
       subject: `Νέο Μήνυμα: ${subject} (${inquiryType})`,
       html: `
         <h2>Νέο μήνυμα από την φόρμα επικοινωνίας</h2>
