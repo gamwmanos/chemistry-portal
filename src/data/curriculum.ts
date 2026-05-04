@@ -14,7 +14,7 @@ export const aLykeiouChapters: Chapter[] = [
     number: "1",
     title: "Η ΧΗΜΕΙΑ ΣΤΗΝ ΚΑΘΗΜΕΡΙΝΗ ΖΩΗ ΚΑΙ ΣΤΗΝ ΚΟΙΝΩΝΙΑ",
     description: "Η επιστημονική αξία της Χημείας, οι εφαρμογές της στη ζωή μας, η βιώσιμη ανάπτυξη και η ασφάλεια στο εργαστήριο.",
-    topics: 0,
+    topics: 2,
     exercises: 32,
     color: "from-purple-600 to-purple-400"
   },
@@ -23,8 +23,8 @@ export const aLykeiouChapters: Chapter[] = [
     number: "2",
     title: "Η ΔΟΜΗ ΤΟΥ ΑΤΟΜΟΥ – Ο ΠΕΡΙΟΔΙΚΟΣ ΠΙΝΑΚΑΣ",
     description: "Υποατομικά σωματίδια, ατομικός και μαζικός αριθμός, ισότοπα, ηλεκτρονική δομή, ιόντα και σύγχρονος περιοδικός πίνακας.",
-    topics: 0,
-    exercises: 87,
+    topics: 2,
+    exercises: 35,
     color: "from-blue-600 to-blue-400"
   },
   {
@@ -32,7 +32,7 @@ export const aLykeiouChapters: Chapter[] = [
     number: "3",
     title: "Ο ΧΗΜΙΚΟΣ ΔΕΣΜΟΣ",
     description: "Ιοντικός και ομοιοπολικός δεσμός, σχηματισμός ιόντων, ηλεκτραρνητικότητα, πολικότητα και ιδιότητες ιοντικών και ομοιοπολικών ενώσεων.",
-    topics: 0,
+    topics: 2,
     exercises: 86,
     color: "from-indigo-600 to-indigo-400"
   },
@@ -41,7 +41,7 @@ export const aLykeiouChapters: Chapter[] = [
     number: "4",
     title: "Η ΓΛΩΣΣΑ ΤΗΣ ΑΝΟΡΓΑΝΗΣ ΧΗΜΕΙΑΣ",
     description: "Ονοματολογία ανόργανων ενώσεων, οξέα, βάσεις, άλατα, οξείδια και οι χημικές τους ονομασίες σύμφωνα με τη διεθνή ονοματολογία.",
-    topics: 0,
+    topics: 4,
     exercises: 25,
     color: "from-violet-600 to-violet-400"
   },
@@ -50,7 +50,7 @@ export const aLykeiouChapters: Chapter[] = [
     number: "5",
     title: "ΕΙΣΑΓΩΓΗ ΣΤΙΣ ΧΗΜΙΚΕΣ ΑΝΤΙΔΡΑΣΕΙΣ",
     description: "Χημικές εξισώσεις, τύποι αντιδράσεων, νόμος διατήρησης μάζας, εξώθερμες και ενδόθερμες αντιδράσεις.",
-    topics: 0,
+    topics: 5,
     exercises: 59,
     color: "from-fuchsia-600 to-fuchsia-400"
   },
@@ -59,7 +59,7 @@ export const aLykeiouChapters: Chapter[] = [
     number: "6",
     title: "ΣΤΟΙΧΕΙΟΜΕΤΡΙΑ",
     description: "Αριθμός Avogadro, mol, γραμμοατομιακή και γραμμομοριακή μάζα, στοιχειομετρικοί υπολογισμοί σε χημικές αντιδράσεις.",
-    topics: 0,
+    topics: 3,
     exercises: 100,
     color: "from-rose-600 to-rose-400"
   }
