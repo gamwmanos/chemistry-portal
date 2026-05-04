@@ -15,7 +15,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Η ΧΗΜΕΙΑ ΣΤΗΝ ΚΑΘΗΜΕΡΙΝΗ ΖΩΗ ΚΑΙ ΣΤΗΝ ΚΟΙΝΩΝΙΑ",
     description: "Η επιστημονική αξία της Χημείας, οι εφαρμογές της στη ζωή μας, η βιώσιμη ανάπτυξη και η ασφάλεια στο εργαστήριο.",
     topics: 0,
-    exercises: 16,
+    exercises: 32,
     color: "from-purple-600 to-purple-400"
   },
   {
@@ -24,7 +24,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Η ΔΟΜΗ ΤΟΥ ΑΤΟΜΟΥ – Ο ΠΕΡΙΟΔΙΚΟΣ ΠΙΝΑΚΑΣ",
     description: "Υποατομικά σωματίδια, ατομικός και μαζικός αριθμός, ισότοπα, ηλεκτρονική δομή, ιόντα και σύγχρονος περιοδικός πίνακας.",
     topics: 0,
-    exercises: 17,
+    exercises: 87,
     color: "from-blue-600 to-blue-400"
   },
   {
@@ -33,7 +33,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "Ο ΧΗΜΙΚΟΣ ΔΕΣΜΟΣ",
     description: "Ιοντικός και ομοιοπολικός δεσμός, σχηματισμός ιόντων, ηλεκτραρνητικότητα, πολικότητα και ιδιότητες ιοντικών και ομοιοπολικών ενώσεων.",
     topics: 0,
-    exercises: 55,
+    exercises: 86,
     color: "from-indigo-600 to-indigo-400"
   },
   {
@@ -60,7 +60,7 @@ export const aLykeiouChapters: Chapter[] = [
     title: "ΣΤΟΙΧΕΙΟΜΕΤΡΙΑ",
     description: "Αριθμός Avogadro, mol, γραμμοατομιακή και γραμμομοριακή μάζα, στοιχειομετρικοί υπολογισμοί σε χημικές αντιδράσεις.",
     topics: 0,
-    exercises: 0,
+    exercises: 100,
     color: "from-rose-600 to-rose-400"
   }
 ];
