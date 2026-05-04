@@ -29,9 +29,11 @@ const smoothScrollTo = (targetId: string, duration: number) => {
     if (timeElapsed < duration) requestAnimationFrame(animation);
   };
 
-  // Easing function (easeInOutSine - starts immediately, very smooth)
+  // Easing function (easeOutQuart - starts fast immediately, smooth deceleration)
   const ease = (t: number, b: number, c: number, d: number) => {
-    return (-c / 2) * (Math.cos((Math.PI * t) / d) - 1) + b;
+    t /= d;
+    t--;
+    return -c * (t * t * t * t - 1) + b;
   };
 
   requestAnimationFrame(animation);
