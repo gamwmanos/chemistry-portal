@@ -1,0 +1,79 @@
+[
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-q1\\\",\\n    chapterId: \\\"c\n<truncated 33806 bytes>",
+    "Description": "\"Script to append Chapter 6 questions (1-19) into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_p1.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-q20\\\",\\n    chapterId: \\\"\n<truncated 34713 bytes>",
+    "Description": "\"Script to append Chapter 6 questions 20 to 30 into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_p2.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-q31\\\",\\n    chapterId: \\\"\n<truncated 38072 bytes>",
+    "Description": "\"Script to append Chapter 6 questions 31 to 45 into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_p3.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-2-q1\\\",\\n    chapterId: \\\n<truncated 38199 bytes>",
+    "Description": "\"Script to append Chapter 6.2 questions 1 to 14 into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_2_p1.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-2-q15\\\",\\n    chapterId: \n<truncated 27977 bytes>",
+    "Description": "\"Script to append Chapter 6.2 questions 15 to 22 into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_2_p2.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-3-intro-q1\\\",\\n    chapte\n<truncated 26847 bytes>",
+    "Description": "\"Script to append Chapter 6.3 questions intro 1-3 and exercises 1 to 8 into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_3_p1.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-3-q9\\\",\\n    chapterId: \\\n<truncated 21708 bytes>",
+    "Description": "\"Script to append Chapter 6.3 questions 9 to 16 into the aLykeiouQuestions.ts file.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_3_p2.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\n// Replace solution of ch6-3-q16 to add parts γ and δ\\ncontent =\n<truncated 38551 bytes>",
+    "Description": "\"Script to update ch6-3-q16 and append questions 17 to 25 of chapter 6.3.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_3_p3.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst ch6Questions = `  {\\n    id: \\\"ch6-3-q26\\\",\\n    chapterId: \n<truncated 25028 bytes>",
+    "Description": "\"Script to append questions 26 to 30 of chapter 6.3.\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_ch6_3_p4.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\nconst path = require('path');\\n\\nconst targetFile = path.join(__dirname, 'src/data/aLykeiouQuestions.ts');\\nlet content = fs.readFileSync(targetFile, 'utf8');\\n\\nconst matchQuestions = content.match(/export const ch6Questions: Q\n<truncated 500 bytes>",
+    "Description": "\"Count ch 6 exercises\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\count_ch6_total.js\""
+  },
+  {
+    "CodeContent": "\"const fs = require('fs');\\n\\nconst questions = [\\n  {\\n    \\\"id\\\": \\\"ch6-q20\\\",\\n    \\\"chapterId\\\": \\\"chapter-6\\\",\\n    \\\"question\\\": \\\"20. Ποιος όγκος διαλύματος Δ1 \\\\\\\\( \\\\\\\\text{NaOH} \\\\\\\\) 0,030 M πρέπει να αναμειχ\n<truncated 44942 bytes>",
+    "Description": "\"Create append script\"",
+    "IsArtifact": "false",
+    "Overwrite": "true",
+    "TargetFile": "\"d:\\\\BIBLIA\\\\chemistry-portal\\\\append_20_30.js\""
+  }
+]

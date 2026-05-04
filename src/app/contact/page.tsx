@@ -73,7 +73,7 @@ const CONTACT_DETAILS = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@chemistryportal.gr",
+    value: "ximeiastintaxi@gmail.com",
     subtitle: "Απαντάμε εντός 24 ωρών",
     color: "text-brand-blue",
     bgColor: "bg-brand-blue/10",

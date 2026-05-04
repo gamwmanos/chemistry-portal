@@ -22,7 +22,7 @@ export async function sendEmailAction(data: {
 
     const { data: emailData, error } = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "chronakesm@gmail.com", // <-- ΒΑΛΕ ΕΔΩ ΤΟ EMAIL ΕΓΓΡΑΦΗΣ ΣΟΥ
+      to: "ximeiastintaxi@gmail.com", // <-- Το νέο email που θα δέχεται τα μηνύματα της φόρμας
       subject: `Νέο Μήνυμα: ${subject} (${inquiryType})`,
       html: `
         <h2>Νέο μήνυμα από την φόρμα επικοινωνίας</h2>
