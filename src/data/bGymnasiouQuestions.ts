@@ -63,7 +63,7 @@ export const bGymnasiouQuestions: Question[] = [
   },
   {
     "chapterId": "chapter-3",
-    "q": "6. Το χλωρίδιο του κοβαλτίου (CoCl2) είναι ένα άλας το οποίο όταν είναι άνυδρο έχει μπλε χρώμα και όταν είναι ένυδρο είναι ροζ. Να προτείνετε ένα πείραμα με το οποίο να αποδεικνύεται ότι το σώμα μας αποβάλλει νερό.",
+    "q": "6. Το χλωρίδιο του κοβαλτίου (CoCl<sub>2</sub>) είναι ένα άλας το οποίο όταν είναι άνυδρο έχει μπλε χρώμα και όταν είναι ένυδρο είναι ροζ. Να προτείνετε ένα πείραμα με το οποίο να αποδεικνύεται ότι το σώμα μας αποβάλλει νερό.",
     "a": "<span class='text-rose-400 font-bold'>Μπορούμε να φυσήξουμε (εκπνεύσουμε) πάνω σε άνυδρο χλωρίδιο του κοβαλτίου. Οι υδρατμοί της εκπνοής μας θα απορροφηθούν από το άλας, και αυτό θα μετατραπεί από μπλε σε ροζ, αποδεικνύοντας ότι με την αναπνοή μας αποβάλλουμε νερό.</span>"
   },
   {
@@ -169,87 +169,87 @@ export const bGymnasiouQuestions: Question[] = [
   {
     "chapterId": "chapter-4",
     "q": "Να αναφέρετε συνοπτικά τις απόψεις των αρχαίων Ελλήνων φιλοσόφων (Δημόκριτος, Αριστοτέλης) και του Lavoisier σχετικά με τη δομή της ύλης, όπως περιγράφονται στο εννοιολογικό σχήμα.",
-    "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>Ο Δημόκριτος πίστευε ότι τα υλικά σώματα αποτελούνται από άτομα τα οποία είναι άφθαρτα, άτμητα και αναλλοίωτα. Ο συνδυασμός τους σχηματίζει τα ουράνια σώματα. Η θεωρία του δεν έγινε αποδεκτή από τους συγχρόνους του [cite: 429-434].</li>\n      <li class='mb-2'>Ο Αριστοτέλης πίστευε ότι τα υλικά σώματα προέρχονται από τον συνδυασμό 4 στοιχείων τα οποία είναι αέρας, φωτιά, γη, νερό και του αιθέρα [cite: 435-439]. Η θεωρία του έγινε αποδεκτή, επηρέασε τους αλχημιστές (στην προσπάθειά τους για τη φιλοσοφική λίθο και το ελιξίριο της ζωής) και καταρρίφθηκε αργότερα [cite: 437-440].</li>\n      <li class='mb-2'>Ο Lavoisier απέδειξε ότι το νερό σχηματίζεται από H<sub>2</sub> και O<sub>2</sub>, δηλαδή είναι χημική ένωση[cite: 438].</li>\n    </ul></span>"
+    "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>Ο Δημόκριτος πίστευε ότι τα υλικά σώματα αποτελούνται από άτομα τα οποία είναι άφθαρτα, άτμητα και αναλλοίωτα. Ο συνδυασμός τους σχηματίζει τα ουράνια σώματα. Η θεωρία του δεν έγινε αποδεκτή από τους συγχρόνους του.</li>\n      <li class='mb-2'>Ο Αριστοτέλης πίστευε ότι τα υλικά σώματα προέρχονται από τον συνδυασμό 4 στοιχείων τα οποία είναι αέρας, φωτιά, γη, νερό και του αιθέρα. Η θεωρία του έγινε αποδεκτή, επηρέασε τους αλχημιστές (στην προσπάθειά τους για τη φιλοσοφική λίθο και το ελιξίριο της ζωής) και καταρρίφθηκε αργότερα.</li>\n      <li class='mb-2'>Ο Lavoisier απέδειξε ότι το νερό σχηματίζεται από H<sub>2</sub> και O<sub>2</sub>, δηλαδή είναι χημική ένωση.</li>\n    </ul></span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "α. Πότε ένα υλικό σώμα χαρακτηρίζεται καθαρή ουσία; β. Πότε μία χημική ουσία χαρακτηρίζεται χημικό στοιχείο; (Δώστε 2 παραδείγματα) γ. Πότε μία χημική ουσία χαρακτηρίζεται χημική ένωση; (Δώστε 2 παραδείγματα).",
-    "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>α. Καθαρές ουσίες ονομάζονται οι ουσίες που έχουν απόλυτα καθορισμένη σύσταση[cite: 451].</li>\n      <li class='mb-2'>β. Χημικό στοιχείο είναι μία ουσία που δεν μπορεί να διασπαστεί σε άλλες απλούστερες[cite: 452]. Χαρακτηριστικά παραδείγματα είναι το υδρογόνο και το οξυγόνο[cite: 453].</li>\n      <li class='mb-2'>γ. Χημική ένωση είναι μία ουσία που μπορεί να διασπαστεί σε άλλες απλούστερες, έχει σταθερή σύσταση και έχει καθορισμένες φυσικές σταθερές [cite: 454-460]. Χαρακτηριστικά παραδείγματα είναι το νερό και η ζάχαρη[cite: 460].</li>\n    </ul></span>"
+    "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>α. Καθαρές ουσίες ονομάζονται οι ουσίες που έχουν απόλυτα καθορισμένη σύσταση.</li>\n      <li class='mb-2'>β. Χημικό στοιχείο είναι μία ουσία που δεν μπορεί να διασπαστεί σε άλλες απλούστερες. Χαρακτηριστικά παραδείγματα είναι το υδρογόνο και το οξυγόνο.</li>\n      <li class='mb-2'>γ. Χημική ένωση είναι μία ουσία που μπορεί να διασπαστεί σε άλλες απλούστερες, έχει σταθερή σύσταση και έχει καθορισμένες φυσικές σταθερές. Χαρακτηριστικά παραδείγματα είναι το νερό και η ζάχαρη.</li>\n    </ul></span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "α. Πώς κατέληξε ο Lavoisier στο συμπέρασμα ότι το νερό είναι μία χημική ένωση; β. Ποιες πειραματικές μεθόδους χρησιμοποιούμε για να διαπιστώσουμε τα στοιχεία του νερού; γ. Αν παράγονται 2 L αερίου Α και 4 L αερίου Β, ποιο είναι το καθένα; δ. Αν παράγονται 4 g οξυγόνου, πόσα g υδρογόνου παράγονται και πόσα g νερού διασπάστηκαν;",
-    "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>α. Ο Lavoisier παρασκεύασε νερό από υδρογόνο και οξυγόνο, δηλαδή από απλούστερες χημικές ουσίες[cite: 468].</li>\n      <li class='mb-2'>β. Για το οξυγόνο βάζουμε μια μισοσβησμένη παρασχίδα στον σωλήνα και παρατηρούμε ότι αναφλέγεται[cite: 468]. Για το υδρογόνο πλησιάζουμε αναμμένη παρασχίδα στις φυσαλίδες και ακούμε χαρακτηριστικό κρότο (καίγεται με έντονη φλόγα)[cite: 468].</li>\n      <li class='mb-2'>γ. Ο όγκος του υδρογόνου είναι διπλάσιος από τον όγκο του οξυγόνου. Επομένως το αέριο Α (2 L) είναι το οξυγόνο και το Β (4 L) το υδρογόνο[cite: 468].</li>\n      <li class='mb-2'>δ. Η μάζα του οξυγόνου είναι οκταπλάσια του υδρογόνου. Άρα για 4 g οξυγόνου παράγονται 0,5 g υδρογόνου. Συνολικά διασπάστηκαν 4,5 g νερού[cite: 468].</li>\n    </ul></span>"
+    "a": "<span class='text-purple-300 font-bold'>\n    <ul class='list-disc ml-5 mt-2'>\n      <li class='mb-2'>α. Ο Lavoisier παρασκεύασε νερό από υδρογόνο και οξυγόνο, δηλαδή από απλούστερες χημικές ουσίες.</li>\n      <li class='mb-2'>β. Για το οξυγόνο βάζουμε μια μισοσβησμένη παρασχίδα στον σωλήνα και παρατηρούμε ότι αναφλέγεται. Για το υδρογόνο πλησιάζουμε αναμμένη παρασχίδα στις φυσαλίδες και ακούμε χαρακτηριστικό κρότο (καίγεται με έντονη φλόγα).</li>\n      <li class='mb-2'>γ. Ο όγκος του υδρογόνου είναι διπλάσιος από τον όγκο του οξυγόνου. Επομένως το αέριο Α (2 L) είναι το οξυγόνο και το Β (4 L) το υδρογόνο.</li>\n      <li class='mb-2'>δ. Η μάζα του οξυγόνου είναι οκταπλάσια του υδρογόνου. Άρα για 4 g οξυγόνου παράγονται 0,5 g υδρογόνου. Συνολικά διασπάστηκαν 4,5 g νερού.</li>\n    </ul></span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Η κρυσταλλική ζάχαρη είναι μία χημική ένωση με σημείο τήξης περίπου 170°C. Πώς θα βρείτε αν ένα δείγμα είναι νοθευμένο; Αν αρχίζει να λιώνει στους 160°C και η θερμοκρασία αυξάνεται σταδιακά, έχει προσμείξεις;",
-    "a": "<span class='text-purple-300 font-bold'>Θα μπορούσαμε να θερμάνουμε το δείγμα ζάχαρης. Αν το σημείο τήξης του δείγματος είναι διαφορετικό από 170°C (όπως στην περίπτωση που λιώνει στους 160°C), τότε έχει προσμείξεις και είναι νοθευμένο [cite: 483-488].</span>"
+    "a": "<span class='text-purple-300 font-bold'>Θα μπορούσαμε να θερμάνουμε το δείγμα ζάχαρης. Αν το σημείο τήξης του δείγματος είναι διαφορετικό από 170°C (όπως στην περίπτωση που λιώνει στους 160°C), τότε έχει προσμείξεις και είναι νοθευμένο.</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τα κενά: α. Τα μείγματα σε αντίθεση με τις χημικές ουσίες δεν έχουν ... β. Κατά τη διάρκεια του βρασμού του απιοντισμένου νερού η θερμοκρασία ... γιατί το νερό είναι ...",
-    "a": "<span class='text-purple-300 font-bold'>α. καθορισμένες φυσικές σταθερές[cite: 490]. <br>β. διατηρείται σταθερή, γιατί το νερό είναι καθαρή ουσία[cite: 491].</span>"
+    "a": "<span class='text-purple-300 font-bold'>α. καθορισμένες φυσικές σταθερές. <br>β. διατηρείται σταθερή, γιατί το νερό είναι καθαρή ουσία.</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Ο Ίον έχει μάζα 75 kg και το 66% της μάζας του είναι νερό (δηλαδή 49,5 kg νερό). Με δεδομένο ότι η αναλογία μαζών υδρογόνου - οξυγόνου στο νερό είναι σταθερή και ίση με 1/8, υπολογίστε τις μάζες τους.",
-    "a": "<span class='text-purple-300 font-bold'>Η μάζα του υδρογόνου στο νερό στο σώμα του Ίονα είναι 5,5 kg και η μάζα του οξυγόνου είναι 44 kg [cite: 492-501].</span>"
+    "a": "<span class='text-purple-300 font-bold'>Η μάζα του υδρογόνου στο νερό στο σώμα του Ίονα είναι 5,5 kg και η μάζα του οξυγόνου είναι 44 kg.</span>"
   },
   {
     "chapterId": "chapter-4",
-    "q": "Δίνεται διάγραμμα θέρμανσης υγρών Α και Β. Τη χρονική στιγμή t1 αρχίζει να βράζει το Α και τη χρονική στιγμή t2 το Β. Στο διάγραμμα, το σώμα Β διατηρεί σταθερή θερμοκρασία μετά την t2, ενώ το Α όχι. Είναι κάποιο από τα δύο χημική ουσία;",
-    "a": "<span class='text-purple-300 font-bold'>Καθαρή ουσία είναι μόνο το σώμα Β, καθώς μετά τη χρονική στιγμή t2 (όπου αρχίζει ο βρασμός του) παρατηρούμε ότι η θερμοκρασία παραμένει σταθερή [cite: 504-516].</span>"
+    "q": "Δίνεται διάγραμμα θέρμανσης υγρών Α και Β. Τη χρονική στιγμή t<sub>1</sub> αρχίζει να βράζει το Α και τη χρονική στιγμή t<sub>2</sub> το Β. Στο διάγραμμα, το σώμα Β διατηρεί σταθερή θερμοκρασία μετά την t<sub>2</sub>, ενώ το Α όχι. Είναι κάποιο από τα δύο χημική ουσία;",
+    "a": "<span class='text-purple-300 font-bold'>Καθαρή ουσία είναι μόνο το σώμα Β, καθώς μετά τη χρονική στιγμή t2 (όπου αρχίζει ο βρασμός του) παρατηρούμε ότι η θερμοκρασία παραμένει σταθερή.</span>"
   },
   {
     "chapterId": "chapter-5",
     "q": "Ποιο είναι το βασικό δομικό υλικό των υλικών σωμάτων;",
-    "a": "<span class='text-purple-300 font-bold'>Το βασικό δομικό υλικό των υλικών σωμάτων είναι το άτομο [cite: 534-536].</span>"
+    "a": "<span class='text-purple-300 font-bold'>Το βασικό δομικό υλικό των υλικών σωμάτων είναι το άτομο.</span>"
   },
   {
     "chapterId": "chapter-5",
     "q": "Ποιες ομοιότητες και ποιες διαφορές παρουσιάζουν οι ατομικές θεωρίες του Δημόκριτου και του Dalton;",
-    "a": "<span class='text-purple-300 font-bold'>Οι ομοιότητες είναι ότι πίστευαν ότι η ύλη δεν τέμνεται επ' άπειρο αλλά αποτελείται από πολύ μικρά σωματίδια, τα οποία είναι άφθαρτα και άτμητα[cite: 539]. Επίσης υποστήριξαν ότι τα άτομα έχουν συγκεκριμένα χαρακτηριστικά και οι διαφορετικές ουσίες αποτελούνται από διαφορετικά είδη ατόμων[cite: 540]. Η διαφορά είναι ότι ο Δημόκριτος δεν ανέπτυξε συγκεκριμένη θεωρία για τον τρόπο σύνδεσης των ατόμων, ενώ ο Dalton υποστήριξε ότι τα άτομα συνδυάζονται με συγκεκριμένες αναλογίες σχηματίζοντας χημικές ενώσεις[cite: 541].</span>"
+    "a": "<span class='text-purple-300 font-bold'>Οι ομοιότητες είναι ότι πίστευαν ότι η ύλη δεν τέμνεται επ' άπειρο αλλά αποτελείται από πολύ μικρά σωματίδια, τα οποία είναι άφθαρτα και άτμητα. Επίσης υποστήριξαν ότι τα άτομα έχουν συγκεκριμένα χαρακτηριστικά και οι διαφορετικές ουσίες αποτελούνται από διαφορετικά είδη ατόμων. Η διαφορά είναι ότι ο Δημόκριτος δεν ανέπτυξε συγκεκριμένη θεωρία για τον τρόπο σύνδεσης των ατόμων, ενώ ο Dalton υποστήριξε ότι τα άτομα συνδυάζονται με συγκεκριμένες αναλογίες σχηματίζοντας χημικές ενώσεις.</span>"
   },
   {
     "chapterId": "chapter-5",
     "q": "Να συμπληρώσετε τα κενά: α. Τα άτομα συνδυάζονται σε καθορισμένη ... και σχηματίζουν ενώσεις. Τα μόρια από όμοια άτομα είναι ... ενώ από διαφορετικά είναι ... β. ... ονομάζεται ο αριθμός ατόμων που σχηματίζουν το μόριο του στοιχείου.",
-    "a": "<span class='text-purple-300 font-bold'>α. αναλογία. Τα μόρια που σχηματίζονται από τον συνδυασμό όμοιων ατόμων είναι μόρια στοιχείων ενώ αυτά που σχηματίζονται από τον συνδυασμό διαφορετικών ατόμων είναι μόρια χημικών ενώσεων [cite: 559-560]. <br>β. Ατομικότητα ονομάζεται ο αριθμός ατόμων που σχηματίζουν το μόριο του στοιχείου[cite: 561].</span>"
+    "a": "<span class='text-purple-300 font-bold'>α. αναλογία. Τα μόρια που σχηματίζονται από τον συνδυασμό όμοιων ατόμων είναι μόρια στοιχείων ενώ αυτά που σχηματίζονται από τον συνδυασμό διαφορετικών ατόμων είναι μόρια χημικών ενώσεων. <br>β. Ατομικότητα ονομάζεται ο αριθμός ατόμων που σχηματίζουν το μόριο του στοιχείου.</span>"
   },
   {
     "chapterId": "chapter-5",
     "q": "Παρατηρώντας ένα προσομοίωμα ακετόνης (με άτομα άνθρακα, οξυγόνου και υδρογόνου): α. Το προσομοίωμα αναπαριστά μόριο χημικής ένωσης ή χημικού στοιχείου; β. Από ποια άτομα αποτελείται;",
-    "a": "<span class='text-purple-300 font-bold'>α. Το προσομοίωμα αναπαριστά μόριο χημικής ένωσης καθώς αποτελείται από άτομα διαφορετικών στοιχείων[cite: 566]. <br>β. Το μόριο της ακετόνης αποτελείται από 3 άτομα άνθρακα, 6 άτομα υδρογόνου και 1 άτομο οξυγόνου[cite: 567].</span>"
+    "a": "<span class='text-purple-300 font-bold'>α. Το προσομοίωμα αναπαριστά μόριο χημικής ένωσης καθώς αποτελείται από άτομα διαφορετικών στοιχείων. <br>β. Το μόριο της ακετόνης αποτελείται από 3 άτομα άνθρακα, 6 άτομα υδρογόνου και 1 άτομο οξυγόνου.</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "α. Πώς συμβολίζονται τα άτομα των χημικών στοιχείων; β. Πώς συμβολίζονται τα μόρια των χημικών στοιχείων;",
-    "a": "<span class='text-purple-300 font-bold'>α. Συμβολίζονται με ένα κεφαλαίο γράμμα που σε μερικές περιπτώσεις συνοδεύεται από ένα πεζό (αρχικά του ονόματός τους)[cite: 574]. <br>β. Από το σύμβολο του ατόμου με έναν αριθμό ως δείκτη δεξιά ο οποίος δηλώνει τον αριθμό των ατόμων (Π.χ. H<sub>2</sub>) [cite: 575-576].</span>"
+    "a": "<span class='text-purple-300 font-bold'>α. Συμβολίζονται με ένα κεφαλαίο γράμμα που σε μερικές περιπτώσεις συνοδεύεται από ένα πεζό (αρχικά του ονόματός τους). <br>β. Από το σύμβολο του ατόμου με έναν αριθμό ως δείκτη δεξιά ο οποίος δηλώνει τον αριθμό των ατόμων (Π.χ. H<sub>2</sub>).</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Πώς συμβολίζονται τα μόρια των χημικών ενώσεων; Να γράψετε ένα παράδειγμα.",
-    "a": "<span class='text-purple-300 font-bold'>Με τα σύμβολα των ατόμων που το καθένα έχει έναν αριθμό ως δείκτη δεξιά, που δηλώνει τον αριθμό των ατόμων που μετέχουν στο μόριο της χημικής ένωσης. Π.χ. H<sub>2</sub>O [cite: 578-579].</span>"
+    "a": "<span class='text-purple-300 font-bold'>Με τα σύμβολα των ατόμων που το καθένα έχει έναν αριθμό ως δείκτη δεξιά, που δηλώνει τον αριθμό των ατόμων που μετέχουν στο μόριο της χημικής ένωσης. Π.χ. H<sub>2</sub>O.</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τα κενά: α. Ο μοριακός τύπος του νιτρικού οξέος: HNO<sub>3</sub> μας πληροφορεί ότι... β. Ο μοριακός τύπος της αιθανόλης: C<sub>2</sub>H<sub>6</sub>O μας πληροφορεί ότι...",
-    "a": "<span class='text-purple-300 font-bold'>α. Το μόριο αποτελείται από 1 άτομο αζώτου, 1 άτομο υδρογόνου και 3 άτομα οξυγόνου [cite: 581-582]. <br>β. Το μόριο αποτελείται από 1 άτομο οξυγόνου, 2 άτομα άνθρακα και 6 άτομα υδρογόνου[cite: 583].</span>"
+    "a": "<span class='text-purple-300 font-bold'>α. Το μόριο αποτελείται από 1 άτομο αζώτου, 1 άτομο υδρογόνου και 3 άτομα οξυγόνου. <br>β. Το μόριο αποτελείται από 1 άτομο οξυγόνου, 2 άτομα άνθρακα και 6 άτομα υδρογόνου.</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Να γράψετε τον μοριακό τύπο για το Υδρόθειο (2 άτομα υδρογόνου, 1 άτομο θείου) και το Πεντοξείδιο του αζώτου (5 άτομα οξυγόνου, 2 άτομα αζώτου).",
-    "a": "<span class='text-purple-300 font-bold'>Υδρόθειο: H<sub>2</sub>S[cite: 585]. Πεντοξείδιο του αζώτου: N<sub>2</sub>O<sub>5</sub>[cite: 586].</span>"
+    "a": "<span class='text-purple-300 font-bold'>Υδρόθειο: H<sub>2</sub>S. Πεντοξείδιο του αζώτου: N<sub>2</sub>O<sub>5</sub>.</span>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τον πίνακα με τα σύμβολα των στοιχείων (υδρογόνο, οξυγόνο, άζωτο, άνθρακας, χαλκός, σίδηρος, θείο, φωσφόρος, χλώριο, βρώμιο, ιώδιο, μαγνήσιο, κάλιο, νάτριο, υδράργυρος, αργίλιο, ασβέστιο, πυρίτιο).",
-    "a": "\n    <span class='text-purple-300 font-bold'>Ο συμπληρωμένος πίνακας είναι[cite: 610]:</span>\n    <div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n      <thead class='bg-white/10'>\n        <tr class='border-b border-white/20'>\n          <th class='py-3 px-4 font-semibold'>Στοιχείο</th>\n          <th class='py-3 px-4 font-semibold'>Σύμβολο</th>\n          <th class='py-3 px-4 font-semibold'>Στοιχείο</th>\n          <th class='py-3 px-4 font-semibold'>Σύμβολο</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-white/10\">\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>υδρογόνο</td><td class='py-3 px-4 text-emerald-400'>H</td><td class='py-3 px-4'>κάλιο</td><td class='py-3 px-4 text-emerald-400'>K</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>οξυγόνο</td><td class='py-3 px-4 text-emerald-400'>O</td><td class='py-3 px-4'>νάτριο</td><td class='py-3 px-4 text-emerald-400'>Na</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>άζωτο</td><td class='py-3 px-4 text-emerald-400'>N</td><td class='py-3 px-4'>υδράργυρος</td><td class='py-3 px-4 text-emerald-400'>Hg</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>άνθρακας</td><td class='py-3 px-4 text-emerald-400'>C</td><td class='py-3 px-4'>αργίλιο</td><td class='py-3 px-4 text-emerald-400'>Al</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>χαλκός</td><td class='py-3 px-4 text-emerald-400'>Cu</td><td class='py-3 px-4'>ασβέστιο</td><td class='py-3 px-4 text-emerald-400'>Ca</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>σίδηρος</td><td class='py-3 px-4 text-emerald-400'>Fe</td><td class='py-3 px-4'>πυρίτιο</td><td class='py-3 px-4 text-emerald-400'>Si</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>θείο</td><td class='py-3 px-4 text-emerald-400'>S</td><td class='py-3 px-4'>χλώριο</td><td class='py-3 px-4 text-emerald-400'>Cl</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>φωσφόρος</td><td class='py-3 px-4 text-emerald-400'>P</td><td class='py-3 px-4'>βρώμιο</td><td class='py-3 px-4 text-emerald-400'>Br</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>ιώδιο</td><td class='py-3 px-4 text-emerald-400'>I</td><td class='py-3 px-4'>μαγνήσιο</td><td class='py-3 px-4 text-emerald-400'>Mg</td></tr>\n      </tbody>\n    </table></div>"
+    "a": "\n    <span class='text-purple-300 font-bold'>Ο συμπληρωμένος πίνακας είναι:</span>\n    <div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n      <thead class='bg-white/10'>\n        <tr class='border-b border-white/20'>\n          <th class='py-3 px-4 font-semibold'>Στοιχείο</th>\n          <th class='py-3 px-4 font-semibold'>Σύμβολο</th>\n          <th class='py-3 px-4 font-semibold'>Στοιχείο</th>\n          <th class='py-3 px-4 font-semibold'>Σύμβολο</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-white/10\">\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>υδρογόνο</td><td class='py-3 px-4 text-emerald-400'>H</td><td class='py-3 px-4'>κάλιο</td><td class='py-3 px-4 text-emerald-400'>K</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>οξυγόνο</td><td class='py-3 px-4 text-emerald-400'>O</td><td class='py-3 px-4'>νάτριο</td><td class='py-3 px-4 text-emerald-400'>Na</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>άζωτο</td><td class='py-3 px-4 text-emerald-400'>N</td><td class='py-3 px-4'>υδράργυρος</td><td class='py-3 px-4 text-emerald-400'>Hg</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>άνθρακας</td><td class='py-3 px-4 text-emerald-400'>C</td><td class='py-3 px-4'>αργίλιο</td><td class='py-3 px-4 text-emerald-400'>Al</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>χαλκός</td><td class='py-3 px-4 text-emerald-400'>Cu</td><td class='py-3 px-4'>ασβέστιο</td><td class='py-3 px-4 text-emerald-400'>Ca</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>σίδηρος</td><td class='py-3 px-4 text-emerald-400'>Fe</td><td class='py-3 px-4'>πυρίτιο</td><td class='py-3 px-4 text-emerald-400'>Si</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>θείο</td><td class='py-3 px-4 text-emerald-400'>S</td><td class='py-3 px-4'>χλώριο</td><td class='py-3 px-4 text-emerald-400'>Cl</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>φωσφόρος</td><td class='py-3 px-4 text-emerald-400'>P</td><td class='py-3 px-4'>βρώμιο</td><td class='py-3 px-4 text-emerald-400'>Br</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>ιώδιο</td><td class='py-3 px-4 text-emerald-400'>I</td><td class='py-3 px-4'>μαγνήσιο</td><td class='py-3 px-4 text-emerald-400'>Mg</td></tr>\n      </tbody>\n    </table></div>"
   },
   {
     "chapterId": "chapter-4",
     "q": "Να συμπληρώσετε τον πίνακα δίνοντας το όνομα και τον χαρακτηρισμό (χημική ένωση ή διατομικό/τριατομικό/κτλ στοιχείο) για τους τύπους: H<sub>2</sub>O, HCl, CO, N<sub>2</sub>, CO<sub>2</sub>, NH<sub>3</sub>, S<sub>6</sub>, P<sub>4</sub>, O<sub>3</sub>, Cl<sub>2</sub>.",
-    "a": "\n    <span class='text-purple-300 font-bold'>Ο συμπληρωμένος πίνακας είναι[cite: 634]:</span>\n    <div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n      <thead class='bg-white/10'>\n        <tr class='border-b border-white/20'>\n          <th class='py-3 px-4 font-semibold'>Χημικός τύπος</th>\n          <th class='py-3 px-4 font-semibold'>Όνομα</th>\n          <th class='py-3 px-4 font-semibold'>Χαρακτηρισμός</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-white/10\">\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>H<sub>2</sub>O</td><td class='py-3 px-4'>Νερό</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>HCl</td><td class='py-3 px-4'>Υδροχλώριο</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO</td><td class='py-3 px-4'>Μονοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>N<sub>2</sub></td><td class='py-3 px-4'>Άζωτο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO<sub>2</sub></td><td class='py-3 px-4'>Διοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>NH<sub>3</sub></td><td class='py-3 px-4'>Αμμωνία</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>S<sub>6</sub></td><td class='py-3 px-4'>Θείο</td><td class='py-3 px-4 text-blue-400'>εξατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>P<sub>4</sub></td><td class='py-3 px-4'>Φωσφόρος</td><td class='py-3 px-4 text-blue-400'>τετρατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>O<sub>3</sub></td><td class='py-3 px-4'>Όζον</td><td class='py-3 px-4 text-blue-400'>τριατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>Cl<sub>2</sub></td><td class='py-3 px-4'>Χλώριο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n      </tbody>\n    </table></div>"
+    "a": "\n    <span class='text-purple-300 font-bold'>Ο συμπληρωμένος πίνακας είναι:</span>\n    <div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n      <thead class='bg-white/10'>\n        <tr class='border-b border-white/20'>\n          <th class='py-3 px-4 font-semibold'>Χημικός τύπος</th>\n          <th class='py-3 px-4 font-semibold'>Όνομα</th>\n          <th class='py-3 px-4 font-semibold'>Χαρακτηρισμός</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-white/10\">\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>H<sub>2</sub>O</td><td class='py-3 px-4'>Νερό</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>HCl</td><td class='py-3 px-4'>Υδροχλώριο</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO</td><td class='py-3 px-4'>Μονοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>N<sub>2</sub></td><td class='py-3 px-4'>Άζωτο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>CO<sub>2</sub></td><td class='py-3 px-4'>Διοξείδιο του άνθρακα</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>NH<sub>3</sub></td><td class='py-3 px-4'>Αμμωνία</td><td class='py-3 px-4 text-emerald-400'>χημική ένωση</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>S<sub>6</sub></td><td class='py-3 px-4'>Θείο</td><td class='py-3 px-4 text-blue-400'>εξατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>P<sub>4</sub></td><td class='py-3 px-4'>Φωσφόρος</td><td class='py-3 px-4 text-blue-400'>τετρατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>O<sub>3</sub></td><td class='py-3 px-4'>Όζον</td><td class='py-3 px-4 text-blue-400'>τριατομικό στοιχείο</td></tr>\n        <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4'>Cl<sub>2</sub></td><td class='py-3 px-4'>Χλώριο</td><td class='py-3 px-4 text-blue-400'>διατομικό στοιχείο</td></tr>\n      </tbody>\n    </table></div>"
   },
   {
     "chapterId": "chapter-4",
@@ -309,7 +309,7 @@ export const bGymnasiouQuestions: Question[] = [
   {
     "chapterId": "chapter-7",
     "q": "18. Να συμπληρώσετε την ακροστιχίδα (Λύση).\n1. Ακέφαλο το μέρος του ατόμου που περιέχει συγκεντρωμένη σχεδόν όλη τη μάζα του.\n2. Τα θετικά φορτισμένα υποατομικά σωματίδια.\n3. Τόσα ηλεκτρόνια έχει ένα άτομο με Z=8.\n4. Ο αριθμός των πρωτονίων του πυρήνα.\n5. Τόσα ηλεκτρόνια έχει προσλάβει ένα ιόν που έχει φορτίο -3.\n6. Τα νετρόνια είναι σωματίδια ηλεκτρικά...\n7. Ο αριθμός που δηλώνει το άθροισμα πρωτονίων και νετρονίων του πυρήνα.\n8. Δημιουργείται όταν ένα άτομο προσλαμβάνει ή αποβάλλει ηλεκτρόνια.\n9. Δημιουργείται όταν ένα άτομο αποβάλλει ηλεκτρόνια.\n10. Δημιουργείται όταν ένα άτομο προσλαμβάνει ηλεκτρόνια.",
-    "a": "<span class='text-purple-300 font-bold'>\n<div class=\"overflow-x-auto my-4\"><table class='w-full text-left border-collapse bg-white/5 rounded-xl overflow-hidden'>\n  <tbody class=\"divide-y divide-white/10\">\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>1.</td><td class='py-3 px-4'>YPHΝΑΣ</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>2.</td><td class='py-3 px-4'>ΠΡΩΤΟΝIA</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>3.</td><td class='py-3 px-4'>ΟΚΤΩ</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>4.</td><td class='py-3 px-4'>ATOMIKOΣ</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>5.</td><td class='py-3 px-4'>TPIA</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>6.</td><td class='py-3 px-4'>ΟΥΔΕΤΕΡΑ</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>7.</td><td class='py-3 px-4'>MAZIΚΟΣ</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>8.</td><td class='py-3 px-4'>ΙΟΝ</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>9.</td><td class='py-3 px-4'>KATION</td></tr>\n    <tr class='hover:bg-white/5 transition-colors'><td class='py-3 px-4 font-semibold'>10.</td><td class='py-3 px-4'>ANION</td></tr>\n  </tbody>\n</table></div>\n</span>"
+    "a": "<div class='overflow-x-auto my-4'><table class='border-collapse text-sm'><thead><tr><th class='py-2 px-3 text-left text-white/60 font-normal'>#</th><th class='py-2 px-3 text-left text-white/60 font-normal'>Απάντηση</th></tr></thead><tbody><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>1.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Π</span><span class='text-emerald-300'>ΥΡΗΝΑΣ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>2.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Π</span><span class='text-emerald-300'>ΡΩΤΟΝΙΑ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>3.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ο</span><span class='text-emerald-300'>ΚΤΩ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>4.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Α</span><span class='text-emerald-300'>ΤΟΜΙΚΟΣ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>5.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Τ</span><span class='text-emerald-300'>ΡΙΑ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>6.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ο</span><span class='text-emerald-300'>ΥΔΕΤΕΡΑ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>7.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Μ</span><span class='text-emerald-300'>ΑΖΙΚΟΣ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>8.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ι</span><span class='text-emerald-300'>ΟΝ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>9.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Κ</span><span class='text-emerald-300'>ΑΤΙΟΝ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>10.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Α</span><span class='text-emerald-300'>ΝΙΟΝ</span></td></tr></tbody></table></div><p class='mt-3 text-yellow-300 font-bold text-base'>Αρχικά: <span class='tracking-widest text-yellow-400 text-lg'>Π-Π-Ο-Α-Τ-Ο-Μ-Ι-Κ-Α</span></p>"
   },
   {
     "chapterId": "chapter-4",
@@ -404,19 +404,19 @@ export const bGymnasiouQuestions: Question[] = [
 
   {
     "chapterId": "chapter-6",
-    "q": "6. Να συμβουλευτείτε τα χρώματα των προσομοιωμάτων στην ενότητα 5 και στη συνέχεια να γράψετε τον μοριακό τύπο της χημικής ένωσης που αντιστοιχεί στο καθένα από τα προσομοιώματα του ακόλουθου πίνακα.",
+    "q": "6. Να συμβουλευτείτε τα χρώματα των προσομοιωμάτων στην ενότητα 5 και στη συνέχεια να γράψετε τον μοριακό τύπο της χημικής ένωσης που αντιστοιχεί στο καθένα από τα προσομοιώματα του ακόλουθου πίνακα.<div class='overflow-x-auto my-4'><table class='border-collapse text-center text-sm bg-white/5 rounded-xl overflow-hidden w-full'><thead class='bg-white/10'><tr><th class='py-3 px-3 font-semibold'>1ο</th><th class='py-3 px-3 font-semibold'>2ο</th><th class='py-3 px-3 font-semibold'>3ο</th><th class='py-3 px-3 font-semibold'>4ο</th><th class='py-3 px-3 font-semibold'>5ο</th></tr></thead><tbody><tr><td class='py-4 px-3'><span style='display:inline-block;width:18px;height:18px;border-radius:50%;background:white;border:1px solid #aaa;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:10px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:24px;height:24px;border-radius:50%;background:#5B2D8E;vertical-align:middle;margin:2px;'></span><br><small class='text-white/60'>υδροϊώδιο</small></td><td class='py-4 px-3'><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#e53e3e;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:6px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:22px;height:22px;border-radius:50%;background:#718096;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:6px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#e53e3e;vertical-align:middle;margin:2px;'></span><br><small class='text-white/60'>διοξείδιο άνθρακα</small></td><td class='py-4 px-3'><span style='display:inline-block;width:16px;height:16px;border-radius:50%;background:white;border:1px solid #aaa;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:6px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:22px;height:22px;border-radius:50%;background:#ECC94B;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:6px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:16px;height:16px;border-radius:50%;background:white;border:1px solid #aaa;vertical-align:middle;margin:2px;'></span><br><small class='text-white/60'>υδρόθειο</small></td><td class='py-4 px-3'><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#38a169;vertical-align:middle;margin:1px;'></span><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#38a169;vertical-align:middle;margin:1px;'></span><span style='display:inline-block;width:22px;height:22px;border-radius:50%;background:#718096;vertical-align:middle;margin:1px;'></span><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#38a169;vertical-align:middle;margin:1px;'></span><span style='display:inline-block;width:14px;height:14px;border-radius:50%;background:white;border:1px solid #aaa;vertical-align:middle;margin:1px;'></span><br><small class='text-white/60'>χλωροφόρμιο</small></td><td class='py-4 px-3'><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#e53e3e;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:6px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:22px;height:22px;border-radius:50%;background:#3182ce;vertical-align:middle;margin:2px;'></span><span style='display:inline-block;width:6px;height:2px;background:#888;vertical-align:middle;'></span><span style='display:inline-block;width:20px;height:20px;border-radius:50%;background:#e53e3e;vertical-align:middle;margin:2px;'></span><br><small class='text-white/60'>διοξείδιο αζώτου</small></td></tr><tr class='text-xs text-white/50'><td class='pb-2'>λευκό=H, μωβ=I</td><td class='pb-2'>κόκκ.=O, γκρι=C</td><td class='pb-2'>λευκό=H, κίτρ.=S</td><td class='pb-2'>γκρι=C, πράσ.=Cl, λευκό=H</td><td class='pb-2'>κόκκ.=O, μπλε=N</td></tr></tbody></table></div>",
     "a": "<p class='font-bold text-emerald-400'>ΑΠΑΝΤΗΣΗ:</p><p class='text-emerald-400'>1ο (Υδροϊώδιο): HI<br>2ο (Διοξείδιο του άνθρακα): CO<sub>2</sub><br>3ο (Υδρόθειο): H<sub>2</sub>S<br>4ο (Χλωροφόρμιο): CHCl<sub>3</sub><br>5ο (Διοξείδιο του αζώτου): NO<sub>2</sub></p>"
   },
 
   {
     "chapterId": "chapter-4",
     "q": "10. Να συμπληρώσετε την ακροστιχίδα (Λύση). Η λέξη στην ακροστιχίδα σημαίνει χημική ουσία που δεν μπορεί να διασπαστεί σε απλούστερες.\n1. Τέτοια είναι η ποσοτική σύσταση των χημικών ενώσεων.\n2. Σημείο που είναι σταθερό για τις χημικές ενώσεις και τα χημικά στοιχεία.\n3. Τέτοια μείγματα είναι τα διαλύματα.\n4. Αυτές των ενώσεων είναι διαφορετικές από των συστατικών στοιχείων.\n5. Στοιχείο που είναι ακριβό μέταλλο.\n6. Χημική ουσία που μπορεί να διασπαστεί σε απλούστερες.\n7. Το σημείο ζέσης του χημικού στοιχείου ιώδιο είναι πάντα...\n8. Παράγεται κατά τη διάσπαση του νερού.",
-    "a": "<p class='font-bold text-emerald-400'>ΑΠΑΝΤΗΣΗ:</p><p class='text-emerald-400'>1. <b>Σ</b>ΤΑΘΕΡΗ<br>2. <b>Τ</b>ΗΞΗΣ<br>3. <b>Ο</b>ΜΟΓΕΝΗ<br>4. <b>Ι</b>ΔΙΟΤΗΤΕΣ<br>5. <b>Χ</b>ΡΥΣΟΣ<br>6. <b>Ε</b>ΝΩΣΗ<br>7. <b>Ι</b>ΔΙΟ<br>8. <b>Ο</b>ΞΥΓΟΝΟ<br>Η λέξη είναι: <b>ΣΤΟΙΧΕΙΟ</b></p>"
+    "a": "<div class='overflow-x-auto my-4'><table class='border-collapse text-sm'><thead><tr><th class='py-2 px-3 text-left text-white/60 font-normal'>#</th><th class='py-2 px-3 text-left text-white/60 font-normal'>Απάντηση</th></tr></thead><tbody><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>1.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Σ</span><span class='text-emerald-300'>ΤΑΘΕΡΗ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>2.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Τ</span><span class='text-emerald-300'>ΗΞΗΣ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>3.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ο</span><span class='text-emerald-300'>ΜΟΓΕΝΗ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>4.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ι</span><span class='text-emerald-300'>ΔΙΟΤΗΤΕΣ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>5.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Χ</span><span class='text-emerald-300'>ΡΥΣΟΣ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>6.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ε</span><span class='text-emerald-300'>ΝΩΣΗ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>7.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ι</span><span class='text-emerald-300'>ΔΙΟ</span></td></tr><tr class='border-t border-white/10'><td class='py-2 px-3 text-white/60'>8.</td><td class='py-2 px-3'><span class='inline-flex items-center justify-center w-7 h-7 rounded bg-yellow-400 text-gray-900 font-bold mr-1'>Ο</span><span class='text-emerald-300'>ΞΥΓΟΝΟ</span></td></tr></tbody></table></div><p class='mt-3 text-yellow-300 font-bold text-base'>Η λέξη της ακροστιχίδας είναι: <span class='tracking-widest text-yellow-400 text-lg'>ΣΤΟΙΧΕΙΟ</span></p>"
   },
 
   {
     "chapterId": "chapter-8",
-    "q": "4. Στην εικόνα δίνονται τα προσομοιώματα ορισμένων στοιχείων (H: λευκό, C: γκρι, N: μπλε, O: κόκκινο, Cl: πράσινο, Br: μωβ, I: σκούρο μωβ). Με βάση αυτά να αναπαραστήσετε τις ακόλουθες χημικές εξισώσεις με σύμβολα και με λέξεις, αν δίνονται με προσομοιώματα, με λέξεις και προσομοιώματα αν δίνονται με σύμβολα και με σύμβολα και προσομοιώματα αν δίνονται με λέξεις.\nα. 2 μόρια υδροβρωμίου παράγουν ένα μόριο υδρογόνου και ένα μόριο βρωμίου\nβ. Ένα μόριο αζώτου αντιδρά με 3 μόρια υδρογόνου και παράγουν δύο μόρια αμμωνίας\nγ. C + 2H2 -> CH4\nδ. 1 μόριο αζώτου αντιδρά με δύο μόρια οξυγόνου και παράγουν 2 μόρια διοξειδίου του αζώτου",
+    "q": "4. Στην εικόνα δίνονται τα προσομοιώματα ορισμένων στοιχείων (H: λευκό, C: γκρι, N: μπλε, O: κόκκινο, Cl: πράσινο, Br: μωβ, I: σκούρο μωβ). Με βάση αυτά να αναπαραστήσετε τις ακόλουθες χημικές εξισώσεις με σύμβολα και με λέξεις, αν δίνονται με προσομοιώματα, με λέξεις και προσομοιώματα αν δίνονται με σύμβολα και με σύμβολα και προσομοιώματα αν δίνονται με λέξεις.\nα. 2 μόρια υδροβρωμίου παράγουν ένα μόριο υδρογόνου και ένα μόριο βρωμίου\nβ. Ένα μόριο αζώτου αντιδρά με 3 μόρια υδρογόνου και παράγουν δύο μόρια αμμωνίας\nγ. C + 2H<sub>2</sub> -> CH<sub>4</sub>\nδ. 1 μόριο αζώτου αντιδρά με δύο μόρια οξυγόνου και παράγουν 2 μόρια διοξειδίου του αζώτου",
     "a": "<p class='font-bold text-emerald-400'>ΑΠΑΝΤΗΣΗ:</p><p class='text-emerald-400'><b>α.</b> Με χημική εξίσωση: 2HBr -> H<sub>2</sub> + Br<sub>2</sub><br><b>β.</b> Με χημική εξίσωση: N<sub>2</sub> + 3H<sub>2</sub> -> 2NH<sub>3</sub><br><b>γ.</b> Με λέξεις: Ένα άτομο άνθρακα αντιδρά με δύο μόρια υδρογόνου και παράγεται ένα μόριο μεθανίου.<br><b>δ.</b> Με χημική εξίσωση: N<sub>2</sub>(g) + 2O<sub>2</sub>(g) -> 2NO<sub>2</sub>(g)</p>"
   },
   {
@@ -1069,7 +1069,7 @@ export const bGymnasiouMCQ: MCQ[] = [
     "q": "Γ. Από τη χημική αντίδραση του υδρογόνου με το άζωτο παράγεται:",
     "options": [
       {
-        "text": "Α. NH3",
+        "text": "Α. NH<sub>3</sub>",
         "correct": true
       },
       {
@@ -1077,7 +1077,7 @@ export const bGymnasiouMCQ: MCQ[] = [
         "correct": false
       },
       {
-        "text": "Γ. H2O",
+        "text": "Γ. H<sub>2</sub>O",
         "correct": false
       },
       {
@@ -1089,22 +1089,22 @@ export const bGymnasiouMCQ: MCQ[] = [
   },
   {
     "chapterId": "chapter-4",
-    "q": "Δ. Όταν αντιδρούν 64 g θείου (CH<sub>4</sub>) με 96 g οξυγόνου (O<sub>2</sub>), παράγονται:",
+    "q": "Δ. Όταν αντιδρούν 64 g θείου (S) με 96 g οξυγόνου (O<sub>2</sub>), παράγονται:",
     "options": [
       {
-        "text": "Α. 160 g CO2",
+        "text": "Α. 160 g CO<sub>2</sub>",
         "correct": false
       },
       {
-        "text": "Β. 64 g SO2",
+        "text": "Β. 64 g SO<sub>2</sub>",
         "correct": false
       },
       {
-        "text": "Γ. 160 g SO3",
+        "text": "Γ. 160 g SO<sub>3</sub>",
         "correct": true
       },
       {
-        "text": "Δ. 96 g SO2",
+        "text": "Δ. 96 g SO<sub>2</sub>",
         "correct": false
       }
     ],
@@ -1157,19 +1157,19 @@ export const bGymnasiouMCQ: MCQ[] = [
     "q": "Στ. Στην αντίδραση που περιγράφεται από την χημική εξίσωση: 2HI + Cl<sub>2</sub> -> ....... + ....... ο σωστός τρόπος αναδιάταξης των ατόμων είναι:",
     "options": [
       {
-        "text": "Επιλογή Α",
+        "text": "Α. H<sub>2</sub> + ICl",
         "correct": false
       },
       {
-        "text": "Επιλογή Β",
+        "text": "Β. HCl + HI",
         "correct": false
       },
       {
-        "text": "Επιλογή Γ",
+        "text": "Γ. 2HCl + I<sub>2</sub>",
         "correct": true
       }
     ],
-    "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: Γ</span>"
+    "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: Γ. 2HI + Cl<sub>2</sub> → 2HCl + I<sub>2</sub></span>"
   },
   {
     "chapterId": "chapter-7",
@@ -1464,15 +1464,15 @@ export const bGymnasiouMCQ: MCQ[] = [
       "q": "8. α. Ο φωσφόρος είναι ένα στοιχείο το οποίο άλλοτε είναι τετρατομικό και άλλοτε εξατομικό. Το μόριό του λοιπόν συμβολίζεται με τους τύπους:",
       "options": [
         { "text": "i. P", "correct": false },
-        { "text": "ii. P4 ή P6", "correct": true },
-        { "text": "iii. P6", "correct": false },
-        { "text": "iv. P4", "correct": false }
+        { "text": "ii. P<sub>4</sub> ή P<sub>6</sub>", "correct": true },
+        { "text": "iii. P<sub>6</sub>", "correct": false },
+        { "text": "iv. P<sub>4</sub>", "correct": false }
       ],
       "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: ii</span>"
     },
     {
       "chapterId": "chapter-6",
-      "q": "8. β. Η γλυκόζη έχει μοριακό τύπο C6H12O6, επομένως:",
+      "q": "8. β. Η γλυκόζη έχει μοριακό τύπο C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, επομένως:",
       "options": [
         { "text": "i. 6 άτομα άνθρακα συνδέονται με 12 άτομα υδρογόνου και 6 άτομα οξυγόνου, και σχηματίζονται δύο μόρια γλυκόζης.", "correct": false },
         { "text": "ii. 12 άτομα άνθρακα συνδέονται με 12 άτομα υδρογόνου και 6 άτομα οξυγόνου...", "correct": false },
@@ -1629,7 +1629,7 @@ export const bGymnasiouMCQ: MCQ[] = [
     },
     {
       "chapterId": "chapter-8",
-      "q": "10. β. Στη χημική εξίσωση: N2O4 -> ...NO2, ο συντελεστής του NO2 είναι:",
+      "q": "10. β. Στη χημική εξίσωση: N<sub>2</sub>O<sub>4</sub> -> ...NO<sub>2</sub>, ο συντελεστής του NO<sub>2</sub> είναι:",
       "options": [
         { "text": "i. 1", "correct": false },
         { "text": "ii. 4", "correct": false },
@@ -1642,21 +1642,21 @@ export const bGymnasiouMCQ: MCQ[] = [
       "chapterId": "chapter-8",
       "q": "10. γ. Από τη χημική αντίδραση του υδρογόνου με το χλώριο παράγεται:",
       "options": [
-        { "text": "i. NH3", "correct": false },
+        { "text": "i. NH<sub>3</sub>", "correct": false },
         { "text": "ii. HBr", "correct": false },
-        { "text": "iii. H2O", "correct": false },
+        { "text": "iii. H<sub>2</sub>O", "correct": false },
         { "text": "iv. HCl", "correct": true }
       ],
       "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: iv</span>"
     },
     {
       "chapterId": "chapter-8",
-      "q": "10. δ. Όταν καίγονται 16 g μεθανίου (CH4) με 64 g οξυγόνου (O2), παράγονται 36 g νερού (H2O) και ...",
+      "q": "10. δ. Όταν καίγονται 16 g μεθανίου (CH<sub>4</sub>) με 64 g οξυγόνου (O<sub>2</sub>), παράγονται 36 g νερού (H<sub>2</sub>O) και ...",
       "options": [
-        { "text": "i. 44 g NO2", "correct": false },
-        { "text": "ii. 16 g CO2", "correct": false },
-        { "text": "iii. 44 g CO2", "correct": true },
-        { "text": "iv. 64 g CO2", "correct": false }
+        { "text": "i. 44 g NO<sub>2</sub>", "correct": false },
+        { "text": "ii. 16 g CO<sub>2</sub>", "correct": false },
+        { "text": "iii. 44 g CO<sub>2</sub>", "correct": true },
+        { "text": "iv. 64 g CO<sub>2</sub>", "correct": false }
       ],
       "explanation": "<span class='text-emerald-400 font-bold'>Σωστή απάντηση: iii (Σύμφωνα με την αρχή διατήρησης της μάζας: 16+64 = 80g συνολικά αντιδρώντα. Προϊόντα = 36 + x = 80 => x = 44g CO2)</span>"
     },
@@ -1689,7 +1689,7 @@ export const bGymnasiouMCQ: MCQ[] = [
     },
     {
       "chapterId": "chapter-8",
-      "q": "14. β. 200 g ασβεστόλιθου (CaCO3) διασπώνται όταν θερμαίνονται ισχυρά και παράγουν 88 g διοξείδιο του άνθρακα και α g οξείδιο του ασβεστίου (CaO). Από την αντίδραση παράχθηκαν:",
+      "q": "14. β. 200 g ασβεστόλιθου (CaCO<sub>3</sub>) διασπώνται όταν θερμαίνονται ισχυρά και παράγουν 88 g διοξείδιο του άνθρακα και α g οξείδιο του ασβεστίου (CaO). Από την αντίδραση παράχθηκαν:",
       "options": [
         { "text": "i. 56 g CaO", "correct": false },
         { "text": "ii. 100 g CaO", "correct": false },
