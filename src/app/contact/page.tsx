@@ -74,7 +74,7 @@ const CONTACT_DETAILS = [
     icon: Mail,
     title: "Email",
     value: "ximeiastintaxi@gmail.com",
-    subtitle: "Απαντάμε εντός 24 ωρών",
+    subtitle: "",
     color: "text-brand-blue",
     bgColor: "bg-brand-blue/10",
     delay: 0.1
