@@ -43,7 +43,7 @@ export const ch1Questions: Question[] = [
   },
   {
     q: "Να αντιστοιχίσετε τις εφαρμογές της στήλης Α του ακόλουθου πίνακα με την σωστή χρήση στην στήλη Β.\n\n**Α. ΥΛΙΚΟ**\n1. χρώματα\n2. νάιλον\n3. τσιμέντο\n4. αντικαταθλιπτικά\n5. παρασιτοκτόνα\n6. κράματα αλουμινίου\n7. βιταμίνες\n8. οδοντόκρεμα\n9. πλαστικά\n10. μπαταρίες\n\n**Β. ΠΡΟΪΟΝ - ΔΡΑΣΤΗΡΙΟΤΗΤΑ**\n1. κινητό τηλέφωνο\n2. καλλιέργειες\n3. υλικά συσκευασίας\n4. ζωγραφική\n5. κατασκευές\n6. ψυχικές διαταραχές\n7. ρούχα και σχοινιά\n8. αθλητικά παπούτσια\n9. αεροπλάνα\n10. κουφώματα\n11. προσωπική υγιεινή\n12. ενίσχυση του οργανισμού",
-    a: "**Απαντήσεις:**\nA1 &rarr; B4, B5, B10\nA2 &rarr; B3, B7\nA3 &rarr; B5\nA4 &rarr; B6\nA5 &rarr; B2\nA6 &rarr; B9, B5, B10\nA7 &rarr; B12\nA8 &rarr; B11\nA9 &rarr; B1, B3, B5, B9, B8, B10\nA10 &rarr; B1"
+    a: "**Απαντήσεις:**\nA<sub>1</sub> &rarr; B<sub>4</sub>, B<sub>5</sub>, B<sub>10</sub>\nA<sub>2</sub> &rarr; B<sub>3</sub>, B<sub>7</sub>\nA<sub>3</sub> &rarr; B<sub>5</sub>\nA<sub>4</sub> &rarr; B<sub>6</sub>\nA<sub>5</sub> &rarr; B<sub>2</sub>\nA<sub>6</sub> &rarr; B<sub>9</sub>, B<sub>5</sub>, B<sub>10</sub>\nA<sub>7</sub> &rarr; B<sub>12</sub>\nA<sub>8</sub> &rarr; B<sub>11</sub>\nA<sub>9</sub> &rarr; B<sub>1</sub>, B<sub>3</sub>, B<sub>5</sub>, B<sub>9</sub>, B<sub>8</sub>, B<sub>10</sub>\nA<sub>10</sub> &rarr; B<sub>1</sub>"
   },
   {
     q: "Το 2011 ανακηρύχθηκε από τον Οργανισμό Ηνωμένων Εθνών (Ο.Η.Ε.) ως Διεθνές Έτος Χημείας (ΔΕΧ), με γενικό τίτλο «Χημεία – η Ζωή μας, το Μέλλον μας». Να διατυπώσετε την άποψή σας για τους λόγους για τους οποίους ο ΟΗΕ θεώρησε αναγκαίο να αφιερώσει ένα χρόνο για τον εορτασμό της Χημείας.",
@@ -74,8 +74,38 @@ export const ch1Questions: Question[] = [
     a: "- **Παρατήρηση**: Το φυτό παρουσιάζει προβλήματα στην ανάπτυξή του.\n- **Διατύπωση ερωτήματος**: Ποιο από τα λιπάσματα Α και Β θα έχει καλύτερα αποτελέσματα στην ανάπτυξη του φυτού;\n- **Υπόθεση**: Το λίπασμα Α θα έχει καλύτερα αποτελέσματα όσον αφορά την ανάπτυξη του φυτού σε σχέση με το λίπασμα Β.\n- **Σχεδιασμός πειραματικού ελέγχου**: Να χρησιμοποιηθούν τα λιπάσματα Α και Β σε φυτά και να διαπιστωθεί η διαφορά στην ανάπτυξη των φυτών σε δεδομένο χρονικό διάστημα (έχοντας τις άλλες μεταβλητές όπως νερό, φως σταθερές).\n- **Ανάλυση δεδομένων**: Το φυτό στο οποίο χρησιμοποιήθηκε το λίπασμα Α παρουσιάζει μεγαλύτερη ανάπτυξη (π.χ. σε ύψος, αριθμό φύλλων) σε σχέση με το φυτό που χρησιμοποιήθηκε το λίπασμα Β.\n- **Σύγκριση με την υπόθεση**: Η υπόθεση επιβεβαιώθηκε, καθώς το φυτό στο οποίο προστέθηκε λίπασμα Α αναπτύχθηκε περισσότερο.\n- **Ανακοίνωση αποτελεσμάτων**: Και τα δύο λιπάσματα επέφεραν βελτίωση στην ανάπτυξη του φυτού. Όμως το λίπασμα Α έχει καλύτερα αποτελέσματα στην ανάπτυξη του φυτού σε σχέση με το λίπασμα Β.\n\n**Ανεξάρτητη μεταβλητή** (αυτή που μεταβάλλει ο ερευνητής): Το είδος του λιπάσματος.\n**Εξαρτημένη μεταβλητή** (αυτή που μετράμε): Η ανάπτυξη του φυτού."
   },
   {
-    q: "Να συμπληρώσετε την ακροστιχίδα με βάση τους παρακάτω ορισμούς:\n1. Πρέπει να διατυπωθεί μετά την παρατήρηση του φαινομένου που εξετάζουμε.\n2. Σχεδιάζεται για την επιβεβαίωση ή την απόρριψη μιας υπόθεσης.\n3. Εναλλακτική λέξη για την υπόθεση.\n4. Η επεξεργασία των δεδομένων της πειραματικής διαδικασίας οδηγεί σε αυτό.\n5. Εναλλακτική λέξη για τη δοκιμασία (ξεν.).\n6. Ανάποδα γραμμένη η λέξη που χαρακτηρίζει τη μεταβλητή, τις τιμές της οποίας μετράμε σε ένα πείραμα.\n7. Οι παράμετροι που επηρεάζουν ένα φαινόμενο.\n8. Αυτός ο τρόπος σκέψης καλλιεργείται με την επιστημονική μέθοδο.\n9. Εναλλακτική λέξη για το μυαλό.\n10. Για να είναι ορθή μία πειραματική διαδικασία, θα πρέπει να διασφαλίζεται ότι οι τιμές όλων των παραμέτρων που επηρεάζουν το φαινόμενο, εκτός από την ανεξάρτητη μεταβλητή, είναι...\n11. Το τελευταίο στάδιο της επιστημονικής μεθόδου για τα αποτελέσματα της διαδικασίας.\n12. Ανάποδα γραμμένη η λέξη που χαρακτηρίζει τη μεταβλητή, τις τιμές της οποίας μεταβάλλουμε σκόπιμα σε ένα πείραμα.\n\nΠοια λέξη σχηματίζεται στην ακροστιχίδα και τι δηλώνει;",
-    a: "1. **Ε**ΡΩΤΗΣΗ\n2. **Π**ΕΙΡΑΜΑ\n3. **Ι**ΣΧΥΡΙΣΜΟΣ\n4. **Σ**ΥΜΠΕΡΑΣΜΑ\n5. **Τ**ΕΣΤ\n6. **Η**ΝΕΜΗΤΡΑΞΕ (ΕΞΑΡΤΗΜΕΝΗ γραμμένη ανάποδα)\n7. **Μ**ΕΤΑΒΛΗΤΕΣ\n8. **Ο**ΡΘΟΛΟΓΙΚΟΣ\n9. **Ν**ΟΥΣ\n10. **Ι**ΔΙΕΣ\n11. **Κ**ΟΙΝΟΠΟΙΗΣΗ\n12. **Η**ΤΗΤΡΑΞΕΝΑ (ΑΝΕΞΑΡΤΗΤΗ γραμμένη ανάποδα)\n\nΗ λέξη στην ακροστιχίδα είναι η **ΕΠΙΣΤΗΜΟΝΙΚΗ** και δηλώνει τη μέθοδο επαλήθευσης των υποθέσεων και ερμηνείας των φαινομένων που χρησιμοποιεί η επιστήμη της Χημείας."
+    q: `Να συμπληρώσετε την ακροστιχίδα με βάση τους παρακάτω ορισμούς:\n<div class=\"overflow-x-auto my-4\"><table class=\"border-collapse mx-auto text-center font-mono\">
+    <tbody>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 1 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 2 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 3 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 4 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 5 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 6 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 7 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 8 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 9 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 10 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 11 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 12 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  </tbody>
+  </table></div>\n1.Πρέπει να διατυπωθεί μετά την παρατήρηση του φαινομένου που εξετάζουμε.\n2.Σχεδιάζεται για την επιβεβαίωση ή την απόρριψη μιας υπόθεσης.\n3.Εναλλακτική λέξη για την υπόθεση.\n4.Η επεξεργασία των δεδομένων της πειραματικής διαδικασίας οδηγεί σε αυτό.\n5.Εναλλακτική λέξη για τη δοκιμασία(ξεν.).\n6.Ανάποδα γραμμένη η λέξη που χαρακτηρίζει τη μεταβλητή, τις τιμές της οποίας μετράμε σε ένα πείραμα.\n7.Οι παράμετροι που επηρεάζουν ένα φαινόμενο.\n8.Αυτός ο τρόπος σκέψης καλλιεργείται με την επιστημονική μέθοδο.\n9.Εναλλακτική λέξη για το μυαλό.\n10.Για να είναι ορθή μία πειραματική διαδικασία, θα πρέπει να διασφαλίζεται ότι οι τιμές όλων των παραμέτρων που επηρεάζουν το φαινόμενο, εκτός από την ανεξάρτητη μεταβλητή, είναι...\n11.Το τελευταίο στάδιο της επιστημονικής μεθόδου για τα αποτελέσματα της διαδικασίας.\n12.Ανάποδα γραμμένη η λέξη που χαρακτηρίζει τη μεταβλητή, τις τιμές της οποίας μεταβάλλουμε σκόπιμα σε ένα πείραμα.\n\nΠοια λέξη σχηματίζεται στην ακροστιχίδα και τι δηλώνει; `,
+a: `<div class=\"overflow-x-auto my-4\"><table class=\"border-collapse mx-auto text-center font-mono\">
+  <tbody>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 1 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ε</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ρ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ω</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> </tr>
+    <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 2 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Π</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ε </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ρ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Μ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> </tr>
+      <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 3 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Χ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Υ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ρ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ι </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Σ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Μ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td></tr>
+        <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 4 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Σ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Υ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Μ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Π </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ε</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ρ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Μ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td></tr>
+          <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 5 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Τ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ε </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Σ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td></tr>
+            <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 6 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ν </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ε</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Μ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ρ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ξ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ε </td></tr>
+              <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 7 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Μ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ε </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Τ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Β</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Λ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ε</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td></tr>
+                <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 8 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ρ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Θ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Λ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Γ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ι </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Κ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Σ</td> </tr>
+                  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 9 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ν</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Υ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td></tr>
+                    <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 10 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Δ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ε </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Σ</td> </tr>
+                      <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 11 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Κ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ν </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Π </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ι </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> </tr>
+                        <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 12 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Η</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ρ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ξ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ε </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ν</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td></tr>
+                          </tbody>
+                          </table></div>\n\n1. ** Ε ** ΡΩΤΗΣΗ\n2. ** Π ** ΕΙΡΑΜΑ\n3. ** Ι ** ΣΧΥΡΙΣΜΟΣ\n4. ** Σ ** ΥΜΠΕΡΑΣΜΑ\n5. ** Τ ** ΕΣΤ\n6. ** Η ** ΝΕΜΗΤΡΑΞΕ(ΕΞΑΡΤΗΜΕΝΗ γραμμένη ανάποδα) \n7. ** Μ ** ΕΤΑΒΛΗΤΕΣ\n8. ** Ο ** ΡΘΟΛΟΓΙΚΟΣ\n9. ** Ν ** ΟΥΣ\n10. ** Ι ** ΔΙΕΣ\n11. ** Κ ** ΟΙΝΟΠΟΙΗΣΗ\n12. ** Η ** ΤΗΤΡΑΞΕΝΑ(ΑΝΕΞΑΡΤΗΤΗ γραμμένη ανάποδα) \n\nΗ λέξη στην ακροστιχίδα είναι η ** ΕΠΙΣΤΗΜΟΝΙΚΗ ** και δηλώνει τη μέθοδο επαλήθευσης των υποθέσεων και ερμηνείας των φαινομένων που χρησιμοποιεί η επιστήμη της Χημείας.`
   }
 ];
 
@@ -120,96 +150,7 @@ export const ch1MCQ: MCQ[] = [
     ],
     explanation: "Τα λιπάσματα χρησιμοποιούνται για την παροχή θρεπτικών συστατικών στα φυτά, ενισχύοντας την ανάπτυξή τους και την παραγωγή τροφίμων."
   },
-  {
-    q: "Σε περίπτωση έκτακτης ανάγκης στο εργαστήριο πρέπει να φωνάξετε:",
-    options: [
-      { text: "τον επιβλέποντα καθηγητή", correct: true },
-      { text: "κανέναν", correct: false },
-      { text: "έναν φίλο", correct: false },
-      { text: "όποιον είναι κοντά.", correct: false }
-    ],
-    explanation: "Ο επιβλέπων καθηγητής είναι ο υπεύθυνος του εργαστηρίου και ο πιο καταρτισμένος για να διαχειριστεί μια έκτακτη ανάγκη με ασφάλεια."
-  },
-  {
-    q: "Το κάπνισμα απαγορεύεται αυστηρά στο εργαστήριο γιατί:",
-    options: [
-      { text: "δεν υπάρχουν τασάκια", correct: false },
-      { text: "είναι ανθυγιεινό", correct: false },
-      { text: "δεν είναι βολικό", correct: false },
-      { text: "μπορεί να προκληθεί πυρκαγιά στο εργαστήριο.", correct: true }
-    ],
-    explanation: "Στο εργαστήριο συχνά υπάρχουν εύφλεκτα υλικά και αέρια. Το κάπνισμα μπορεί εύκολα να προκαλέσει πυρκαγιά ή έκρηξη."
-  },
-  {
-    q: "Για να ελαττώσετε τον κίνδυνο σταγόνες μιας χημικής ουσίας να μπουν στο μάτι σας πρέπει να φοράτε:",
-    options: [
-      { text: "μάσκα", correct: false },
-      { text: "φακούς επαφής", correct: false },
-      { text: "γυαλιά ηλίου", correct: false },
-      { text: "γυαλιά ασφαλείας", correct: true }
-    ],
-    explanation: "Τα γυαλιά ασφαλείας είναι ειδικά σχεδιασμένα για να προστατεύουν τα μάτια από πιτσιλιές χημικών ουσιών στο εργαστήριο."
-  },
-  {
-    q: "Πως μπορείτε γρήγορα να σβήσετε μια μικρή φωτιά πάνω στον εργαστηριακό πάγκο:",
-    options: [
-      { text: "χρησιμοποιώντας πυροσβεστήρα", correct: false },
-      { text: "πετώντας νερό", correct: false },
-      { text: "καλύπτοντας τη φλόγα με ένα μικρό δοχείο, όπως δοχείο ζέσης", correct: false },
-      { text: "όλα τα προηγούμενα.", correct: true }
-    ],
-    explanation: "Ο πιο γρήγορος τρόπος για μια πολύ μικρή φωτιά είναι συνήθως η κάλυψή της για διακοπή του οξυγόνου (Γ). Ο πυροσβεστήρας (Α) χρησιμοποιείται για μεγαλύτερες εστίες. (Το βιβλίο/ασκήσεις δίνουν το Δ ως σωστή επιλογή, αν και το νερό είναι επικίνδυνο για χημικές φωτιές ή ηλεκτρικά)."
-  },
-  {
-    q: "Το ποτό και το φαγητό απαγορεύονται στο εργαστήριο, γιατί:",
-    options: [
-      { text: "λερώνονται τα εργαστήρια", correct: false },
-      { text: "δεν υπάρχει αρκετός χρόνος", correct: false },
-      { text: "τα παιδιά που δεν έχουν ποτό και φαγητό νιώθουν μειονεκτικά", correct: false },
-      { text: "μπορεί να δηλητηριαστείτε.", correct: true }
-    ],
-    explanation: "Υπάρχει κίνδυνος οι χημικές ουσίες ή οι αναθυμιάσεις να μολύνουν το φαγητό ή το ποτό, οδηγώντας σε δηλητηρίαση αν καταναλωθούν."
-  },
-  {
-    q: "Απαγορεύεται στο εργαστήριο να γίνονται πειράματα που δεν είναι εγκεκριμένα γιατί:",
-    options: [
-      { text: "οι μαθητές δεν έχουν την απαιτούμενη εμπειρία", correct: true },
-      { text: "δεν υπάρχουν τα απαιτούμενα αντιδραστήρια", correct: false },
-      { text: "οι καθηγητές θέλουν τα πειράματα που έχουν διαλέξει", correct: false },
-      { text: "δεν επαρκεί ο διαθέσιμος χρόνος.", correct: false }
-    ],
-    explanation: "Μη εγκεκριμένα πειράματα ενέχουν άγνωστους κινδύνους για τους οποίους οι μαθητές δεν είναι προετοιμασμένοι ούτε έχουν την κατάλληλη εμπειρία για να διαχειριστούν."
-  },
-  {
-    q: "Μετά την ολοκλήρωση του πειράματος και πριν να φύγετε από το εργαστήριο πρέπει οπωσδήποτε:",
-    options: [
-      { text: "να σβήσετε όλες τις εστίες φωτιάς", correct: false },
-      { text: "να τακτοποιήσετε και να καθαρίσετε το πάγκο", correct: false },
-      { text: "να πλύνετε τα χέρια σας", correct: false },
-      { text: "να κάνετε όλα τα παραπάνω.", correct: true }
-    ],
-    explanation: "Η ασφάλεια μετά το πείραμα απαιτεί το σβήσιμο των εστιών, τον καθαρισμό του χώρου για τον επόμενο, και το πλύσιμο των χεριών για την αφαίρεση τυχόν χημικών καταλοίπων."
-  },
-  {
-    q: "Αν ένα δοχείο χωρίς ετικέτα περιέχει ένα άγνωστο υγρό πρέπει:",
-    options: [
-      { text: "να το δοκιμάσετε, ώστε να καταλάβετε τι είναι", correct: false },
-      { text: "να το μυρίσετε, ώστε να το αναγνωρίσετε", correct: false },
-      { text: "να θεωρήσετε ότι είναι πιθανά επικίνδυνο και να ενημερώσετε τον υπεύθυνο", correct: true },
-      { text: "καλύτερα να ζητήσετε από ένα συμμαθητή σας να το αναγνωρίσει.", correct: false }
-    ],
-    explanation: "Ποτέ δεν δοκιμάζουμε ούτε μυρίζουμε άγνωστες ουσίες στο εργαστήριο. Αντιμετωπίζονται πάντα ως επικίνδυνες και ενημερώνεται ο καθηγητής."
-  },
-  {
-    q: "Ο λόγος για τον οποίο το εργαστήριο πρέπει να είναι καθαρό και τακτοποιημένο είναι ότι:",
-    options: [
-      { text: "ο καθηγητής είναι ψυχαναγκαστικός", correct: false },
-      { text: "το εργαστήριο φαίνεται όμορφο", correct: false },
-      { text: "για να βρίσκουμε τα αντιδραστήρια", correct: false },
-      { text: "βοηθά στο να αποφεύγονται τα ατυχήματα.", correct: true }
-    ],
-    explanation: "Ένα ακατάστατο εργαστήριο αυξάνει σημαντικά τον κίνδυνο να χυθούν χημικά, να αναποδογυρίσουν συσκευές ή να μπερδευτούν ουσίες."
-  },
+
   {
     q: "Από τα ακόλουθα βήματα δεν είναι βήμα της επιστημονικής μεθόδου:",
     options: [
@@ -357,17 +298,39 @@ export const ch2Questions: Question[] = [
     a: "**i.** Το κατιόν Sr²⁺ προέκυψε με **αποβολή 2 e⁻** (έχει πλέον 36 e⁻).\n**ii.** Το ανιόν I⁻ προέκυψε με **πρόσληψη 1 e⁻** (έχει πλέον 54 e⁻).\n**iii.** Το ανιόν Br⁻ προέκυψε με **πρόσληψη 1 e⁻** (έχει πλέον 36 e⁻).\n**iv.** Το κατιόν Al³⁺ προέκυψε με **αποβολή 3 e⁻** (έχει πλέον 10 e⁻).\n\n**Β.** Ισοηλεκτρονικά είναι τα ιόντα που έχουν τον ίδιο αριθμό ηλεκτρονίων. Εδώ είναι το **Sr²⁺** και το **Br⁻**, αφού και τα δύο έχουν 36 ηλεκτρόνια."
   },
   {
-    q: "Να λύσετε την ακροστιχίδα (ΑΤΟΜΙΚΟΣ):\n1. Όταν ένα άτομο προσλαμβάνει e⁻ μετατρέπεται σε αυτό.\n2. Το βαρύτερο ισότοπο του υδρογόνου: ³H.\n3. Το ανιόν του στοιχείου ¹⁴N που έχει φορτίο -1 έχει τόσα ηλεκτρόνια.\n4. Ο αριθμός που εκφράζει το άθροισμα των πρωτονίων και νετρονίων.\n5. Έχουν ίδιο ατομικό, αλλά διαφορετικό μαζικό αριθμό.\n6. Όταν ένα άτομο αποβάλλει e⁻ μετατρέπεται σε αυτό.\n7. Η σχετική ατομική μάζα του ισοτόπου ¹⁶O είναι...\n8. Το όνομα της περιοχής του χώρου που κινείται ένα ηλεκτρόνιο (μοντέλο Bohr).",
-    a: "1. **Α**ΝΙΟΝ\n2. **Τ**ΡΙΤΙΟ\n3. **Ο**ΚΤΩ (Z=7 άρα 7e. Με -1 έχει 8e)\n4. **Μ**ΑΖΙΚΟΣ\n5. **Ι**ΣΟΤΟΠΑ\n6. **Κ**ΑΤΙΟΝ\n7. **Ο**ΓΔΟΝΤΑ (σ.σ. Στο PDF υπάρχει ένα τυπογραφικό λάθος, η σωστή λέξη είναι ΟΓΔΟΝΤΑ σύμφωνα με την ακροστιχίδα, ίσως η ερώτηση ήταν για το ⁸⁰X).\n8. **Σ**ΤΙΒΑΔΑ\n\nΣχηματίζεται η λέξη: **ΑΤΟΜΙΚΟΣ** (αριθμός)."
+    q: `Να λύσετε την ακροστιχίδα (ΑΤΟΜΙΚΟΣ):\n<div class=\"overflow-x-auto my-4\"><table class=\"border-collapse mx-auto text-center font-mono\">
+    <tbody>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 1 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 2 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 3 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 4 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 5 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 6 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 7 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 8 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-slate-50 dark:bg-slate-800/50\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">&nbsp;&nbsp;</td></tr>
+  </tbody>
+  </table></div>\n1.Όταν ένα άτομο προσλαμβάνει e⁻ μετατρέπεται σε αυτό.\n2.Το βαρύτερο ισότοπο του υδρογόνου: ³₁H.\n3.Το ανιόν του στοιχείου ¹⁴₇N που έχει φορτίο - 1 έχει τόσα ηλεκτρόνια.\n4.Ο αριθμός που εκφράζει το άθροισμα των πρωτονίων και νετρονίων.\n5.Έχουν ίδιο ατομικό, αλλά διαφορετικό μαζικό αριθμό.\n6.Όταν ένα άτομο αποβάλλει e⁻ μετατρέπεται σε αυτό.\n7.Η σχετική ατομική μάζα του ισοτόπου ¹⁶₈O είναι...\n8.Το όνομα της περιοχής του χώρου που κινείται ένα ηλεκτρόνιο(μοντέλο Bohr).`,
+    a: `<div class=\"overflow-x-auto my-4\"><table class=\"border-collapse mx-auto text-center font-mono\">
+  <tbody>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 1 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Α</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ν </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ν</td> </tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 2 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Τ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ρ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td></tr>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 3 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Κ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Τ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ω </td></tr>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 4 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Μ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ζ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ι </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Κ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Σ</td> </tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 5 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Σ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Π </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> </tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 6 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Κ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Α </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Τ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ι </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ν </td></tr>
+  <tr><td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 7 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Ο</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Γ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Δ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Ο </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ν</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> </tr>
+  <tr> <td class=\"border border-slate-300 dark:border-slate-600 p-2 font-bold bg-slate-100 dark:bg-slate-800\"> 8 </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem] bg-yellow-200 dark:bg-yellow-800 font-bold\">Σ</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Τ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Ι</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Β </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> <td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\"> Δ </td><td class=\"border border-slate-400 dark:border-slate-500 p-2 min-w-[2rem]\">Α</td> </tr>
+  </tbody>
+  </table></div>\n\n1. ** Α ** ΝΙΟΝ\n2. ** Τ ** ΡΙΤΙΟ\n3. ** Ο ** ΚΤΩ(Z = 7 άρα 7e.Με - 1 έχει 8e) \n4. ** Μ ** ΑΖΙΚΟΣ\n5. ** Ι ** ΣΟΤΟΠΑ\n6. ** Κ ** ΑΤΙΟΝ\n7. ** Ο ** ΓΔΟΝΤΑ(σ.σ.Στο PDF υπάρχει ένα τυπογραφικό λάθος, η σωστή λέξη είναι ΟΓΔΟΝΤΑ σύμφωνα με την ακροστιχίδα, ίσως η ερώτηση ήταν για το ⁸⁰X).\n8. ** Σ ** ΤΙΒΑΔΑ\n\nΣχηματίζεται η λέξη: ** ΑΤΟΜΙΚΟΣ ** (αριθμός).`
   },
-  {
-    q: "Να αντιστοιχίσετε τα άτομα/ιόντα με την ηλεκτρονιακή τους δομή (κατανομή):\n1. ₁₂Mg\n2. ₁₅P\n3. ₂₀Ca²⁺\n4. ₁₆S²⁻\n5. ₁₃Al\n6. ₁₄Si\n7. ₉F⁻\n\n(Επιλογές δομής: K(2)L(8), K(2)L(8)M(2), K(2)L(8)M(3), K(2)L(8)M(4), K(2)L(8)M(5), K(2)L(8)M(8))",
+{
+  q: "Να αντιστοιχίσετε τα άτομα/ιόντα με την ηλεκτρονιακή τους δομή (κατανομή):\n1. ₁₂Mg\n2. ₁₅P\n3. ₂₀Ca²⁺\n4. ₁₆S²⁻\n5. ₁₃Al\n6. ₁₄Si\n7. ₉F⁻\n\n(Επιλογές δομής: K(2)L(8), K(2)L(8)M(2), K(2)L(8)M(3), K(2)L(8)M(4), K(2)L(8)M(5), K(2)L(8)M(8))",
     a: "1. ₁₂Mg (12e⁻) &rarr; **K(2) L(8) M(2)**\n2. ₁₅P (15e⁻) &rarr; **K(2) L(8) M(5)**\n3. ₂₀Ca²⁺ (20-2 = 18e⁻) &rarr; **K(2) L(8) M(8)**\n4. ₁₆S²⁻ (16+2 = 18e⁻) &rarr; **K(2) L(8) M(8)**\n5. ₁₃Al (13e⁻) &rarr; **K(2) L(8) M(3)**\n6. ₁₄Si (14e⁻) &rarr; **K(2) L(8) M(4)**\n7. ₉F⁻ (9+1 = 10e⁻) &rarr; **K(2) L(8)**"
-  },
-  {
-    q: "Να χαρακτηρίσετε τις ακόλουθες προτάσεις ως σωστές (Σ) ή λανθασμένες (Λ):\nα. Ο ατομικός αριθμός εκφράζει τον αριθμό των νουκλεονίων.\nβ. Τα ισότοπα έχουν ίδια κατανομή ηλεκτρονίων σε στιβάδες.\nγ. Το ιόν \\(_{16}\\text{S}^{2-}\\) έχει 8 ηλεκτρόνια στη στιβάδα M.\nδ. Η εξωτερική στιβάδα οποιουδήποτε στοιχείου συμπληρώνεται με 8 ηλεκτρόνια.\nε. Τα πρώτα ηλεκτρόνια τοποθετούνται στη στιβάδα Κ, γιατί έχει τη χαμηλότερη ενέργεια.\nστ. Η στιβάδα με n=3 μπορεί να έχει πάντοτε ως 18 ηλεκτρόνια.",
+},
+{
+  q: "Να χαρακτηρίσετε τις ακόλουθες προτάσεις ως σωστές (Σ) ή λανθασμένες (Λ):\nα. Ο ατομικός αριθμός εκφράζει τον αριθμό των νουκλεονίων.\nβ. Τα ισότοπα έχουν ίδια κατανομή ηλεκτρονίων σε στιβάδες.\nγ. Το ιόν \\(_{16}\\text{S}^{2-}\\) έχει 8 ηλεκτρόνια στη στιβάδα M.\nδ. Η εξωτερική στιβάδα οποιουδήποτε στοιχείου συμπληρώνεται με 8 ηλεκτρόνια.\nε. Τα πρώτα ηλεκτρόνια τοποθετούνται στη στιβάδα Κ, γιατί έχει τη χαμηλότερη ενέργεια.\nστ. Η στιβάδα με n=3 μπορεί να έχει πάντοτε ως 18 ηλεκτρόνια.",
     a: "**α. Λάθος.** Ο ατομικός αριθμός (Z) εκφράζει τα πρωτόνια. Τα νουκλεόνια (p+n) δίνονται από τον μαζικό (A).\n**β. Σωστό.** Τα ισότοπα του ίδιου στοιχείου έχουν ίδιο Z, άρα και ίδιο αριθμό ηλεκτρονίων, συνεπώς ίδια κατανομή.\n**γ. Σωστό.** Το S (Z=16) έχει κατανομή K(2) L(8) M(6). Το ανιόν S²⁻ προσλαμβάνει 2 e⁻ στη M, άρα γίνεται K(2) L(8) M(8).\n**δ. Λάθος.** Η εξωτερική στιβάδα μπορεί να πάρει ΜΕΧΡΙ 8 ηλεκτρόνια, δεν συμπληρώνεται πάντα με 8. Επίσης αν η εξωτερική είναι η K, παίρνει μέχρι 2.\n**ε. Σωστό.** Λόγω της αρχής ελάχιστης ενέργειας.\n**στ. Λάθος.** Αν η στιβάδα M (n=3) τύχει να είναι η τελευταία (εξωτερική) στιβάδα, δεν μπορεί να πάρει 18, αλλά το πολύ 8 ηλεκτρόνια."
-  }
+}
 ];
 
 export const ch2MCQ: MCQ[] = [
@@ -424,7 +387,7 @@ export const ch2MCQ: MCQ[] = [
   {
     q: "Το κατιόν \\(^{55}_{25}\\text{Mn}^{2+}\\) περιέχει:",
     options: [
-      { text: "25 p - 25 n - 25 e", correct: false },
+      { text: "25 p-25 n - 25 e", correct: false },
       { text: "25 p - 30 n - 25 e", correct: false },
       { text: "25 p - 55 n - 25 e", correct: false },
       { text: "25 p - 30 n - 23 e", correct: true }
@@ -464,10 +427,10 @@ export const ch2MCQ: MCQ[] = [
   {
     q: "Ποιο από τα ακόλουθα ζεύγη περιέχει ισότοπα:",
     options: [
-      { text: "¹²C - ¹²C", correct: false },
-      { text: "¹²C - ¹⁴C", correct: true },
-      { text: "¹²C - ¹³C", correct: false },
-      { text: "¹²C - ¹⁴N", correct: false }
+      { text: "¹²₆C - ¹²₆C", correct: false },
+      { text: "¹²₆C - ¹⁴₆C", correct: true },
+      { text: "¹²₆C - ¹³₇C", correct: false },
+      { text: "¹²₆C - ¹⁴₇C", correct: false }
     ],
     explanation: "Ο άνθρακας-12 (¹²C) και ο άνθρακας-14 (¹⁴C) έχουν ίδιο ατομικό αριθμό (6, C) αλλά διαφορετικό μαζικό αριθμό."
   },
@@ -522,14 +485,14 @@ export const ch2MCQ: MCQ[] = [
     explanation: "Για να έχει ηλεκτρόνια η στιβάδα M (n=3), πρέπει να έχουν γεμίσει οι K και L. Άρα: K(2) L(8) M(6). Συνολικά e = 2 + 8 + 6 = 16. Άρα Z=16."
   },
   {
-    q: "Στο ιόν του αργιλίου (\\(_{13}\\text{Al}^{3+}\\)) τα 8 ηλεκτρόνια υψηλότερης ενέργειας βρίσκονται στη στιβάδα L. Ο ατομικός αριθμός του αργιλίου είναι:",
+    q: "Στο ιόν του αργιλίου (text{Al}^{3+})) τα 8 ηλεκτρόνια υψηλότερης ενέργειας βρίσκονται στη στιβάδα L. Ο ατομικός αριθμός του αργιλίου είναι:",
     options: [
       { text: "3", correct: false },
       { text: "7", correct: false },
       { text: "10", correct: false },
       { text: "13", correct: true }
     ],
-    explanation: "Η ίδια η ερώτηση δίνει το σύμβολο ₁₃Al³⁺, που σημαίνει ότι ο ατομικός αριθμός Z του στοιχείου είναι 13."
+    explanation: "Η ίδια η ερώτηση δίνει το σύμβολο ³⁺, που σημαίνει ότι ο ατομικός αριθμός Z του στοιχείου είναι 13.Καθώς το Al έχει ατομικό αριθμό 10"
   },
   {
     q: "Όταν το άτομο του \\(_{20}\\text{Ca}\\) σχηματίζει το σταθερό του ιόν, αυτό έχει την ίδια ηλεκτρονιακή δομή με το άτομο:",
@@ -539,7 +502,7 @@ export const ch2MCQ: MCQ[] = [
       { text: "₁₈Ar", correct: true },
       { text: "₂₁Sc", correct: false }
     ],
-    explanation: "Το Ca (Z=20) αποβάλλει 2 e⁻ για να σχηματίσει το Ca²⁺ (K2 L8 M8, δηλαδή 18 e⁻ συνολικά), ώστε να έχει δομή ευγενούς αερίου (του Αργού, ₁₈Ar)."
+    explanation: "Το Ca (Z=20) αποβάλλει 2 e⁻ για να σχηματίσει το Ca²⁺ (K<sub>2</sub> L<sub>8</sub> M<sub>8</sub>, δηλαδή 18 e⁻ συνολικά), ώστε να έχει δομή ευγενούς αερίου (του Αργού, ₁₈Ar)."
   }
 ];
 
@@ -548,930 +511,468 @@ export const ch2MCQ: MCQ[] = [
 
 export const ch3Questions: Question[] = [
   {
-  "q": "Να αντιστοιχίσετε τους χημικούς τύπους των ενώσεων της στήλης Α με το είδος του δεσμού τους στη στήλη Β.\nΑ: 1. Br₂, 2. HClO₂, 3. CaBr₂, 4. K₂O, 5. HCl, 6. N₂, 7. Mg(OH)₂\nΒ: 1. Ιοντικός, 2. Μη πολικός ομοιοπολικός, 3. Πολικός ομοιοπολικός",
-  "a": "1 -> Β2 (Μη πολικός ομοιοπολικός)\n2 -> Β3 (Πολικός ομοιοπολικός)\n3 -> Β1 (Ιοντικός)\n4 -> Β1 (Ιοντικός)\n5 -> Β3 (Πολικός ομοιοπολικός)\n6 -> Β2 (Μη πολικός ομοιοπολικός)\n7 -> Β1 (Ιοντικός)"
-},
+    "q": "Να αντιστοιχίσετε τους χημικούς τύπους των ενώσεων της στήλης Α με το είδος του δεσμού τους στη στήλη Β.\nΑ: 1. Br₂, 2. HClO₂, 3. CaBr₂, 4. K₂O, 5. HCl, 6. N₂, 7. Mg(OH)₂\nΒ: 1. Ιοντικός, 2. Μη πολικός ομοιοπολικός, 3. Πολικός ομοιοπολικός",
+    "a": "1 -> Β2 (Μη πολικός ομοιοπολικός)\n2 -> Β3 (Πολικός ομοιοπολικός)\n3 -> Β1 (Ιοντικός)\n4 -> Β1 (Ιοντικός)\n5 -> Β3 (Πολικός ομοιοπολικός)\n6 -> Β2 (Μη πολικός ομοιοπολικός)\n7 -> Β1 (Ιοντικός)"
+  },
   {
-  "q": "Να χαρακτηρίσετε καθεμία από τις ακόλουθες προτάσεις ως σωστή ή λανθασμένη:\nΑ. Το μέγεθος του ιόντος του ₁₇Cl είναι μεγαλύτερο από το μέγεθος του ατόμου.\nΒ. Το μέγεθος του ιόντος του ₁₉K είναι μεγαλύτερο από το μέγεθος του ατόμου.\nΓ. Η χημική συμπεριφορά των στοιχείων καθορίζεται από τα ηλεκτρόνια υψηλότερης ενέργειας τους και από το μέγεθος του ατόμου τους.\nΔ. Για να σχηματιστεί ένας ομοιοπολικός δεσμός θα πρέπει τα άτομα να απομακρυνθούν τόσο, ώστε να ελαχιστοποιηθούν οι απωστικές δυνάμεις...\nΕ. Το βρώμιο (₃₅Br) μπορεί να σχηματίσει χημικούς δεσμούς με αποβολή ή αμοιβαία συνεισφορά ηλεκτρονίων.\nΣΤ. Το νάτριο (₁₁Na) μπορεί να σχηματίσει χημικούς δεσμούς με αποβολή ή αμοιβαία συνεισφορά ηλεκτρονίων.\nΖ. Η χημική ένωση CaO μπορεί να είναι στερεή, υγρή ή αέρια.\nΗ. Στο μόριο της χημικής ένωσης HCN υπάρχει ένας τριπλός ομοιοπολικός δεσμός μεταξύ αζώτου και άνθρακα.\nΘ. Το πιο ηλεκτραρνητικό στοιχείο βρίσκεται στο δεξιό κάτω μέρος του Περιοδικού Πίνακα.",
-  "a": "**Α. Σωστή.** (Το ανιόν είναι μεγαλύτερο από το άτομό του).\n**Β. Λανθασμένη.** (Το κατιόν είναι μικρότερο από το άτομό του).\n**Γ. Σωστή.**\n**Δ. Λανθασμένη.** (Πρέπει να πλησιάσουν, όχι να απομακρυνθούν).\n**Ε. Λανθασμένη.** (Προσλαμβάνει ή συνεισφέρει ηλεκτρόνια, δεν αποβάλλει).\n**ΣΤ. Λανθασμένη.** (Μόνο αποβάλλει ηλεκτρόνια, ως μέταλλο).\n**Ζ. Λανθασμένη.** (Είναι ιοντική ένωση, άρα στερεή σε συνθήκες περιβάλλοντος).\n**Η. Σωστή.** (Στο HCN: H-C≡N).\n**Θ. Λανθασμένη.** (Βρίσκεται πάνω δεξιά - Φθόριο)."
-},
+    "q": "Να χαρακτηρίσετε καθεμία από τις ακόλουθες προτάσεις ως σωστή ή λανθασμένη:\nΑ. Το μέγεθος του ιόντος του ₁₇Cl είναι μεγαλύτερο από το μέγεθος του ατόμου.\nΒ. Το μέγεθος του ιόντος του ₁₉K είναι μεγαλύτερο από το μέγεθος του ατόμου.\nΓ. Η χημική συμπεριφορά των στοιχείων καθορίζεται από τα ηλεκτρόνια υψηλότερης ενέργειας τους και από το μέγεθος του ατόμου τους.\nΔ. Για να σχηματιστεί ένας ομοιοπολικός δεσμός θα πρέπει τα άτομα να απομακρυνθούν τόσο, ώστε να ελαχιστοποιηθούν οι απωστικές δυνάμεις...\nΕ. Το βρώμιο (₃₅Br) μπορεί να σχηματίσει χημικούς δεσμούς με αποβολή ή αμοιβαία συνεισφορά ηλεκτρονίων.\nΣΤ. Το νάτριο (₁₁Na) μπορεί να σχηματίσει χημικούς δεσμούς με αποβολή ή αμοιβαία συνεισφορά ηλεκτρονίων.\nΖ. Η χημική ένωση CaO μπορεί να είναι στερεή, υγρή ή αέρια.\nΗ. Στο μόριο της χημικής ένωσης HCN υπάρχει ένας τριπλός ομοιοπολικός δεσμός μεταξύ αζώτου και άνθρακα.\nΘ. Το πιο ηλεκτραρνητικό στοιχείο βρίσκεται στο δεξιό κάτω μέρος του Περιοδικού Πίνακα.",
+    "a": "**Α. Σωστή.** (Το ανιόν είναι μεγαλύτερο από το άτομό του).\n**Β. Λανθασμένη.** (Το κατιόν είναι μικρότερο από το άτομό του).\n**Γ. Σωστή.**\n**Δ. Λανθασμένη.** (Πρέπει να πλησιάσουν, όχι να απομακρυνθούν).\n**Ε. Λανθασμένη.** (Προσλαμβάνει ή συνεισφέρει ηλεκτρόνια, δεν αποβάλλει).\n**ΣΤ. Λανθασμένη.** (Μόνο αποβάλλει ηλεκτρόνια, ως μέταλλο).\n**Ζ. Λανθασμένη.** (Είναι ιοντική ένωση, άρα στερεή σε συνθήκες περιβάλλοντος).\n**Η. Σωστή.** (Στο HCN: H-C≡N).\n**Θ. Λανθασμένη.** (Βρίσκεται πάνω δεξιά - Φθόριο)."
+  },
   {
-  "q": "Τα στοιχεία Χ και Ψ βρίσκονται στην ίδια περίοδο του Περιοδικού Πίνακα. Ποιες από τις ακόλουθες προτάσεις που αφορούν στην ένωση που θα σχηματιστεί μεταξύ του ατόμου Χ με 2 ζεύγη και 2 μονήρη ηλεκτρόνια στην εξωτερική στιβάδα και του ατόμου Ψ με 3 ζεύγη και 1 μονήρες ηλεκτρόνιο στην εξωτερική στιβάδα είναι σωστές και ποιες λανθασμένες:\n<sub>1</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο X₂Ψ.\n<sub>2</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο Ψ₂X.\n<sub>3</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο XΨ₂.\n<sub>4</sub>. Σχηματίζουν την ιοντική ένωση με μοριακό τύπο XΨ₂.\n<sub>5</sub>. Ο δεσμός Χ-Ψ είναι πολωμένος και το Χ έχει περίσσεια αρνητικού φορτίου δ⁻.\n<sub>6</sub>. Ο δεσμός Χ-Ψ είναι πολωμένος και το Ψ έχει περίσσεια αρνητικού φορτίου δ⁻.\n<sub>7</sub>. Ο δεσμός Χ-Ψ είναι μη πολικός.\n<sub>8</sub>. Το Ψ μπορεί να σχηματίσει και ιόντα με φορτίο -1.",
-  "a": "Το Χ έχει 6 e⁻ σθένους (16η ομάδα). Το Ψ έχει 7 e⁻ σθένους (17η ομάδα). Επειδή είναι στην ίδια περίοδο, το Ψ (δεξιότερα) έχει μικρότερη ακτίνα και μεγαλύτερη ηλεκτραρνητικότητα από το Χ. Είναι και τα δύο αμέταλλα, άρα σχηματίζουν ομοιοπολική ένωση.\n**1. Λανθασμένη.**\n**2. Λανθασμένη.**\n**3. Σωστή.** Το Χ χρειάζεται 2 e⁻, το Ψ χρειάζεται 1 e⁻. Ο τύπος είναι XΨ₂.\n**4. Λανθασμένη.** (Ομοιοπολική, όχι ιοντική).\n**5. Λανθασμένη.** Το Ψ είναι πιο ηλεκτραρνητικό, άρα αυτό έχει το δ⁻.\n**6. Σωστή.**\n**7. Λανθασμένη.** (Είναι πολωμένος).\n**8. Σωστή.** (Το Ψ είναι αλογόνο, άρα μπορεί να πάρει 1 e⁻ σε ιοντικές ενώσεις)."
-},
+    "q": "Τα στοιχεία Χ και Ψ βρίσκονται στην ίδια περίοδο του Περιοδικού Πίνακα. Ποιες από τις ακόλουθες προτάσεις που αφορούν στην ένωση που θα σχηματιστεί μεταξύ του ατόμου Χ με 2 ζεύγη και 2 μονήρη ηλεκτρόνια στην εξωτερική στιβάδα και του ατόμου Ψ με 3 ζεύγη και 1 μονήρες ηλεκτρόνιο στην εξωτερική στιβάδα είναι σωστές και ποιες λανθασμένες:\n<sub>1</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο X₂Ψ.\n<sub>2</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο Ψ₂X.\n<sub>3</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο XΨ₂.\n<sub>4</sub>. Σχηματίζουν την ιοντική ένωση με μοριακό τύπο XΨ₂.\n<sub>5</sub>. Ο δεσμός Χ-Ψ είναι πολωμένος και το Χ έχει περίσσεια αρνητικού φορτίου δ⁻.\n<sub>6</sub>. Ο δεσμός Χ-Ψ είναι πολωμένος και το Ψ έχει περίσσεια αρνητικού φορτίου δ⁻.\n<sub>7</sub>. Ο δεσμός Χ-Ψ είναι μη πολικός.\n<sub>8</sub>. Το Ψ μπορεί να σχηματίσει και ιόντα με φορτίο -1.",
+    "a": "Το Χ έχει 6 e⁻ σθένους (16η ομάδα). Το Ψ έχει 7 e⁻ σθένους (17η ομάδα). Επειδή είναι στην ίδια περίοδο, το Ψ (δεξιότερα) έχει μικρότερη ακτίνα και μεγαλύτερη ηλεκτραρνητικότητα από το Χ. Είναι και τα δύο αμέταλλα, άρα σχηματίζουν ομοιοπολική ένωση.\n**1. Λανθασμένη.**\n**2. Λανθασμένη.**\n**3. Σωστή.** Το Χ χρειάζεται 2 e⁻, το Ψ χρειάζεται 1 e⁻. Ο τύπος είναι XΨ₂.\n**4. Λανθασμένη.** (Ομοιοπολική, όχι ιοντική).\n**5. Λανθασμένη.** Το Ψ είναι πιο ηλεκτραρνητικό, άρα αυτό έχει το δ⁻.\n**6. Σωστή.**\n**7. Λανθασμένη.** (Είναι πολωμένος).\n**8. Σωστή.** (Το Ψ είναι αλογόνο, άρα μπορεί να πάρει 1 e⁻ σε ιοντικές ενώσεις)."
+  },
   {
-  "q": "1. α. Να δώσετε έναν ορισμό για το χημικό δεσμό.\nβ. Ποιοι χημικοί δεσμοί ονομάζονται ομοιοπολικοί και ποια είναι η δομική τους μονάδα;\nγ. Πότε ένας ομοιοπολικός δεσμός χαρακτηρίζεται πολωμένος και πότε μη πολωμένος;\nδ. Να χαρακτηρίσετε τους ομοιοπολικούς δεσμούς που συνδέουν τα άτομα στα ακόλουθα μόρια ως πολικούς ή μη πολικούς και να δικαιολογήσετε την απάντησή σας: 1. H-Br, 2. I-I, 3. O=O, 4. O=C=O",
-  "a": "**α.** Χημικός δεσμός ονομάζεται το σύνολο των ελκτικών δυνάμεων που ασκούνται μεταξύ των δομικών συστατικών ενός σώματος, ώστε να συγκρατούνται σε καθορισμένες αποστάσεις και να οδηγούν στο σχηματισμό ενός σταθερού και καθορισμένου σώματος.\n**β.** Οι ομοιοπολικοί δεσμοί σχηματίζονται με αμοιβαία συνεισφορά ηλεκτρονίων μεταξύ όμοιων ή διαφορετικών ατόμων αμέταλλων στοιχείων. Δομική μονάδα είναι το μόριο.\n**γ.** Πολωμένος είναι ο ομοιοπολικός δεσμός μεταξύ ατόμων με διαφορετική ηλεκτραρνητικότητα. Μη πολικός είναι μεταξύ ατόμων με ίδια ηλεκτραρνητικότητα.\n**δ.**\n1. H-Br: Πολικός (διαφορετικά άτομα).\n2. I-I: Μη πολικός (όμοια άτομα).\n3. O=O: Μη πολικός (όμοια άτομα).\n4. O=C=O: Πολικοί (διαφορετικά άτομα)."
-},
+    "q": "1. α. Να δώσετε έναν ορισμό για το χημικό δεσμό.\nβ. Ποιοι χημικοί δεσμοί ονομάζονται ομοιοπολικοί και ποια είναι η δομική τους μονάδα;\nγ. Πότε ένας ομοιοπολικός δεσμός χαρακτηρίζεται πολωμένος και πότε μη πολωμένος;\nδ. Να χαρακτηρίσετε τους ομοιοπολικούς δεσμούς που συνδέουν τα άτομα στα ακόλουθα μόρια ως πολικούς ή μη πολικούς και να δικαιολογήσετε την απάντησή σας: 1. H-Br, 2. I-I, 3. O=O, 4. O=C=O",
+    "a": "**α.** Χημικός δεσμός ονομάζεται το σύνολο των ελκτικών δυνάμεων που ασκούνται μεταξύ των δομικών συστατικών ενός σώματος, ώστε να συγκρατούνται σε καθορισμένες αποστάσεις και να οδηγούν στο σχηματισμό ενός σταθερού και καθορισμένου σώματος.\n**β.** Οι ομοιοπολικοί δεσμοί σχηματίζονται με αμοιβαία συνεισφορά ηλεκτρονίων μεταξύ όμοιων ή διαφορετικών ατόμων αμέταλλων στοιχείων. Δομική μονάδα είναι το μόριο.\n**γ.** Πολωμένος είναι ο ομοιοπολικός δεσμός μεταξύ ατόμων με διαφορετική ηλεκτραρνητικότητα. Μη πολικός είναι μεταξύ ατόμων με ίδια ηλεκτραρνητικότητα.\n**δ.**\n1. H-Br: Πολικός (διαφορετικά άτομα).\n2. I-I: Μη πολικός (όμοια άτομα).\n3. O=O: Μη πολικός (όμοια άτομα).\n4. O=C=O: Πολικοί (διαφορετικά άτομα)."
+  },
   {
-  "q": "Να συμπληρώσετε τα κενά:\nΟι ομοιοπολικοί δεσμοί σχηματίζονται μεταξύ ........ ή ........ ατόμων με αμοιβαία ........ ηλεκτρονίων, έτσι ώστε να σχηματίζονται ........ τα οποία ανήκουν από κοινού στα ........ του δεσμού. Όταν σχηματίζονται μεταξύ όμοιων ατόμων το κοινό ζεύγος ηλεκτρονίων κατανέμεται ........ μεταξύ των ατόμων και ο δεσμός είναι ........ , ενώ όταν σχηματίζονται μεταξύ διαφορετικών ........ το πιο ........ άτομο του δεσμού έλκει περισσότερο προς το μέρος του το κοινό ζεύγος με αποτέλεσμα να εμφανίζει μία μικρή περίσσεια ........ φορτίου, η οποία συμβολίζεται με ........ , ενώ το δεύτερο άτομο εμφανίζει μία μικρή περίσσεια ........ φορτίου η οποία συμβολίζεται με ........ .\nΓια παράδειγμα στο μόριο του Η-I το ........ έλκει περισσότερο το κοινό ζεύγος με αποτέλεσμα το μόριο να συμπεριφέρεται ως ........ και να προσανατολίζεται στο ........ .",
-  "a": "Οι ομοιοπολικοί δεσμοί σχηματίζονται μεταξύ **όμοιων** ή **διαφορετικών** ατόμων με αμοιβαία **συνεισφορά** ηλεκτρονίων, έτσι ώστε να σχηματίζονται **ζεύγη** τα οποία ανήκουν από κοινού στα **άτομα** του δεσμού. Όταν σχηματίζονται μεταξύ όμοιων ατόμων το κοινό ζεύγος ηλεκτρονίων κατανέμεται **ομοιόμορφα** μεταξύ των ατόμων και ο δεσμός είναι **μη πολικός**, ενώ όταν σχηματίζονται μεταξύ διαφορετικών **ατόμων** το πιο **ηλεκτραρνητικό** άτομο του δεσμού έλκει περισσότερο προς το μέρος του το κοινό ζεύγος με αποτέλεσμα να εμφανίζει μία μικρή περίσσεια **αρνητικού** φορτίου, η οποία συμβολίζεται με **δ⁻**, ενώ το δεύτερο άτομο εμφανίζει μία μικρή περίσσεια **θετικού** φορτίου η οποία συμβολίζεται με **δ⁺**.\nΓια παράδειγμα στο μόριο του H-I το **ιώδιο** έλκει περισσότερο το κοινό ζεύγος με αποτέλεσμα το μόριο να συμπεριφέρεται ως ηλεκτρικό **δίπολο** και να προσανατολίζεται στο ηλεκτρικό **πεδίο**."
-},
+    "q": "Να συμπληρώσετε τα κενά:\nΟι ομοιοπολικοί δεσμοί σχηματίζονται μεταξύ ........ ή ........ ατόμων με αμοιβαία ........ ηλεκτρονίων, έτσι ώστε να σχηματίζονται ........ τα οποία ανήκουν από κοινού στα ........ του δεσμού. Όταν σχηματίζονται μεταξύ όμοιων ατόμων το κοινό ζεύγος ηλεκτρονίων κατανέμεται ........ μεταξύ των ατόμων και ο δεσμός είναι ........ , ενώ όταν σχηματίζονται μεταξύ διαφορετικών ........ το πιο ........ άτομο του δεσμού έλκει περισσότερο προς το μέρος του το κοινό ζεύγος με αποτέλεσμα να εμφανίζει μία μικρή περίσσεια ........ φορτίου, η οποία συμβολίζεται με ........ , ενώ το δεύτερο άτομο εμφανίζει μία μικρή περίσσεια ........ φορτίου η οποία συμβολίζεται με ........ .\nΓια παράδειγμα στο μόριο του Η-I το ........ έλκει περισσότερο το κοινό ζεύγος με αποτέλεσμα το μόριο να συμπεριφέρεται ως ........ και να προσανατολίζεται στο ........ .",
+    "a": "Οι ομοιοπολικοί δεσμοί σχηματίζονται μεταξύ **όμοιων** ή **διαφορετικών** ατόμων με αμοιβαία **συνεισφορά** ηλεκτρονίων, έτσι ώστε να σχηματίζονται **ζεύγη** τα οποία ανήκουν από κοινού στα **άτομα** του δεσμού. Όταν σχηματίζονται μεταξύ όμοιων ατόμων το κοινό ζεύγος ηλεκτρονίων κατανέμεται **ομοιόμορφα** μεταξύ των ατόμων και ο δεσμός είναι **μη πολικός**, ενώ όταν σχηματίζονται μεταξύ διαφορετικών **ατόμων** το πιο **ηλεκτραρνητικό** άτομο του δεσμού έλκει περισσότερο προς το μέρος του το κοινό ζεύγος με αποτέλεσμα να εμφανίζει μία μικρή περίσσεια **αρνητικού** φορτίου, η οποία συμβολίζεται με **δ⁻**, ενώ το δεύτερο άτομο εμφανίζει μία μικρή περίσσεια **θετικού** φορτίου η οποία συμβολίζεται με **δ⁺**.\nΓια παράδειγμα στο μόριο του H-I το **ιώδιο** έλκει περισσότερο το κοινό ζεύγος με αποτέλεσμα το μόριο να συμπεριφέρεται ως ηλεκτρικό **δίπολο** και να προσανατολίζεται στο ηλεκτρικό **πεδίο**."
+  },
   {
-  "q": "Μέτρο της πολικότητας ενός μορίου είναι η ........ , η οποία δίνεται από τον τύπο: ........ . Στην περίπτωση που στο μόριο υπάρχουν περισσότεροι από ένας πολωμένοι ομοιοπολικοί δεσμοί η διπολική ροπή είναι το ........ άθροισμα των διπολικών ροπών όλων των δεσμών, με αποτέλεσμα καθοριστικό ρόλο για την πολικότητα του μορίου να παίζει η ........ του.\nΈτσι το μόριο του νερού (H₂O), το οποίο έχει ........ ομοιοπολικούς δεσμούς μεταξύ ........ και ........ είναι ........ , γιατί το μόριο είναι ........ , ενώ το μόριο του διοξειδίου του άνθρακα (CO₂) είναι ........ , γιατί το μόριο είναι ........ και οι διπολικές ροπές ........ .",
-  "a": "Μέτρο της πολικότητας ενός μορίου είναι η **διπολική ροπή**, η οποία δίνεται από τον τύπο: **μ=q·r**. Στην περίπτωση που στο μόριο υπάρχουν περισσότεροι από ένας πολωμένοι ομοιοπολικοί δεσμοί η διπολική ροπή είναι το **διανυσματικό** άθροισμα των διπολικών ροπών όλων των δεσμών, με αποτέλεσμα καθοριστικό ρόλο για την πολικότητα του μορίου να παίζει η **γεωμετρία** του.\nΈτσι το μόριο του νερού (H₂O), το οποίο έχει **πολωμένους** ομοιοπολικούς δεσμούς μεταξύ **υδρογόνου** και **οξυγόνου** είναι **δίπολο**, γιατί το μόριο είναι **γωνιακό**, ενώ το μόριο του διοξειδίου του άνθρακα (CO₂) είναι **μη πολικό**, γιατί το μόριο είναι **γραμμικό** και οι διπολικές ροπές **αλληλοεξουδετερώνονται**."
-},
+    "q": "Μέτρο της πολικότητας ενός μορίου είναι η ........ , η οποία δίνεται από τον τύπο: ........ . Στην περίπτωση που στο μόριο υπάρχουν περισσότεροι από ένας πολωμένοι ομοιοπολικοί δεσμοί η διπολική ροπή είναι το ........ άθροισμα των διπολικών ροπών όλων των δεσμών, με αποτέλεσμα καθοριστικό ρόλο για την πολικότητα του μορίου να παίζει η ........ του.\nΈτσι το μόριο του νερού (H₂O), το οποίο έχει ........ ομοιοπολικούς δεσμούς μεταξύ ........ και ........ είναι ........ , γιατί το μόριο είναι ........ , ενώ το μόριο του διοξειδίου του άνθρακα (CO₂) είναι ........ , γιατί το μόριο είναι ........ και οι διπολικές ροπές ........ .",
+    "a": "Μέτρο της πολικότητας ενός μορίου είναι η **διπολική ροπή**, η οποία δίνεται από τον τύπο: **μ=q·r**. Στην περίπτωση που στο μόριο υπάρχουν περισσότεροι από ένας πολωμένοι ομοιοπολικοί δεσμοί η διπολική ροπή είναι το **διανυσματικό** άθροισμα των διπολικών ροπών όλων των δεσμών, με αποτέλεσμα καθοριστικό ρόλο για την πολικότητα του μορίου να παίζει η **γεωμετρία** του.\nΈτσι το μόριο του νερού (H₂O), το οποίο έχει **πολωμένους** ομοιοπολικούς δεσμούς μεταξύ **υδρογόνου** και **οξυγόνου** είναι **δίπολο**, γιατί το μόριο είναι **γωνιακό**, ενώ το μόριο του διοξειδίου του άνθρακα (CO₂) είναι **μη πολικό**, γιατί το μόριο είναι **γραμμικό** και οι διπολικές ροπές **αλληλοεξουδετερώνονται**."
+  },
   {
-  "q": "4. α. Τι συνέπειες έχει η ύπαρξη ενός πολωμένου ομοιοπολικού δεσμού σε ένα διατομικό μόριο της μορφής Η – Χ;\nβ. Τι είναι η πολικότητα ενός μορίου, ποιο είναι το μέτρο της και από τι εξαρτάται;\nγ. Είναι όλα τα μόρια τα οποία έχουν πολωμένους ομοιοπολικούς δεσμούς πολικά; Να αιτιολογήσετε την απάντησή σας.\nδ. Να χαρακτηρίσετε τα ακόλουθα μόρια ως πολικά ή μη και να δικαιολογήσετε την απάντησή σας: i. HBr, ii. O=C=O, iii. H₂O",
-  "a": "**α.** Η ύπαρξη ενός πολωμένου ομοιοπολικού δεσμού σε ένα διατομικό μόριο της μορφής Η – Χ έχει ως συνέπεια το μόριο να εμφανίζει διπολική ροπή και προσανατολίζεται στο ηλεκτρικό πεδίο.\n**β.** Πολικότητα είναι ο διαχωρισμός ηλεκτρικού φορτίου που οδηγεί ένα μόριο να έχει ένα αρνητικά φορτισμένο άκρο και ένα θετικά φορτισμένο άκρο. Η Διπολική Ροπή (μ=q·r) είναι το μέτρο της πολικότητας και είναι διανυσματικό μέγεθος.\n**γ.** Δεν είναι όλα τα μόρια τα οποία έχουν πολωμένους δεσμούς πολικά. Για να είναι ένα μόριο πολικό θα πρέπει να έχει πολωμένους δεσμούς και οι διπολικές ροπές να μην αλληλοεξουδετερώνονται.\n**δ.**\ni. HBr: Πολικό. Υπάρχει πολωμένος δεσμός και περίσσεια φορτίου δ⁻ στο Br.\nii. O=C=O: Μη πολικό. Υπάρχουν πολωμένοι δεσμοί C=O αλλά το μόριο είναι γραμμικό και οι διπολικές ροπές αλληλοεξουδετερώνονται.\niii. H₂O: Πολικό. Υπάρχουν πολωμένοι δεσμοί O-H και το μόριο είναι γωνιακό, με αποτέλεσμα οι διπολικές ροπές να μην αλληλοεξουδετερώνονται."
-},
+    "q": "4. α. Τι συνέπειες έχει η ύπαρξη ενός πολωμένου ομοιοπολικού δεσμού σε ένα διατομικό μόριο της μορφής Η – Χ;\nβ. Τι είναι η πολικότητα ενός μορίου, ποιο είναι το μέτρο της και από τι εξαρτάται;\nγ. Είναι όλα τα μόρια τα οποία έχουν πολωμένους ομοιοπολικούς δεσμούς πολικά; Να αιτιολογήσετε την απάντησή σας.\nδ. Να χαρακτηρίσετε τα ακόλουθα μόρια ως πολικά ή μη και να δικαιολογήσετε την απάντησή σας: i. HBr, ii. O=C=O, iii. H₂O",
+    "a": "**α.** Η ύπαρξη ενός πολωμένου ομοιοπολικού δεσμού σε ένα διατομικό μόριο της μορφής Η – Χ έχει ως συνέπεια το μόριο να εμφανίζει διπολική ροπή και προσανατολίζεται στο ηλεκτρικό πεδίο.\n**β.** Πολικότητα είναι ο διαχωρισμός ηλεκτρικού φορτίου που οδηγεί ένα μόριο να έχει ένα αρνητικά φορτισμένο άκρο και ένα θετικά φορτισμένο άκρο. Η Διπολική Ροπή (μ=q·r) είναι το μέτρο της πολικότητας και είναι διανυσματικό μέγεθος.\n**γ.** Δεν είναι όλα τα μόρια τα οποία έχουν πολωμένους δεσμούς πολικά. Για να είναι ένα μόριο πολικό θα πρέπει να έχει πολωμένους δεσμούς και οι διπολικές ροπές να μην αλληλοεξουδετερώνονται.\n**δ.**\ni. HBr: Πολικό. Υπάρχει πολωμένος δεσμός και περίσσεια φορτίου δ⁻ στο Br.\nii. O=C=O: Μη πολικό. Υπάρχουν πολωμένοι δεσμοί C=O αλλά το μόριο είναι γραμμικό και οι διπολικές ροπές αλληλοεξουδετερώνονται.\niii. H₂O: Πολικό. Υπάρχουν πολωμένοι δεσμοί O-H και το μόριο είναι γωνιακό, με αποτέλεσμα οι διπολικές ροπές να μην αλληλοεξουδετερώνονται."
+  },
   {
-  "q": "α. Ποιοι δεσμοί χαρακτηρίζονται ενδομοριακοί και ποιοι διαμοριακοί;\nβ. Πότε αναπτύσσονται διαμοριακές δυνάμεις ή δεσμοί μεταξύ μορίων;\nγ. Σε ποιες βασικές κατηγορίες ταξινομούνται οι διαμοριακές δυνάμεις;",
-  "a": "**α.** Ενδομοριακοί χαρακτηρίζονται οι δεσμοί που αναπτύσσονται ανάμεσα στα άτομα ενός μορίου ή ανάμεσα στα ιόντα του κρυσταλλικού πλέγματος μιας ιοντικής ένωσης. Διαμοριακοί δεσμοί ονομάζονται οι ελκτικές δυνάμεις ηλεκτροστατικής φύσης οι οποίες αναπτύσσονται μεταξύ μορίων.\n**β.** Αναπτύσσονται πάντα, αλλά στην αέρια φάση είναι πολύ ασθενείς.\n**γ.** 1. Δυνάμεις ιόντος - διπόλου. 2. Δυνάμεις Van der Waals (δυνάμεις διπόλου - διπόλου και δυνάμεις διασποράς ή London). 3. Δεσμός υδρογόνου."
-},
+    "q": "α. Ποιοι δεσμοί χαρακτηρίζονται ενδομοριακοί και ποιοι διαμοριακοί;\nβ. Πότε αναπτύσσονται διαμοριακές δυνάμεις ή δεσμοί μεταξύ μορίων;\nγ. Σε ποιες βασικές κατηγορίες ταξινομούνται οι διαμοριακές δυνάμεις;",
+    "a": "**α.** Ενδομοριακοί χαρακτηρίζονται οι δεσμοί που αναπτύσσονται ανάμεσα στα άτομα ενός μορίου ή ανάμεσα στα ιόντα του κρυσταλλικού πλέγματος μιας ιοντικής ένωσης. Διαμοριακοί δεσμοί ονομάζονται οι ελκτικές δυνάμεις ηλεκτροστατικής φύσης οι οποίες αναπτύσσονται μεταξύ μορίων.\n**β.** Αναπτύσσονται πάντα, αλλά στην αέρια φάση είναι πολύ ασθενείς.\n**γ.** 1. Δυνάμεις ιόντος - διπόλου. 2. Δυνάμεις Van der Waals (δυνάμεις διπόλου - διπόλου και δυνάμεις διασποράς ή London). 3. Δεσμός υδρογόνου."
+  },
   {
-  "q": "Να συμπληρώσετε τα κενά:\nΔιαμοριακές δυνάμεις ονομάζονται οι δυνάμεις που αναπτύσσονται μεταξύ ........ , εξαιτίας της μόνιμης ή παροδικής ........ που εμφανίζουν. Η ανάπτυξη διαμοριακών δυνάμεων επηρεάζει τις ........ των ουσιών. Για παράδειγμα οι ουσίες που εμφανίζουν ισχυρές διαμοριακές δυνάμεις έχουν υψηλότερα ........ και αυξημένη ........ στο νερό.",
-  "a": "Διαμοριακές δυνάμεις ονομάζονται οι δυνάμεις που αναπτύσσονται μεταξύ **μορίων**, εξαιτίας της μόνιμης ή παροδικής **πολικότητας** που εμφανίζουν. Η ανάπτυξη διαμοριακών δυνάμεων επηρεάζει τις **φυσικές ιδιότητες** των ουσιών. Για παράδειγμα οι ουσίες που εμφανίζουν ισχυρές διαμοριακές δυνάμεις έχουν υψηλότερα **σημεία βρασμού** και αυξημένη **διαλυτότητα** στο νερό."
-},
+    "q": "Να συμπληρώσετε τα κενά:\nΔιαμοριακές δυνάμεις ονομάζονται οι δυνάμεις που αναπτύσσονται μεταξύ ........ , εξαιτίας της μόνιμης ή παροδικής ........ που εμφανίζουν. Η ανάπτυξη διαμοριακών δυνάμεων επηρεάζει τις ........ των ουσιών. Για παράδειγμα οι ουσίες που εμφανίζουν ισχυρές διαμοριακές δυνάμεις έχουν υψηλότερα ........ και αυξημένη ........ στο νερό.",
+    "a": "Διαμοριακές δυνάμεις ονομάζονται οι δυνάμεις που αναπτύσσονται μεταξύ **μορίων**, εξαιτίας της μόνιμης ή παροδικής **πολικότητας** που εμφανίζουν. Η ανάπτυξη διαμοριακών δυνάμεων επηρεάζει τις **φυσικές ιδιότητες** των ουσιών. Για παράδειγμα οι ουσίες που εμφανίζουν ισχυρές διαμοριακές δυνάμεις έχουν υψηλότερα **σημεία βρασμού** και αυξημένη **διαλυτότητα** στο νερό."
+  },
   {
-  "q": "Να συμπληρώσετε τα κενά:\nΟ δεσμός διπόλου-διπόλου αναπτύσσεται μεταξύ ........ μορίων, οι δυνάμεις London μεταξύ ........ ή ........ διπόλων μορίων και ο δεσμός υδρογόνου μεταξύ ........ μορίων που έχουν ........ απευθείας ενωμένο με ένα από τα πολύ ........ στοιχεία ........ . Η μεγάλη διαφορά ηλεκτραρνητικότητας του υδρογόνου με αυτά τα στοιχεία έχει ως αποτέλεσμα ο δεσμός να είναι ισχυρά ........ και οι διαμοριακές δυνάμεις να είναι ........ . Έτσι οι ουσίες που εμφανίζουν δεσμούς υδρογόνου μεταξύ των μορίων τους, όπως το ........ έχουν ........ σημεία βρασμού από τα αναμενόμενα.",
-  "a": "Ο δεσμός διπόλου-διπόλου αναπτύσσεται μεταξύ **διπόλων** μορίων, οι δυνάμεις London μεταξύ **παροδικών** ή **επαγόμενων** διπόλων μορίων και ο δεσμός υδρογόνου μεταξύ **πολικών** μορίων που έχουν **Η** απευθείας ενωμένο με ένα από τα πολύ **ηλεκτραρνητικά** στοιχεία **N, O ή F**. Η μεγάλη διαφορά ηλεκτραρνητικότητας του υδρογόνου με αυτά τα στοιχεία έχει ως αποτέλεσμα ο δεσμός να είναι ισχυρά **πολωμένος** και οι διαμοριακές δυνάμεις να είναι **ισχυρές**. Έτσι οι ουσίες που εμφανίζουν δεσμούς υδρογόνου μεταξύ των μορίων τους, όπως το **νερό** έχουν **υψηλότερα** σημεία βρασμού από τα αναμενόμενα."
-},
+    "q": "Να συμπληρώσετε τα κενά:\nΟ δεσμός διπόλου-διπόλου αναπτύσσεται μεταξύ ........ μορίων, οι δυνάμεις London μεταξύ ........ ή ........ διπόλων μορίων και ο δεσμός υδρογόνου μεταξύ ........ μορίων που έχουν ........ απευθείας ενωμένο με ένα από τα πολύ ........ στοιχεία ........ . Η μεγάλη διαφορά ηλεκτραρνητικότητας του υδρογόνου με αυτά τα στοιχεία έχει ως αποτέλεσμα ο δεσμός να είναι ισχυρά ........ και οι διαμοριακές δυνάμεις να είναι ........ . Έτσι οι ουσίες που εμφανίζουν δεσμούς υδρογόνου μεταξύ των μορίων τους, όπως το ........ έχουν ........ σημεία βρασμού από τα αναμενόμενα.",
+    "a": "Ο δεσμός διπόλου-διπόλου αναπτύσσεται μεταξύ **διπόλων** μορίων, οι δυνάμεις London μεταξύ **παροδικών** ή **επαγόμενων** διπόλων μορίων και ο δεσμός υδρογόνου μεταξύ **πολικών** μορίων που έχουν **Η** απευθείας ενωμένο με ένα από τα πολύ **ηλεκτραρνητικά** στοιχεία **N, O ή F**. Η μεγάλη διαφορά ηλεκτραρνητικότητας του υδρογόνου με αυτά τα στοιχεία έχει ως αποτέλεσμα ο δεσμός να είναι ισχυρά **πολωμένος** και οι διαμοριακές δυνάμεις να είναι **ισχυρές**. Έτσι οι ουσίες που εμφανίζουν δεσμούς υδρογόνου μεταξύ των μορίων τους, όπως το **νερό** έχουν **υψηλότερα** σημεία βρασμού από τα αναμενόμενα."
+  },
   {
-  "q": "Να συμπληρώσετε τα κενά:\nΜεταξύ μη πολικών μορίων εμφανίζονται ........ δυνάμεις, οι οποίες ονομάζονται ........ ή ........ , όταν το μόριο ........ παροδικά και τα μόρια μετατρέπονται σε στιγμιαία ........ . Η ισχύς των δυνάμεων αυτών εξαρτάται από τη ........ μάζα και το ........ του μορίου. Έτσι η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι ........ από την ισχύ τους μεταξύ των μορίων του CH₃CH₂CH₂CH₂CH₃, γιατί το ........ έχει μεγαλύτερη Mr. Αντίστοιχα η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι ........ από την ισχύ τους μεταξύ των μορίων του (CH₃)₃CH, γιατί στα ........ μη πολωμένα μόρια υπάρχει καλύτερη αλληλεπίδραση των μορίων.",
-  "a": "Μεταξύ μη πολικών μορίων εμφανίζονται **διαμοριακές** δυνάμεις, οι οποίες ονομάζονται **διασποράς** ή **London**, όταν το μόριο **πολώνεται** παροδικά και τα μόρια μετατρέπονται σε στιγμιαία **δίπολα**. Η ισχύς των δυνάμεων αυτών εξαρτάται από τη **σχετική μοριακή** μάζα και το **σχήμα** του μορίου. Έτσι η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι **μικρότερη** από την ισχύ τους μεταξύ των μορίων του CH₃CH₂CH₂CH₂CH₃, γιατί το **CH₃CH₂CH₂CH₂CH₃** έχει μεγαλύτερη Mr. Αντίστοιχα η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι **μεγαλύτερη** από την ισχύ τους μεταξύ των μορίων του (CH₃)₃CH, γιατί στα **ευθύγραμμα** μη πολωμένα μόρια υπάρχει καλύτερη αλληλεπίδραση των μορίων."
-},
+    "q": "Να συμπληρώσετε τα κενά:\nΜεταξύ μη πολικών μορίων εμφανίζονται ........ δυνάμεις, οι οποίες ονομάζονται ........ ή ........ , όταν το μόριο ........ παροδικά και τα μόρια μετατρέπονται σε στιγμιαία ........ . Η ισχύς των δυνάμεων αυτών εξαρτάται από τη ........ μάζα και το ........ του μορίου. Έτσι η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι ........ από την ισχύ τους μεταξύ των μορίων του CH₃CH₂CH₂CH₂CH₃, γιατί το ........ έχει μεγαλύτερη Mr. Αντίστοιχα η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι ........ από την ισχύ τους μεταξύ των μορίων του (CH₃)₃CH, γιατί στα ........ μη πολωμένα μόρια υπάρχει καλύτερη αλληλεπίδραση των μορίων.",
+    "a": "Μεταξύ μη πολικών μορίων εμφανίζονται **διαμοριακές** δυνάμεις, οι οποίες ονομάζονται **διασποράς** ή **London**, όταν το μόριο **πολώνεται** παροδικά και τα μόρια μετατρέπονται σε στιγμιαία **δίπολα**. Η ισχύς των δυνάμεων αυτών εξαρτάται από τη **σχετική μοριακή** μάζα και το **σχήμα** του μορίου. Έτσι η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι **μικρότερη** από την ισχύ τους μεταξύ των μορίων του CH₃CH₂CH₂CH₂CH₃, γιατί το **CH₃CH₂CH₂CH₂CH₃** έχει μεγαλύτερη Mr. Αντίστοιχα η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι **μεγαλύτερη** από την ισχύ τους μεταξύ των μορίων του (CH₃)₃CH, γιατί στα **ευθύγραμμα** μη πολωμένα μόρια υπάρχει καλύτερη αλληλεπίδραση των μορίων."
+  },
   {
-  "q": "11. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί Van der Waals και σε ποιες κατηγορίες διακρίνονται;\nβ. Να περιγράψετε τους δεσμούς μεταξύ των μορίων του HI.\nγ. Να περιγράψετε τους δεσμούς μεταξύ των ατόμων του He.",
-  "a": "**α.** Οι δυνάμεις Van der Waals αναπτύσσονται μεταξύ διπόλων μορίων, ή διπόλου - παροδικού διπόλου ή παροδικών διπόλων και διακρίνονται σε: i. Δυνάμεις διπόλου – διπόλου ii. Δυνάμεις διασποράς ή London.\n**β.** Το μόριο του HI είναι δίπολο, επομένως μεταξύ των μορίων του αναπτύσσονται δεσμοί διπόλου-διπόλου και διασποράς.\n**γ.** Στα άτομα του He η κατανομή των ηλεκτρονίων είναι σφαιρική. Σε κάποια χρονική στιγμή μπορεί να εμφανίσει μετατόπιση του ηλεκτρονιακού φορτίου με αποτέλεσμα να μετατραπεί σε στιγμιαίο ή παροδικό δίπολο. Μεταξύ των στιγμιαίων διπόλων αναπτύσσονται δυνάμεις London ή διασποράς."
-},
+    "q": "11. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί Van der Waals και σε ποιες κατηγορίες διακρίνονται;\nβ. Να περιγράψετε τους δεσμούς μεταξύ των μορίων του HI.\nγ. Να περιγράψετε τους δεσμούς μεταξύ των ατόμων του He.",
+    "a": "**α.** Οι δυνάμεις Van der Waals αναπτύσσονται μεταξύ διπόλων μορίων, ή διπόλου - παροδικού διπόλου ή παροδικών διπόλων και διακρίνονται σε: i. Δυνάμεις διπόλου – διπόλου ii. Δυνάμεις διασποράς ή London.\n**β.** Το μόριο του HI είναι δίπολο, επομένως μεταξύ των μορίων του αναπτύσσονται δεσμοί διπόλου-διπόλου και διασποράς.\n**γ.** Στα άτομα του He η κατανομή των ηλεκτρονίων είναι σφαιρική. Σε κάποια χρονική στιγμή μπορεί να εμφανίσει μετατόπιση του ηλεκτρονιακού φορτίου με αποτέλεσμα να μετατραπεί σε στιγμιαίο ή παροδικό δίπολο. Μεταξύ των στιγμιαίων διπόλων αναπτύσσονται δυνάμεις London ή διασποράς."
+  },
   {
-  "q": "12. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί London;\nβ. Να περιγράψετε τους δεσμούς London στο μόριο του I₂.",
-  "a": "**α.** Οι δεσμοί London αναπτύσσονται μεταξύ μη πολικών μορίων, τα οποία σε κάποια χρονική στιγμή έχουν μετατραπεί σε στιγμιαία ή παροδικά ή επαγόμενα δίπολα (δυνάμεις διασποράς υπάρχουν σε όλα τα μόρια).\n**β.** Το μόριο του I₂ δεν είναι πολικό, επομένως μεταξύ των μορίων του αναπτύσσονται δεσμοί London (παροδικών ή επαγόμενων διπόλων)."
-},
+    "q": "12. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί London;\nβ. Να περιγράψετε τους δεσμούς London στο μόριο του I₂.",
+    "a": "**α.** Οι δεσμοί London αναπτύσσονται μεταξύ μη πολικών μορίων, τα οποία σε κάποια χρονική στιγμή έχουν μετατραπεί σε στιγμιαία ή παροδικά ή επαγόμενα δίπολα (δυνάμεις διασποράς υπάρχουν σε όλα τα μόρια).\n**β.** Το μόριο του I₂ δεν είναι πολικό, επομένως μεταξύ των μορίων του αναπτύσσονται δεσμοί London (παροδικών ή επαγόμενων διπόλων)."
+  },
   {
-  "q": "13. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί Υδρογόνου;",
-  "a": "Είναι μία ειδική περίπτωση δεσμών διπόλου – διπόλου. Είναι σχετικά ισχυροί δεσμοί ηλεκτροστατικής φύσης οι οποίοι αναπτύσσονται μεταξύ διπόλων μορίων, τα οποία έχουν Η απευθείας ενωμένο με ένα από τα πολύ ηλεκτραρνητικά στοιχεία N, O ή F, με αποτέλεσμα ο δεσμός να είναι ισχυρά πολωμένος. Για παράδειγμα στο HF το H έχει περίσσεια θετικού φορτίου (Hδ⁺) και το F αρνητικού (Fδ⁻)."
-},
+    "q": "13. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί Υδρογόνου;",
+    "a": "Είναι μία ειδική περίπτωση δεσμών διπόλου – διπόλου. Είναι σχετικά ισχυροί δεσμοί ηλεκτροστατικής φύσης οι οποίοι αναπτύσσονται μεταξύ διπόλων μορίων, τα οποία έχουν Η απευθείας ενωμένο με ένα από τα πολύ ηλεκτραρνητικά στοιχεία N, O ή F, με αποτέλεσμα ο δεσμός να είναι ισχυρά πολωμένος. Για παράδειγμα στο HF το H έχει περίσσεια θετικού φορτίου (Hδ⁺) και το F αρνητικού (Fδ⁻)."
+  },
   {
-  "q": "14. Να συμπληρώσετε τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων της 1ης στήλης. Να αιτιολογήσετε τις απαντήσεις σας.\nΑ. H₂S - H₂S\nΒ. HF - H₂O\nΓ. CO₂ - CO₂\nΔ. CHCl₃ - CHCl₃\nΕ. Ag⁺ - NH₃\nΣτ. ROR - ROR\nΖ. CH₃COOH - CH₃COOH",
-  "a": "Α. H₂S - H₂S: Διπόλου – διπόλου και διασποράς (το H₂S είναι δίπολο).\nΒ. HF - H₂O: Δεσμός υδρογόνου, διπόλου – διπόλου και διασποράς (και τα δύο έχουν δεσμό υδρογόνου).\nΓ. CO₂ - CO₂: Διασποράς (το CO₂ είναι μη πολικό γραμμικό μόριο).\nΔ. CHCl₃ - CHCl₃: Διπόλου – διπόλου και διασποράς (το CHCl₃ είναι δίπολο).\nΕ. Ag⁺ - NH₃: Ιόντος – διπόλου μορίου.\nΣτ. ROR - ROR: Διπόλου – διπόλου και διασποράς (οι αιθέρες είναι δίπολα αλλά δεν έχουν H ενωμένο με O).\nΖ. CH₃COOH - CH₃COOH: Δεσμός υδρογόνου, διπόλου – διπόλου και διασποράς."
-},
+    "q": "14. Να συμπληρώσετε τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων της 1ης στήλης. Να αιτιολογήσετε τις απαντήσεις σας.\nΑ. H₂S - H₂S\nΒ. HF - H₂O\nΓ. CO₂ - CO₂\nΔ. CHCl₃ - CHCl₃\nΕ. Ag⁺ - NH₃\nΣτ. ROR - ROR\nΖ. CH₃COOH - CH₃COOH",
+    "a": "Α. H₂S - H₂S: Διπόλου – διπόλου και διασποράς (το H₂S είναι δίπολο).\nΒ. HF - H₂O: Δεσμός υδρογόνου, διπόλου – διπόλου και διασποράς (και τα δύο έχουν δεσμό υδρογόνου).\nΓ. CO₂ - CO₂: Διασποράς (το CO₂ είναι μη πολικό γραμμικό μόριο).\nΔ. CHCl₃ - CHCl₃: Διπόλου – διπόλου και διασποράς (το CHCl₃ είναι δίπολο).\nΕ. Ag⁺ - NH₃: Ιόντος – διπόλου μορίου.\nΣτ. ROR - ROR: Διπόλου – διπόλου και διασποράς (οι αιθέρες είναι δίπολα αλλά δεν έχουν H ενωμένο με O).\nΖ. CH₃COOH - CH₃COOH: Δεσμός υδρογόνου, διπόλου – διπόλου και διασποράς."
+  },
   {
-  "q": "15. Ένα στιγμιότυπο είναι από ένα υδατικό διάλυμα ιωδιδίου του νατρίου (NaI). Να αναγνωρίσετε το ιόν Χ (γύρω από το οποίο προσανατολίζονται τα μόρια του νερού με το Οξυγόνο προς τα μέσα), αιτιολογώντας την απάντησή σας. Να αναφέρετε τα είδη των ενδομοριακών και διαμοριακών δεσμών που διακρίνετε.",
-  "a": "Η ιοντική ένωση NaI διίσταται στο νερό: NaI → Na⁺(aq) + I⁻(aq). Παρατηρούμε ότι τα δίπολα μόρια του νερού προσανατολίζονται με το Ο που έχει περίσσεια δ⁻ στο ηλεκτρικό πεδίο του ιόντος Χ. Επομένως το ιόν Χ είναι το κατιόν του νατρίου (Na⁺).\nΟι ενδομοριακοί δεσμοί ανάμεσα στα άτομα H και O είναι ομοιοπολικοί.\nΟι διαμοριακοί είναι: Δυνάμεις ιόντος – διπόλου μορίου ανάμεσα στο ιόν Na⁺ και το πολικό μόριο του νερού. Δεσμοί υδρογόνου, διπόλου – διπόλου και διασποράς ανάμεσα στα μόρια του νερού."
-},
+    "q": "15. Ένα στιγμιότυπο είναι από ένα υδατικό διάλυμα ιωδιδίου του νατρίου (NaI). Να αναγνωρίσετε το ιόν Χ (γύρω από το οποίο προσανατολίζονται τα μόρια του νερού με το Οξυγόνο προς τα μέσα), αιτιολογώντας την απάντησή σας. Να αναφέρετε τα είδη των ενδομοριακών και διαμοριακών δεσμών που διακρίνετε.",
+    "a": "Η ιοντική ένωση NaI διίσταται στο νερό: NaI → Na⁺(aq) + I⁻(aq). Παρατηρούμε ότι τα δίπολα μόρια του νερού προσανατολίζονται με το Ο που έχει περίσσεια δ⁻ στο ηλεκτρικό πεδίο του ιόντος Χ. Επομένως το ιόν Χ είναι το κατιόν του νατρίου (Na⁺).\nΟι ενδομοριακοί δεσμοί ανάμεσα στα άτομα H και O είναι ομοιοπολικοί.\nΟι διαμοριακοί είναι: Δυνάμεις ιόντος – διπόλου μορίου ανάμεσα στο ιόν Na⁺ και το πολικό μόριο του νερού. Δεσμοί υδρογόνου, διπόλου – διπόλου και διασποράς ανάμεσα στα μόρια του νερού."
+  },
   {
-  "q": "16. Να αντιστοιχίσετε τις χημικές ουσίες της στήλης Α με τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων τους στη στήλη Β.\nΑ: A. HCl, B. NH₃, Γ. CO₂, Δ. I₂, E. H₂O, Στ. CH₃OH\nΒ: 1. Δεσμός Υδρογόνου, 2. Δεσμοί London, 3. Δεσμοί διπόλου-διπόλου",
-  "a": "A. HCl → 2, 3 (δίπολο)\nB. NH₃ → 1, 2, 3 (δεσμός Η)\nΓ. CO₂ → 2 (μη πολικό)\nΔ. I₂ → 2 (μη πολικό)\nE. H₂O → 1, 2, 3 (δεσμός Η)\nΣτ. CH₃OH → 1, 2, 3 (δεσμός Η)"
-},
+    "q": "16. Να αντιστοιχίσετε τις χημικές ουσίες της στήλης Α με τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων τους στη στήλη Β.\nΑ: A. HCl, B. NH₃, Γ. CO₂, Δ. I₂, E. H₂O, Στ. CH₃OH\nΒ: 1. Δεσμός Υδρογόνου, 2. Δεσμοί London, 3. Δεσμοί διπόλου-διπόλου",
+    "a": "A. HCl → 2, 3 (δίπολο)\nB. NH₃ → 1, 2, 3 (δεσμός Η)\nΓ. CO₂ → 2 (μη πολικό)\nΔ. I₂ → 2 (μη πολικό)\nE. H₂O → 1, 2, 3 (δεσμός Η)\nΣτ. CH₃OH → 1, 2, 3 (δεσμός Η)"
+  },
   {
-  "q": "17. Να αντιστοιχίσετε τα ζεύγη των χημικών ενώσεων της στήλης Α με τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται στην στήλη Β.\nΑ: A. HCl - HBr, B. NH₃ - H₂O, Γ. CO₂ - CO₂, Δ. Fe²⁺ - H₂O, E. HF - HF, Στ. CH₃OH - H₂O\nΒ: 1. Δεσμός Υδρογόνου, 2. Δεσμοί London, 3. Δεσμοί διπόλου-διπόλου, 4. Δεσμοί ιόντων-μορίων",
-  "a": "A. HCl - HBr → 2, 3\nB. NH₃ - H₂O → 1, 2, 3\nΓ. CO₂ - CO₂ → 2\nΔ. Fe²⁺ - H₂O → 4\nE. HF - HF → 1, 2, 3\nΣτ. CH₃OH - H₂O → 1, 2, 3"
-},
+    "q": "17. Να αντιστοιχίσετε τα ζεύγη των χημικών ενώσεων της στήλης Α με τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται στην στήλη Β.\nΑ: A. HCl - HBr, B. NH₃ - H₂O, Γ. CO₂ - CO₂, Δ. Fe²⁺ - H₂O, E. HF - HF, Στ. CH₃OH - H₂O\nΒ: 1. Δεσμός Υδρογόνου, 2. Δεσμοί London, 3. Δεσμοί διπόλου-διπόλου, 4. Δεσμοί ιόντων-μορίων",
+    "a": "A. HCl - HBr → 2, 3\nB. NH₃ - H₂O → 1, 2, 3\nΓ. CO₂ - CO₂ → 2\nΔ. Fe²⁺ - H₂O → 4\nE. HF - HF → 1, 2, 3\nΣτ. CH₃OH - H₂O → 1, 2, 3"
+  },
   {
-  "q": "18. Να εξηγήσετε μεταξύ ποιων από τα ακόλουθα ζεύγη μορίων αναπτύσσονται οι ισχυρότερες διαμοριακές δυνάμεις:\n<sub>1</sub>. μορίων υδρογόνου ή μορίων ιωδίου\n<sub>2</sub>. μορίων εξανίου ή μορίων 2,3-διμεθυλοβουτανίου",
-  "a": "**1.** Τόσο το μόριο του H₂ όσο και το μόριο του I₂ είναι μη πολικά, επομένως μεταξύ τους αναπτύσσονται δεσμοί London. Επειδή το I₂ έχει υψηλότερη σχετική μοριακή μάζα (Mr), αναπτύσσονται ισχυρότερες δυνάμεις διασποράς (London) ανάμεσα στα μόριά του.\n**2.** Τόσο το εξάνιο όσο και το 2,3-διμεθυλοβουτάνιο είναι μη πολικά και έχουν την ίδια Mr (είναι ισομερή). Τα ευθύγραμμα μη πολωμένα μόρια εμφανίζουν ισχυρότερες δυνάμεις London από τα διακλαδισμένα, γιατί είναι πιο εύκολη η αλληλεπίδραση των μορίων. Έτσι το εξάνιο εμφανίζει ισχυρότερες δυνάμεις London από το διακλαδισμένο 2,3-διμεθυλοβουτάνιο."
-},
+    "q": "18. Να εξηγήσετε μεταξύ ποιων από τα ακόλουθα ζεύγη μορίων αναπτύσσονται οι ισχυρότερες διαμοριακές δυνάμεις:\n<sub>1</sub>. μορίων υδρογόνου ή μορίων ιωδίου\n<sub>2</sub>. μορίων εξανίου ή μορίων 2,3-διμεθυλοβουτανίου",
+    "a": "**1.** Τόσο το μόριο του H₂ όσο και το μόριο του I₂ είναι μη πολικά, επομένως μεταξύ τους αναπτύσσονται δεσμοί London. Επειδή το I₂ έχει υψηλότερη σχετική μοριακή μάζα (Mr), αναπτύσσονται ισχυρότερες δυνάμεις διασποράς (London) ανάμεσα στα μόριά του.\n**2.** Τόσο το εξάνιο όσο και το 2,3-διμεθυλοβουτάνιο είναι μη πολικά και έχουν την ίδια Mr (είναι ισομερή). Τα ευθύγραμμα μη πολωμένα μόρια εμφανίζουν ισχυρότερες δυνάμεις London από τα διακλαδισμένα, γιατί είναι πιο εύκολη η αλληλεπίδραση των μορίων. Έτσι το εξάνιο εμφανίζει ισχυρότερες δυνάμεις London από το διακλαδισμένο 2,3-διμεθυλοβουτάνιο."
+  },
   {
-  "q": "22. Να εξηγήσετε γιατί οι χημικές ενώσεις που έχουν δεσμούς υδρογόνου μεταξύ των μορίων τους έχουν αυξημένο σημείο βρασμού.",
-  "a": "Οι δεσμοί υδρογόνου είναι ισχυροί διαμοριακοί δεσμοί οι οποίοι συγκρατούν τα μόρια σε κοντινές αποστάσεις. Για να βράσει ένα σώμα, δηλαδή να μετατραπεί σε αέριο, θα πρέπει να προσλάβει ενέργεια ώστε τα μόρια να αποκτήσουν την απαραίτητη κινητική ενέργεια για να περάσουν στην αέρια φάση. Όσο πιο ισχυρά συγκρατούν τα μόρια τόσο μεγαλύτερη ποσότητα ενέργειας απαιτείται και επομένως τόσο υψηλότερο είναι το σημείο βρασμού."
-},
+    "q": "22. Να εξηγήσετε γιατί οι χημικές ενώσεις που έχουν δεσμούς υδρογόνου μεταξύ των μορίων τους έχουν αυξημένο σημείο βρασμού.",
+    "a": "Οι δεσμοί υδρογόνου είναι ισχυροί διαμοριακοί δεσμοί οι οποίοι συγκρατούν τα μόρια σε κοντινές αποστάσεις. Για να βράσει ένα σώμα, δηλαδή να μετατραπεί σε αέριο, θα πρέπει να προσλάβει ενέργεια ώστε τα μόρια να αποκτήσουν την απαραίτητη κινητική ενέργεια για να περάσουν στην αέρια φάση. Όσο πιο ισχυρά συγκρατούν τα μόρια τόσο μεγαλύτερη ποσότητα ενέργειας απαιτείται και επομένως τόσο υψηλότερο είναι το σημείο βρασμού."
+  },
   {
-  "q": "23. Στο διπλανό πίνακα δίνονται τα σημεία βρασμού μίας σειράς χημικών ουσιών. Να εξηγήσετε τις διαφορές στα σημεία βρασμού:\nα. υδροχλωρίου (188 K) - υδροφθορίου (293 K)\nβ. υδροφθορίου (293 K) - φθοριδίου του νατρίου (1970 K)\nγ. μεθανίου (111 K) - τετραχλωράνθρακα (350 K)\nδ. μεθανίου (111 K) - μεθανόλης (338 K)\nε. βουτανίου (273 K) - μεθυλοπροπανίου (261 K)",
-  "a": "**α.** Στο HF αναπτύσσονται δεσμοί υδρογόνου, ενώ στο HCl μόνο διπόλου-διπόλου και διασποράς. Οι δεσμοί υδρογόνου είναι ισχυρότεροι.\n**β.** Το NaF είναι ιοντική ένωση, άρα στο κρυσταλλικό πλέγμα ασκούνται ισχυρές ηλεκτροστατικές δυνάμεις Coulomb (ενδομοριακοί δεσμοί πρακτικά), πολύ ισχυρότερες από τους διαμοριακούς δεσμούς υδρογόνου του HF.\n**γ.** Και τα δύο είναι μη πολικά, αλλά ο CCl₄ έχει πολύ μεγαλύτερη Mr, άρα ισχυρότερες δυνάμεις διασποράς (London).\n**δ.** Στη μεθανόλη (CH₃OH) αναπτύσσονται δεσμοί υδρογόνου, ενώ στο μη πολικό μεθάνιο (CH₄) μόνο ασθενείς δυνάμεις διασποράς.\n**ε.** Είναι ισομερή (ίδια Mr), άρα και τα δύο μη πολικά. Το βουτάνιο (ευθύγραμμο) εμφανίζει ισχυρότερες δυνάμεις London από το μεθυλοπροπάνιο (διακλαδισμένο), λόγω μεγαλύτερης επιφάνειας επαφής."
-},
+    "q": "23. Στο διπλανό πίνακα δίνονται τα σημεία βρασμού μίας σειράς χημικών ουσιών. Να εξηγήσετε τις διαφορές στα σημεία βρασμού:\nα. υδροχλωρίου (188 K) - υδροφθορίου (293 K)\nβ. υδροφθορίου (293 K) - φθοριδίου του νατρίου (1970 K)\nγ. μεθανίου (111 K) - τετραχλωράνθρακα (350 K)\nδ. μεθανίου (111 K) - μεθανόλης (338 K)\nε. βουτανίου (273 K) - μεθυλοπροπανίου (261 K)",
+    "a": "**α.** Στο HF αναπτύσσονται δεσμοί υδρογόνου, ενώ στο HCl μόνο διπόλου-διπόλου και διασποράς. Οι δεσμοί υδρογόνου είναι ισχυρότεροι.\n**β.** Το NaF είναι ιοντική ένωση, άρα στο κρυσταλλικό πλέγμα ασκούνται ισχυρές ηλεκτροστατικές δυνάμεις Coulomb (ενδομοριακοί δεσμοί πρακτικά), πολύ ισχυρότερες από τους διαμοριακούς δεσμούς υδρογόνου του HF.\n**γ.** Και τα δύο είναι μη πολικά, αλλά ο CCl₄ έχει πολύ μεγαλύτερη Mr, άρα ισχυρότερες δυνάμεις διασποράς (London).\n**δ.** Στη μεθανόλη (CH₃OH) αναπτύσσονται δεσμοί υδρογόνου, ενώ στο μη πολικό μεθάνιο (CH₄) μόνο ασθενείς δυνάμεις διασποράς.\n**ε.** Είναι ισομερή (ίδια Mr), άρα και τα δύο μη πολικά. Το βουτάνιο (ευθύγραμμο) εμφανίζει ισχυρότερες δυνάμεις London από το μεθυλοπροπάνιο (διακλαδισμένο), λόγω μεγαλύτερης επιφάνειας επαφής."
+  },
   {
-  "q": "25. Να αιτιολογήσετε τις ακόλουθες προτάσεις:\nα. Το στοιχείο Cl₂ έχει σημείο βρασμού -34 °C, ενώ το HCl έχει σημείο βρασμού -85 °C, παρότι έχει πολωμένους δεσμούς.\nβ. Το HBr έχει σημείο βρασμού -67 °C και διπολική ροπή 0,827 D, ενώ το HI έχει σημείο βρασμού -35 °C και διπολική ροπή 0,448 D.\nγ. Παρότι ο δεσμός H-F είναι περισσότερο πολωμένος από τον δεσμό H-O, το νερό έχει πολύ υψηλότερο σημείο βρασμού από το υδροφθόριο.\nδ. Παρότι η αμμωνία έχει μικρότερη σχετική μοριακή μάζα, έχει πολύ υψηλότερο σημείο βρασμού από το υδρόθειο.\nε. Κάτω από ορισμένες συνθήκες τα μονοατομικά μόρια των ευγενών αερίων μπορούν να υγροποιηθούν.",
-  "a": "**α.** Το Cl₂ είναι μη πολικό (δυνάμεις London) και το HCl δίπολο. Όμως, η Mr του Cl₂ (71) είναι πολύ μεγαλύτερη από του HCl (36,5), γεγονός που καθιστά τις δυνάμεις London στο Cl₂ ισχυρότερες από το σύνολο των διαμοριακών δυνάμεων στο HCl.\n**β.** Το HBr είναι πιο πολικό από το HI, όμως το HI έχει σημαντικά μεγαλύτερη Mr. Οι αυξημένες δυνάμεις London στο HI υπερισχύουν της διαφοράς πολικότητας, δίνοντας του υψηλότερο Σ.Β.\n**γ.** Το μόριο του H₂O σχηματίζει περισσότερους δεσμούς υδρογόνου ανά μόριο σε σχέση με το HF, δημιουργώντας ένα ισχυρότερο τρισδιάστατο πλέγμα διαμοριακών δεσμών, γι' αυτό και έχει υψηλότερο Σ.Β.\n**δ.** Στην αμμωνία (NH₃) αναπτύσσονται δεσμοί υδρογόνου (πολύ ισχυροί), ενώ στο υδρόθειο (H₂S) όχι (μόνο διπόλου-διπόλου), παρά τη μεγαλύτερη Mr του.\n**ε.** Στα άτομα των ευγενών αερίων δημιουργούνται στιγμιαία δίπολα λόγω της συνεχούς κίνησης των ηλεκτρονίων (δυνάμεις London). Αυτές οι ασθενείς δυνάμεις επιτρέπουν την υγροποίησή τους σε πολύ χαμηλές θερμοκρασίες."
-},
+    "q": "25. Να αιτιολογήσετε τις ακόλουθες προτάσεις:\nα. Το στοιχείο Cl₂ έχει σημείο βρασμού -34 °C, ενώ το HCl έχει σημείο βρασμού -85 °C, παρότι έχει πολωμένους δεσμούς.\nβ. Το HBr έχει σημείο βρασμού -67 °C και διπολική ροπή 0,827 D, ενώ το HI έχει σημείο βρασμού -35 °C και διπολική ροπή 0,448 D.\nγ. Παρότι ο δεσμός H-F είναι περισσότερο πολωμένος από τον δεσμό H-O, το νερό έχει πολύ υψηλότερο σημείο βρασμού από το υδροφθόριο.\nδ. Παρότι η αμμωνία έχει μικρότερη σχετική μοριακή μάζα, έχει πολύ υψηλότερο σημείο βρασμού από το υδρόθειο.\nε. Κάτω από ορισμένες συνθήκες τα μονοατομικά μόρια των ευγενών αερίων μπορούν να υγροποιηθούν.",
+    "a": "**α.** Το Cl₂ είναι μη πολικό (δυνάμεις London) και το HCl δίπολο. Όμως, η Mr του Cl₂ (71) είναι πολύ μεγαλύτερη από του HCl (36,5), γεγονός που καθιστά τις δυνάμεις London στο Cl₂ ισχυρότερες από το σύνολο των διαμοριακών δυνάμεων στο HCl.\n**β.** Το HBr είναι πιο πολικό από το HI, όμως το HI έχει σημαντικά μεγαλύτερη Mr. Οι αυξημένες δυνάμεις London στο HI υπερισχύουν της διαφοράς πολικότητας, δίνοντας του υψηλότερο Σ.Β.\n**γ.** Το μόριο του H₂O σχηματίζει περισσότερους δεσμούς υδρογόνου ανά μόριο σε σχέση με το HF, δημιουργώντας ένα ισχυρότερο τρισδιάστατο πλέγμα διαμοριακών δεσμών, γι' αυτό και έχει υψηλότερο Σ.Β.\n**δ.** Στην αμμωνία (NH₃) αναπτύσσονται δεσμοί υδρογόνου (πολύ ισχυροί), ενώ στο υδρόθειο (H₂S) όχι (μόνο διπόλου-διπόλου), παρά τη μεγαλύτερη Mr του.\n**ε.** Στα άτομα των ευγενών αερίων δημιουργούνται στιγμιαία δίπολα λόγω της συνεχούς κίνησης των ηλεκτρονίων (δυνάμεις London). Αυτές οι ασθενείς δυνάμεις επιτρέπουν την υγροποίησή τους σε πολύ χαμηλές θερμοκρασίες."
+  },
   {
-  "q": "26. Να αντιστοιχίσετε την κάθε χημική ένωση της στήλης Α με το σημείο βρασμού της που αναφέρεται στη στήλη Β.\nΑ: A. NaCl, B. HCl, Γ. H₂O, Δ. HF, E. HI, Z. HBr\nΒ: α. -67 °C, β. 19 °C, γ. 1465 °C, δ. -85 °C, ε. 100 °C, ζ. -35 °C",
-  "a": "A. NaCl → γ (1465 °C) - Ιοντική ένωση (το υψηλότερο).\nΓ. H₂O → ε (100 °C) - Δεσμοί υδρογόνου (πολλοί).\nΔ. HF → β (19 °C) - Δεσμοί υδρογόνου (λιγότεροι).\nE. HI → ζ (-35 °C) - Μεγαλύτερη Mr από τα υπόλοιπα υδραλογόνα (εκτός HF).\nZ. HBr → α (-67 °C) - Μεσαία Mr.\nB. HCl → δ (-85 °C) - Μικρότερη Mr (εξαιρουμένου του HF που έχει δεσμούς Η)."
-},
+    "q": "26. Να αντιστοιχίσετε την κάθε χημική ένωση της στήλης Α με το σημείο βρασμού της που αναφέρεται στη στήλη Β.\nΑ: A. NaCl, B. HCl, Γ. H₂O, Δ. HF, E. HI, Z. HBr\nΒ: α. -67 °C, β. 19 °C, γ. 1465 °C, δ. -85 °C, ε. 100 °C, ζ. -35 °C",
+    "a": "A. NaCl → γ (1465 °C) - Ιοντική ένωση (το υψηλότερο).\nΓ. H₂O → ε (100 °C) - Δεσμοί υδρογόνου (πολλοί).\nΔ. HF → β (19 °C) - Δεσμοί υδρογόνου (λιγότεροι).\nE. HI → ζ (-35 °C) - Μεγαλύτερη Mr από τα υπόλοιπα υδραλογόνα (εκτός HF).\nZ. HBr → α (-67 °C) - Μεσαία Mr.\nB. HCl → δ (-85 °C) - Μικρότερη Mr (εξαιρουμένου του HF που έχει δεσμούς Η)."
+  },
   {
-  "q": "27. Να αιτιολογήσετε τις ακόλουθες προτάσεις οι οποίες είναι όλες σωστές:\nα. Το σημείο βρασμού του υδροβρωμίου (HBr) είναι χαμηλότερο από το σημείο βρασμού του υδροιωδίου (HI).\nβ. Μεταξύ της NH₃ και της PH₃ πιο εύκολα υγροποιείται η αμμωνία, ενώ μεταξύ της φωσφίνης (PH₃) και της αρσίνης (AsH₃) πιο εύκολα υγροποιείται η αρσίνη.",
-  "a": "**α.** Το HI έχει σημαντικά μεγαλύτερη Mr από το HBr. Καθώς και τα δύο είναι δίπολα (χωρίς δεσμούς Η), οι ισχυρότερες δυνάμεις London στο HI έχουν ως αποτέλεσμα το υψηλότερο σημείο βρασμού του.\n**β.** Η NH₃ έχει δεσμούς υδρογόνου (ισχυροί), ενώ η PH₃ όχι, οπότε η NH₃ υγροποιείται πιο εύκολα (υψηλότερο Σ.Β.). Μεταξύ PH₃ και AsH₃ δεν υπάρχουν δεσμοί υδρογόνου, αλλά η AsH₃ έχει μεγαλύτερη Mr, άρα ισχυρότερες δυνάμεις London και επομένως υγροποιείται πιο εύκολα."
-},
+    "q": "27. Να αιτιολογήσετε τις ακόλουθες προτάσεις οι οποίες είναι όλες σωστές:\nα. Το σημείο βρασμού του υδροβρωμίου (HBr) είναι χαμηλότερο από το σημείο βρασμού του υδροιωδίου (HI).\nβ. Μεταξύ της NH₃ και της PH₃ πιο εύκολα υγροποιείται η αμμωνία, ενώ μεταξύ της φωσφίνης (PH₃) και της αρσίνης (AsH₃) πιο εύκολα υγροποιείται η αρσίνη.",
+    "a": "**α.** Το HI έχει σημαντικά μεγαλύτερη Mr από το HBr. Καθώς και τα δύο είναι δίπολα (χωρίς δεσμούς Η), οι ισχυρότερες δυνάμεις London στο HI έχουν ως αποτέλεσμα το υψηλότερο σημείο βρασμού του.\n**β.** Η NH₃ έχει δεσμούς υδρογόνου (ισχυροί), ενώ η PH₃ όχι, οπότε η NH₃ υγροποιείται πιο εύκολα (υψηλότερο Σ.Β.). Μεταξύ PH₃ και AsH₃ δεν υπάρχουν δεσμοί υδρογόνου, αλλά η AsH₃ έχει μεγαλύτερη Mr, άρα ισχυρότερες δυνάμεις London και επομένως υγροποιείται πιο εύκολα."
+  },
   {
-  "q": "33. Να διατάξετε τις ακόλουθες ουσίες κατά σειρά αυξανόμενου σημείου βρασμού:\nA: H₂O, B: H₂, Γ: NaF, Δ: CH₃CH₃, E: CH₃OCH₃",
-  "a": "B(H₂) < Δ(CH₃CH₃) < E(CH₃OCH₃) < A(H₂O) < Γ(NaF).\nΕξήγηση:\n- B: H₂, μη πολικό, ελάχιστη Mr (μικρότερο Σ.Β.).\n- Δ: CH₃CH₃, μη πολικό, μεγαλύτερη Mr από H₂.\n- E: CH₃OCH₃, δίπολο (δυνάμεις διπόλου-διπόλου).\n- A: H₂O, δεσμοί υδρογόνου (πολύ ισχυρές).\n- Γ: NaF, ιοντική ένωση (πολύ υψηλό Σ.Β.)."
-},
+    "q": "33. Να διατάξετε τις ακόλουθες ουσίες κατά σειρά αυξανόμενου σημείου βρασμού:\nA: H₂O, B: H₂, Γ: NaF, Δ: CH₃CH₃, E: CH₃OCH₃",
+    "a": "B(H₂) < Δ(CH₃CH₃) < E(CH₃OCH₃) < A(H₂O) < Γ(NaF).\nΕξήγηση:\n- B: H₂, μη πολικό, ελάχιστη Mr (μικρότερο Σ.Β.).\n- Δ: CH₃CH₃, μη πολικό, μεγαλύτερη Mr από H₂.\n- E: CH₃OCH₃, δίπολο (δυνάμεις διπόλου-διπόλου).\n- A: H₂O, δεσμοί υδρογόνου (πολύ ισχυρές).\n- Γ: NaF, ιοντική ένωση (πολύ υψηλό Σ.Β.)."
+  },
   {
-  "q": "34. Στις ερωτήσεις να συμπληρώσετε Σ δίπλα σε κάθε σωστή πρόταση και Λ δίπλα σε κάθε λανθασμένη.\nΑ. Διαμοριακές δυνάμεις αναπτύσσονται μόνο μεταξύ διπόλων μορίων ή διπόλων μορίων και ιόντων.\nΒ. Η φυσική κατάσταση των ουσιών εξαρτάται από την ισχύ των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων τους.\nΓ. Τα άλατα είναι στερεά, γιατί μεταξύ των μορίων τους αναπτύσσονται ισχυρές διαμοριακές δυνάμεις.\nΔ. Οι διαμοριακές δυνάμεις είναι δυνάμεις ηλεκτροστατικής φύσης.\nΕ. Ο τετραχλωράνθρακας (CCl₄) είναι εξαιρετικός μη πολικός διαλύτης.\nΣΤ. Το νερό διαλύει πολύ εύκολα το μεθάνιο (CH₄).",
-  "a": "**Α. Λανθασμένη.** (Αναπτύσσονται και μεταξύ μη πολικών μορίων - δυνάμεις London).\n**Β. Σωστή.**\n**Γ. Λανθασμένη.** (Τα άλατα αποτελούνται από ιόντα, όχι μόρια, και οι δυνάμεις είναι ενδομοριακές Coulomb στο κρυσταλλικό πλέγμα).\n**Δ. Σωστή.**\n**Ε. Σωστή.**\n**ΣΤ. Λανθασμένη.** (Το νερό είναι πολικό, το μεθάνιο μη πολικό, άρα δε διαλύεται)."
-},
+    "q": "34. Στις ερωτήσεις να συμπληρώσετε Σ δίπλα σε κάθε σωστή πρόταση και Λ δίπλα σε κάθε λανθασμένη.\nΑ. Διαμοριακές δυνάμεις αναπτύσσονται μόνο μεταξύ διπόλων μορίων ή διπόλων μορίων και ιόντων.\nΒ. Η φυσική κατάσταση των ουσιών εξαρτάται από την ισχύ των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων τους.\nΓ. Τα άλατα είναι στερεά, γιατί μεταξύ των μορίων τους αναπτύσσονται ισχυρές διαμοριακές δυνάμεις.\nΔ. Οι διαμοριακές δυνάμεις είναι δυνάμεις ηλεκτροστατικής φύσης.\nΕ. Ο τετραχλωράνθρακας (CCl₄) είναι εξαιρετικός μη πολικός διαλύτης.\nΣΤ. Το νερό διαλύει πολύ εύκολα το μεθάνιο (CH₄).",
+    "a": "**Α. Λανθασμένη.** (Αναπτύσσονται και μεταξύ μη πολικών μορίων - δυνάμεις London).\n**Β. Σωστή.**\n**Γ. Λανθασμένη.** (Τα άλατα αποτελούνται από ιόντα, όχι μόρια, και οι δυνάμεις είναι ενδομοριακές Coulomb στο κρυσταλλικό πλέγμα).\n**Δ. Σωστή.**\n**Ε. Σωστή.**\n**ΣΤ. Λανθασμένη.** (Το νερό είναι πολικό, το μεθάνιο μη πολικό, άρα δε διαλύεται)."
+  },
   {
-  "q": "35. Να χαρακτηρίσετε τις ακόλουθες προτάσεις ως σωστές ή λανθασμένες και να αιτιολογήσετε πλήρως την επιλογή σας.\nα. Όταν το υγρό νερό μετατρέπεται σε υδρατμό οι διαμοριακές δυνάμεις εξασθενούν.\nβ. Μεταξύ των μορίων του υδροιωδίου και του ιωδίου αναπτύσσονται δυνάμεις διπόλου - διπόλου.\nγ. Όταν ένα μόριο χημικής ένωσης έχει πολωμένους ομοιοπολικούς δεσμούς, τότε μεταξύ των μορίων του αναπτύσσονται δυνάμεις διπόλου - διπόλου.\nδ. Όσο περισσότερο ηλεκτραρνητικό είναι ένα στοιχείο Χ τόσο πιο πολωμένος είναι ο δεσμός Η-Χ.\nε. Δυνάμεις διασποράς ή London αναπτύσσονται μεταξύ των μορίων όλων των στοιχείων και των χημικών ενώσεων.\nστ. Το εξάνιο διαλύεται στο τετραχλωράνθρακα, αλλά δεν διαλύεται στο νερό.\nζ. Κάθε μόριο με πολωμένους δεσμούς είναι δίπολο.\nη. Από τις ουσίες HCl, NH₃, CH₄ στο βενζόλιο (C₆H₆) διαλύεται μόνο το CH₄.\nθ. Το H₂O είναι μία πολική ουσία, επομένως μπορεί να διαλύσει μόνο μη πολικές ουσίες.",
-  "a": "**α. Σωστή.** Στην αέρια κατάσταση τα μόρια απομακρύνονται και οι διαμοριακές δυνάμεις καθίστανται ιδιαίτερα ασθενείς.\n**β. Λανθασμένη.** Το HI είναι δίπολο αλλά το I₂ είναι μη πολικό μόριο. Μεταξύ τους αναπτύσσονται δυνάμεις London.\n**γ. Λανθασμένη.** Το μόριο μπορεί να έχει πολωμένους δεσμούς αλλά να είναι μη πολικό λόγω γεωμετρίας (π.χ. CO₂, CCl₄), οπότε δεν αναπτύσσονται δυνάμεις διπόλου-διπόλου.\n**δ. Σωστή.** Μεγαλύτερη ηλεκτραρνητικότητα του Χ σημαίνει μεγαλύτερη διαφορά ηλεκτραρνητικότητας με το Η, άρα πιο πολωμένος δεσμός.\n**ε. Σωστή.** Οι δυνάμεις London (λόγω στιγμιαίων διπόλων) υπάρχουν σε όλα τα μόρια (πολικά και μη).\n**στ. Σωστή.** Το εξάνιο είναι μη πολικό, άρα διαλύεται στον μη πολικό CCl₄ (τα όμοια διαλύουν τα όμοια) αλλά όχι στο πολικό νερό.\n**ζ. Λανθασμένη.** Απαιτείται επιπλέον η συνισταμένη των διπολικών ροπών των δεσμών να μην είναι μηδέν (εξαρτάται από τη γεωμετρία).\n**η. Σωστή.** Το βενζόλιο είναι μη πολικός διαλύτης. Από τις τρεις ενώσεις μόνο το CH₄ είναι μη πολικό, άρα μόνο αυτό διαλύεται.\n**θ. Λανθασμένη.** Το πολικό νερό διαλύει πολικές ουσίες και ιοντικές ενώσεις, όχι μη πολικές."
-}
-,
-  {
-  "q": "Να αντιστοιχίσετε τους χημικούς τύπους των ενώσεων της στήλης Α με το είδος του δεσμού τους στη στήλη Β.\nΑ: 1. Br₂, 2. HClO₂, 3. CaBr₂, 4. K₂O, 5. HCl, 6. N₂, 7. Mg(OH)₂\nΒ: 1. Ιοντικός, 2. Μη πολικός ομοιοπολικός, 3. Πολικός ομοιοπολικός",
-  "a": "1 -> Β2 (Μη πολικός ομοιοπολικός)\n2 -> Β3 (Πολικός ομοιοπολικός)\n3 -> Β1 (Ιοντικός)\n4 -> Β1 (Ιοντικός)\n5 -> Β3 (Πολικός ομοιοπολικός)\n6 -> Β2 (Μη πολικός ομοιοπολικός)\n7 -> Β1 (Ιοντικός)"
-},
-  {
-  "q": "Να χαρακτηρίσετε καθεμία από τις ακόλουθες προτάσεις ως σωστή ή λανθασμένη:\nΑ. Το μέγεθος του ιόντος του ₁₇Cl είναι μεγαλύτερο από το μέγεθος του ατόμου.\nΒ. Το μέγεθος του ιόντος του ₁₉K είναι μεγαλύτερο από το μέγεθος του ατόμου.\nΓ. Η χημική συμπεριφορά των στοιχείων καθορίζεται από τα ηλεκτρόνια υψηλότερης ενέργειας τους και από το μέγεθος του ατόμου τους.\nΔ. Για να σχηματιστεί ένας ομοιοπολικός δεσμός θα πρέπει τα άτομα να απομακρυνθούν τόσο, ώστε να ελαχιστοποιηθούν οι απωστικές δυνάμεις...\nΕ. Το βρώμιο (₃₅Br) μπορεί να σχηματίσει χημικούς δεσμούς με αποβολή ή αμοιβαία συνεισφορά ηλεκτρονίων.\nΣΤ. Το νάτριο (₁₁Na) μπορεί να σχηματίσει χημικούς δεσμούς με αποβολή ή αμοιβαία συνεισφορά ηλεκτρονίων.\nΖ. Η χημική ένωση CaO μπορεί να είναι στερεή, υγρή ή αέρια.\nΗ. Στο μόριο της χημικής ένωσης HCN υπάρχει ένας τριπλός ομοιοπολικός δεσμός μεταξύ αζώτου και άνθρακα.\nΘ. Το πιο ηλεκτραρνητικό στοιχείο βρίσκεται στο δεξιό κάτω μέρος του Περιοδικού Πίνακα.",
-  "a": "**Α. Σωστή.** (Το ανιόν είναι μεγαλύτερο από το άτομό του).\n**Β. Λανθασμένη.** (Το κατιόν είναι μικρότερο από το άτομό του).\n**Γ. Σωστή.**\n**Δ. Λανθασμένη.** (Πρέπει να πλησιάσουν, όχι να απομακρυνθούν).\n**Ε. Λανθασμένη.** (Προσλαμβάνει ή συνεισφέρει ηλεκτρόνια, δεν αποβάλλει).\n**ΣΤ. Λανθασμένη.** (Μόνο αποβάλλει ηλεκτρόνια, ως μέταλλο).\n**Ζ. Λανθασμένη.** (Είναι ιοντική ένωση, άρα στερεή σε συνθήκες περιβάλλοντος).\n**Η. Σωστή.** (Στο HCN: H-C≡N).\n**Θ. Λανθασμένη.** (Βρίσκεται πάνω δεξιά - Φθόριο)."
-},
-  {
-  "q": "Τα στοιχεία Χ και Ψ βρίσκονται στην ίδια περίοδο του Περιοδικού Πίνακα. Ποιες από τις ακόλουθες προτάσεις που αφορούν στην ένωση που θα σχηματιστεί μεταξύ του ατόμου Χ με 2 ζεύγη και 2 μονήρη ηλεκτρόνια στην εξωτερική στιβάδα και του ατόμου Ψ με 3 ζεύγη και 1 μονήρες ηλεκτρόνιο στην εξωτερική στιβάδα είναι σωστές και ποιες λανθασμένες:\n<sub>1</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο X₂Ψ.\n<sub>2</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο Ψ₂X.\n<sub>3</sub>. Σχηματίζουν την ομοιοπολική ένωση με μοριακό τύπο XΨ₂.\n<sub>4</sub>. Σχηματίζουν την ιοντική ένωση με μοριακό τύπο XΨ₂.\n<sub>5</sub>. Ο δεσμός Χ-Ψ είναι πολωμένος και το Χ έχει περίσσεια αρνητικού φορτίου δ⁻.\n<sub>6</sub>. Ο δεσμός Χ-Ψ είναι πολωμένος και το Ψ έχει περίσσεια αρνητικού φορτίου δ⁻.\n<sub>7</sub>. Ο δεσμός Χ-Ψ είναι μη πολικός.\n<sub>8</sub>. Το Ψ μπορεί να σχηματίσει και ιόντα με φορτίο -1.",
-  "a": "Το Χ έχει 6 e⁻ σθένους (16η ομάδα). Το Ψ έχει 7 e⁻ σθένους (17η ομάδα). Επειδή είναι στην ίδια περίοδο, το Ψ (δεξιότερα) έχει μικρότερη ακτίνα και μεγαλύτερη ηλεκτραρνητικότητα από το Χ. Είναι και τα δύο αμέταλλα, άρα σχηματίζουν ομοιοπολική ένωση.\n**1. Λανθασμένη.**\n**2. Λανθασμένη.**\n**3. Σωστή.** Το Χ χρειάζεται 2 e⁻, το Ψ χρειάζεται 1 e⁻. Ο τύπος είναι XΨ₂.\n**4. Λανθασμένη.** (Ομοιοπολική, όχι ιοντική).\n**5. Λανθασμένη.** Το Ψ είναι πιο ηλεκτραρνητικό, άρα αυτό έχει το δ⁻.\n**6. Σωστή.**\n**7. Λανθασμένη.** (Είναι πολωμένος).\n**8. Σωστή.** (Το Ψ είναι αλογόνο, άρα μπορεί να πάρει 1 e⁻ σε ιοντικές ενώσεις)."
-},
-  {
-  "q": "1. α. Να δώσετε έναν ορισμό για το χημικό δεσμό.\nβ. Ποιοι χημικοί δεσμοί ονομάζονται ομοιοπολικοί και ποια είναι η δομική τους μονάδα;\nγ. Πότε ένας ομοιοπολικός δεσμός χαρακτηρίζεται πολωμένος και πότε μη πολωμένος;\nδ. Να χαρακτηρίσετε τους ομοιοπολικούς δεσμούς που συνδέουν τα άτομα στα ακόλουθα μόρια ως πολικούς ή μη πολικούς και να δικαιολογήσετε την απάντησή σας: 1. H-Br, 2. I-I, 3. O=O, 4. O=C=O",
-  "a": "**α.** Χημικός δεσμός ονομάζεται το σύνολο των ελκτικών δυνάμεων που ασκούνται μεταξύ των δομικών συστατικών ενός σώματος, ώστε να συγκρατούνται σε καθορισμένες αποστάσεις και να οδηγούν στο σχηματισμό ενός σταθερού και καθορισμένου σώματος.\n**β.** Οι ομοιοπολικοί δεσμοί σχηματίζονται με αμοιβαία συνεισφορά ηλεκτρονίων μεταξύ όμοιων ή διαφορετικών ατόμων αμέταλλων στοιχείων. Δομική μονάδα είναι το μόριο.\n**γ.** Πολωμένος είναι ο ομοιοπολικός δεσμός μεταξύ ατόμων με διαφορετική ηλεκτραρνητικότητα. Μη πολικός είναι μεταξύ ατόμων με ίδια ηλεκτραρνητικότητα.\n**δ.**\n1. H-Br: Πολικός (διαφορετικά άτομα).\n2. I-I: Μη πολικός (όμοια άτομα).\n3. O=O: Μη πολικός (όμοια άτομα).\n4. O=C=O: Πολικοί (διαφορετικά άτομα)."
-},
-  {
-  "q": "Να συμπληρώσετε τα κενά:\nΟι ομοιοπολικοί δεσμοί σχηματίζονται μεταξύ ........ ή ........ ατόμων με αμοιβαία ........ ηλεκτρονίων, έτσι ώστε να σχηματίζονται ........ τα οποία ανήκουν από κοινού στα ........ του δεσμού. Όταν σχηματίζονται μεταξύ όμοιων ατόμων το κοινό ζεύγος ηλεκτρονίων κατανέμεται ........ μεταξύ των ατόμων και ο δεσμός είναι ........ , ενώ όταν σχηματίζονται μεταξύ διαφορετικών ........ το πιο ........ άτομο του δεσμού έλκει περισσότερο προς το μέρος του το κοινό ζεύγος με αποτέλεσμα να εμφανίζει μία μικρή περίσσεια ........ φορτίου, η οποία συμβολίζεται με ........ , ενώ το δεύτερο άτομο εμφανίζει μία μικρή περίσσεια ........ φορτίου η οποία συμβολίζεται με ........ .\nΓια παράδειγμα στο μόριο του Η-I το ........ έλκει περισσότερο το κοινό ζεύγος με αποτέλεσμα το μόριο να συμπεριφέρεται ως ........ και να προσανατολίζεται στο ........ .",
-  "a": "Οι ομοιοπολικοί δεσμοί σχηματίζονται μεταξύ **όμοιων** ή **διαφορετικών** ατόμων με αμοιβαία **συνεισφορά** ηλεκτρονίων, έτσι ώστε να σχηματίζονται **ζεύγη** τα οποία ανήκουν από κοινού στα **άτομα** του δεσμού. Όταν σχηματίζονται μεταξύ όμοιων ατόμων το κοινό ζεύγος ηλεκτρονίων κατανέμεται **ομοιόμορφα** μεταξύ των ατόμων και ο δεσμός είναι **μη πολικός**, ενώ όταν σχηματίζονται μεταξύ διαφορετικών **ατόμων** το πιο **ηλεκτραρνητικό** άτομο του δεσμού έλκει περισσότερο προς το μέρος του το κοινό ζεύγος με αποτέλεσμα να εμφανίζει μία μικρή περίσσεια **αρνητικού** φορτίου, η οποία συμβολίζεται με **δ⁻**, ενώ το δεύτερο άτομο εμφανίζει μία μικρή περίσσεια **θετικού** φορτίου η οποία συμβολίζεται με **δ⁺**.\nΓια παράδειγμα στο μόριο του H-I το **ιώδιο** έλκει περισσότερο το κοινό ζεύγος με αποτέλεσμα το μόριο να συμπεριφέρεται ως ηλεκτρικό **δίπολο** και να προσανατολίζεται στο ηλεκτρικό **πεδίο**."
-},
-  {
-  "q": "Μέτρο της πολικότητας ενός μορίου είναι η ........ , η οποία δίνεται από τον τύπο: ........ . Στην περίπτωση που στο μόριο υπάρχουν περισσότεροι από ένας πολωμένοι ομοιοπολικοί δεσμοί η διπολική ροπή είναι το ........ άθροισμα των διπολικών ροπών όλων των δεσμών, με αποτέλεσμα καθοριστικό ρόλο για την πολικότητα του μορίου να παίζει η ........ του.\nΈτσι το μόριο του νερού (H₂O), το οποίο έχει ........ ομοιοπολικούς δεσμούς μεταξύ ........ και ........ είναι ........ , γιατί το μόριο είναι ........ , ενώ το μόριο του διοξειδίου του άνθρακα (CO₂) είναι ........ , γιατί το μόριο είναι ........ και οι διπολικές ροπές ........ .",
-  "a": "Μέτρο της πολικότητας ενός μορίου είναι η **διπολική ροπή**, η οποία δίνεται από τον τύπο: **μ=q·r**. Στην περίπτωση που στο μόριο υπάρχουν περισσότεροι από ένας πολωμένοι ομοιοπολικοί δεσμοί η διπολική ροπή είναι το **διανυσματικό** άθροισμα των διπολικών ροπών όλων των δεσμών, με αποτέλεσμα καθοριστικό ρόλο για την πολικότητα του μορίου να παίζει η **γεωμετρία** του.\nΈτσι το μόριο του νερού (H₂O), το οποίο έχει **πολωμένους** ομοιοπολικούς δεσμούς μεταξύ **υδρογόνου** και **οξυγόνου** είναι **δίπολο**, γιατί το μόριο είναι **γωνιακό**, ενώ το μόριο του διοξειδίου του άνθρακα (CO₂) είναι **μη πολικό**, γιατί το μόριο είναι **γραμμικό** και οι διπολικές ροπές **αλληλοεξουδετερώνονται**."
-},
-  {
-  "q": "4. α. Τι συνέπειες έχει η ύπαρξη ενός πολωμένου ομοιοπολικού δεσμού σε ένα διατομικό μόριο της μορφής Η – Χ;\nβ. Τι είναι η πολικότητα ενός μορίου, ποιο είναι το μέτρο της και από τι εξαρτάται;\nγ. Είναι όλα τα μόρια τα οποία έχουν πολωμένους ομοιοπολικούς δεσμούς πολικά; Να αιτιολογήσετε την απάντησή σας.\nδ. Να χαρακτηρίσετε τα ακόλουθα μόρια ως πολικά ή μη και να δικαιολογήσετε την απάντησή σας: i. HBr, ii. O=C=O, iii. H₂O",
-  "a": "**α.** Η ύπαρξη ενός πολωμένου ομοιοπολικού δεσμού σε ένα διατομικό μόριο της μορφής Η – Χ έχει ως συνέπεια το μόριο να εμφανίζει διπολική ροπή και προσανατολίζεται στο ηλεκτρικό πεδίο.\n**β.** Πολικότητα είναι ο διαχωρισμός ηλεκτρικού φορτίου που οδηγεί ένα μόριο να έχει ένα αρνητικά φορτισμένο άκρο και ένα θετικά φορτισμένο άκρο. Η Διπολική Ροπή (μ=q·r) είναι το μέτρο της πολικότητας και είναι διανυσματικό μέγεθος.\n**γ.** Δεν είναι όλα τα μόρια τα οποία έχουν πολωμένους δεσμούς πολικά. Για να είναι ένα μόριο πολικό θα πρέπει να έχει πολωμένους δεσμούς και οι διπολικές ροπές να μην αλληλοεξουδετερώνονται.\n**δ.**\ni. HBr: Πολικό. Υπάρχει πολωμένος δεσμός και περίσσεια φορτίου δ⁻ στο Br.\nii. O=C=O: Μη πολικό. Υπάρχουν πολωμένοι δεσμοί C=O αλλά το μόριο είναι γραμμικό και οι διπολικές ροπές αλληλοεξουδετερώνονται.\niii. H₂O: Πολικό. Υπάρχουν πολωμένοι δεσμοί O-H και το μόριο είναι γωνιακό, με αποτέλεσμα οι διπολικές ροπές να μην αλληλοεξουδετερώνονται."
-},
-  {
-  "q": "α. Ποιοι δεσμοί χαρακτηρίζονται ενδομοριακοί και ποιοι διαμοριακοί;\nβ. Πότε αναπτύσσονται διαμοριακές δυνάμεις ή δεσμοί μεταξύ μορίων;\nγ. Σε ποιες βασικές κατηγορίες ταξινομούνται οι διαμοριακές δυνάμεις;",
-  "a": "**α.** Ενδομοριακοί χαρακτηρίζονται οι δεσμοί που αναπτύσσονται ανάμεσα στα άτομα ενός μορίου ή ανάμεσα στα ιόντα του κρυσταλλικού πλέγματος μιας ιοντικής ένωσης. Διαμοριακοί δεσμοί ονομάζονται οι ελκτικές δυνάμεις ηλεκτροστατικής φύσης οι οποίες αναπτύσσονται μεταξύ μορίων.\n**β.** Αναπτύσσονται πάντα, αλλά στην αέρια φάση είναι πολύ ασθενείς.\n**γ.** 1. Δυνάμεις ιόντος - διπόλου. 2. Δυνάμεις Van der Waals (δυνάμεις διπόλου - διπόλου και δυνάμεις διασποράς ή London). 3. Δεσμός υδρογόνου."
-},
-  {
-  "q": "Να συμπληρώσετε τα κενά:\nΔιαμοριακές δυνάμεις ονομάζονται οι δυνάμεις που αναπτύσσονται μεταξύ ........ , εξαιτίας της μόνιμης ή παροδικής ........ που εμφανίζουν. Η ανάπτυξη διαμοριακών δυνάμεων επηρεάζει τις ........ των ουσιών. Για παράδειγμα οι ουσίες που εμφανίζουν ισχυρές διαμοριακές δυνάμεις έχουν υψηλότερα ........ και αυξημένη ........ στο νερό.",
-  "a": "Διαμοριακές δυνάμεις ονομάζονται οι δυνάμεις που αναπτύσσονται μεταξύ **μορίων**, εξαιτίας της μόνιμης ή παροδικής **πολικότητας** που εμφανίζουν. Η ανάπτυξη διαμοριακών δυνάμεων επηρεάζει τις **φυσικές ιδιότητες** των ουσιών. Για παράδειγμα οι ουσίες που εμφανίζουν ισχυρές διαμοριακές δυνάμεις έχουν υψηλότερα **σημεία βρασμού** και αυξημένη **διαλυτότητα** στο νερό."
-},
-  {
-  "q": "Να συμπληρώσετε τα κενά:\nΟ δεσμός διπόλου-διπόλου αναπτύσσεται μεταξύ ........ μορίων, οι δυνάμεις London μεταξύ ........ ή ........ διπόλων μορίων και ο δεσμός υδρογόνου μεταξύ ........ μορίων που έχουν ........ απευθείας ενωμένο με ένα από τα πολύ ........ στοιχεία ........ . Η μεγάλη διαφορά ηλεκτραρνητικότητας του υδρογόνου με αυτά τα στοιχεία έχει ως αποτέλεσμα ο δεσμός να είναι ισχυρά ........ και οι διαμοριακές δυνάμεις να είναι ........ . Έτσι οι ουσίες που εμφανίζουν δεσμούς υδρογόνου μεταξύ των μορίων τους, όπως το ........ έχουν ........ σημεία βρασμού από τα αναμενόμενα.",
-  "a": "Ο δεσμός διπόλου-διπόλου αναπτύσσεται μεταξύ **διπόλων** μορίων, οι δυνάμεις London μεταξύ **παροδικών** ή **επαγόμενων** διπόλων μορίων και ο δεσμός υδρογόνου μεταξύ **πολικών** μορίων που έχουν **Η** απευθείας ενωμένο με ένα από τα πολύ **ηλεκτραρνητικά** στοιχεία **N, O ή F**. Η μεγάλη διαφορά ηλεκτραρνητικότητας του υδρογόνου με αυτά τα στοιχεία έχει ως αποτέλεσμα ο δεσμός να είναι ισχυρά **πολωμένος** και οι διαμοριακές δυνάμεις να είναι **ισχυρές**. Έτσι οι ουσίες που εμφανίζουν δεσμούς υδρογόνου μεταξύ των μορίων τους, όπως το **νερό** έχουν **υψηλότερα** σημεία βρασμού από τα αναμενόμενα."
-},
-  {
-  "q": "Να συμπληρώσετε τα κενά:\nΜεταξύ μη πολικών μορίων εμφανίζονται ........ δυνάμεις, οι οποίες ονομάζονται ........ ή ........ , όταν το μόριο ........ παροδικά και τα μόρια μετατρέπονται σε στιγμιαία ........ . Η ισχύς των δυνάμεων αυτών εξαρτάται από τη ........ μάζα και το ........ του μορίου. Έτσι η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι ........ από την ισχύ τους μεταξύ των μορίων του CH₃CH₂CH₂CH₂CH₃, γιατί το ........ έχει μεγαλύτερη Mr. Αντίστοιχα η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι ........ από την ισχύ τους μεταξύ των μορίων του (CH₃)₃CH, γιατί στα ........ μη πολωμένα μόρια υπάρχει καλύτερη αλληλεπίδραση των μορίων.",
-  "a": "Μεταξύ μη πολικών μορίων εμφανίζονται **διαμοριακές** δυνάμεις, οι οποίες ονομάζονται **διασποράς** ή **London**, όταν το μόριο **πολώνεται** παροδικά και τα μόρια μετατρέπονται σε στιγμιαία **δίπολα**. Η ισχύς των δυνάμεων αυτών εξαρτάται από τη **σχετική μοριακή** μάζα και το **σχήμα** του μορίου. Έτσι η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι **μικρότερη** από την ισχύ τους μεταξύ των μορίων του CH₃CH₂CH₂CH₂CH₃, γιατί το **CH₃CH₂CH₂CH₂CH₃** έχει μεγαλύτερη Mr. Αντίστοιχα η ισχύς των διαμοριακών δυνάμεων μεταξύ των μορίων του CH₃CH₂CH₂CH₃ είναι **μεγαλύτερη** από την ισχύ τους μεταξύ των μορίων του (CH₃)₃CH, γιατί στα **ευθύγραμμα** μη πολωμένα μόρια υπάρχει καλύτερη αλληλεπίδραση των μορίων."
-},
-  {
-  "q": "11. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί Van der Waals και σε ποιες κατηγορίες διακρίνονται;\nβ. Να περιγράψετε τους δεσμούς μεταξύ των μορίων του HI.\nγ. Να περιγράψετε τους δεσμούς μεταξύ των ατόμων του He.",
-  "a": "**α.** Οι δυνάμεις Van der Waals αναπτύσσονται μεταξύ διπόλων μορίων, ή διπόλου - παροδικού διπόλου ή παροδικών διπόλων και διακρίνονται σε: i. Δυνάμεις διπόλου – διπόλου ii. Δυνάμεις διασποράς ή London.\n**β.** Το μόριο του HI είναι δίπολο, επομένως μεταξύ των μορίων του αναπτύσσονται δεσμοί διπόλου-διπόλου και διασποράς.\n**γ.** Στα άτομα του He η κατανομή των ηλεκτρονίων είναι σφαιρική. Σε κάποια χρονική στιγμή μπορεί να εμφανίσει μετατόπιση του ηλεκτρονιακού φορτίου με αποτέλεσμα να μετατραπεί σε στιγμιαίο ή παροδικό δίπολο. Μεταξύ των στιγμιαίων διπόλων αναπτύσσονται δυνάμεις London ή διασποράς."
-},
-  {
-  "q": "12. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί London;\nβ. Να περιγράψετε τους δεσμούς London στο μόριο του I₂.",
-  "a": "**α.** Οι δεσμοί London αναπτύσσονται μεταξύ μη πολικών μορίων, τα οποία σε κάποια χρονική στιγμή έχουν μετατραπεί σε στιγμιαία ή παροδικά ή επαγόμενα δίπολα (δυνάμεις διασποράς υπάρχουν σε όλα τα μόρια).\n**β.** Το μόριο του I₂ δεν είναι πολικό, επομένως μεταξύ των μορίων του αναπτύσσονται δεσμοί London (παροδικών ή επαγόμενων διπόλων)."
-},
-  {
-  "q": "13. α. Μεταξύ ποιων μορίων αναπτύσσονται δεσμοί Υδρογόνου;",
-  "a": "Είναι μία ειδική περίπτωση δεσμών διπόλου – διπόλου. Είναι σχετικά ισχυροί δεσμοί ηλεκτροστατικής φύσης οι οποίοι αναπτύσσονται μεταξύ διπόλων μορίων, τα οποία έχουν Η απευθείας ενωμένο με ένα από τα πολύ ηλεκτραρνητικά στοιχεία N, O ή F, με αποτέλεσμα ο δεσμός να είναι ισχυρά πολωμένος. Για παράδειγμα στο HF το H έχει περίσσεια θετικού φορτίου (Hδ⁺) και το F αρνητικού (Fδ⁻)."
-},
-  {
-  "q": "14. Να συμπληρώσετε τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων της 1ης στήλης. Να αιτιολογήσετε τις απαντήσεις σας.\nΑ. H₂S - H₂S\nΒ. HF - H₂O\nΓ. CO₂ - CO₂\nΔ. CHCl₃ - CHCl₃\nΕ. Ag⁺ - NH₃\nΣτ. ROR - ROR\nΖ. CH₃COOH - CH₃COOH",
-  "a": "Α. H₂S - H₂S: Διπόλου – διπόλου και διασποράς (το H₂S είναι δίπολο).\nΒ. HF - H₂O: Δεσμός υδρογόνου, διπόλου – διπόλου και διασποράς (και τα δύο έχουν δεσμό υδρογόνου).\nΓ. CO₂ - CO₂: Διασποράς (το CO₂ είναι μη πολικό γραμμικό μόριο).\nΔ. CHCl₃ - CHCl₃: Διπόλου – διπόλου και διασποράς (το CHCl₃ είναι δίπολο).\nΕ. Ag⁺ - NH₃: Ιόντος – διπόλου μορίου.\nΣτ. ROR - ROR: Διπόλου – διπόλου και διασποράς (οι αιθέρες είναι δίπολα αλλά δεν έχουν H ενωμένο με O).\nΖ. CH₃COOH - CH₃COOH: Δεσμός υδρογόνου, διπόλου – διπόλου και διασποράς."
-},
-  {
-  "q": "15. Ένα στιγμιότυπο είναι από ένα υδατικό διάλυμα ιωδιδίου του νατρίου (NaI). Να αναγνωρίσετε το ιόν Χ (γύρω από το οποίο προσανατολίζονται τα μόρια του νερού με το Οξυγόνο προς τα μέσα), αιτιολογώντας την απάντησή σας. Να αναφέρετε τα είδη των ενδομοριακών και διαμοριακών δεσμών που διακρίνετε.",
-  "a": "Η ιοντική ένωση NaI διίσταται στο νερό: NaI → Na⁺(aq) + I⁻(aq). Παρατηρούμε ότι τα δίπολα μόρια του νερού προσανατολίζονται με το Ο που έχει περίσσεια δ⁻ στο ηλεκτρικό πεδίο του ιόντος Χ. Επομένως το ιόν Χ είναι το κατιόν του νατρίου (Na⁺).\nΟι ενδομοριακοί δεσμοί ανάμεσα στα άτομα H και O είναι ομοιοπολικοί.\nΟι διαμοριακοί είναι: Δυνάμεις ιόντος – διπόλου μορίου ανάμεσα στο ιόν Na⁺ και το πολικό μόριο του νερού. Δεσμοί υδρογόνου, διπόλου – διπόλου και διασποράς ανάμεσα στα μόρια του νερού."
-},
-  {
-  "q": "16. Να αντιστοιχίσετε τις χημικές ουσίες της στήλης Α με τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων τους στη στήλη Β.\nΑ: A. HCl, B. NH₃, Γ. CO₂, Δ. I₂, E. H₂O, Στ. CH₃OH\nΒ: 1. Δεσμός Υδρογόνου, 2. Δεσμοί London, 3. Δεσμοί διπόλου-διπόλου",
-  "a": "A. HCl → 2, 3 (δίπολο)\nB. NH₃ → 1, 2, 3 (δεσμός Η)\nΓ. CO₂ → 2 (μη πολικό)\nΔ. I₂ → 2 (μη πολικό)\nE. H₂O → 1, 2, 3 (δεσμός Η)\nΣτ. CH₃OH → 1, 2, 3 (δεσμός Η)"
-},
-  {
-  "q": "17. Να αντιστοιχίσετε τα ζεύγη των χημικών ενώσεων της στήλης Α με τα είδη των διαμοριακών δυνάμεων που αναπτύσσονται στην στήλη Β.\nΑ: A. HCl - HBr, B. NH₃ - H₂O, Γ. CO₂ - CO₂, Δ. Fe²⁺ - H₂O, E. HF - HF, Στ. CH₃OH - H₂O\nΒ: 1. Δεσμός Υδρογόνου, 2. Δεσμοί London, 3. Δεσμοί διπόλου-διπόλου, 4. Δεσμοί ιόντων-μορίων",
-  "a": "A. HCl - HBr → 2, 3\nB. NH₃ - H₂O → 1, 2, 3\nΓ. CO₂ - CO₂ → 2\nΔ. Fe²⁺ - H₂O → 4\nE. HF - HF → 1, 2, 3\nΣτ. CH₃OH - H₂O → 1, 2, 3"
-},
-  {
-  "q": "18. Να εξηγήσετε μεταξύ ποιων από τα ακόλουθα ζεύγη μορίων αναπτύσσονται οι ισχυρότερες διαμοριακές δυνάμεις:\n<sub>1</sub>. μορίων υδρογόνου ή μορίων ιωδίου\n<sub>2</sub>. μορίων εξανίου ή μορίων 2,3-διμεθυλοβουτανίου",
-  "a": "**1.** Τόσο το μόριο του H₂ όσο και το μόριο του I₂ είναι μη πολικά, επομένως μεταξύ τους αναπτύσσονται δεσμοί London. Επειδή το I₂ έχει υψηλότερη σχετική μοριακή μάζα (Mr), αναπτύσσονται ισχυρότερες δυνάμεις διασποράς (London) ανάμεσα στα μόριά του.\n**2.** Τόσο το εξάνιο όσο και το 2,3-διμεθυλοβουτάνιο είναι μη πολικά και έχουν την ίδια Mr (είναι ισομερή). Τα ευθύγραμμα μη πολωμένα μόρια εμφανίζουν ισχυρότερες δυνάμεις London από τα διακλαδισμένα, γιατί είναι πιο εύκολη η αλληλεπίδραση των μορίων. Έτσι το εξάνιο εμφανίζει ισχυρότερες δυνάμεις London από το διακλαδισμένο 2,3-διμεθυλοβουτάνιο."
-},
-  {
-  "q": "22. Να εξηγήσετε γιατί οι χημικές ενώσεις που έχουν δεσμούς υδρογόνου μεταξύ των μορίων τους έχουν αυξημένο σημείο βρασμού.",
-  "a": "Οι δεσμοί υδρογόνου είναι ισχυροί διαμοριακοί δεσμοί οι οποίοι συγκρατούν τα μόρια σε κοντινές αποστάσεις. Για να βράσει ένα σώμα, δηλαδή να μετατραπεί σε αέριο, θα πρέπει να προσλάβει ενέργεια ώστε τα μόρια να αποκτήσουν την απαραίτητη κινητική ενέργεια για να περάσουν στην αέρια φάση. Όσο πιο ισχυρά συγκρατούν τα μόρια τόσο μεγαλύτερη ποσότητα ενέργειας απαιτείται και επομένως τόσο υψηλότερο είναι το σημείο βρασμού."
-},
-  {
-  "q": "23. Στο διπλανό πίνακα δίνονται τα σημεία βρασμού μίας σειράς χημικών ουσιών. Να εξηγήσετε τις διαφορές στα σημεία βρασμού:\nα. υδροχλωρίου (188 K) - υδροφθορίου (293 K)\nβ. υδροφθορίου (293 K) - φθοριδίου του νατρίου (1970 K)\nγ. μεθανίου (111 K) - τετραχλωράνθρακα (350 K)\nδ. μεθανίου (111 K) - μεθανόλης (338 K)\nε. βουτανίου (273 K) - μεθυλοπροπανίου (261 K)",
-  "a": "**α.** Στο HF αναπτύσσονται δεσμοί υδρογόνου, ενώ στο HCl μόνο διπόλου-διπόλου και διασποράς. Οι δεσμοί υδρογόνου είναι ισχυρότεροι.\n**β.** Το NaF είναι ιοντική ένωση, άρα στο κρυσταλλικό πλέγμα ασκούνται ισχυρές ηλεκτροστατικές δυνάμεις Coulomb (ενδομοριακοί δεσμοί πρακτικά), πολύ ισχυρότερες από τους διαμοριακούς δεσμούς υδρογόνου του HF.\n**γ.** Και τα δύο είναι μη πολικά, αλλά ο CCl₄ έχει πολύ μεγαλύτερη Mr, άρα ισχυρότερες δυνάμεις διασποράς (London).\n**δ.** Στη μεθανόλη (CH₃OH) αναπτύσσονται δεσμοί υδρογόνου, ενώ στο μη πολικό μεθάνιο (CH₄) μόνο ασθενείς δυνάμεις διασποράς.\n**ε.** Είναι ισομερή (ίδια Mr), άρα και τα δύο μη πολικά. Το βουτάνιο (ευθύγραμμο) εμφανίζει ισχυρότερες δυνάμεις London από το μεθυλοπροπάνιο (διακλαδισμένο), λόγω μεγαλύτερης επιφάνειας επαφής."
-},
-  {
-  "q": "25. Να αιτιολογήσετε τις ακόλουθες προτάσεις:\nα. Το στοιχείο Cl₂ έχει σημείο βρασμού -34 °C, ενώ το HCl έχει σημείο βρασμού -85 °C, παρότι έχει πολωμένους δεσμούς.\nβ. Το HBr έχει σημείο βρασμού -67 °C και διπολική ροπή 0,827 D, ενώ το HI έχει σημείο βρασμού -35 °C και διπολική ροπή 0,448 D.\nγ. Παρότι ο δεσμός H-F είναι περισσότερο πολωμένος από τον δεσμό H-O, το νερό έχει πολύ υψηλότερο σημείο βρασμού από το υδροφθόριο.\nδ. Παρότι η αμμωνία έχει μικρότερη σχετική μοριακή μάζα, έχει πολύ υψηλότερο σημείο βρασμού από το υδρόθειο.\nε. Κάτω από ορισμένες συνθήκες τα μονοατομικά μόρια των ευγενών αερίων μπορούν να υγροποιηθούν.",
-  "a": "**α.** Το Cl₂ είναι μη πολικό (δυνάμεις London) και το HCl δίπολο. Όμως, η Mr του Cl₂ (71) είναι πολύ μεγαλύτερη από του HCl (36,5), γεγονός που καθιστά τις δυνάμεις London στο Cl₂ ισχυρότερες από το σύνολο των διαμοριακών δυνάμεων στο HCl.\n**β.** Το HBr είναι πιο πολικό από το HI, όμως το HI έχει σημαντικά μεγαλύτερη Mr. Οι αυξημένες δυνάμεις London στο HI υπερισχύουν της διαφοράς πολικότητας, δίνοντας του υψηλότερο Σ.Β.\n**γ.** Το μόριο του H₂O σχηματίζει περισσότερους δεσμούς υδρογόνου ανά μόριο σε σχέση με το HF, δημιουργώντας ένα ισχυρότερο τρισδιάστατο πλέγμα διαμοριακών δεσμών, γι' αυτό και έχει υψηλότερο Σ.Β.\n**δ.** Στην αμμωνία (NH₃) αναπτύσσονται δεσμοί υδρογόνου (πολύ ισχυροί), ενώ στο υδρόθειο (H₂S) όχι (μόνο διπόλου-διπόλου), παρά τη μεγαλύτερη Mr του.\n**ε.** Στα άτομα των ευγενών αερίων δημιουργούνται στιγμιαία δίπολα λόγω της συνεχούς κίνησης των ηλεκτρονίων (δυνάμεις London). Αυτές οι ασθενείς δυνάμεις επιτρέπουν την υγροποίησή τους σε πολύ χαμηλές θερμοκρασίες."
-},
-  {
-  "q": "26. Να αντιστοιχίσετε την κάθε χημική ένωση της στήλης Α με το σημείο βρασμού της που αναφέρεται στη στήλη Β.\nΑ: A. NaCl, B. HCl, Γ. H₂O, Δ. HF, E. HI, Z. HBr\nΒ: α. -67 °C, β. 19 °C, γ. 1465 °C, δ. -85 °C, ε. 100 °C, ζ. -35 °C",
-  "a": "A. NaCl → γ (1465 °C) - Ιοντική ένωση (το υψηλότερο).\nΓ. H₂O → ε (100 °C) - Δεσμοί υδρογόνου (πολλοί).\nΔ. HF → β (19 °C) - Δεσμοί υδρογόνου (λιγότεροι).\nE. HI → ζ (-35 °C) - Μεγαλύτερη Mr από τα υπόλοιπα υδραλογόνα (εκτός HF).\nZ. HBr → α (-67 °C) - Μεσαία Mr.\nB. HCl → δ (-85 °C) - Μικρότερη Mr (εξαιρουμένου του HF που έχει δεσμούς Η)."
-},
-  {
-  "q": "27. Να αιτιολογήσετε τις ακόλουθες προτάσεις οι οποίες είναι όλες σωστές:\nα. Το σημείο βρασμού του υδροβρωμίου (HBr) είναι χαμηλότερο από το σημείο βρασμού του υδροιωδίου (HI).\nβ. Μεταξύ της NH₃ και της PH₃ πιο εύκολα υγροποιείται η αμμωνία, ενώ μεταξύ της φωσφίνης (PH₃) και της αρσίνης (AsH₃) πιο εύκολα υγροποιείται η αρσίνη.",
-  "a": "**α.** Το HI έχει σημαντικά μεγαλύτερη Mr από το HBr. Καθώς και τα δύο είναι δίπολα (χωρίς δεσμούς Η), οι ισχυρότερες δυνάμεις London στο HI έχουν ως αποτέλεσμα το υψηλότερο σημείο βρασμού του.\n**β.** Η NH₃ έχει δεσμούς υδρογόνου (ισχυροί), ενώ η PH₃ όχι, οπότε η NH₃ υγροποιείται πιο εύκολα (υψηλότερο Σ.Β.). Μεταξύ PH₃ και AsH₃ δεν υπάρχουν δεσμοί υδρογόνου, αλλά η AsH₃ έχει μεγαλύτερη Mr, άρα ισχυρότερες δυνάμεις London και επομένως υγροποιείται πιο εύκολα."
-},
-  {
-  "q": "33. Να διατάξετε τις ακόλουθες ουσίες κατά σειρά αυξανόμενου σημείου βρασμού:\nA: H₂O, B: H₂, Γ: NaF, Δ: CH₃CH₃, E: CH₃OCH₃",
-  "a": "B(H₂) < Δ(CH₃CH₃) < E(CH₃OCH₃) < A(H₂O) < Γ(NaF).\nΕξήγηση:\n- B: H₂, μη πολικό, ελάχιστη Mr (μικρότερο Σ.Β.).\n- Δ: CH₃CH₃, μη πολικό, μεγαλύτερη Mr από H₂.\n- E: CH₃OCH₃, δίπολο (δυνάμεις διπόλου-διπόλου).\n- A: H₂O, δεσμοί υδρογόνου (πολύ ισχυρές).\n- Γ: NaF, ιοντική ένωση (πολύ υψηλό Σ.Β.)."
-},
-  {
-  "q": "34. Στις ερωτήσεις να συμπληρώσετε Σ δίπλα σε κάθε σωστή πρόταση και Λ δίπλα σε κάθε λανθασμένη.\nΑ. Διαμοριακές δυνάμεις αναπτύσσονται μόνο μεταξύ διπόλων μορίων ή διπόλων μορίων και ιόντων.\nΒ. Η φυσική κατάσταση των ουσιών εξαρτάται από την ισχύ των διαμοριακών δυνάμεων που αναπτύσσονται μεταξύ των μορίων τους.\nΓ. Τα άλατα είναι στερεά, γιατί μεταξύ των μορίων τους αναπτύσσονται ισχυρές διαμοριακές δυνάμεις.\nΔ. Οι διαμοριακές δυνάμεις είναι δυνάμεις ηλεκτροστατικής φύσης.\nΕ. Ο τετραχλωράνθρακας (CCl₄) είναι εξαιρετικός μη πολικός διαλύτης.\nΣΤ. Το νερό διαλύει πολύ εύκολα το μεθάνιο (CH₄).",
-  "a": "**Α. Λανθασμένη.** (Αναπτύσσονται και μεταξύ μη πολικών μορίων - δυνάμεις London).\n**Β. Σωστή.**\n**Γ. Λανθασμένη.** (Τα άλατα αποτελούνται από ιόντα, όχι μόρια, και οι δυνάμεις είναι ενδομοριακές Coulomb στο κρυσταλλικό πλέγμα).\n**Δ. Σωστή.**\n**Ε. Σωστή.**\n**ΣΤ. Λανθασμένη.** (Το νερό είναι πολικό, το μεθάνιο μη πολικό, άρα δε διαλύεται)."
-},
-  {
-  "q": "35. Να χαρακτηρίσετε τις ακόλουθες προτάσεις ως σωστές ή λανθασμένες και να αιτιολογήσετε πλήρως την επιλογή σας.\nα. Όταν το υγρό νερό μετατρέπεται σε υδρατμό οι διαμοριακές δυνάμεις εξασθενούν.\nβ. Μεταξύ των μορίων του υδροιωδίου και του ιωδίου αναπτύσσονται δυνάμεις διπόλου - διπόλου.\nγ. Όταν ένα μόριο χημικής ένωσης έχει πολωμένους ομοιοπολικούς δεσμούς, τότε μεταξύ των μορίων του αναπτύσσονται δυνάμεις διπόλου - διπόλου.\nδ. Όσο περισσότερο ηλεκτραρνητικό είναι ένα στοιχείο Χ τόσο πιο πολωμένος είναι ο δεσμός Η-Χ.\nε. Δυνάμεις διασποράς ή London αναπτύσσονται μεταξύ των μορίων όλων των στοιχείων και των χημικών ενώσεων.\nστ. Το εξάνιο διαλύεται στο τετραχλωράνθρακα, αλλά δεν διαλύεται στο νερό.\nζ. Κάθε μόριο με πολωμένους δεσμούς είναι δίπολο.\nη. Από τις ουσίες HCl, NH₃, CH₄ στο βενζόλιο (C₆H₆) διαλύεται μόνο το CH₄.\nθ. Το H₂O είναι μία πολική ουσία, επομένως μπορεί να διαλύσει μόνο μη πολικές ουσίες.",
-  "a": "**α. Σωστή.** Στην αέρια κατάσταση τα μόρια απομακρύνονται και οι διαμοριακές δυνάμεις καθίστανται ιδιαίτερα ασθενείς.\n**β. Λανθασμένη.** Το HI είναι δίπολο αλλά το I₂ είναι μη πολικό μόριο. Μεταξύ τους αναπτύσσονται δυνάμεις London.\n**γ. Λανθασμένη.** Το μόριο μπορεί να έχει πολωμένους δεσμούς αλλά να είναι μη πολικό λόγω γεωμετρίας (π.χ. CO₂, CCl₄), οπότε δεν αναπτύσσονται δυνάμεις διπόλου-διπόλου.\n**δ. Σωστή.** Μεγαλύτερη ηλεκτραρνητικότητα του Χ σημαίνει μεγαλύτερη διαφορά ηλεκτραρνητικότητας με το Η, άρα πιο πολωμένος δεσμός.\n**ε. Σωστή.** Οι δυνάμεις London (λόγω στιγμιαίων διπόλων) υπάρχουν σε όλα τα μόρια (πολικά και μη).\n**στ. Σωστή.** Το εξάνιο είναι μη πολικό, άρα διαλύεται στον μη πολικό CCl₄ (τα όμοια διαλύουν τα όμοια) αλλά όχι στο πολικό νερό.\n**ζ. Λανθασμένη.** Απαιτείται επιπλέον η συνισταμένη των διπολικών ροπών των δεσμών να μην είναι μηδέν (εξαρτάται από τη γεωμετρία).\n**η. Σωστή.** Το βενζόλιο είναι μη πολικός διαλύτης. Από τις τρεις ενώσεις μόνο το CH₄ είναι μη πολικό, άρα μόνο αυτό διαλύεται.\n**θ. Λανθασμένη.** Το πολικό νερό διαλύει πολικές ουσίες και ιοντικές ενώσεις, όχι μη πολικές."
-}
+    "q": "35. Να χαρακτηρίσετε τις ακόλουθες προτάσεις ως σωστές ή λανθασμένες και να αιτιολογήσετε πλήρως την επιλογή σας.\nα. Όταν το υγρό νερό μετατρέπεται σε υδρατμό οι διαμοριακές δυνάμεις εξασθενούν.\nβ. Μεταξύ των μορίων του υδροιωδίου και του ιωδίου αναπτύσσονται δυνάμεις διπόλου - διπόλου.\nγ. Όταν ένα μόριο χημικής ένωσης έχει πολωμένους ομοιοπολικούς δεσμούς, τότε μεταξύ των μορίων του αναπτύσσονται δυνάμεις διπόλου - διπόλου.\nδ. Όσο περισσότερο ηλεκτραρνητικό είναι ένα στοιχείο Χ τόσο πιο πολωμένος είναι ο δεσμός Η-Χ.\nε. Δυνάμεις διασποράς ή London αναπτύσσονται μεταξύ των μορίων όλων των στοιχείων και των χημικών ενώσεων.\nστ. Το εξάνιο διαλύεται στο τετραχλωράνθρακα, αλλά δεν διαλύεται στο νερό.\nζ. Κάθε μόριο με πολωμένους δεσμούς είναι δίπολο.\nη. Από τις ουσίες HCl, NH₃, CH₄ στο βενζόλιο (C₆H₆) διαλύεται μόνο το CH₄.\nθ. Το H₂O είναι μία πολική ουσία, επομένως μπορεί να διαλύσει μόνο μη πολικές ουσίες.",
+    "a": "**α. Σωστή.** Στην αέρια κατάσταση τα μόρια απομακρύνονται και οι διαμοριακές δυνάμεις καθίστανται ιδιαίτερα ασθενείς.\n**β. Λανθασμένη.** Το HI είναι δίπολο αλλά το I₂ είναι μη πολικό μόριο. Μεταξύ τους αναπτύσσονται δυνάμεις London.\n**γ. Λανθασμένη.** Το μόριο μπορεί να έχει πολωμένους δεσμούς αλλά να είναι μη πολικό λόγω γεωμετρίας (π.χ. CO₂, CCl₄), οπότε δεν αναπτύσσονται δυνάμεις διπόλου-διπόλου.\n**δ. Σωστή.** Μεγαλύτερη ηλεκτραρνητικότητα του Χ σημαίνει μεγαλύτερη διαφορά ηλεκτραρνητικότητας με το Η, άρα πιο πολωμένος δεσμός.\n**ε. Σωστή.** Οι δυνάμεις London (λόγω στιγμιαίων διπόλων) υπάρχουν σε όλα τα μόρια (πολικά και μη).\n**στ. Σωστή.** Το εξάνιο είναι μη πολικό, άρα διαλύεται στον μη πολικό CCl₄ (τα όμοια διαλύουν τα όμοια) αλλά όχι στο πολικό νερό.\n**ζ. Λανθασμένη.** Απαιτείται επιπλέον η συνισταμένη των διπολικών ροπών των δεσμών να μην είναι μηδέν (εξαρτάται από τη γεωμετρία).\n**η. Σωστή.** Το βενζόλιο είναι μη πολικός διαλύτης. Από τις τρεις ενώσεις μόνο το CH₄ είναι μη πολικό, άρα μόνο αυτό διαλύεται.\n**θ. Λανθασμένη.** Το πολικό νερό διαλύει πολικές ουσίες και ιοντικές ενώσεις, όχι μη πολικές."
+  }
 ];
 
 export const ch3MCQ: MCQ[] = [
   {
-  "q": "Πολωμένος ομοιοπολικός δεσμός σχηματίζεται με αμοιβαία συνεισφορά ηλεκτρονίων:",
-  "options": [
-    {
-      "text": "Μεταξύ ενός μετάλλου και ενός αμέταλλου",
-      "correct": false
-    },
-    {
-      "text": "Μεταξύ των ατόμων ενός αμέταλλου στοιχείου",
-      "correct": false
-    },
-    {
-      "text": "Μεταξύ των ατόμων δύο διαφορετικών αμέταλλων",
-      "correct": true
-    },
-    {
-      "text": "Μεταξύ ενός αμέταλλου και ενός ευγενούς αερίου",
-      "correct": false
-    }
-  ],
-  "explanation": "Ο πολωμένος ομοιοπολικός δεσμός σχηματίζεται μεταξύ ατόμων διαφορετικών αμέταλλων στοιχείων (διαφορετική ηλεκτραρνητικότητα)."
-},
+    "q": "Πολωμένος ομοιοπολικός δεσμός σχηματίζεται με αμοιβαία συνεισφορά ηλεκτρονίων:",
+    "options": [
+      {
+        "text": "Μεταξύ ενός μετάλλου και ενός αμέταλλου",
+        "correct": false
+      },
+      {
+        "text": "Μεταξύ των ατόμων ενός αμέταλλου στοιχείου",
+        "correct": false
+      },
+      {
+        "text": "Μεταξύ των ατόμων δύο διαφορετικών αμέταλλων",
+        "correct": true
+      },
+      {
+        "text": "Μεταξύ ενός αμέταλλου και ενός ευγενούς αερίου",
+        "correct": false
+      }
+    ],
+    "explanation": "Ο πολωμένος ομοιοπολικός δεσμός σχηματίζεται μεταξύ ατόμων διαφορετικών αμέταλλων στοιχείων (διαφορετική ηλεκτραρνητικότητα)."
+  },
   {
-  "q": "Ποια από τις ακόλουθες διατάξεις τοποθετεί τα άτομα των στοιχείων: ₁₇Cl, ₅₃I, ₃₅Br, ₉F κατά αυξανόμενη ηλεκτραρνητικότητα;",
-  "options": [
-    {
-      "text": "F < Cl < Br < I",
-      "correct": false
-    },
-    {
-      "text": "I < Br < Cl < F",
-      "correct": true
-    },
-    {
-      "text": "I < F < Cl < Br",
-      "correct": false
-    },
-    {
-      "text": "I < Br < F < Cl",
-      "correct": false
-    }
-  ],
-  "explanation": "Τα στοιχεία ανήκουν στην 17η ομάδα. Η ηλεκτραρνητικότητα αυξάνεται από κάτω προς τα πάνω: I < Br < Cl < F."
-},
+    "q": "Ποια από τις ακόλουθες διατάξεις τοποθετεί τα άτομα των στοιχείων: ₁₇Cl, ₅₃I, ₃₅Br, ₉F κατά αυξανόμενη ηλεκτραρνητικότητα;",
+    "options": [
+      {
+        "text": "F < Cl < Br < I",
+        "correct": false
+      },
+      {
+        "text": "I < Br < Cl < F",
+        "correct": true
+      },
+      {
+        "text": "I < F < Cl < Br",
+        "correct": false
+      },
+      {
+        "text": "I < Br < F < Cl",
+        "correct": false
+      }
+    ],
+    "explanation": "Τα στοιχεία ανήκουν στην 17η ομάδα. Η ηλεκτραρνητικότητα αυξάνεται από κάτω προς τα πάνω: I < Br < Cl < F."
+  },
   {
-  "q": "Μεταξύ των ατόμων των στοιχείων ₇X και ₁₂Ψ σχηματίζεται η:",
-  "options": [
-    {
-      "text": "ιοντική ένωση XΨ",
-      "correct": false
-    },
-    {
-      "text": "ομοιοπολική ένωση XΨ",
-      "correct": false
-    },
-    {
-      "text": "ιοντική ένωση Ψ₃X₂",
-      "correct": true
-    },
-    {
-      "text": "ομοιοπολική ένωση ΨX₂",
-      "correct": false
-    }
-  ],
-  "explanation": "Το Ψ (Z=12) είναι το Mg, μέταλλο της 2ης ομάδας (Ψ²⁺). Το X (Z=7) είναι το N, αμέταλλο της 15ης ομάδας (X³⁻). Σχηματίζουν ιοντική ένωση Ψ₃X₂."
-},
+    "q": "Μεταξύ των ατόμων των στοιχείων ₇X και ₁₂Ψ σχηματίζεται η:",
+    "options": [
+      {
+        "text": "ιοντική ένωση XΨ",
+        "correct": false
+      },
+      {
+        "text": "ομοιοπολική ένωση XΨ",
+        "correct": false
+      },
+      {
+        "text": "ιοντική ένωση Ψ₃X₂",
+        "correct": true
+      },
+      {
+        "text": "ομοιοπολική ένωση ΨX₂",
+        "correct": false
+      }
+    ],
+    "explanation": "Το Ψ (Z=12) είναι το Mg, μέταλλο της 2ης ομάδας (Ψ²⁺). Το X (Z=7) είναι το N, αμέταλλο της 15ης ομάδας (X³⁻). Σχηματίζουν ιοντική ένωση Ψ₃X₂."
+  },
   {
-  "q": "28. Ποια από τις ακόλουθες προτάσεις που αφορά τη χημική ένωση KNO₃ είναι σωστή;",
-  "options": [
-    {
-      "text": "μπορεί να είναι στερεή, υγρή ή αέρια σε συνθήκες περιβάλλοντος.",
-      "correct": false
-    },
-    {
-      "text": "δε διαλύεται στο νερό, αλλά διαλύεται στους οργανικούς διαλύτες.",
-      "correct": false
-    },
-    {
-      "text": "έχει χαμηλό σημείο τήξης.",
-      "correct": false
-    },
-    {
-      "text": "σχηματίζει υδατικά διαλύματα που άγουν το ηλεκτρικό ρεύμα.",
-      "correct": true
-    }
-  ],
-  "explanation": "Το KNO₃ είναι ιοντική ένωση (άλας). Οι ιοντικές ενώσεις διαλύονται στο νερό και τα υδατικά τους διαλύματα άγουν το ηλεκτρικό ρεύμα."
-},
+    "q": "28. Ποια από τις ακόλουθες προτάσεις που αφορά τη χημική ένωση KNO₃ είναι σωστή;",
+    "options": [
+      {
+        "text": "μπορεί να είναι στερεή, υγρή ή αέρια σε συνθήκες περιβάλλοντος.",
+        "correct": false
+      },
+      {
+        "text": "δε διαλύεται στο νερό, αλλά διαλύεται στους οργανικούς διαλύτες.",
+        "correct": false
+      },
+      {
+        "text": "έχει χαμηλό σημείο τήξης.",
+        "correct": false
+      },
+      {
+        "text": "σχηματίζει υδατικά διαλύματα που άγουν το ηλεκτρικό ρεύμα.",
+        "correct": true
+      }
+    ],
+    "explanation": "Το KNO₃ είναι ιοντική ένωση (άλας). Οι ιοντικές ενώσεις διαλύονται στο νερό και τα υδατικά τους διαλύματα άγουν το ηλεκτρικό ρεύμα."
+  },
   {
-  "q": "29. Το στοιχείο ₆X έχει στην εξωτερική του στιβάδα:",
-  "options": [
-    {
-      "text": "2 ζεύγη e και 2 μονήρη e",
-      "correct": false
-    },
-    {
-      "text": "4 μονήρη e",
-      "correct": true
-    },
-    {
-      "text": "4 μονήρη e και ένα ζεύγος e",
-      "correct": false
-    },
-    {
-      "text": "2 ζεύγη e",
-      "correct": false
-    }
-  ],
-  "explanation": "Το ₆X (Άνθρακας) έχει δομή K(2) L(4). Στην εξωτερική του στιβάδα (L) διαθέτει 4 ηλεκτρόνια, τα οποία κατά τον σχηματισμό δεσμών (σύμβολο Lewis) εμφανίζονται ως 4 μονήρη."
-},
+    "q": "29. Το στοιχείο ₆X έχει στην εξωτερική του στιβάδα:",
+    "options": [
+      {
+        "text": "2 ζεύγη e και 2 μονήρη e",
+        "correct": false
+      },
+      {
+        "text": "4 μονήρη e",
+        "correct": true
+      },
+      {
+        "text": "4 μονήρη e και ένα ζεύγος e",
+        "correct": false
+      },
+      {
+        "text": "2 ζεύγη e",
+        "correct": false
+      }
+    ],
+    "explanation": "Το ₆X (Άνθρακας) έχει δομή K(2) L(4). Στην εξωτερική του στιβάδα (L) διαθέτει 4 ηλεκτρόνια, τα οποία κατά τον σχηματισμό δεσμών (σύμβολο Lewis) εμφανίζονται ως 4 μονήρη."
+  },
   {
-  "q": "Από τις ακόλουθες ενώσεις εμφανίζει μεγαλύτερη τιμή διπολικής ροπής:",
-  "options": [
-    {
-      "text": "HF",
-      "correct": true
-    },
-    {
-      "text": "HCl",
-      "correct": false
-    },
-    {
-      "text": "HBr",
-      "correct": false
-    },
-    {
-      "text": "HI",
-      "correct": false
-    }
-  ],
-  "explanation": "Το F είναι το πιο ηλεκτραρνητικό αλογόνο, επομένως η διαφορά ηλεκτραρνητικότητας μεταξύ H και F είναι η μεγαλύτερη, με αποτέλεσμα το μόριο HF να έχει τη μεγαλύτερη διπολική ροπή."
-},
+    "q": "Από τις ακόλουθες ενώσεις εμφανίζει μεγαλύτερη τιμή διπολικής ροπής:",
+    "options": [
+      {
+        "text": "HF",
+        "correct": true
+      },
+      {
+        "text": "HCl",
+        "correct": false
+      },
+      {
+        "text": "HBr",
+        "correct": false
+      },
+      {
+        "text": "HI",
+        "correct": false
+      }
+    ],
+    "explanation": "Το F είναι το πιο ηλεκτραρνητικό αλογόνο, επομένως η διαφορά ηλεκτραρνητικότητας μεταξύ H και F είναι η μεγαλύτερη, με αποτέλεσμα το μόριο HF να έχει τη μεγαλύτερη διπολική ροπή."
+  },
   {
-  "q": "Το μεθάνιο (CH₄) είναι ένα μη πολικό μόριο και αυτό οφείλεται:",
-  "options": [
-    {
-      "text": "στο ότι οι χημικοί δεσμοί C-H δεν είναι πολωμένοι.",
-      "correct": false
-    },
-    {
-      "text": "στη γεωμετρία του μορίου (συμμετρικό τετραεδρικό μόριο).",
-      "correct": true
-    },
-    {
-      "text": "στο ότι το μόριο είναι ηλεκτρικά ουδέτερο.",
-      "correct": false
-    },
-    {
-      "text": "στο γεγονός ότι η διπολική ροπή κάθε δεσμού C-H είναι ίση με το 0.",
-      "correct": false
-    }
-  ],
-  "explanation": "Οι δεσμοί C-H είναι πολωμένοι, αλλά λόγω της συμμετρικής τετραεδρικής γεωμετρίας του μορίου, οι διπολικές ροπές αλληλοεξουδετερώνονται (συνισταμένη μ = 0)."
-},
+    "q": "Το μεθάνιο (CH₄) είναι ένα μη πολικό μόριο και αυτό οφείλεται:",
+    "options": [
+      {
+        "text": "στο ότι οι χημικοί δεσμοί C-H δεν είναι πολωμένοι.",
+        "correct": false
+      },
+      {
+        "text": "στη γεωμετρία του μορίου (συμμετρικό τετραεδρικό μόριο).",
+        "correct": true
+      },
+      {
+        "text": "στο ότι το μόριο είναι ηλεκτρικά ουδέτερο.",
+        "correct": false
+      },
+      {
+        "text": "στο γεγονός ότι η διπολική ροπή κάθε δεσμού C-H είναι ίση με το 0.",
+        "correct": false
+      }
+    ],
+    "explanation": "Οι δεσμοί C-H είναι πολωμένοι, αλλά λόγω της συμμετρικής τετραεδρικής γεωμετρίας του μορίου, οι διπολικές ροπές αλληλοεξουδετερώνονται (συνισταμένη μ = 0)."
+  },
   {
-  "q": "Από τις ακόλουθες ενώσεις έχει δεσμούς υδρογόνου μεταξύ των μορίων της η:",
-  "options": [
-    {
-      "text": "HCl",
-      "correct": false
-    },
-    {
-      "text": "HI",
-      "correct": false
-    },
-    {
-      "text": "NH₃",
-      "correct": true
-    },
-    {
-      "text": "H₂S",
-      "correct": false
-    }
-  ],
-  "explanation": "Η NH₃ έχει άτομο υδρογόνου ενωμένο απευθείας με άζωτο (Ν), το οποίο είναι ένα από τα τρία πολύ ηλεκτραρνητικά στοιχεία (N, O, F) που απαιτούνται για το σχηματισμό δεσμού υδρογόνου."
-},
+    "q": "Από τις ακόλουθες ενώσεις έχει δεσμούς υδρογόνου μεταξύ των μορίων της η:",
+    "options": [
+      {
+        "text": "HCl",
+        "correct": false
+      },
+      {
+        "text": "HI",
+        "correct": false
+      },
+      {
+        "text": "NH₃",
+        "correct": true
+      },
+      {
+        "text": "H₂S",
+        "correct": false
+      }
+    ],
+    "explanation": "Η NH₃ έχει άτομο υδρογόνου ενωμένο απευθείας με άζωτο (Ν), το οποίο είναι ένα από τα τρία πολύ ηλεκτραρνητικά στοιχεία (N, O, F) που απαιτούνται για το σχηματισμό δεσμού υδρογόνου."
+  },
   {
-  "q": "Μεταξύ HCl και HBr, το HBr έχει υψηλότερο σημείο βρασμού γιατί:",
-  "options": [
-    {
-      "text": "Ο δεσμός H-Cl είναι περισσότερο πολωμένος από το δεσμό H-Br",
-      "correct": false
-    },
-    {
-      "text": "Μεταξύ των μορίων του HBr αναπτύσσονται δεσμοί υδρογόνου",
-      "correct": false
-    },
-    {
-      "text": "Η σχετική μοριακή μάζα του HBr είναι μεγαλύτερη από του HCl",
-      "correct": true
-    },
-    {
-      "text": "Μεταξύ των μορίων του HBr αναπτύσσονται δεσμοί Van der Waals, ενώ μεταξύ του HCl δεσμοί London",
-      "correct": false
-    }
-  ],
-  "explanation": "Και τα δύο είναι δίπολα χωρίς δεσμούς υδρογόνου. Το HBr έχει μεγαλύτερη Mr, επομένως έχει ισχυρότερες δυνάμεις διασποράς (London) που οδηγούν σε υψηλότερο σημείο βρασμού."
-},
+    "q": "Μεταξύ HCl και HBr, το HBr έχει υψηλότερο σημείο βρασμού γιατί:",
+    "options": [
+      {
+        "text": "Ο δεσμός H-Cl είναι περισσότερο πολωμένος από το δεσμό H-Br",
+        "correct": false
+      },
+      {
+        "text": "Μεταξύ των μορίων του HBr αναπτύσσονται δεσμοί υδρογόνου",
+        "correct": false
+      },
+      {
+        "text": "Η σχετική μοριακή μάζα του HBr είναι μεγαλύτερη από του HCl",
+        "correct": true
+      },
+      {
+        "text": "Μεταξύ των μορίων του HBr αναπτύσσονται δεσμοί Van der Waals, ενώ μεταξύ του HCl δεσμοί London",
+        "correct": false
+      }
+    ],
+    "explanation": "Και τα δύο είναι δίπολα χωρίς δεσμούς υδρογόνου. Το HBr έχει μεγαλύτερη Mr, επομένως έχει ισχυρότερες δυνάμεις διασποράς (London) που οδηγούν σε υψηλότερο σημείο βρασμού."
+  },
   {
-  "q": "Από τις ακόλουθες ενώσεις δεν μπορεί να σχηματιστεί δεσμός υδρογόνου μεταξύ των μορίων της ένωσης:",
-  "options": [
-    {
-      "text": "CH₃COOH",
-      "correct": false
-    },
-    {
-      "text": "CH₃CH₂OH",
-      "correct": false
-    },
-    {
-      "text": "CH₃CH₂NH₂",
-      "correct": false
-    },
-    {
-      "text": "(CH₃)₃N",
-      "correct": true
-    }
-  ],
-  "explanation": "Η ένωση (CH₃)₃N (τριμεθυλαμίνη) έχει το άζωτο ενωμένο μόνο με άτομα άνθρακα, δεν έχει Η απευθείας ενωμένο με το Ν. Επομένως, δεν σχηματίζει δεσμούς υδρογόνου."
-},
+    "q": "Από τις ακόλουθες ενώσεις δεν μπορεί να σχηματιστεί δεσμός υδρογόνου μεταξύ των μορίων της ένωσης:",
+    "options": [
+      {
+        "text": "CH₃COOH",
+        "correct": false
+      },
+      {
+        "text": "CH₃CH₂OH",
+        "correct": false
+      },
+      {
+        "text": "CH₃CH₂NH₂",
+        "correct": false
+      },
+      {
+        "text": "(CH₃)₃N",
+        "correct": true
+      }
+    ],
+    "explanation": "Η ένωση (CH₃)₃N (τριμεθυλαμίνη) έχει το άζωτο ενωμένο μόνο με άτομα άνθρακα, δεν έχει Η απευθείας ενωμένο με το Ν. Επομένως, δεν σχηματίζει δεσμούς υδρογόνου."
+  },
   {
-  "q": "Οι δυνάμεις που αναπτύσσονται μεταξύ των μορίων των ομοιοπολικών ενώσεων δεν επηρεάζουν:",
-  "options": [
-    {
-      "text": "τη σχετική μοριακή μάζα των ουσιών",
-      "correct": true
-    },
-    {
-      "text": "τη φυσική κατάσταση των ουσιών",
-      "correct": false
-    },
-    {
-      "text": "το σημείο βρασμού των ουσιών",
-      "correct": false
-    },
-    {
-      "text": "τη διαλυτότητα των ουσιών στο νερό",
-      "correct": false
-    }
-  ],
-  "explanation": "Η σχετική μοριακή μάζα εξαρτάται μόνο από το είδος και τον αριθμό των ατόμων στο μόριο, όχι από τις διαμοριακές δυνάμεις."
-},
+    "q": "Οι δυνάμεις που αναπτύσσονται μεταξύ των μορίων των ομοιοπολικών ενώσεων δεν επηρεάζουν:",
+    "options": [
+      {
+        "text": "τη σχετική μοριακή μάζα των ουσιών",
+        "correct": true
+      },
+      {
+        "text": "τη φυσική κατάσταση των ουσιών",
+        "correct": false
+      },
+      {
+        "text": "το σημείο βρασμού των ουσιών",
+        "correct": false
+      },
+      {
+        "text": "τη διαλυτότητα των ουσιών στο νερό",
+        "correct": false
+      }
+    ],
+    "explanation": "Η σχετική μοριακή μάζα εξαρτάται μόνο από το είδος και τον αριθμό των ατόμων στο μόριο, όχι από τις διαμοριακές δυνάμεις."
+  },
   {
-  "q": "Η σωστή διάταξη των σημείων βρασμού των ουσιών:\nA: CH₃CH₂CH₂CH₃, B: CH₃CH₂CH₃, Γ: CH₃CH₂OH, Δ: (CH₃)₂CHCH₃ είναι:",
-  "options": [
-    {
-      "text": "Σ.Β(Α)<Σ.Β(Β)<Σ.Β(Γ)<Σ.Β(Δ)",
-      "correct": false
-    },
-    {
-      "text": "Σ.Β(Β)<Σ.Β(Δ)<Σ.Β(Α)<Σ.Β(Γ)",
-      "correct": true
-    },
-    {
-      "text": "Σ.Β(Δ)<Σ.Β(Β)<Σ.Β(Α)<Σ.Β(Γ)",
-      "correct": false
-    },
-    {
-      "text": "Σ.Β(Β)<Σ.Β(Α)<Σ.Β(Δ)<Σ.Β(Γ)",
-      "correct": false
-    }
-  ],
-  "explanation": "Η ουσία Γ (αλκοόλη) έχει δεσμούς υδρογόνου, άρα έχει το μεγαλύτερο Σ.Β. Το Β (προπάνιο) έχει τη μικρότερη Mr (μικρότερο Σ.Β.). Το Α και το Δ είναι ισομερή βουτάνια. Το Α (ευθύγραμμο) έχει υψηλότερο Σ.Β από το Δ (διακλαδισμένο). Άρα: Β < Δ < Α < Γ."
-},
+    "q": "Η σωστή διάταξη των σημείων βρασμού των ουσιών:\nA: CH₃CH₂CH₂CH₃, B: CH₃CH₂CH₃, Γ: CH₃CH₂OH, Δ: (CH₃)₂CHCH₃ είναι:",
+    "options": [
+      {
+        "text": "Σ.Β(Α)<Σ.Β(Β)<Σ.Β(Γ)<Σ.Β(Δ)",
+        "correct": false
+      },
+      {
+        "text": "Σ.Β(Β)<Σ.Β(Δ)<Σ.Β(Α)<Σ.Β(Γ)",
+        "correct": true
+      },
+      {
+        "text": "Σ.Β(Δ)<Σ.Β(Β)<Σ.Β(Α)<Σ.Β(Γ)",
+        "correct": false
+      },
+      {
+        "text": "Σ.Β(Β)<Σ.Β(Α)<Σ.Β(Δ)<Σ.Β(Γ)",
+        "correct": false
+      }
+    ],
+    "explanation": "Η ουσία Γ (αλκοόλη) έχει δεσμούς υδρογόνου, άρα έχει το μεγαλύτερο Σ.Β. Το Β (προπάνιο) έχει τη μικρότερη Mr (μικρότερο Σ.Β.). Το Α και το Δ είναι ισομερή βουτάνια. Το Α (ευθύγραμμο) έχει υψηλότερο Σ.Β από το Δ (διακλαδισμένο). Άρα: Β < Δ < Α < Γ."
+  },
   {
-  "q": "Ο τετραχλωράνθρακας (CCl₄) είναι εξαιρετικός διαλύτης για:",
-  "options": [
-    {
-      "text": "το HCl",
-      "correct": false
-    },
-    {
-      "text": "το NaCl",
-      "correct": false
-    },
-    {
-      "text": "το C₆H₁₄",
-      "correct": true
-    },
-    {
-      "text": "το H₂S",
-      "correct": false
-    }
-  ],
-  "explanation": "Ο CCl₄ είναι μη πολικός διαλύτης. «Τα όμοια διαλύουν τα όμοια», άρα θα διαλύσει καλά το εξάνιο (C₆H₁₄) που είναι επίσης μη πολική ένωση (υδρογονάνθρακας)."
-},
+    "q": "Ο τετραχλωράνθρακας (CCl₄) είναι εξαιρετικός διαλύτης για:",
+    "options": [
+      {
+        "text": "το HCl",
+        "correct": false
+      },
+      {
+        "text": "το NaCl",
+        "correct": false
+      },
+      {
+        "text": "το C₆H₁₄",
+        "correct": true
+      },
+      {
+        "text": "το H₂S",
+        "correct": false
+      }
+    ],
+    "explanation": "Ο CCl₄ είναι μη πολικός διαλύτης. «Τα όμοια διαλύουν τα όμοια», άρα θα διαλύσει καλά το εξάνιο (C₆H₁₄) που είναι επίσης μη πολική ένωση (υδρογονάνθρακας)."
+  },
   {
-  "q": "Δίνονται οι αλκοόλες: (I) 1-πεντανόλη (ευθύγραμμη), (II) 3-μεθυλο-1-βουτανόλη (διακλαδισμένη), (III) 2,2-διμεθυλο-1-προπανόλη (πολύ διακλαδισμένη), (IV) 2-πεντανόλη (διακλαδισμένη).\nΠοια από τις ενώσεις αναμένεται να έχει μεγαλύτερο σημείο βρασμού (στην ίδια πίεση);",
-  "options": [
-    {
-      "text": "Η (I)",
-      "correct": true
-    },
-    {
-      "text": "Η (II)",
-      "correct": false
-    },
-    {
-      "text": "Η (I/II)",
-      "correct": false
-    },
-    {
-      "text": "Η (IV)",
-      "correct": false
-    }
-  ],
-  "explanation": "Όλες είναι ισομερείς αλκοόλες (ίδια Mr). Το ευθύγραμμο μόριο (I) έχει μεγαλύτερη επιφάνεια επαφής, άρα ισχυρότερες δυνάμεις διασποράς (London) και συνεπώς το υψηλότερο σημείο βρασμού."
-},
+    "q": "Δίνονται οι αλκοόλες: (I) 1-πεντανόλη (ευθύγραμμη), (II) 3-μεθυλο-1-βουτανόλη (διακλαδισμένη), (III) 2,2-διμεθυλο-1-προπανόλη (πολύ διακλαδισμένη), (IV) 2-πεντανόλη (διακλαδισμένη).\nΠοια από τις ενώσεις αναμένεται να έχει μεγαλύτερο σημείο βρασμού (στην ίδια πίεση);",
+    "options": [
+      {
+        "text": "Η (I)",
+        "correct": true
+      },
+      {
+        "text": "Η (II)",
+        "correct": false
+      },
+      {
+        "text": "Η (I/II)",
+        "correct": false
+      },
+      {
+        "text": "Η (IV)",
+        "correct": false
+      }
+    ],
+    "explanation": "Όλες είναι ισομερείς αλκοόλες (ίδια Mr). Το ευθύγραμμο μόριο (I) έχει μεγαλύτερη επιφάνεια επαφής, άρα ισχυρότερες δυνάμεις διασποράς (London) και συνεπώς το υψηλότερο σημείο βρασμού."
+  },
   {
-  "q": "Από τα παρακάτω το μικρότερο σημείο βρασμού έχει:",
-  "options": [
-    {
-      "text": "το H₂",
-      "correct": true
-    },
-    {
-      "text": "το NaCl",
-      "correct": false
-    },
-    {
-      "text": "η CH₃CH₂OH",
-      "correct": false
-    },
-    {
-      "text": "το HCl",
-      "correct": false
-    }
-  ],
-  "explanation": "Το H₂ είναι μη πολικό μόριο με την ελάχιστη δυνατή σχετική μοριακή μάζα (Mr=2), επομένως έχει τις ασθενέστερες δυνάμεις London και το μικρότερο σημείο βρασμού από όλες τις ενώσεις."
-},
+    "q": "Από τα παρακάτω το μικρότερο σημείο βρασμού έχει:",
+    "options": [
+      {
+        "text": "το H₂",
+        "correct": true
+      },
+      {
+        "text": "το NaCl",
+        "correct": false
+      },
+      {
+        "text": "η CH₃CH₂OH",
+        "correct": false
+      },
+      {
+        "text": "το HCl",
+        "correct": false
+      }
+    ],
+    "explanation": "Το H₂ είναι μη πολικό μόριο με την ελάχιστη δυνατή σχετική μοριακή μάζα (Mr=2), επομένως έχει τις ασθενέστερες δυνάμεις London και το μικρότερο σημείο βρασμού από όλες τις ενώσεις."
+  },
   {
-  "q": "Από τις παρακάτω προτάσεις που αναφέρονται στις αλληλεπιδράσεις μορίων, σωστή είναι η:",
-  "options": [
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων H₂ είναι δεσμοί υδρογόνου, επειδή δημιουργούνται στιγμιαία δίπολα.",
-      "correct": false
-    },
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων H₂ είναι δεσμοί υδρογόνου, επειδή υπάρχουν μόνιμα δίπολα.",
-      "correct": false
-    },
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων Br₂ ανήκουν στην κατηγορία Van der Waals, επειδή δημιουργούνται στιγμιαία δίπολα.",
-      "correct": true
-    },
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων φωσφίνης (PH₃) είναι ισχυρότερες από τις διαμοριακές δυνάμεις μεταξύ των μορίων αμμωνίας (NH₃), επειδή τα μόρια της φωσφίνης έχουν μεγαλύτερη μάζα.",
-      "correct": false
-    }
-  ],
-  "explanation": "Το Br₂ είναι μη πολικό μόριο. Οι δυνάμεις μεταξύ των μορίων του είναι δυνάμεις διασποράς (London), οι οποίες οφείλονται σε στιγμιαία δίπολα και ανήκουν στην ευρύτερη κατηγορία των δυνάμεων Van der Waals."
-}
-,
-  {
-  "q": "Πολωμένος ομοιοπολικός δεσμός σχηματίζεται με αμοιβαία συνεισφορά ηλεκτρονίων:",
-  "options": [
-    {
-      "text": "Μεταξύ ενός μετάλλου και ενός αμέταλλου",
-      "correct": false
-    },
-    {
-      "text": "Μεταξύ των ατόμων ενός αμέταλλου στοιχείου",
-      "correct": false
-    },
-    {
-      "text": "Μεταξύ των ατόμων δύο διαφορετικών αμέταλλων",
-      "correct": true
-    },
-    {
-      "text": "Μεταξύ ενός αμέταλλου και ενός ευγενούς αερίου",
-      "correct": false
-    }
-  ],
-  "explanation": "Ο πολωμένος ομοιοπολικός δεσμός σχηματίζεται μεταξύ ατόμων διαφορετικών αμέταλλων στοιχείων (διαφορετική ηλεκτραρνητικότητα)."
-},
-  {
-  "q": "Ποια από τις ακόλουθες διατάξεις τοποθετεί τα άτομα των στοιχείων: ₁₇Cl, ₅₃I, ₃₅Br, ₉F κατά αυξανόμενη ηλεκτραρνητικότητα;",
-  "options": [
-    {
-      "text": "F < Cl < Br < I",
-      "correct": false
-    },
-    {
-      "text": "I < Br < Cl < F",
-      "correct": true
-    },
-    {
-      "text": "I < F < Cl < Br",
-      "correct": false
-    },
-    {
-      "text": "I < Br < F < Cl",
-      "correct": false
-    }
-  ],
-  "explanation": "Τα στοιχεία ανήκουν στην 17η ομάδα. Η ηλεκτραρνητικότητα αυξάνεται από κάτω προς τα πάνω: I < Br < Cl < F."
-},
-  {
-  "q": "Μεταξύ των ατόμων των στοιχείων ₇X και ₁₂Ψ σχηματίζεται η:",
-  "options": [
-    {
-      "text": "ιοντική ένωση XΨ",
-      "correct": false
-    },
-    {
-      "text": "ομοιοπολική ένωση XΨ",
-      "correct": false
-    },
-    {
-      "text": "ιοντική ένωση Ψ₃X₂",
-      "correct": true
-    },
-    {
-      "text": "ομοιοπολική ένωση ΨX₂",
-      "correct": false
-    }
-  ],
-  "explanation": "Το Ψ (Z=12) είναι το Mg, μέταλλο της 2ης ομάδας (Ψ²⁺). Το X (Z=7) είναι το N, αμέταλλο της 15ης ομάδας (X³⁻). Σχηματίζουν ιοντική ένωση Ψ₃X₂."
-},
-  {
-  "q": "28. Ποια από τις ακόλουθες προτάσεις που αφορά τη χημική ένωση KNO₃ είναι σωστή;",
-  "options": [
-    {
-      "text": "μπορεί να είναι στερεή, υγρή ή αέρια σε συνθήκες περιβάλλοντος.",
-      "correct": false
-    },
-    {
-      "text": "δε διαλύεται στο νερό, αλλά διαλύεται στους οργανικούς διαλύτες.",
-      "correct": false
-    },
-    {
-      "text": "έχει χαμηλό σημείο τήξης.",
-      "correct": false
-    },
-    {
-      "text": "σχηματίζει υδατικά διαλύματα που άγουν το ηλεκτρικό ρεύμα.",
-      "correct": true
-    }
-  ],
-  "explanation": "Το KNO₃ είναι ιοντική ένωση (άλας). Οι ιοντικές ενώσεις διαλύονται στο νερό και τα υδατικά τους διαλύματα άγουν το ηλεκτρικό ρεύμα."
-},
-  {
-  "q": "29. Το στοιχείο ₆X έχει στην εξωτερική του στιβάδα:",
-  "options": [
-    {
-      "text": "2 ζεύγη e και 2 μονήρη e",
-      "correct": false
-    },
-    {
-      "text": "4 μονήρη e",
-      "correct": true
-    },
-    {
-      "text": "4 μονήρη e και ένα ζεύγος e",
-      "correct": false
-    },
-    {
-      "text": "2 ζεύγη e",
-      "correct": false
-    }
-  ],
-  "explanation": "Το ₆X (Άνθρακας) έχει δομή K(2) L(4). Στην εξωτερική του στιβάδα (L) διαθέτει 4 ηλεκτρόνια, τα οποία κατά τον σχηματισμό δεσμών (σύμβολο Lewis) εμφανίζονται ως 4 μονήρη."
-},
-  {
-  "q": "Από τις ακόλουθες ενώσεις εμφανίζει μεγαλύτερη τιμή διπολικής ροπής:",
-  "options": [
-    {
-      "text": "HF",
-      "correct": true
-    },
-    {
-      "text": "HCl",
-      "correct": false
-    },
-    {
-      "text": "HBr",
-      "correct": false
-    },
-    {
-      "text": "HI",
-      "correct": false
-    }
-  ],
-  "explanation": "Το F είναι το πιο ηλεκτραρνητικό αλογόνο, επομένως η διαφορά ηλεκτραρνητικότητας μεταξύ H και F είναι η μεγαλύτερη, με αποτέλεσμα το μόριο HF να έχει τη μεγαλύτερη διπολική ροπή."
-},
-  {
-  "q": "Το μεθάνιο (CH₄) είναι ένα μη πολικό μόριο και αυτό οφείλεται:",
-  "options": [
-    {
-      "text": "στο ότι οι χημικοί δεσμοί C-H δεν είναι πολωμένοι.",
-      "correct": false
-    },
-    {
-      "text": "στη γεωμετρία του μορίου (συμμετρικό τετραεδρικό μόριο).",
-      "correct": true
-    },
-    {
-      "text": "στο ότι το μόριο είναι ηλεκτρικά ουδέτερο.",
-      "correct": false
-    },
-    {
-      "text": "στο γεγονός ότι η διπολική ροπή κάθε δεσμού C-H είναι ίση με το 0.",
-      "correct": false
-    }
-  ],
-  "explanation": "Οι δεσμοί C-H είναι πολωμένοι, αλλά λόγω της συμμετρικής τετραεδρικής γεωμετρίας του μορίου, οι διπολικές ροπές αλληλοεξουδετερώνονται (συνισταμένη μ = 0)."
-},
-  {
-  "q": "Από τις ακόλουθες ενώσεις έχει δεσμούς υδρογόνου μεταξύ των μορίων της η:",
-  "options": [
-    {
-      "text": "HCl",
-      "correct": false
-    },
-    {
-      "text": "HI",
-      "correct": false
-    },
-    {
-      "text": "NH₃",
-      "correct": true
-    },
-    {
-      "text": "H₂S",
-      "correct": false
-    }
-  ],
-  "explanation": "Η NH₃ έχει άτομο υδρογόνου ενωμένο απευθείας με άζωτο (Ν), το οποίο είναι ένα από τα τρία πολύ ηλεκτραρνητικά στοιχεία (N, O, F) που απαιτούνται για το σχηματισμό δεσμού υδρογόνου."
-},
-  {
-  "q": "Μεταξύ HCl και HBr, το HBr έχει υψηλότερο σημείο βρασμού γιατί:",
-  "options": [
-    {
-      "text": "Ο δεσμός H-Cl είναι περισσότερο πολωμένος από το δεσμό H-Br",
-      "correct": false
-    },
-    {
-      "text": "Μεταξύ των μορίων του HBr αναπτύσσονται δεσμοί υδρογόνου",
-      "correct": false
-    },
-    {
-      "text": "Η σχετική μοριακή μάζα του HBr είναι μεγαλύτερη από του HCl",
-      "correct": true
-    },
-    {
-      "text": "Μεταξύ των μορίων του HBr αναπτύσσονται δεσμοί Van der Waals, ενώ μεταξύ του HCl δεσμοί London",
-      "correct": false
-    }
-  ],
-  "explanation": "Και τα δύο είναι δίπολα χωρίς δεσμούς υδρογόνου. Το HBr έχει μεγαλύτερη Mr, επομένως έχει ισχυρότερες δυνάμεις διασποράς (London) που οδηγούν σε υψηλότερο σημείο βρασμού."
-},
-  {
-  "q": "Από τις ακόλουθες ενώσεις δεν μπορεί να σχηματιστεί δεσμός υδρογόνου μεταξύ των μορίων της ένωσης:",
-  "options": [
-    {
-      "text": "CH₃COOH",
-      "correct": false
-    },
-    {
-      "text": "CH₃CH₂OH",
-      "correct": false
-    },
-    {
-      "text": "CH₃CH₂NH₂",
-      "correct": false
-    },
-    {
-      "text": "(CH₃)₃N",
-      "correct": true
-    }
-  ],
-  "explanation": "Η ένωση (CH₃)₃N (τριμεθυλαμίνη) έχει το άζωτο ενωμένο μόνο με άτομα άνθρακα, δεν έχει Η απευθείας ενωμένο με το Ν. Επομένως, δεν σχηματίζει δεσμούς υδρογόνου."
-},
-  {
-  "q": "Οι δυνάμεις που αναπτύσσονται μεταξύ των μορίων των ομοιοπολικών ενώσεων δεν επηρεάζουν:",
-  "options": [
-    {
-      "text": "τη σχετική μοριακή μάζα των ουσιών",
-      "correct": true
-    },
-    {
-      "text": "τη φυσική κατάσταση των ουσιών",
-      "correct": false
-    },
-    {
-      "text": "το σημείο βρασμού των ουσιών",
-      "correct": false
-    },
-    {
-      "text": "τη διαλυτότητα των ουσιών στο νερό",
-      "correct": false
-    }
-  ],
-  "explanation": "Η σχετική μοριακή μάζα εξαρτάται μόνο από το είδος και τον αριθμό των ατόμων στο μόριο, όχι από τις διαμοριακές δυνάμεις."
-},
-  {
-  "q": "Η σωστή διάταξη των σημείων βρασμού των ουσιών:\nA: CH₃CH₂CH₂CH₃, B: CH₃CH₂CH₃, Γ: CH₃CH₂OH, Δ: (CH₃)₂CHCH₃ είναι:",
-  "options": [
-    {
-      "text": "Σ.Β(Α)<Σ.Β(Β)<Σ.Β(Γ)<Σ.Β(Δ)",
-      "correct": false
-    },
-    {
-      "text": "Σ.Β(Β)<Σ.Β(Δ)<Σ.Β(Α)<Σ.Β(Γ)",
-      "correct": true
-    },
-    {
-      "text": "Σ.Β(Δ)<Σ.Β(Β)<Σ.Β(Α)<Σ.Β(Γ)",
-      "correct": false
-    },
-    {
-      "text": "Σ.Β(Β)<Σ.Β(Α)<Σ.Β(Δ)<Σ.Β(Γ)",
-      "correct": false
-    }
-  ],
-  "explanation": "Η ουσία Γ (αλκοόλη) έχει δεσμούς υδρογόνου, άρα έχει το μεγαλύτερο Σ.Β. Το Β (προπάνιο) έχει τη μικρότερη Mr (μικρότερο Σ.Β.). Το Α και το Δ είναι ισομερή βουτάνια. Το Α (ευθύγραμμο) έχει υψηλότερο Σ.Β από το Δ (διακλαδισμένο). Άρα: Β < Δ < Α < Γ."
-},
-  {
-  "q": "Ο τετραχλωράνθρακας (CCl₄) είναι εξαιρετικός διαλύτης για:",
-  "options": [
-    {
-      "text": "το HCl",
-      "correct": false
-    },
-    {
-      "text": "το NaCl",
-      "correct": false
-    },
-    {
-      "text": "το C₆H₁₄",
-      "correct": true
-    },
-    {
-      "text": "το H₂S",
-      "correct": false
-    }
-  ],
-  "explanation": "Ο CCl₄ είναι μη πολικός διαλύτης. «Τα όμοια διαλύουν τα όμοια», άρα θα διαλύσει καλά το εξάνιο (C₆H₁₄) που είναι επίσης μη πολική ένωση (υδρογονάνθρακας)."
-},
-  {
-  "q": "Δίνονται οι αλκοόλες: (I) 1-πεντανόλη (ευθύγραμμη), (II) 3-μεθυλο-1-βουτανόλη (διακλαδισμένη), (III) 2,2-διμεθυλο-1-προπανόλη (πολύ διακλαδισμένη), (IV) 2-πεντανόλη (διακλαδισμένη).\nΠοια από τις ενώσεις αναμένεται να έχει μεγαλύτερο σημείο βρασμού (στην ίδια πίεση);",
-  "options": [
-    {
-      "text": "Η (I)",
-      "correct": true
-    },
-    {
-      "text": "Η (II)",
-      "correct": false
-    },
-    {
-      "text": "Η (I/II)",
-      "correct": false
-    },
-    {
-      "text": "Η (IV)",
-      "correct": false
-    }
-  ],
-  "explanation": "Όλες είναι ισομερείς αλκοόλες (ίδια Mr). Το ευθύγραμμο μόριο (I) έχει μεγαλύτερη επιφάνεια επαφής, άρα ισχυρότερες δυνάμεις διασποράς (London) και συνεπώς το υψηλότερο σημείο βρασμού."
-},
-  {
-  "q": "Από τα παρακάτω το μικρότερο σημείο βρασμού έχει:",
-  "options": [
-    {
-      "text": "το H₂",
-      "correct": true
-    },
-    {
-      "text": "το NaCl",
-      "correct": false
-    },
-    {
-      "text": "η CH₃CH₂OH",
-      "correct": false
-    },
-    {
-      "text": "το HCl",
-      "correct": false
-    }
-  ],
-  "explanation": "Το H₂ είναι μη πολικό μόριο με την ελάχιστη δυνατή σχετική μοριακή μάζα (Mr=2), επομένως έχει τις ασθενέστερες δυνάμεις London και το μικρότερο σημείο βρασμού από όλες τις ενώσεις."
-},
-  {
-  "q": "Από τις παρακάτω προτάσεις που αναφέρονται στις αλληλεπιδράσεις μορίων, σωστή είναι η:",
-  "options": [
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων H₂ είναι δεσμοί υδρογόνου, επειδή δημιουργούνται στιγμιαία δίπολα.",
-      "correct": false
-    },
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων H₂ είναι δεσμοί υδρογόνου, επειδή υπάρχουν μόνιμα δίπολα.",
-      "correct": false
-    },
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων Br₂ ανήκουν στην κατηγορία Van der Waals, επειδή δημιουργούνται στιγμιαία δίπολα.",
-      "correct": true
-    },
-    {
-      "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων φωσφίνης (PH₃) είναι ισχυρότερες από τις διαμοριακές δυνάμεις μεταξύ των μορίων αμμωνίας (NH₃), επειδή τα μόρια της φωσφίνης έχουν μεγαλύτερη μάζα.",
-      "correct": false
-    }
-  ],
-  "explanation": "Το Br₂ είναι μη πολικό μόριο. Οι δυνάμεις μεταξύ των μορίων του είναι δυνάμεις διασποράς (London), οι οποίες οφείλονται σε στιγμιαία δίπολα και ανήκουν στην ευρύτερη κατηγορία των δυνάμεων Van der Waals."
-}
+    "q": "Από τις παρακάτω προτάσεις που αναφέρονται στις αλληλεπιδράσεις μορίων, σωστή είναι η:",
+    "options": [
+      {
+        "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων H₂ είναι δεσμοί υδρογόνου, επειδή δημιουργούνται στιγμιαία δίπολα.",
+        "correct": false
+      },
+      {
+        "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων H₂ είναι δεσμοί υδρογόνου, επειδή υπάρχουν μόνιμα δίπολα.",
+        "correct": false
+      },
+      {
+        "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων Br₂ ανήκουν στην κατηγορία Van der Waals, επειδή δημιουργούνται στιγμιαία δίπολα.",
+        "correct": true
+      },
+      {
+        "text": "Οι διαμοριακές δυνάμεις μεταξύ των μορίων φωσφίνης (PH₃) είναι ισχυρότερες από τις διαμοριακές δυνάμεις μεταξύ των μορίων αμμωνίας (NH₃), επειδή τα μόρια της φωσφίνης έχουν μεγαλύτερη μάζα.",
+        "correct": false
+      }
+    ],
+    "explanation": "Το Br₂ είναι μη πολικό μόριο. Οι δυνάμεις μεταξύ των μορίων του είναι δυνάμεις διασποράς (London), οι οποίες οφείλονται σε στιγμιαία δίπολα και ανήκουν στην ευρύτερη κατηγορία των δυνάμεων Van der Waals."
+  }
 ];
 
 // ─── ΚΕΦΑΛΑΙΟ 4 ────────────────────────────────────────────────────────────────
@@ -1479,8 +980,46 @@ export const ch3MCQ: MCQ[] = [
 
 export const ch4Questions: Question[] = [
   {
-    q: "1. Να συμπληρώσετε τα κενά στον ακόλουθο πίνακα ιόντων.",
-    a: "<b>Μονοατομικά αρνητικά ιόντα:</b> Cl⁻ (χλωρίδιο, -1), Br⁻ (βρωμίδιο, -1), I⁻ (ιωδίδιο, -1), F⁻ (φθορίδιο, -1), H⁻ (υδρίδιο, -1), O²⁻ (οξείδιο, -2), S²⁻ (σουλφίδιο, -2), N³⁻ (νιτρίδιο, -3), P³⁻ (φωσφίδιο, -3).\n<b>Μονοατομικά θετικά ιόντα:</b> H⁺ (υδρογόνο, +1), Ca²⁺ (ασβέστιο, +2), K⁺ (κάλιο, +1), Zn²⁺ (ψευδάργυρος, +2), Mg²⁺ (μαγνήσιο, +2), Al³⁺ (αργίλιο, +3), Fe²⁺ (σίδηρος (ΙΙ), +2), Fe³⁺ (σίδηρος (ΙΙΙ), +3), Cu⁺ (χαλκός (Ι), +1), Cu²⁺ (χαλκός (ΙΙ), +2).\n<b>Πολυατομικά ιόντα:</b> NH₄⁺ (αμμώνιο, +1), OH⁻ (υδροξείδιο, -1), CN⁻ (κυανίδιο, -1), NO₃⁻ (νιτρικό, -1), CO₃²⁻ (ανθρακικό, -2), HCO₃⁻ (υδρογονανθρακικό, -1), SO₄²⁻ (θειικό, -2), PO₄³⁻ (φωσφορικό, -3)."
+    q: `1. Να συμπληρώσετε τα κενά στον ακόλουθο πίνακα ιόντων.
+
+| Τύπος ιόντος | Ονοματολογία | Φορτίο ιόντος | Τύπος ιόντος | Ονοματολογία | Φορτίο ιόντος |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Μονοατομικά** | **αρνητικά ιόντα** | | | | |
+| | χλωρίδιο | -1 | O²⁻ | | |
+| Br⁻ | | | | σουλφίδιο | -2 |
+| | ιωδίδιο | -1 | N³⁻ | | |
+| F⁻ | | | P³⁻ | | -3 |
+| | υδρίδιο | -1 | | | |
+| **Μονοατομικά** | **θετικά ιόντα** | | | | |
+| | υδρογόνο | +1 | Al³⁺ | | |
+| Ca²⁺ | | | | σίδηρος (ΙΙ) | |
+| | κάλιο | +1 | Fe³⁺ | | +3 |
+| Zn²⁺ | | | | χαλκός (Ι) | |
+| | μαγνήσιο | +2 | Cu²⁺ | | |
+| **Πολυατομικά** | **ιόντα** | | | | |
+| NH₄⁺ | | | CO₃²⁻ | | -2 |
+| | υδροξείδιο | -1 | | υδρογονοανθρακικό | -1 |
+| CN⁻ | | | SO₄²⁻ | | |
+| | νιτρικό | -1 | | φωσφορικό | -3 |`,
+    a: `| Τύπος ιόντος | Ονοματολογία | Φορτίο ιόντος | Τύπος ιόντος | Ονοματολογία | Φορτίο ιόντος |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Μονοατομικά** | **αρνητικά ιόντα** | | | | |
+| **Cl⁻** | χλωρίδιο | -1 | O²⁻ | **οξείδιο** | **-2** |
+| Br⁻ | **βρωμίδιο** | **-1** | **S²⁻** | σουλφίδιο | -2 |
+| **I⁻** | ιωδίδιο | -1 | N³⁻ | **νιτρίδιο** | **-3** |
+| F⁻ | **φθορίδιο** | **-1** | P³⁻ | **φωσφίδιο** | -3 |
+| **H⁻** | υδρίδιο | -1 | | | |
+| **Μονοατομικά** | **θετικά ιόντα** | | | | |
+| **H⁺** | υδρογόνο | +1 | Al³⁺ | **αργίλιο** | **+3** |
+| Ca²⁺ | **ασβέστιο** | **+2** | **Fe²⁺** | σίδηρος (ΙΙ) | **+2** |
+| **K⁺** | κάλιο | +1 | Fe³⁺ | **σίδηρος (ΙΙΙ)** | +3 |
+| Zn²⁺ | **ψευδάργυρος** | **+2** | **Cu⁺** | χαλκός (Ι) | **+1** |
+| **Mg²⁺** | μαγνήσιο | +2 | Cu²⁺ | **χαλκός (ΙΙ)** | **+2** |
+| **Πολυατομικά** | **ιόντα** | | | | |
+| NH₄⁺ | **αμμώνιο** | **+1** | CO₃²⁻ | **ανθρακικό** | -2 |
+| **OH⁻** | υδροξείδιο | -1 | **HCO₃⁻** | υδρογονοανθρακικό | -1 |
+| CN⁻ | **κυανίδιο** | **-1** | SO₄²⁻ | **θειικό** | **-2** |
+| **NO₃⁻** | νιτρικό | -1 | **PO₄³⁻** | φωσφορικό | -3 |`
   },
   {
     q: "2. Να αντιστοιχίσετε τα ιόντα της στήλης Α με τις ονομασίες της στήλης Β.\nΑ: 1. NO₃⁻, 2. NO₂⁻, 3. CO₃²⁻, 4. PO₄³⁻, 5. O²⁻, 6. Br⁻, 7. SO₄²⁻, 8. S²⁻\nΒ: 1. νιτρώδες, 2. σουλφίδιο, 3. θειικό, 4. νιτρικό, 5. βρωμίδιο, 6. φωσφορικό, 7. οξείδιο, 8. ανθρακικό",
@@ -2438,7 +1977,7 @@ export const ch6Questions: Question[] = [
   },
   {
     chapterId: "chapter-6",
-    q: "3. Η \\( M_r \\) του \\( \\text{HNO}_3 \\) είναι 63.\nα. Πόσα γραμμάρια ζυγίζει 1 mol \\( \\text{HNO}_3 \];\nβ. Πόσα γραμμάρια υδρογόνου περιέχονται σε 1 mol \\( \\text{HNO}_3 \];\nγ. Πόσα άτομα οξυγόνου περιέχονται σε 1 mol \\( \\text{HNO}_3 \];\nδ. Πόσα μόρια \\( \\text{HNO}_3 \\) περιέχονται σε 1,26 g \\( \\text{HNO}_3 \];",
+    q: "3. Η \\( M_r \\) του \\( \\text{HNO}_3 \\) είναι 63.\nα. Πόσα γραμμάρια ζυγίζει 1 mol \\( \\text{HNO}_3 \\);\nβ. Πόσα γραμμάρια υδρογόνου περιέχονται σε 1 mol \\( \\text{HNO}_3 \\);\nγ. Πόσα άτομα οξυγόνου περιέχονται σε 1 mol \\( \\text{HNO}_3 \\);\nδ. Πόσα μόρια \\( \\text{HNO}_3 \\) περιέχονται σε 1,26 g \\( \\text{HNO}_3 \\);",
     a: "α. Η μάζα 1 mol μιας χημικής ένωσης είναι ίση με τη σχετική μοριακή μάζα της χημικής ένωσης. Επομένως το 1 mol \\( \\text{HNO}_3 \\) ζυγίζει 63 g.\nβ. Σε 1 mol \\( \\text{HNO}_3 \\) περιέχεται 1 g υδρογόνου.\nγ. Σε 1 mol \\( \\text{HNO}_3 \\) περιέχονται \\( 3N_A \\) άτομα οξυγόνου.\nδ. Η μοριακή μάζα του \\( \\text{HNO}_3 \\) είναι \\( M = 63 \\text{ g/mol} \\) και τα mol του είναι: \\( n = \\frac{m}{M} = \\frac{1,26 \\text{ g}}{63 \\text{ g/mol}} = 0,02 \\text{ mol} \\).\nΙσχύει ότι: \\( n = \\frac{N}{N_A} \\Rightarrow N = n \\cdot N_A = 0,02 \\cdot N_A \\text{ μόρια} \\)."
   },
   {
@@ -2464,12 +2003,12 @@ export const ch6Questions: Question[] = [
   {
     chapterId: "chapter-6",
     q: "8. Να αντιστοιχίσετε τα δεδομένα της στήλης Α με όσα αντιστοιχούν από τα δεδομένα της στήλης Β.\n\n**Στήλη Α**\n1. 1 mol \\( \\text{C}_2\\text{H}_6 \\)\n2. 1 μόριο \\( \\text{C}_2\\text{H}_6 \\)\n3. 1 mol \\( \\text{CO}_2 \\)\n4. 0,1 \\( N_A \\) μόρια \\( \\text{CO}_2 \\)\n\n**Στήλη Β**\n1. 1 άτομο C\n2. \\( 6N_A \\) άτομα H\n3. 6 άτομα H\n4. \\( M_r \\text{ (g)} \\)\n5. 0,1 \\( N_A \\) άτομα C\n6. \\( N_A \\) άτομα C",
-    a: "Α1 \\rightarrow Β2, 4\nΑ2 \\rightarrow Β3\nΑ3 \\rightarrow Β4, 6\nΑ4 \\rightarrow Β5"
+    a: "Α1 → Β2, 4\nΑ2 → Β3\nΑ3 → Β4, 6\nΑ4 → Β5"
   },
   {
     chapterId: "chapter-6",
     q: "9. Να αντιστοιχίσετε τις πληροφορίες της στήλης Α με έναν από τους μοριακούς τύπους της στήλης Β.\n\n**Στήλη Α**\n1. 1 mol ένωσης περιέχει \\( 3N_A \\) άτομα αζώτου\n2. 1 μόριο ένωσης περιέχει 2 άτομα αζώτου\n3. 1 mol ένωσης περιέχει 3 mol νιτρικών ιόντων\n4. 1 mol ένωσης περιέχει τριπλάσια άτομα υδρογόνου από άτομα αζώτου\n5. 1 μόριο ένωσης περιέχει 3 άτομα οξυγόνου\n\n**Στήλη Β**\n1. \\( \\text{NH}_3 \\)\n2. NO\n3. \\( \\text{NO}_2 \\)\n4. \\( \\text{HNO}_3 \\)\n5. \\( \\text{Al(NO}_3\\text{)}_3 \\)\n6. \\( \\text{N}_2\\text{O}_5 \\)",
-    a: "Α1 \\rightarrow Β5\nΑ2 \\rightarrow Β6\nΑ3 \\rightarrow Β5\nΑ4 \\rightarrow Β1\nΑ5 \\rightarrow Β4"
+    a: "Α1 → Β5\nΑ2 → Β6\nΑ3 → Β5\nΑ4 → Β1\nΑ5 → Β4"
   },
   {
     chapterId: "chapter-6",
@@ -2481,11 +2020,7 @@ export const ch6Questions: Question[] = [
     q: "17. Οι αέριες χημικές ουσίες Α, Β και Γ έχουν σχετικές μοριακές μάζες 64, 32 και 16 αντίστοιχα. Ίσες μάζες των ουσιών αντιστοιχούν σε \\( n_1, n_2, n_3 \\) mol αντίστοιχα. Να διατάξετε τους αριθμούς mol από τον μικρότερο προς τον μεγαλύτερο.",
     a: "Έστω ότι και οι 3 ουσίες έχουν μάζα \\( m \\text{ g} \\).\nΗ μοριακή μάζα της ουσίας Α είναι \\( M = 64 \\text{ g/mol} \\) και τα mol της είναι: \\( n_1 = \\frac{m}{M} = \\frac{m}{64} \\text{ mol} \\).\nΗ μοριακή μάζα της ουσίας Β είναι \\( M = 32 \\text{ g/mol} \\) και τα mol της είναι: \\( n_2 = \\frac{m}{M} = \\frac{m}{32} \\text{ mol} \\).\nΗ μοριακή μάζα της ουσίας Γ είναι \\( M = 16 \\text{ g/mol} \\) και τα mol της είναι: \\( n_3 = \\frac{m}{M} = \\frac{m}{16} \\text{ mol} \\).\nΕπομένως ισχύει ότι: \\( n_1 < n_2 < n_3 \\) ή \\( n(\\text{A}) < n(\\text{B}) < n(\\text{Γ}) \\)"
   },
-  {
-    chapterId: "chapter-6",
-    q: "18. Να χαρακτηρίσετε καθεμία από τις ακόλουθες προτάσεις ως σωστή ή λανθασμένη και να αιτιολογήσετε την απάντησή σας.\nα. 1 mol οποιασδήποτε χημικής ένωσης περιέχει ίδιο αριθμό μορίων με 1 mol οποιασδήποτε άλλης χημικής ένωσης.\nβ. 1 mol οποιασδήποτε χημικής ένωσης περιέχει ίδιο αριθμό ατόμων με 1 mol οποιασδήποτε άλλης χημικής ένωσης.\nγ. 1 μόριο \\( \\text{H}_2\\text{S} \\) έχει μάζα 34 g, δηλαδή όσο το άθροισμα των σχετικών ατομικών μαζών όλων των ατόμων που αποτελούν το μόριο.\nδ. Ίσα mol HCl και \\( \\text{H}_2\\text{S} \\) περιέχουν ίσους αριθμούς ατόμων H.\nε. 5 mol μορίων \\( \\text{P}_4 \\) περιέχουν περισσότερα μόρια απ’ ό,τι 5 mol μορίων \\( \\text{S}_8 \\).\nστ. Σε 5 mol \\( \\text{H}_2\\text{O} \\) περιέχονται 10 mol ατόμων υδρογόνου.\nζ. Σε 4 mol \\( \\text{K}_2\\text{CO}_3 \\) περιέχονται συνολικά 12 άτομα οξυγόνου.\nη. Σε 2 mol \\( \\text{NH}_3 \\) περιέχεται ίσος αριθμός ατόμων με τα άτομα που περιέχονται σε 2 mol \\( \\text{NO}_2 \\).\nθ. 1 mol γλυκόζης (\\( \\text{C}_6\\text{H}_{12}\\text{O}_6 \\)) περιέχει \\( 12 \\cdot N_A \\) άτομα υδρογόνου.",
-    a: "α. Η πρόταση είναι λανθασμένη.\nΣτις ιοντικές ενώσεις δεν υφίσταται η έννοια του μορίου.\nβ. Η πρόταση είναι λανθασμένη.\nΟι ιοντικές ενώσεις δεν αποτελούνται από άτομα αλλά από ιόντα τα οποία δημιουργούν κρύσταλλο και οι μοριακές ενώσεις έχουν διαφορετικό αριθμό ατόμων ανά μόριο, επομένως και ανά mol.\nγ. Η πρόταση είναι λανθασμένη.\n1 mol μορίων και όχι 1 μόριο της χημικής ένωσης \\( \\text{H}_2\\text{S} \\) έχει μάζα 34 g δηλαδή ίση με τη σχετική μοριακή μάζα (\\( M_r \\)) της χημικής ένωσης σε γραμμάρια (g).\nδ. Η πρόταση είναι λανθασμένη.\nΈστω x mol HCl και x mol \\( \\text{H}_2\\text{S} \\).\nΣτα x mol HCl περιέχονται \\( x \\cdot N_A \\) άτομα υδρογόνου ενώ στα x mol \\( \\text{H}_2\\text{S} \\) περιέχονται \\( 2 \\cdot x \\cdot N_A \\) άτομα υδρογόνου.\nε. Η πρόταση είναι λανθασμένη.\nΊσοι αριθμοί mol δύο ομοιοπολικών χημικών ενώσεων περιέχουν τον ίδιο αριθμό μορίων.\nστ. Η πρόταση είναι σωστή.\nΣε 1 mol \\( \\text{H}_2\\text{O} \\) περιέχονται 2 mol ατόμων υδρογόνου. Επομένως σε 5 mol \\( \\text{H}_2\\text{O} \\) περιέχονται 10 mol ατόμων υδρογόνου.\nζ. Η πρόταση είναι λανθασμένη.\nΣε 4 mol ιοντικής ένωσης \\( \\text{K}_2\\text{CO}_3 \\) υπάρχουν 4 mol \\( \\text{CO}_3^{2-} \\), τα οποία περιέχουν 12 mol ατόμων οξυγόνου.\nη. Η πρόταση είναι λανθασμένη.\nΣε 2 mol \\( \\text{NH}_3 \\) περιέχονται \\( 2 \\cdot N_A \\) άτομα N και \\( 6 \\cdot N_A \\) άτομα H. Συνολικά περιέχονται \\( 8 \\cdot N_A \\) άτομα.\nΣε 2 mol \\( \\text{NO}_2 \\) περιέχονται \\( 2 \\cdot N_A \\) άτομα N και \\( 4 \\cdot N_A \\) άτομα O. Συνολικά περιέχονται \\( 6 \\cdot N_A \\) άτομα.\nθ. Η πρόταση είναι σωστή.\n1 mol γλυκόζης (\\( \\text{C}_6\\text{H}_{12}\\text{O}_6 \\)) περιέχει 12 mol ατόμων υδρογόνου, δηλαδή \\( 12 \\cdot N_A \\) άτομα υδρογόνου."
-  },
+
   {
     chapterId: "chapter-6",
     q: "19. Να μεταφέρετε στην κόλλα σας συμπληρωμένο τον παρακάτω πίνακα με τον χημικό τύπο, το όνομα, την \\( M_r \\) ή \\( F_r \\), τη μάζα, τον αριθμό mol και τον αριθμό μορίων των παρακάτω ενώσεων:\n\n| | Χημικός τύπος | Όνομα | \\( M_r / F_r \\) | m | n | Αριθμός μορίων |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| 1 | \\( \\text{H}_3\\text{PO}_4 \\) | | 98 | | 0,003 | |\n| 2 | \\( \\text{Ca(OH)}_2 \\) | | | 3,7 g | 0,05 | |\n| 3 | \\( \\text{CO}_2 \\) | | 44 | 176 g | | |",
@@ -2543,7 +2078,7 @@ export const ch6Questions: Question[] = [
   },
   {
     chapterId: "chapter-6",
-    q: "30. Πόσα g HCl περιέχουν τον ίδιο αριθμό ατόμων χλωρίου με τον αριθμό ιόντων χλωρίου που περιέχεται σε 22,2 g \\( \\text{CaCl}_2 \];",
+    q: "30. Πόσα g HCl περιέχουν τον ίδιο αριθμό ατόμων χλωρίου με τον αριθμό ιόντων χλωρίου που περιέχεται σε 22,2 g CaCl₂;",
     a: "Για το \\( \\text{CaCl}_2 \\): \\( F_r = 1 \\cdot 40 + 2 \\cdot 35,5 = 40 + 71 = 111 \\)\nΕπομένως το 1 mol \\( \\text{CaCl}_2 \\) ζυγίζει 111 g.\nΗ μοριακή μάζα του \\( \\text{CaCl}_2 \\) είναι \\( M = 111 \\text{ g/mol} \\).\nΟ αριθμός των mol του \\( \\text{CaCl}_2 \\) είναι: \\( n = \\frac{m}{M} \\Rightarrow n = \\frac{22,2 \\text{ g}}{111 \\text{ g/mol}} \\Rightarrow n = 0,2 \\text{ mol} \\).\nΣε 1 mol \\( \\text{CaCl}_2 \\) περιέχονται 2 mol ιόντων \\( \\text{Cl}^- \\).\nΕπομένως σε 0,2 mol \\( \\text{CaCl}_2 \\) περιέχονται 0,4 mol ιόντων \\( \\text{Cl}^- \\).\nΣε 1 mol HCl περιέχονται 1 mol ατόμων Cl.\nΕπομένως σε 0,4 mol HCl περιέχονται 0,4 mol ατόμων Cl.\nΓια το HCl: \\( M_r = 1 \\cdot 1 + 1 \\cdot 35,5 = 1 + 35,5 = 36,5 \\)\nΕπομένως το 1 mol HCl ζυγίζει 36,5 g.\nΗ μοριακή μάζα του HCl είναι \\( M = 36,5 \\text{ g/mol} \\).\nΙσχύει ότι: \\( n = \\frac{m}{M} \\Rightarrow m = n \\cdot M = 0,4 \\text{ mol} \\cdot 36,5 \\text{ g/mol} = 14,6 \\text{ g} \\).\nΕπομένως 14,6 g HCl περιέχουν τον ίδιο αριθμό ατόμων χλωρίου με τον αριθμό ιόντων χλωρίου που περιέχεται σε 22,2 g \\( \\text{CaCl}_2 \\)."
   },
   {
@@ -2573,7 +2108,7 @@ export const ch6Questions: Question[] = [
   },
   {
     chapterId: "chapter-6",
-    q: "36. Πόσα γραμμάρια οξυγόνου πρέπει να ενωθούν με μαγγάνιο, ώστε να παραχθούν 0,5 mol \\( \\text{Mn}_3\\text{O}_4 \];",
+    q: "36. Πόσα γραμμάρια οξυγόνου πρέπει να ενωθούν με μαγγάνιο, ώστε να παραχθούν 0,5 mol Mn₃O₄;",
     a: "Σε 1 mol \\( \\text{Mn}_3\\text{O}_4 \\) περιέχονται 64 g O\nΣε 0,5 mol \\( \\text{Mn}_3\\text{O}_4 \\) περιέχονται x g O\n\\( x = 32 \\)\nΕπομένως, πρέπει να ενωθούν 32 γραμμάρια οξυγόνου."
   },
   {
@@ -2684,7 +2219,7 @@ export const ch6Questions: Question[] = [
   {
     chapterId: "chapter-6",
     q: "13. Να υπολογιστεί η αναλογία όγκων με την οποία πρέπει να αναμειχθούν ένα διάλυμα Δ1 KOH 11,2 % μάζα προς όγκο με ένα διάλυμα Δ2 \\( \\text{H}_2\\text{SO}_4 \\) 3,92 % μάζα προς όγκο, ώστε να αντιδράσουν πλήρως.",
-    a: "Στο διάλυμα Δ1 ισχύει ότι:\nΣτα 100 mL διαλύματος περιέχονται 11,2 g KOH\nΣτα V1 mL διαλύματος περιέχονται x g KOH \\( x = 11,2 \\cdot \\text{V1}/100 \\)\nΕπομένως \\( n_{\\text{KOH}} = x/M = 11,2 \\cdot \\text{V1}/100 \\cdot 56 = 0,002 \\cdot \\text{V1} \\)\nΣτο διάλυμα Δ2 ισχύει ότι:\nΣτα 100 mL διαλύματος περιέχονται 3,92 g \\( \\text{H}_2\\text{SO}_4 \\)\nΣτα V2 mL διαλύματος περιέχονται y g \\( \\text{H}_2\\text{SO}_4 \\) \\( y = 3,92 \\cdot \\text{V2}/100 \\)\nΕπομένως \\( n_{\\text{H}_2\\text{SO}_4} = y/M = 3,92 \\cdot \\text{V2}/100 \\cdot 98 = 0,0004 \\cdot \\text{V2} \\)\nΗ αντίδραση που υλοποιείται περιγράφεται από τη χημική εξίσωση:\n\\( \\text{H}_2\\text{SO}_4\\text{(aq)} + 2\\text{KOH(aq)} \\rightarrow \\text{K}_2\\text{SO}_4\\text{(aq)} + 2\\text{H}_2\\text{O(l)} \\)\nΑπό τη χημική εξίσωση παρατηρούμε ότι το KOH αντιδρά με το \\( \\text{H}_2\\text{SO}_4 \\) με αναλογία mol 2:1 αντίστοιχα.\n\\( \\frac{n(\\text{KOH})}{n(\\text{H}_2\\text{SO}_4)} = \\frac{2}{1} \\Rightarrow \\frac{0,002 \\cdot \\text{V}_1}{0,0004 \\cdot \\text{V}_2} = \\frac{2}{1} \\Rightarrow \\frac{\\text{V}_1}{\\text{V}_2} = \\frac{2}{5} \\)"
+    a: "Στο διάλυμα Δ1 ισχύει ότι:\nΣτα 100 mL διαλύματος περιέχονται 11,2 g KOH\nΣτα V<sub>1</sub> mL διαλύματος περιέχονται x g KOH \\( x = 11,2 \\cdot \\text{V<sub>1</sub>}/100 \\)\nΕπομένως \\( n_{\\text{KOH}} = x/M = 11,2 \\cdot \\text{V<sub>1</sub>}/100 \\cdot 56 = 0,002 \\cdot \\text{V<sub>1</sub>} \\)\nΣτο διάλυμα Δ2 ισχύει ότι:\nΣτα 100 mL διαλύματος περιέχονται 3,92 g \\( \\text{H}_2\\text{SO}_4 \\)\nΣτα V<sub>2</sub> mL διαλύματος περιέχονται y g \\( \\text{H}_2\\text{SO}_4 \\) \\( y = 3,92 \\cdot \\text{V<sub>2</sub>}/100 \\)\nΕπομένως \\( n_{\\text{H}_2\\text{SO}_4} = y/M = 3,92 \\cdot \\text{V<sub>2</sub>}/100 \\cdot 98 = 0,0004 \\cdot \\text{V<sub>2</sub>} \\)\nΗ αντίδραση που υλοποιείται περιγράφεται από τη χημική εξίσωση:\n\\( \\text{H}_2\\text{SO}_4\\text{(aq)} + 2\\text{KOH(aq)} \\rightarrow \\text{K}_2\\text{SO}_4\\text{(aq)} + 2\\text{H}_2\\text{O(l)} \\)\nΑπό τη χημική εξίσωση παρατηρούμε ότι το KOH αντιδρά με το \\( \\text{H}_2\\text{SO}_4 \\) με αναλογία mol 2:1 αντίστοιχα.\n\\( \\frac{n(\\text{KOH})}{n(\\text{H}_2\\text{SO}_4)} = \\frac{2}{1} \\Rightarrow \\frac{0,002 \\cdot \\text{V}_1}{0,0004 \\cdot \\text{V}_2} = \\frac{2}{1} \\Rightarrow \\frac{\\text{V}_1}{\\text{V}_2} = \\frac{2}{5} \\)"
   },
   {
     chapterId: "chapter-6",
@@ -2741,14 +2276,10 @@ export const ch6Questions: Question[] = [
     q: "2. Να παρατηρήσετε τις διαδοχικές εικόνες και να συμπληρώσετε τα κείμενα που βρίσκονται δίπλα τους.\nα. Από τα διαλύματα Δ1, Δ2, Δ3 τη μεγαλύτερη συγκέντρωση την έχει το .........., γιατί ................................................................... .\nβ. Το διάλυμα Δ1 έχει .......... συγκέντρωση από το Δ4 γιατί ................................................................... .\nγ. Τα διαλύματα Δ1 και Δ5 έχουν .......... συγκέντρωση.\nδ. Το διάλυμα Δ1 έχει .......... συγκέντρωση από το Δ6 γιατί ................................................................... .\nε. Το διάλυμα Δ7 έχει .......... συγκέντρωση από το Δ1 και .......... συγκέντρωση από το Δ2.",
     a: "α. **Δ2**, γιατί **έχει μεγαλύτερη ποσότητα διαλυμένης ουσίας στον ίδιο όγκο σε σχέση με το Δ1 και έχει ίδια ποσότητα διαλυμένης ουσίας σε λιγότερο όγκο σε σχέση με το Δ3**.\nβ. **μεγαλύτερη**, γιατί **έχει ίδια ποσότητα διαλυμένης ουσίας σε λιγότερο όγκο σε σχέση με το Δ4**.\nγ. **ίδια**.\nδ. **μικρότερη**, γιατί **έχει μεγαλύτερη ποσότητα διαλυμένης ουσίας στον ίδιο όγκο διαλύματος**.\nε. **μικρότερη**, **μεγαλύτερη**."
   },
+
   {
     chapterId: "chapter-6",
-    q: "3. Στις ακόλουθες ερωτήσεις να επιλέξετε τη σωστή απάντηση.\nα. Η συγκέντρωση του διαλύματος Δ2 του διπλανού σχήματος μπορεί να είναι:\ni. 0,1 M\nii. 0,4 M\niii. 0,5 M\niv. 0,8 M\n\nβ. Με βάση την απάντηση του ερωτήματος Α, ο όγκος νερού που προστέθηκε μπορεί να είναι:\ni. 100 mL\nii. 200 mL\niii. 300 mL\niv. 400 mL\n\nγ. Η συγκέντρωση του διαλύματος Δ4 του διπλανού σχήματος μπορεί να είναι:\ni. 0,1 M\nii. 0,4 M\niii. 0,5 M\niv. 0,8 M\n\nδ. Να επιλέξετε έναν από τους ακόλουθους τρόπους για την παρασκευή ενός υδατικού διαλύματος μιας στερεής ουσίας Α συγκέντρωσης 1Μ με τη μεγαλύτερη δυνατή ακρίβεια.\n\nε. Ένα διάλυμα Δ1 συγκέντρωσης 0,80 Μ σε διαλυμένη ουσία Α αραιώνεται στο πενταπλάσιο του όγκου του. Η συγκέντρωση του αραιωμένου διαλύματος είναι:\ni. 0,10 M\nii. 0,40 M\niii. 0,16 M\niv. 0,13 M\n\nστ. Ένα διάλυμα Δ1 συγκέντρωσης 0,80 Μ σε διαλυμένη ουσία Α αραιώνεται με πενταπλάσιο όγκο νερού. Η συγκέντρωση του αραιωμένου διαλύματος είναι:\ni. 0,10 M\nii. 0,40 M\niii. 0,16 M\niv. 0,13 M",
-    a: "α. Σωστή απάντηση: i\nβ. Σωστή απάντηση: (ii)i\nγ. Σωστή απάντηση: iv\nδ. Σωστή απάντηση: Δ\nε. Σωστή απάντηση: (ii)i\nστ. Σωστή απάντηση: iv"
-  },
-  {
-    chapterId: "chapter-6",
-    q: "1. Το \\( \\text{NaHCO}_3 \\) είναι ένα λευκό στερεό και κρυσταλλικό άλας που είναι γνωστό με το όνομα μαγειρική σόδα. Χρησιμοποιείται ως πρόσθετο τροφίμων με τον κωδικό Ε500 και βρίσκεται διαλυμένο σε πολλές μεταλλικές πηγές και στο ορυκτό νάτρον. Ένα υδατικό διάλυμα \\( \\text{NaHCO}_3 \\) Δ1 έχει συγκέντρωση 0,10 Μ.\nα. Πόσα γραμμάρια \\( \\text{NaHCO}_3 \\) περιέχονται σε 5 L διαλύματος Δ1;\nβ. Σε ποιον όγκο διαλύματος Δ1 περιέχονται 16,8 g \\( \\text{NaHCO}_3 \];\nγ. Πόσα γραμμάρια \\( \\text{NaHCO}_3 \\) περιέχονται σε 216 g του Δ1, αν η πυκνότητα του διαλύματος Δ1 είναι 1,08 g/mL;",
+    q: "1. Το \\( \\text{NaHCO}_3 \\) είναι ένα λευκό στερεό και κρυσταλλικό άλας που είναι γνωστό με το όνομα μαγειρική σόδα. Χρησιμοποιείται ως πρόσθετο τροφίμων με τον κωδικό Ε500 και βρίσκεται διαλυμένο σε πολλές μεταλλικές πηγές και στο ορυκτό νάτρον. Ένα υδατικό διάλυμα \\( \\text{NaHCO}_3 \\) Δ1 έχει συγκέντρωση 0,10 Μ.\nα. Πόσα γραμμάρια \\( \\text{NaHCO}_3 \\) περιέχονται σε 5 L διαλύματος Δ1;\nβ. Σε ποιον όγκο διαλύματος Δ1 περιέχονται 16,8 g \\( \\text{NaHCO}_3 \\);\nγ. Πόσα γραμμάρια \\( \\text{NaHCO}_3 \\) περιέχονται σε 216 g του Δ1, αν η πυκνότητα του διαλύματος Δ1 είναι 1,08 g/mL;",
     a: "α. Στο διάλυμα Δ1: \\( c = \\frac{n}{V} \\Rightarrow n = c \\cdot V = 0,1 \\frac{\\text{mol}}{\\text{L}} \\cdot 5 \\text{ L} = 0,5 \\text{ mol} \\).\nΓια το \\( \\text{NaHCO}_3 \\): \\( F_r = 1 \\cdot 23 + 1 \\cdot 1 + 1 \\cdot 12 + 3 \\cdot 16 = 23 + 1 + 12 + 48 = 84 \\).\nΕπομένως το 1 mol \\( \\text{NaHCO}_3 \\) ζυγίζει 84 g.\nΗ μοριακή μάζα του \\( \\text{NaHCO}_3 \\) είναι \\( M = 84 \\frac{\\text{g}}{\\text{mol}} \\).\nΓια τη μάζα του \\( \\text{NaHCO}_3 \\) ισχύει: \\( n = \\frac{m}{M} \\Rightarrow m = n \\cdot M \\Rightarrow m = 0,5 \\text{ mol} \\cdot 84 \\frac{\\text{g}}{\\text{mol}} \\Rightarrow m = 42 \\text{ g} \\).\nβ. Για το \\( \\text{NaHCO}_3 \\): \\( n = \\frac{m}{M} \\Rightarrow n = \\frac{16,8 \\text{ g}}{84 \\frac{\\text{g}}{\\text{mol}}} \\Rightarrow n = 0,2 \\text{ mol} \\).\nΓια το διάλυμα: \\( c = \\frac{n}{V} \\Rightarrow V = \\frac{n}{c} = \\frac{0,2 \\text{ mol}}{0,1 \\frac{\\text{mol}}{\\text{L}}} = 2 \\text{ L} \\).\nΕπομένως σε 2 L διαλύματος Δ1 περιέχονται 16,8 g \\( \\text{NaHCO}_3 \\).\nγ. Για το διάλυμα ισχύει: \\( \\rho = \\frac{m}{V} \\Rightarrow V = \\frac{m}{\\rho} = \\frac{216 \\text{ g}}{1,08 \\frac{\\text{g}}{\\text{mL}}} = 200 \\text{ mL} \\) ή \\( 0,2 \\text{ L} \\) διαλύματος Δ1.\n\\( c = \\frac{n}{V} \\Rightarrow n = c \\cdot V = 0,1 \\frac{\\text{mol}}{\\text{L}} \\cdot 0,2 \\text{ L} = 0,02 \\text{ mol NaHCO}_3 \\).\nΓια τη μάζα του \\( \\text{NaHCO}_3 \\) ισχύει: \\( n = \\frac{m}{M} \\Rightarrow m = n \\cdot M \\Rightarrow m = 0,02 \\text{ mol} \\cdot 84 \\frac{\\text{g}}{\\text{mol}} \\Rightarrow m = 1,68 \\text{ g} \\).\nΣε αυτή την ποσότητα του διαλύματος Δ1 περιέχονται 1,68 g \\( \\text{NaHCO}_3 \\)."
   },
   {
@@ -2858,7 +2389,7 @@ export const ch6Questions: Question[] = [
   },
   {
     chapterId: "chapter-6",
-    q: "23. Δύο διαλύματα της ίδιας ουσίας Α το Δ1 και το Δ2 έχουν αναλογία συγκεντρώσεων \\( c_1/c_2 = 1/3 \\). Ένα διάλυμα Δ3 παρασκευάζεται με ανάμειξη των διαλυμάτων Δ1 και Δ2 με αναλογία όγκων V1/V2 = 2/1. Ένα διάλυμα Δ4 παρασκευάζεται με ανάμειξη των διαλυμάτων Δ1 και Δ2 με αναλογία όγκων V1/V2 = 1/2. Αν η συγκέντρωση (\\( c_3 \\)) του διαλύματος Δ3 είναι 0,5 Μ, να υπολογιστούν οι συγκεντρώσεις \\( c_1 \\), \\( c_2 \\) και \\( c_4 \\) των διαλυμάτων Δ1, Δ2 και Δ4 αντίστοιχα.",
+    q: "23. Δύο διαλύματα της ίδιας ουσίας Α το Δ1 και το Δ2 έχουν αναλογία συγκεντρώσεων \\( c_1/c_2 = 1/3 \\). Ένα διάλυμα Δ3 παρασκευάζεται με ανάμειξη των διαλυμάτων Δ1 και Δ2 με αναλογία όγκων V<sub>1</sub>/V<sub>2</sub> = 2/1. Ένα διάλυμα Δ4 παρασκευάζεται με ανάμειξη των διαλυμάτων Δ1 και Δ2 με αναλογία όγκων V<sub>1</sub>/V<sub>2</sub> = 1/2. Αν η συγκέντρωση (\\( c_3 \\)) του διαλύματος Δ3 είναι 0,5 Μ, να υπολογιστούν οι συγκεντρώσεις \\( c_1 \\), \\( c_2 \\) και \\( c_4 \\) των διαλυμάτων Δ1, Δ2 και Δ4 αντίστοιχα.",
     a: "Θεωρούμε ότι το διάλυμα Δ1 έχει συγκέντρωση c M και όγκο 2·V L ενώ το διάλυμα Δ2 έχει συγκέντρωση 3·c M και όγκο V L.\nΚατά την ανάμειξη των διαλυμάτων Δ1 και Δ2 και την παρασκευή του διαλύματος Δ3 για την ποσότητα της διαλυμένης ουσίας ισχύει ότι:\n\\( n_{\\Delta 3} = n_{\\Delta 1} + n_{\\Delta 2} \\) ή \\( c_{\\Delta 3} \\cdot V_{\\Delta 3} = c_{\\Delta 1} \\cdot V_{\\Delta 1} + c_{\\Delta 2} \\cdot V_{\\Delta 2} \\) ή \\( c_{\\Delta 3} \\cdot (V_{\\Delta 1} + V_{\\Delta 2}) = c_{\\Delta 1} \\cdot V_{\\Delta 1} + c_{\\Delta 2} \\cdot V_{\\Delta 2} \\) ή\n\\( c \\cdot 2 \\cdot V + 3 \\cdot c \\cdot V = 0,5 \\cdot 3V \\) ή \\( c = 0,3 \\text{ M} \\).\nΕπομένως το διάλυμα Δ1 έχει συγκέντρωση 0,3 Μ και το διάλυμα Δ2 έχει συγκέντρωση 0,9 Μ.\nΚατά την ανάμειξη V L του διαλύματος Δ1 και 2·V L του διαλύματος Δ2 για την παρασκευή του διαλύματος Δ4 για την ποσότητα της διαλυμένης ουσίας ισχύει ότι:\n\\( n_{\\Delta 4} = n_{\\Delta 1} + n_{\\Delta 2} \\) ή \\( c_{\\Delta 4} \\cdot V_{\\Delta 4} = c_{\\Delta 1} \\cdot V_{\\Delta 1} + c_{\\Delta 2} \\cdot V_{\\Delta 2} \\) ή \\( c_{\\Delta 4} \\cdot (V_{\\Delta 1} + V_{\\Delta 2}) = c_{\\Delta 1} \\cdot V_{\\Delta 1} + c_{\\Delta 2} \\cdot V_{\\Delta 2} \\) ή\n\\( 0,3 \\cdot V + 0,9 \\cdot 2 \\cdot V = c_4 \\cdot 3 \\cdot V \\Rightarrow 0,3 + 1,8 = c_4 \\cdot 3 \\cdot V \\Rightarrow c_4 = 0,7 \\text{ M} \\)."
   },
   {
@@ -2878,7 +2409,7 @@ export const ch6Questions: Question[] = [
   },
   {
     chapterId: "chapter-6",
-    q: "27. Το υδατικό διάλυμα Δ1 έχει περιεκτικότητα σε \\( \\text{H}_2\\text{SO}_4 \\) 49% μάζα προς μάζα και πυκνότητα 1,4 g/mL. Το υδατικό διάλυμα Δ2 έχει συγκέντρωση σε \\( \\text{HCl} \\) 0,2 Μ. Τα δύο διαλύματα αναμειγνύονται με αναλογία όγκων V1/V2 = 1/3 και σχηματίζονται 400 mL διαλύματος Δ3.\nα. Να υπολογιστεί η συγκέντρωση του τελικού διαλύματος Δ3 σε κάθε διαλυμένη ουσία.\nβ. Ποιος όγκος διαλύματος Δ3 θα περιέχει 0,365 g HCl και πόσα γραμμάρια \\( \\text{H}_2\\text{SO}_4 \\) θα περιέχονται σε αυτόν;",
+    q: "27. Το υδατικό διάλυμα Δ1 έχει περιεκτικότητα σε \\( \\text{H}_2\\text{SO}_4 \\) 49% μάζα προς μάζα και πυκνότητα 1,4 g/mL. Το υδατικό διάλυμα Δ2 έχει συγκέντρωση σε \\( \\text{HCl} \\) 0,2 Μ. Τα δύο διαλύματα αναμειγνύονται με αναλογία όγκων V<sub>1</sub>/V<sub>2</sub> = 1/3 και σχηματίζονται 400 mL διαλύματος Δ3.\nα. Να υπολογιστεί η συγκέντρωση του τελικού διαλύματος Δ3 σε κάθε διαλυμένη ουσία.\nβ. Ποιος όγκος διαλύματος Δ3 θα περιέχει 0,365 g HCl και πόσα γραμμάρια \\( \\text{H}_2\\text{SO}_4 \\) θα περιέχονται σε αυτόν;",
     a: "α. Σε 100 g διαλύματος Δ1 περιέχονται 49 g \\( \\text{H}_2\\text{SO}_4 \\).\n\\( \\rho = \\frac{m}{V} \\Rightarrow V = \\frac{m}{\\rho} = \\frac{100 \\text{ g}}{1,4 \\frac{\\text{g}}{\\text{mL}}} = \\frac{100}{1,4} \\text{ mL} \\) ή \\( \\frac{0,1}{1,4} \\text{ L} \\) διαλύματος.\nΓια το \\( \\text{H}_2\\text{SO}_4 \\): \\( M_r = 2 \\cdot 1 + 1 \\cdot 32 + 4 \\cdot 16 = 2 + 32 + 64 = 98 \\).\nΕπομένως το 1 mol \\( \\text{H}_2\\text{SO}_4 \\) ζυγίζει 98 g.\nΗ μοριακή μάζα του \\( \\text{H}_2\\text{SO}_4 \\) είναι \\( M = 98 \\frac{\\text{g}}{\\text{mol}} \\).\n\\( n = \\frac{m}{M} \\Rightarrow n = \\frac{49 \\text{ g}}{98 \\frac{\\text{g}}{\\text{mol}}} \\Rightarrow n = 0,5 \\text{ mol} \\).\nΓια το διάλυμα: \\( c = \\frac{n}{V} = \\frac{0,5 \\text{ mol}}{\\frac{0,1}{1,4} \\text{ L}} = \\frac{0,7 \\text{ mol}}{0,1 \\text{ L}} = 7 \\text{ M} \\).\nΘεωρούμε ότι αναμειγνύονται V L διαλύματος Δ1 και 3·V L διαλύματος Δ2.\n\\( V_{\\Delta 3} = V_{\\Delta 1} + V_{\\Delta 2} \\Rightarrow 0,4 \\text{ L} = V \\text{ L} + 3 \\cdot V \\text{ L} \\Rightarrow V = 0,1 \\text{ L} \\).\nΕπομένως αναμειγνύονται 0,1 L διαλύματος Δ1 και 0,3 L διαλύματος Δ2.\nΣτο διάλυμα Δ3 που προκύπτει για το \\( \\text{H}_2\\text{SO}_4 \\) ισχύει:\n\\( n_{\\Delta 1} = n_{\\Delta 3} \\) ή \\( c_1 \\cdot V_1 = c_1' \\cdot V_3 \\) ή \\( c_1' = \\frac{7 \\text{ M} \\cdot 0,1 \\text{ L}}{0,4 \\text{ L}} = \\frac{0,7 \\text{ mol}}{0,4 \\text{ L}} = 1,75 \\text{ M} \\).\nΣτο διάλυμα Δ3 που προκύπτει για το \\( \\text{HCl} \\) ισχύει:\n\\( n_{\\Delta 2} = n_{\\Delta 3} \\) ή \\( c_2 \\cdot V_2 = c_2' \\cdot V_3 \\) ή \\( c_2' = \\frac{0,2 \\text{ M} \\cdot 0,3 \\text{ L}}{0,4 \\text{ L}} = \\frac{0,06 \\text{ mol}}{0,4 \\text{ L}} = 0,15 \\text{ M} \\).\nΕπομένως το διάλυμα Δ3 έχει συγκέντρωση 1,75 M σε \\( \\text{H}_2\\text{SO}_4 \\) και 0,15 M \\( \\text{HCl} \\).\nβ. Για το HCl: \\( M_r = 1 \\cdot 1 + 1 \\cdot 35,5 = 1 + 35,5 = 36,5 \\).\nΕπομένως το 1 mol HCl ζυγίζει 36,5 g.\nΗ μοριακή μάζα του HCl είναι \\( M = 36,5 \\frac{\\text{g}}{\\text{mol}} \\).\nΣτο διάλυμα Δ3 για το HCl ισχύει:\n\\( n = \\frac{m}{M} \\Rightarrow n = \\frac{0,365 \\text{ g}}{36,5 \\frac{\\text{g}}{\\text{mol}}} \\Rightarrow n = 0,01 \\text{ mol} \\).\n\\( c = \\frac{n}{V} \\Rightarrow V = \\frac{n}{c} = \\frac{0,01 \\text{ mol}}{0,15 \\frac{\\text{mol}}{\\text{L}}} = 0,067 \\text{ L} \\) ή 66,7 mL.\nΣτο διάλυμα Δ3 για το \\( \\text{H}_2\\text{SO}_4 \\) ισχύει:\n\\( c = \\frac{n}{V} \\Rightarrow n = c \\cdot V = 1,75 \\frac{\\text{mol}}{\\text{L}} \\cdot 0,067 \\text{ L} = 0,12 \\text{ mol H}_2\\text{SO}_4 \\).\nΓια τη μάζα του \\( \\text{H}_2\\text{SO}_4 \\) ισχύει: \\( n = \\frac{m}{M} \\Rightarrow m = n \\cdot M \\Rightarrow m = 0,12 \\text{ mol} \\cdot 98 \\frac{\\text{g}}{\\text{mol}} \\Rightarrow m = 11,76 \\text{ g} \\)."
   },
   {
@@ -2889,7 +2420,7 @@ export const ch6Questions: Question[] = [
   {
     chapterId: "chapter-6",
     q: "29. 0,03 mol αέριου HCl διαλύονται στο νερό και το διάλυμα αραιώνεται μέχρι τελικού όγκου 120 mL (Δ1). Ένα άλλο διάλυμα HCl, Δ2 έχει περιεκτικότητα 7,30% μάζα προς όγκο.\nα. Να υπολογιστούν οι συγκεντρώσεις των διαλυμάτων Δ1 και Δ2.\nβ. Πόσα γραμμάρια HCl περιέχονται σε 250 mL του διαλύματος Δ1;\nγ. Με ποια αναλογία όγκων πρέπει να αναμειχθεί το διάλυμα Δ2 με νερό ώστε να παρασκευαστεί διάλυμα Δ3 με συγκέντρωση 0,10 Μ;",
-    a: "α. Για το HCl στο Δ1: \\( c = \\frac{n}{V} = \\frac{0,03 \\text{ mol}}{\\frac{120}{1000} \\text{ L}} = \\frac{0,03 \\text{ mol}}{0,12 \\text{ L}} = 0,25 \\text{ M} \\).\nΣτα 100 mL διαλύματος Δ2 περιέχονται 7,30 g HCl.\nΓια το HCl: \\( M_r = 1 \\cdot 1 + 1 \\cdot 35,5 = 1 + 35,5 = 36,5 \\).\nΕπομένως το 1 mol HCl ζυγίζει 36,5 g.\nΗ μοριακή μάζα του HCl είναι \\( M = 36,5 \\frac{\\text{g}}{\\text{mol}} \\).\n\\( n = \\frac{m}{M} \\Rightarrow n = \\frac{7,30 \\text{ g}}{36,5 \\frac{\\text{g}}{\\text{mol}}} \\Rightarrow n = 0,2 \\text{ mol} \\).\nΓια το διάλυμα: \\( c = \\frac{n}{V} = \\frac{0,2 \\text{ mol}}{\\frac{100}{1000} \\text{ L}} = \\frac{0,2 \\text{ mol}}{0,1 \\text{ L}} = 2 \\text{ M} \\).\nβ. Στο διάλυμα Δ1: \\( c = \\frac{n}{V} \\Rightarrow n = c \\cdot V = 0,25 \\frac{\\text{mol}}{\\text{L}} \\cdot 0,25 \\text{ L} = 0,0625 \\text{ mol} \\).\n\\( n = \\frac{m}{M} \\Rightarrow m = n \\cdot M \\Rightarrow m = 0,0625 \\text{ mol} \\cdot 36,5 \\frac{\\text{g}}{\\text{mol}} \\Rightarrow m \\approx 2,28 \\text{ g} \\)\nγ. Επειδή με την προσθήκη του νερού η ποσότητα της διαλυμένης ουσίας παραμένει σταθερή, έχουμε ότι:\n\\( n_2 = n_3 \\) ή \\( c_2 \\cdot V_2 = c_3 \\cdot V_3 \\) ή \\( c_2 \\cdot V_2 = c_3 \\cdot (V_2 + V_{\\text{νερού}}) \\) ή \\( 2,0 \\text{ M} \\cdot V_2 \\text{ L} = 0,1 \\text{ M} \\cdot (V_2 \\text{ L} + V_{\\text{νερού}} \\text{ L}) \\) ή\n\\( 2,0 \\text{ M} \\cdot V_2 \\text{ L} = 0,1 \\text{ M} \\cdot V_2 \\text{ L} + 0,1 \\text{ M} \\cdot V_{\\text{νερού}} \\text{ L} \\) ή \\( 1,9 \\text{ M} \\cdot V_2 \\text{ L} = 0,1 \\text{ M} \\cdot V_{\\text{νερού}} \\text{ L} \\) ή\n\\( \\frac{V_2}{V_{\\text{νερού}}} = \\frac{0,1}{1,9} = 1/19 \\)\nΕπομένως, V2/Vνερού= 1:19 αντίστοιχα."
+    a: "α. Για το HCl στο Δ1: \\( c = \\frac{n}{V} = \\frac{0,03 \\text{ mol}}{\\frac{120}{1000} \\text{ L}} = \\frac{0,03 \\text{ mol}}{0,12 \\text{ L}} = 0,25 \\text{ M} \\).\nΣτα 100 mL διαλύματος Δ2 περιέχονται 7,30 g HCl.\nΓια το HCl: \\( M_r = 1 \\cdot 1 + 1 \\cdot 35,5 = 1 + 35,5 = 36,5 \\).\nΕπομένως το 1 mol HCl ζυγίζει 36,5 g.\nΗ μοριακή μάζα του HCl είναι \\( M = 36,5 \\frac{\\text{g}}{\\text{mol}} \\).\n\\( n = \\frac{m}{M} \\Rightarrow n = \\frac{7,30 \\text{ g}}{36,5 \\frac{\\text{g}}{\\text{mol}}} \\Rightarrow n = 0,2 \\text{ mol} \\).\nΓια το διάλυμα: \\( c = \\frac{n}{V} = \\frac{0,2 \\text{ mol}}{\\frac{100}{1000} \\text{ L}} = \\frac{0,2 \\text{ mol}}{0,1 \\text{ L}} = 2 \\text{ M} \\).\nβ. Στο διάλυμα Δ1: \\( c = \\frac{n}{V} \\Rightarrow n = c \\cdot V = 0,25 \\frac{\\text{mol}}{\\text{L}} \\cdot 0,25 \\text{ L} = 0,0625 \\text{ mol} \\).\n\\( n = \\frac{m}{M} \\Rightarrow m = n \\cdot M \\Rightarrow m = 0,0625 \\text{ mol} \\cdot 36,5 \\frac{\\text{g}}{\\text{mol}} \\Rightarrow m \\approx 2,28 \\text{ g} \\)\nγ. Επειδή με την προσθήκη του νερού η ποσότητα της διαλυμένης ουσίας παραμένει σταθερή, έχουμε ότι:\n\\( n_2 = n_3 \\) ή \\( c_2 \\cdot V_2 = c_3 \\cdot V_3 \\) ή \\( c_2 \\cdot V_2 = c_3 \\cdot (V_2 + V_{\\text{νερού}}) \\) ή \\( 2,0 \\text{ M} \\cdot V_2 \\text{ L} = 0,1 \\text{ M} \\cdot (V_2 \\text{ L} + V_{\\text{νερού}} \\text{ L}) \\) ή\n\\( 2,0 \\text{ M} \\cdot V_2 \\text{ L} = 0,1 \\text{ M} \\cdot V_2 \\text{ L} + 0,1 \\text{ M} \\cdot V_{\\text{νερού}} \\text{ L} \\) ή \\( 1,9 \\text{ M} \\cdot V_2 \\text{ L} = 0,1 \\text{ M} \\cdot V_{\\text{νερού}} \\text{ L} \\) ή\n\\( \\frac{V_2}{V_{\\text{νερού}}} = \\frac{0,1}{1,9} = 1/19 \\)\nΕπομένως, V<sub>2</sub>/Vνερού= 1:19 αντίστοιχα."
   },
   {
     chapterId: "chapter-6",
@@ -3036,5 +2567,152 @@ export const ch6MCQ: MCQ[] = [
       }
     ],
     explanation: "Η σωστή απάντηση είναι η δ. Έστω ότι η ουσία αποτελείται από N άτομα ανά μόριο. Τα mol ατόμων είναι \\( n \\cdot N = 0,8 \\Rightarrow \\frac{3,4}{M_r} \\cdot N = 0,8 \\Rightarrow M_r = \\frac{3,4}{0,8} N = 4,25 N \\). Ελέγχοντας τις ενώσεις: Για \\( \\text{NH}_3 \\) (N=4), βρίσκουμε \\( M_r = 4,25 \\cdot 4 = 17 \\), που ταυτίζεται με τη μοριακή μάζα της αμμωνίας."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18α. 1 mol οποιασδήποτε χημικής ένωσης περιέχει ίδιο αριθμό μορίων με 1 mol οποιασδήποτε άλλης χημικής ένωσης.",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. Στις ιοντικές ενώσεις δεν υφίσταται η έννοια του μορίου."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18β. 1 mol οποιασδήποτε χημικής ένωσης περιέχει ίδιο αριθμό ατόμων με 1 mol οποιασδήποτε άλλης χημικής ένωσης.",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. Οι ιοντικές ενώσεις δεν αποτελούνται από άτομα αλλά από ιόντα τα οποία δημιουργούν κρύσταλλο και οι μοριακές ενώσεις έχουν διαφορετικό αριθμό ατόμων ανά μόριο, επομένως και ανά mol."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18γ. 1 μόριο \\( \\text{H}_2\\text{S} \\) έχει μάζα 34 g, δηλαδή όσο το άθροισμα των σχετικών ατομικών μαζών όλων των ατόμων που αποτελούν το μόριο.",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. 1 mol μορίων και όχι 1 μόριο της χημικής ένωσης \\( \\text{H}_2\\text{S} \\) έχει μάζα 34 g δηλαδή ίση με τη σχετική μοριακή μάζα (\\( M_r \\)) της χημικής ένωσης σε γραμμάρια (g)."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18δ. Ίσα mol HCl και \\( \\text{H}_2\\text{S} \\) περιέχουν ίσους αριθμούς ατόμων H.",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. Έστω x mol HCl και x mol \\( \\text{H}_2\\text{S} \\). Στα x mol HCl περιέχονται \\( x \\cdot N_A \\) άτομα υδρογόνου ενώ στα x mol \\( \\text{H}_2\\text{S} \\) περιέχονται \\( 2 \\cdot x \\cdot N_A \\) άτομα υδρογόνου."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18ε. 5 mol μορίων \\( \\text{P}_4 \\) περιέχουν περισσότερα μόρια απ’ ό,τι 5 mol μορίων \\( \\text{S}_8 \\).",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. Ίσοι αριθμοί mol δύο ομοιοπολικών χημικών ενώσεων περιέχουν τον ίδιο αριθμό μορίων."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18στ. Σε 5 mol \\( \\text{H}_2\\text{O} \\) περιέχονται 10 mol ατόμων υδρογόνου.",
+    options: [
+      { text: "Σωστό", correct: true },
+      { text: "Λάθος", correct: false }
+    ],
+    explanation: "Η πρόταση είναι σωστή. Σε 1 mol \\( \\text{H}_2\\text{O} \\) περιέχονται 2 mol ατόμων υδρογόνου. Επομένως σε 5 mol \\( \\text{H}_2\\text{O} \\) περιέχονται 10 mol ατόμων υδρογόνου."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18ζ. Σε 4 mol \\( \\text{K}_2\\text{CO}_3 \\) περιέχονται συνολικά 12 άτομα οξυγόνου.",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. Σε 4 mol ιοντικής ένωσης \\( \\text{K}_2\\text{CO}_3 \\) υπάρχουν 4 mol \\( \\text{CO}_3^{2-} \\), τα οποία περιέχουν 12 mol ατόμων οξυγόνου."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18η. Σε 2 mol \\( \\text{NH}_3 \\) περιέχεται ίσος αριθμός ατόμων με τα άτομα που περιέχονται σε 2 mol \\( \\text{NO}_2 \\).",
+    options: [
+      { text: "Σωστό", correct: false },
+      { text: "Λάθος", correct: true }
+    ],
+    explanation: "Η πρόταση είναι λανθασμένη. Σε 2 mol \\( \\text{NH}_3 \\) περιέχονται \\( 2 \\cdot N_A \\) άτομα N και \\( 6 \\cdot N_A \\) άτομα H. Συνολικά περιέχονται \\( 8 \\cdot N_A \\) άτομα. Σε 2 mol \\( \\text{NO}_2 \\) περιέχονται \\( 2 \\cdot N_A \\) άτομα N και \\( 4 \\cdot N_A \\) άτομα O. Συνολικά περιέχονται \\( 6 \\cdot N_A \\) άτομα."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "18θ. 1 mol γλυκόζης (\\( \\text{C}_6\\text{H}_{12}\\text{O}_6 \\)) περιέχει \\( 12 \\cdot N_A \\) άτομα υδρογόνου.",
+    options: [
+      { text: "Σωστό", correct: true },
+      { text: "Λάθος", correct: false }
+    ],
+    explanation: "Η πρόταση είναι σωστή. 1 mol γλυκόζης (\\( \\text{C}_6\\text{H}_{12}\\text{O}_6 \\)) περιέχει 12 mol ατόμων υδρογόνου, δηλαδή \\( 12 \\cdot N_A \\) άτομα υδρογόνου."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "19α. Η συγκέντρωση του διαλύματος Δ2 του διπλανού σχήματος μπορεί να είναι:",
+    options: [
+      { text: "0,1 M", correct: true },
+      { text: "0,4 M", correct: false },
+      { text: "0,5 M", correct: false },
+      { text: "0,8 M", correct: false }
+    ],
+    explanation: "Η σωστή απάντηση είναι η i."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "19β. Με βάση την απάντηση του ερωτήματος Α, ο όγκος νερού που προστέθηκε μπορεί να είναι:",
+    options: [
+      { text: "100 mL", correct: false },
+      { text: "200 mL", correct: false },
+      { text: "300 mL", correct: true },
+      { text: "400 mL", correct: false }
+    ],
+    explanation: "Η σωστή απάντηση είναι η iii."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "19γ. Η συγκέντρωση του διαλύματος Δ4 του διπλανού σχήματος μπορεί να είναι:",
+    options: [
+      { text: "0,1 M", correct: false },
+      { text: "0,4 M", correct: false },
+      { text: "0,5 M", correct: false },
+      { text: "0,8 M", correct: true }
+    ],
+    explanation: "Η σωστή απάντηση είναι η iv."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "19δ. Να επιλέξετε έναν από τους ακόλουθους τρόπους για την παρασκευή ενός υδατικού διαλύματος μιας στερεής ουσίας Α συγκέντρωσης 1Μ με τη μεγαλύτερη δυνατή ακρίβεια.",
+    options: [
+      { text: "Α", correct: false },
+      { text: "Β", correct: false },
+      { text: "Γ", correct: false },
+      { text: "Δ", correct: true }
+    ],
+    explanation: "Η σωστή απάντηση είναι η Δ."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "19ε. Ένα διάλυμα Δ1 συγκέντρωσης 0,80 Μ σε διαλυμένη ουσία Α αραιώνεται στο πενταπλάσιο του όγκου του. Η συγκέντρωση του αραιωμένου διαλύματος είναι:",
+    options: [
+      { text: "0,10 M", correct: false },
+      { text: "0,40 M", correct: false },
+      { text: "0,16 M", correct: true },
+      { text: "0,13 M", correct: false }
+    ],
+    explanation: "Η σωστή απάντηση είναι η iii. Κατά την αραίωση στο πενταπλάσιο του όγκου του, η συγκέντρωση υποπενταπλασιάζεται (0,80 / 5 = 0,16 M)."
+  },
+  {
+    chapterId: "chapter-6",
+    q: "19στ. Ένα διάλυμα Δ1 συγκέντρωσης 0,80 Μ σε διαλυμένη ουσία Α αραιώνεται με πενταπλάσιο όγκο νερού. Η συγκέντρωση του αραιωμένου διαλύματος είναι:",
+    options: [
+      { text: "0,10 M", correct: false },
+      { text: "0,40 M", correct: false },
+      { text: "0,16 M", correct: false },
+      { text: "0,13 M", correct: true }
+    ],
+    explanation: "Η σωστή απάντηση είναι η iv. Με προσθήκη πενταπλάσιου όγκου νερού, ο τελικός όγκος γίνεται εξαπλάσιος, άρα η συγκέντρωση υποεξαπλασιάζεται (0,80 / 6 = 0,133... M)."
   }
 ];

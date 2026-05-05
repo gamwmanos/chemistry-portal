@@ -67,7 +67,7 @@ export default function FooterSection() {
                 <span className="font-bold text-xl tracking-wider uppercase font-proxima text-white drop-shadow-sm">ΕΚΔΟΣΕΙΣ ΠΕΔΙΟ</span>
               </div>
               <p className="text-white/80 leading-relaxed max-w-sm font-inter">
-                Εκπαιδευτικές εκδόσεις Χημείας υψηλών προδιαγραφών για το Λύκειο. 
+                Εκπαιδευτικές εκδόσεις Χημείας υψηλών προδιαγραφών για το Γυμνάσιο και το Λύκειο. 
                 Καινοτόμα βιβλία με διαδραστικό υλικό και ολοκληρωμένη μεθοδολογία.
               </p>
               <div className="flex gap-4 mt-6">

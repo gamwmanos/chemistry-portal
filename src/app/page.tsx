@@ -96,10 +96,10 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-lg md:text-xl text-white/75 max-w-2xl mb-12 leading-relaxed font-inter"
-              style={{ textShadow: "0 2px 20px rgba(0,0,0,0.8)" }}
+              className="text-lg md:text-xl text-[#003366] max-w-2xl mb-12 leading-relaxed font-inter font-semibold"
+              style={{ textShadow: "0 0 20px rgba(255,255,255,0.4)" }}
             >
-              Εκδόσεις υψηλών προδιαγραφών για το Λύκειο. 
+              Εκδόσεις υψηλών προδιαγραφών για το Γυμνάσιο και το Λύκειο. 
               Καινοτόμα βιβλία Χημείας με διαδραστικό υλικό και ολοκληρωμένη μεθοδολογία.
             </motion.p>
 
