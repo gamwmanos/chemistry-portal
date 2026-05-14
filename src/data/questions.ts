@@ -2,6 +2,7 @@ export interface Question {
   chapterId?: string;
   q: string;
   a: string;
+  imageUrl?: string;
 }
 
 export interface MCQOption {
@@ -14,6 +15,7 @@ export interface MCQ {
   q: string;
   options: MCQOption[];
   explanation: string;
+  imageUrl?: string;
 }
 
 export const chapter1Questions: Question[] = [

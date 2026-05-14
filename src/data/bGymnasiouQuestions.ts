@@ -2,6 +2,7 @@ export interface Question {
   chapterId: string;
   q: string;
   a: string;
+  imageUrl?: string;
 }
 
 export interface MCQ {
@@ -9,6 +10,7 @@ export interface MCQ {
   q: string;
   options: { text: string; correct: boolean }[];
   explanation: string;
+  imageUrl?: string;
 }
 export const bGymnasiouQuestions: Question[] = [
   {

@@ -78,6 +78,12 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                     text={mcq.q}
                   />
 
+                  {mcq.imageUrl && (
+                    <div className="mb-6 rounded-xl overflow-hidden border border-white/10 bg-white/5">
+                      <img src={mcq.imageUrl} alt="Exercise illustration" className="w-full max-w-2xl mx-auto h-auto object-contain" />
+                    </div>
+                  )}
+
                   <div className="space-y-4">
                     {mcq.options.map((option, optIndex) => {
                       const isSelected = selectedOption === optIndex;
@@ -157,6 +163,12 @@ export default function ExerciseViewer({ mcqs, openQuestions }: Props) {
                     className="text-lg md:text-xl font-bold mb-6 leading-relaxed whitespace-pre-wrap text-white block"
                     text={openQ.q}
                   />
+
+                  {openQ.imageUrl && (
+                    <div className="mb-6 rounded-xl overflow-hidden border border-white/10 bg-white/5">
+                      <img src={openQ.imageUrl} alt="Exercise illustration" className="w-full max-w-2xl mx-auto h-auto object-contain" />
+                    </div>
+                  )}
 
                   {!showAnswer ? (
                     <button
